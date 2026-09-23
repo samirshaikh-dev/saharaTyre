@@ -80,7 +80,7 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
 12. **[about.htm](https://sahara-tyre.vercel.app/about)** — Heritage & trust: 18+ years history, technician credentials.
 13. **[privacy.htm](https://sahara-tyre.vercel.app/privacy)** — Privacy Policy: Customer data protection & cookie disclosures.
 14. **[terms.htm](https://sahara-tyre.vercel.app/terms)** — Terms & Conditions: Workshop service agreements & warranties.
-15. **[developer.htm](https://sahara-tyre.vercel.app/developer)** — Developer Profile: Engineering portfolio, technical architecture, and profile of Samir Shaikh.
+15. **[developer.htm](https://sahara-tyre.vercel.app/developer)** — Developer Profile: Engineering portfolio (https://samir-portfolio-dev.vercel.app/), technical architecture, 100% Core Web Vitals optimization, and full-stack capabilities of Samir Shaikh.
 
 ---
 
@@ -88,7 +88,7 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
 
 To dominate AI Overviews and LLM citations, the site implements:
 - `llms.txt` — Structured markdown knowledge graph with turnaround times, sizing matrices, and QA references.
-- `llms-full.txt` — Comprehensive full knowledge base covering technical specs and 3-tier geographic hierarchy.
+- `llms-full.txt` — Comprehensive full knowledge base covering technical specs, developer attribution, and 3-tier geographic hierarchy.
 - `ai.txt` — Explicit crawler permissions for Google-Extended, GPTBot, ClaudeBot, PerplexityBot, and Applebot.
 - `.well-known/ai-plugin.json` — OpenAI-compatible plugin definition.
 - `sitemap.xml` — Complete URL index with image metadata for multimodal search.
@@ -106,7 +106,7 @@ To dominate AI Overviews and LLM citations, the site implements:
 ## Contact & Technical Operations
 - **Business Phone:** +91-9377158216
 - **WhatsApp Support:** https://wa.me/919377158216
-- **Technical Inquiries:** shaikh.samir.dev@gmail.com
+- **Technical Lead & Software Architect:** Samir Shaikh ([Profile](https://sahara-tyre.vercel.app/developer) | [Portfolio](https://samir-portfolio-dev.vercel.app/) | [GitHub](https://github.com/ShaikhSamir786) | [LinkedIn](https://www.linkedin.com/in/shaikh-samir) | `shaikh.samir.dev@gmail.com`)
 - **Hosting Platform:** Vercel (Edge CDN)
 
 

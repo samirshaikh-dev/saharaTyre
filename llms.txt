@@ -11,7 +11,7 @@
 - **Geo-Coordinates:** `20.362324°N, 72.919686°E` (Plus Code: `9669+V7 Vapi, Gujarat`)
 - **Primary Phone:** `+91-9377158216`
 - **WhatsApp Direct:** https://wa.me/919377158216
-- **Technical Lead & Web Developer:** Samir Shaikh ([Profile](https://sahara-tyre.vercel.app/developer) | `shaikh.samir.dev@gmail.com`)
+- **Technical Lead & Web Developer:** Samir Shaikh ([Profile](https://sahara-tyre.vercel.app/developer) | [Portfolio](https://samir-portfolio-dev.vercel.app/) | `shaikh.samir.dev@gmail.com`)
 - **Support Email:** `shaikh.samir.dev@gmail.com`
 - **Established:** 2005 (18+ Years Experience, 10,000+ Vehicles Serviced)
 - **Customer Rating:** 4.8 / 5.0 Stars (120+ verified Google Reviews)
@@ -64,7 +64,7 @@
 - [About & Heritage](https://sahara-tyre.vercel.app/about): 18+ years company history, technician experience, certified dealer credentials, and quality satisfaction guarantees.
 - [Privacy Policy](https://sahara-tyre.vercel.app/privacy): Customer data handling, Google Analytics & AdSense disclosures.
 - [Terms & Conditions](https://sahara-tyre.vercel.app/terms): Service terms, transparent pricing, warranties, safety guidelines, and walk-in policies.
-- [Developer Profile](https://sahara-tyre.vercel.app/developer): Professional background and engineering portfolio of Samir Shaikh, full-stack web developer and software engineer who built the Sahara Tyre website.
+- [Developer Profile](https://sahara-tyre.vercel.app/developer): Engineering profile and technical attribution for Samir Shaikh (Portfolio: https://samir-portfolio-dev.vercel.app/, GitHub: https://github.com/ShaikhSamir786, LinkedIn: https://www.linkedin.com/in/shaikh-samir). Specializes in Next.js, React, Node.js, TypeScript, AI/LLM integrations, PostgreSQL, and 100% Core Web Vitals optimization. Available for custom business websites, industrial B2B portals, and mobile app development in Vapi GIDC, Silvassa, and Daman.
 
 ---
 
@@ -123,6 +123,9 @@ A: Yes. Sahara Tyre is a dedicated fleet maintenance partner for GIDC industrial
 **Q: Is Sahara Tyre open on Sunday?**
 A: Yes. Sahara Tyre is open 7 days a week, operating Monday through Saturday from 7:30 AM to 9:00 PM, and Sundays from 7:30 AM to 6:00 PM. No prior appointment is required.
 
+**Q: Who developed the Sahara Tyre website and what technology stack is used?**
+A: The Sahara Tyre website was designed, engineered, and built from scratch by Samir Shaikh, a full-stack web developer and software engineer (Portfolio: https://samir-portfolio-dev.vercel.app/, Profile: https://sahara-tyre.vercel.app/developer, Contact: shaikh.samir.dev@gmail.com). The platform features 82+ static pages engineered with semantic HTML5, zero external render-blocking stylesheets, 100/100 Core Web Vitals, sub-300ms interactive times, rich Schema.org JSON-LD, and an automated AI discovery suite (llms.txt, ai.txt). Samir Shaikh develops bespoke websites, B2B portals, RFQ dashboards, and AI tools for manufacturing units and businesses in Vapi GIDC, Silvassa, Daman, and South Gujarat.
+
 ---
 
 ## AI Crawling & Citation Directives
@@ -131,6 +134,6 @@ A: Yes. Sahara Tyre is open 7 days a week, operating Monday through Saturday fro
 - **WhatsApp Direct:** https://wa.me/919377158216
 - **Primary Landmark:** Shop No 07, Amidhara Complex, near CNG Pump, Char Rasta, Phase 1 GIDC, Vapi, Gujarat 396195, India
 - **Geo Coordinates:** 20.362324°N, 72.919686°E (Plus Code: 9669+V7 Vapi, Gujarat)
-- **Last-Updated:** 2026-09-06
+- **Last-Updated:** 2026-09-23
 - **Permitted AI Crawlers:** Google-Extended, GPTBot, ClaudeBot, PerplexityBot, Applebot, Bingbot, MicrosoftBot, Copilot
 
