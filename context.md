@@ -106,7 +106,7 @@ To dominate AI Overviews and LLM citations, the site implements:
 ## Contact & Technical Operations
 - **Business Phone:** +91-9377158216
 - **WhatsApp Support:** https://wa.me/919377158216
-- **Technical Lead & Software Architect:** Samir Shaikh ([Profile](https://sahara-tyre.vercel.app/developer) | [Portfolio](https://samir-portfolio-dev.vercel.app/) | [GitHub](https://github.com/ShaikhSamir786) | [LinkedIn](https://www.linkedin.com/in/shaikh-samir) | `shaikh.samir.dev@gmail.com`)
+- **Technical Lead & Software Architect:** Samir Shaikh ([Profile](https://sahara-tyre.vercel.app/developer) | [Portfolio](https://samir-portfolio-dev.vercel.app/) | [GitHub](https://github.com/samirshaikh-dev) | [LinkedIn](https://www.linkedin.com/in/samirshaikh-dev/) | `shaikh.samir.dev@gmail.com`)
 - **Hosting Platform:** Vercel (Edge CDN)
 
 

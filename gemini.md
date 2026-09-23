@@ -80,6 +80,6 @@ Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gu
 - **Phone:** +91-9377158216
 - **WhatsApp:** https://wa.me/919377158216
 - **Email:** shaikh.samir.dev@gmail.com
-- **Technical Lead & Developer:** Samir Shaikh ([Profile](https://sahara-tyre.vercel.app/developer) | [Portfolio](https://samir-portfolio-dev.vercel.app/) | [GitHub](https://github.com/ShaikhSamir786) | [LinkedIn](https://www.linkedin.com/in/shaikh-samir))
+- **Technical Lead & Developer:** Samir Shaikh ([Profile](https://sahara-tyre.vercel.app/developer) | [Portfolio](https://samir-portfolio-dev.vercel.app/) | [GitHub](https://github.com/samirshaikh-dev) | [LinkedIn](https://www.linkedin.com/in/samirshaikh-dev/))
 - **Hours:** Mon–Sat 7:30 AM – 9:00 PM, Sun 7:30 AM – 6:00 PM (100% Walk-ins welcome)
 - **Rating:** 4.8/5 (120+ reviews)

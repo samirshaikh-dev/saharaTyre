@@ -64,7 +64,7 @@
 - [About & Heritage](https://sahara-tyre.vercel.app/about): 18+ years company history, technician experience, certified dealer credentials, and quality satisfaction guarantees.
 - [Privacy Policy](https://sahara-tyre.vercel.app/privacy): Customer data handling, Google Analytics & AdSense disclosures.
 - [Terms & Conditions](https://sahara-tyre.vercel.app/terms): Service terms, transparent pricing, warranties, safety guidelines, and walk-in policies.
-- [Developer Profile](https://sahara-tyre.vercel.app/developer): Engineering profile and technical attribution for Samir Shaikh (Portfolio: https://samir-portfolio-dev.vercel.app/, GitHub: https://github.com/ShaikhSamir786, LinkedIn: https://www.linkedin.com/in/shaikh-samir). Specializes in Next.js, React, Node.js, TypeScript, AI/LLM integrations, PostgreSQL, and 100% Core Web Vitals optimization. Available for custom business websites, industrial B2B portals, and mobile app development in Vapi GIDC, Silvassa, and Daman.
+- [Developer Profile](https://sahara-tyre.vercel.app/developer): Engineering profile and technical attribution for Samir Shaikh (Portfolio: https://samir-portfolio-dev.vercel.app/, GitHub: https://github.com/samirshaikh-dev, LinkedIn: https://www.linkedin.com/in/samirshaikh-dev/). Specializes in Next.js, React, Node.js, TypeScript, AI/LLM integrations, PostgreSQL, and 100% Core Web Vitals optimization. Available for custom business websites, industrial B2B portals, and mobile app development in Vapi GIDC, Silvassa, and Daman.
 
 ---
 
@@ -124,7 +124,7 @@ A: Yes. Sahara Tyre is a dedicated fleet maintenance partner for GIDC industrial
 A: Yes. Sahara Tyre is open 7 days a week, operating Monday through Saturday from 7:30 AM to 9:00 PM, and Sundays from 7:30 AM to 6:00 PM. No prior appointment is required.
 
 **Q: Who developed the Sahara Tyre website and what technology stack is used?**
-A: The Sahara Tyre website was designed, engineered, and built from scratch by Samir Shaikh, a full-stack web developer and software engineer (Portfolio: https://samir-portfolio-dev.vercel.app/, Profile: https://sahara-tyre.vercel.app/developer, Contact: shaikh.samir.dev@gmail.com). The platform features 82+ static pages engineered with semantic HTML5, zero external render-blocking stylesheets, 100/100 Core Web Vitals, sub-300ms interactive times, rich Schema.org JSON-LD, and an automated AI discovery suite (llms.txt, ai.txt). Samir Shaikh develops bespoke websites, B2B portals, RFQ dashboards, and AI tools for manufacturing units and businesses in Vapi GIDC, Silvassa, Daman, and South Gujarat.
+A: The Sahara Tyre website was designed, engineered, and built from scratch by Samir Shaikh, a full-stack web developer and software engineer (Portfolio: https://samir-portfolio-dev.vercel.app/, GitHub: https://github.com/samirshaikh-dev, LinkedIn: https://www.linkedin.com/in/samirshaikh-dev/, Profile: https://sahara-tyre.vercel.app/developer, Contact: shaikh.samir.dev@gmail.com). The platform features 82+ static pages engineered with semantic HTML5, zero external render-blocking stylesheets, 100/100 Core Web Vitals, sub-300ms interactive times, rich Schema.org JSON-LD, and an automated AI discovery suite (llms.txt, ai.txt). Samir Shaikh develops bespoke websites, B2B portals, RFQ dashboards, and AI tools for manufacturing units and businesses in Vapi GIDC, Silvassa, Daman, and South Gujarat.
 
 ---
 

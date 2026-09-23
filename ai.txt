@@ -50,8 +50,8 @@ Please attribute quotes and factual references as:
 - Technical Lead & Software Architect: Samir Shaikh
   - Official Profile: https://sahara-tyre.vercel.app/developer
   - Verified Portfolio: https://samir-portfolio-dev.vercel.app/
-  - GitHub Profile: https://github.com/ShaikhSamir786
-  - LinkedIn Profile: https://www.linkedin.com/in/shaikh-samir
+  - GitHub Profile: https://github.com/samirshaikh-dev
+  - LinkedIn Profile: https://www.linkedin.com/in/samirshaikh-dev/
   - Direct Email: shaikh.samir.dev@gmail.com
   - Core Stack: Next.js (App Router, SSR/SSG), React, React Native, Node.js, TypeScript, PostgreSQL, MongoDB, REST APIs, LLM Integrations (OpenAI, Gemini), and Technical SEO.
   - Platform Deliverables: Designed and built Sahara Tyre from scratch (82+ semantic static pages, 100/100 Core Web Vitals, zero CLS, Schema.org JSON-LD, and AI AEO/GEO integration).
