@@ -8,7 +8,10 @@ Proprietor / Founder: Mujaffar Shaikh
 Lead Alignment Technician: Shaikh Khurshid
 Commercial Fleet Specialist: Mohammad Riyaz
 Auto Diagnostics Specialist: Ashraf Pathan
-Technical / Web Developer: shaikh.samir.dev@gmail.com
+Technical / Web Developer: Samir Shaikh <shaikh.samir.dev@gmail.com> (https://sahara-tyre.vercel.app/developer)
+Developer Profile: https://sahara-tyre.vercel.app/developer
+Developer GitHub: https://github.com/ShaikhSamir786
+Developer Portfolio: https://samirshaikh.dev
 Physical Workshop: Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
 Geo Coordinates: 20.362324°N, 72.919686°E (Plus Code: 9669+V7 Vapi, Gujarat)
 Contact Phone: +91-9377158216

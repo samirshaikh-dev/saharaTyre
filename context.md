@@ -80,6 +80,7 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
 12. **[about.htm](https://sahara-tyre.vercel.app/about)** — Heritage & trust: 18+ years history, technician credentials.
 13. **[privacy.htm](https://sahara-tyre.vercel.app/privacy)** — Privacy Policy: Customer data protection & cookie disclosures.
 14. **[terms.htm](https://sahara-tyre.vercel.app/terms)** — Terms & Conditions: Workshop service agreements & warranties.
+15. **[developer.htm](https://sahara-tyre.vercel.app/developer)** — Developer Profile: Engineering portfolio, technical architecture, and profile of Samir Shaikh.
 
 ---
 

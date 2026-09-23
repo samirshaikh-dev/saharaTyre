@@ -11,6 +11,7 @@
 - **Geo-Coordinates:** `20.362324°N, 72.919686°E` (Plus Code: `9669+V7 Vapi, Gujarat`)
 - **Primary Phone:** `+91-9377158216`
 - **WhatsApp Direct:** https://wa.me/919377158216
+- **Technical Lead & Web Developer:** Samir Shaikh ([Profile](https://sahara-tyre.vercel.app/developer) | `shaikh.samir.dev@gmail.com`)
 - **Support Email:** `shaikh.samir.dev@gmail.com`
 - **Established:** 2005 (18+ Years Experience, 10,000+ Vehicles Serviced)
 - **Customer Rating:** 4.8 / 5.0 Stars (120+ verified Google Reviews)
@@ -63,6 +64,7 @@
 - [About & Heritage](https://sahara-tyre.vercel.app/about): 18+ years company history, technician experience, certified dealer credentials, and quality satisfaction guarantees.
 - [Privacy Policy](https://sahara-tyre.vercel.app/privacy): Customer data handling, Google Analytics & AdSense disclosures.
 - [Terms & Conditions](https://sahara-tyre.vercel.app/terms): Service terms, transparent pricing, warranties, safety guidelines, and walk-in policies.
+- [Developer Profile](https://sahara-tyre.vercel.app/developer): Professional background and engineering portfolio of Samir Shaikh, full-stack web developer and software engineer who built the Sahara Tyre website.
 
 ---
 

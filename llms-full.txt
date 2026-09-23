@@ -19,6 +19,7 @@
   - Direct Phone / Hotline: `+91-9377158216`
   - WhatsApp Business: `https://wa.me/919377158216`
   - Technical / Corporate Email: `shaikh.samir.dev@gmail.com`
+  - Technical Lead & Web Developer: Samir Shaikh (Profile: `https://sahara-tyre.vercel.app/developer` | Email: `shaikh.samir.dev@gmail.com`)
   - Official Domain: `https://sahara-tyre.vercel.app/`
 - **Customer Reputation & Trust Signals:**
   - Google Business Profile Rating: `4.8 / 5.0 Stars` (120+ Verified Reviews)
@@ -147,6 +148,9 @@ The website is structured into modular semantic hubs and guides designed to sati
 12. **Legal & Compliance Policies**:
     - `/privacy` (Data protection, cookie disclosures)
     - `/terms` (Workshop walk-in terms, warranty coverage)
+
+13. **Developer Profile & Technical Attribution (`https://sahara-tyre.vercel.app/developer`)**:
+    - Engineering profile and portfolio of full-stack developer Samir Shaikh. Details tech stack (Next.js, React, Node.js, TypeScript, AI/LLM integrations, PostgreSQL, MongoDB, REST APIs), site architecture, 100% Core Web Vitals optimization, and professional links.
 
 ---
 

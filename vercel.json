@@ -16,6 +16,7 @@
     { "source": "/about.htm", "destination": "/about", "permanent": true },
     { "source": "/privacy.htm", "destination": "/privacy", "permanent": true },
     { "source": "/terms.htm", "destination": "/terms", "permanent": true },
+    { "source": "/developer.htm", "destination": "/developer", "permanent": true },
     { "source": "/industrial-tyres.htm", "destination": "/vehicles/industrial-tyres", "permanent": true }
   ],
   "rewrites": [
@@ -64,6 +65,7 @@
     { "source": "/location", "destination": "/location.htm" },
     { "source": "/contact", "destination": "/location.htm" },
     { "source": "/about", "destination": "/about.htm" },
+    { "source": "/developer", "destination": "/developer.htm" },
     { "source": "/truck-tyres", "destination": "/vehicles/truck-tyres.htm" },
     { "source": "/bus-tyres", "destination": "/vehicles/bus-tyres.htm" },
     { "source": "/car-tyres", "destination": "/vehicles/car-tyres.htm" },

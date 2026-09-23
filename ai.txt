@@ -22,6 +22,7 @@ Sahara Tyre GIDC Vapi is an automotive workshop and tyre sales specialist servin
 - Passenger Car Sizes Matrix: https://sahara-tyre.vercel.app/tyres/car
 - Commercial Truck Sizes Matrix: https://sahara-tyre.vercel.app/tyres/truck
 - Two-Wheeler Sizes Matrix: https://sahara-tyre.vercel.app/tyres/bike
+- Dedicated Developer Profile: https://sahara-tyre.vercel.app/developer
 
 ## Allowed AI Crawlers & User-Agents
 The following search and LLM retrieval bots are welcome to index and cite this website for answering queries:
@@ -46,5 +47,5 @@ Please attribute quotes and factual references as:
 *"Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)"*
 
 ## Contact for AI / Developer Inquiries
-- Technical Lead: shaikh.samir.dev@gmail.com
+- Technical Lead & Web Developer: Samir Shaikh (shaikh.samir.dev@gmail.com | https://sahara-tyre.vercel.app/developer)
 
