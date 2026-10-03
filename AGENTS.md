@@ -136,6 +136,7 @@ Each skill file follows this structure:
 | `llms-full.txt` | Comprehensive technical specification (1,050 lines) with wear diagnostic matrix |
 | `ai.txt` | Crawl policy and direct grounding protocols for AI crawlers |
 | `humans.txt` | Team credentials, developer attribution, and tech stack disclosures |
+| `openapi.json` | OpenAPI 3.1.0 machine specification for AI discovery and knowledge extraction |
 | `AGENTS.md` | This file - agent skill configuration |
 
 

@@ -73,6 +73,7 @@ Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gu
 | `humans.txt` | Team credentials, developer attribution (Samir Shaikh), and tech stack disclosures |
 | `sitemap.xml` | Search engine URL index with rich image metadata |
 | `.well-known/ai-plugin.json` | AI model integration manifest |
+| `openapi.json` | OpenAPI 3.1.0 machine-readable static discovery and knowledge specification |
 
 
 ## Geographic Service Area Hierarchy (27 Core Coverage Locations)

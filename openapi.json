@@ -1,0 +1,953 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Sahara Tyre GIDC Vapi Knowledge & Discovery API",
+    "summary": "Authoritative Machine-Readable Specification for Sahara Tyre GIDC Vapi Automotive Workshop & Knowledge Base",
+    "description": "Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/) is Vapi's premier automotive tyre workshop and commercial fleet service center operating continuously since 2005. Located at Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India (Geo: 20.362324°N, 72.919686°E). This OpenAPI 3.1.0 specification exposes machine-readable static discovery routes, comprehensive knowledge graphs (/llms.txt and /llms-full.txt), technical automotive diagnostics, commercial tyre fitment specifications, 24-question customer FAQ repository, and local workshop service catalogs for AI retrieval agents, answer engines, and search crawlers.",
+    "version": "1.0.0",
+    "termsOfService": "https://sahara-tyre.vercel.app/terms",
+    "contact": {
+      "name": "Samir Shaikh (Technical Architect) & Mujaffar Shaikh (Proprietor)",
+      "url": "https://sahara-tyre.vercel.app/developer",
+      "email": "shaikh.samir.dev@gmail.com"
+    },
+    "license": {
+      "name": "CC BY-ND 4.0 / Open Access for AI Crawlers & Retrieval Agents",
+      "url": "https://sahara-tyre.vercel.app/terms"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://sahara-tyre.vercel.app",
+      "description": "Production Edge CDN Server (Vercel Global Edge Network)"
+    }
+  ],
+  "tags": [
+    {
+      "name": "AI Knowledge & Directives",
+      "description": "High-context machine-readable LLM knowledge graphs, crawler directives, and attribution manifests"
+    },
+    {
+      "name": "Customer FAQ",
+      "description": "Verified Frequently Asked Questions repository across 7 automotive and workshop categories"
+    },
+    {
+      "name": "Automotive Services",
+      "description": "Computerized 3D laser wheel alignment, dynamic balancing, tubeless puncture repairs, and fleet maintenance"
+    },
+    {
+      "name": "Product Catalog & Sizing",
+      "description": "Brand new, 5-point tested quality used, and cold precure remolded commercial tyres"
+    },
+    {
+      "name": "Vehicle Categories",
+      "description": "Fitment specifications for Cars, SUVs, Bikes, Scooters, Trucks, Buses, Cranes, Tractors, Harvesters, Earthmovers, and Forklifts"
+    },
+    {
+      "name": "Buying Guides & CPKM",
+      "description": "Cost-Per-Kilometer mathematical models, tyre condition comparisons, and tyre care best practices"
+    },
+    {
+      "name": "Workshop Navigation & NAP",
+      "description": "Physical workshop landmarks, GPS coordinates, Plus Code, driving directions, and business hours"
+    },
+    {
+      "name": "Technical & Developer",
+      "description": "Software engineering architecture, Core Web Vitals audit data, and developer attribution"
+    }
+  ],
+  "paths": {
+    "/llms.txt": {
+      "get": {
+        "tags": ["AI Knowledge & Directives"],
+        "summary": "Plaintext LLM Knowledge Graph (1,013 lines)",
+        "description": "Returns the authoritative machine-readable knowledge graph for Sahara Tyre GIDC Vapi formatted in Markdown according to the llms.txt standard. Contains 28 comprehensive chapters covering NAP verification, 27 service zones, step-by-step workshop SOPs, Indian vehicle fitment matrix, EV engineering specs, CPKM formulas, cold PSI charts, lug nut torque specs, 45+ categorized Q&As, and a 75-term engineering glossary.",
+        "operationId": "getLLMsText",
+        "responses": {
+          "200": {
+            "description": "Authoritative plaintext knowledge graph",
+            "content": {
+              "text/plain; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms-full.txt": {
+      "get": {
+        "tags": ["AI Knowledge & Directives"],
+        "summary": "Exhaustive Technical Knowledge Base (1,050 lines)",
+        "description": "Returns the full technical reference manual including deep automotive engineering specifications, 10-pattern tyre wear diagnostic matrix, circular casing recycling protocols, heavy commercial fleet maintenance guidelines, and software developer attribution.",
+        "operationId": "getLLMsFullText",
+        "responses": {
+          "200": {
+            "description": "Exhaustive technical documentation",
+            "content": {
+              "text/plain; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ai.txt": {
+      "get": {
+        "tags": ["AI Knowledge & Directives"],
+        "summary": "AI Crawler & LLM Attribution Directives",
+        "description": "Specifies permissions, ground rules, and verified citation facts for AI answer engines (Google-Extended, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, PerplexityBot, Applebot, DeepSeekBot).",
+        "operationId": "getAiDirectives",
+        "responses": {
+          "200": {
+            "description": "Plaintext AI crawler permissions and grounding metadata",
+            "content": {
+              "text/plain; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/ai-plugin.json": {
+      "get": {
+        "tags": ["AI Knowledge & Directives"],
+        "summary": "OpenAI-Compatible AI Plugin Manifest",
+        "description": "Returns the official AI plugin manifest for ChatGPT and OpenAI tool calling agents.",
+        "operationId": "getAiPluginManifest",
+        "responses": {
+          "200": {
+            "description": "Standardized AI plugin manifest",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AIPluginManifest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/security.txt": {
+      "get": {
+        "tags": ["Technical & Developer"],
+        "summary": "RFC 9116 Security Disclosure Policy",
+        "description": "Standardized security vulnerability reporting contact and public key disclosure.",
+        "operationId": "getSecurityTxt",
+        "responses": {
+          "200": {
+            "description": "Security policy specification",
+            "content": {
+              "text/plain; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/humans.txt": {
+      "get": {
+        "tags": ["Technical & Developer"],
+        "summary": "Team Credentials & Developer Attribution",
+        "description": "Humanstxt.org standard registry disclosing workshop leadership, master technicians, web developer Samir Shaikh, and technical stack specifications.",
+        "operationId": "getHumansTxt",
+        "responses": {
+          "200": {
+            "description": "Plaintext team and technology credits",
+            "content": {
+              "text/plain; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sitemap.xml": {
+      "get": {
+        "tags": ["AI Knowledge & Directives"],
+        "summary": "XML Sitemap & Multimodal Media Manifest",
+        "description": "Complete index of all 82+ canonical URLs, last modification timestamps, change frequencies, and image metadata.",
+        "operationId": "getSitemapXml",
+        "responses": {
+          "200": {
+            "description": "XML sitemap schema",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/robots.txt": {
+      "get": {
+        "tags": ["AI Knowledge & Directives"],
+        "summary": "Web Robots & AI Crawler Directives",
+        "description": "Specifies crawl directives, host directives, sitemap references, and explicit allowances for search engine bots and AI retrieval agents.",
+        "operationId": "getRobotsTxt",
+        "responses": {
+          "200": {
+            "description": "Plaintext robots crawl policy",
+            "content": {
+              "text/plain; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "tags": ["AI Knowledge & Directives"],
+        "summary": "OpenAPI 3.1.0 Machine Specification",
+        "description": "Self-describing OpenAPI 3.1.0 document providing complete schemas, endpoints, parameter definitions, and documentation for programmatic AI tool calling and static discovery.",
+        "operationId": "getOpenApiSpec",
+        "responses": {
+          "200": {
+            "description": "OpenAPI specification JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/faq": {
+      "get": {
+        "tags": ["Customer FAQ"],
+        "summary": "Frequently Asked Questions Knowledge Base",
+        "description": "Returns the dedicated FAQ repository containing 24 detailed questions and authoritative answers across 7 categories: Wheel Alignment & Balancing, Puncture Repair & Safety, Tyre Buying & Sizing, Retreaded & Used Tyres, Commercial & Industrial Fleet, Pricing & Warranties, and Location & Workshop Visits. Includes Schema.org FAQPage JSON-LD and live search filtering.",
+        "operationId": "getFAQPage",
+        "responses": {
+          "200": {
+            "description": "Semantic HTML5 FAQ page with embedded Schema.org JSON-LD",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/services": {
+      "get": {
+        "tags": ["Automotive Services"],
+        "summary": "Master Automotive Services Directory",
+        "description": "Lists all workshop maintenance, installation, and inspection services available at Sahara Tyre GIDC Vapi with typical turnaround times, equipment specifications, and pricing guidance.",
+        "operationId": "getServicesCatalog",
+        "responses": {
+          "200": {
+            "description": "Automotive services directory page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/services/{service_slug}": {
+      "get": {
+        "tags": ["Automotive Services"],
+        "summary": "Dedicated Service Detail Landing Page",
+        "description": "Returns deep technical service procedures, diagnostic SOPs, machinery used, and FAQ schema for a specific workshop service.",
+        "operationId": "getServiceDetail",
+        "parameters": [
+          {
+            "name": "service_slug",
+            "in": "path",
+            "required": true,
+            "description": "Slug of the automotive service",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "wheel-alignment-vapi",
+                "wheel-balancing-vapi",
+                "puncture-repair-vapi",
+                "new-tyres-vapi",
+                "used-tyres-vapi",
+                "remolded-tyres-vapi",
+                "truck-tyres-vapi",
+                "car-tyres-vapi",
+                "fleet-tyre-service-vapi",
+                "roadside-tyre-assistance-vapi"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Service detail page with specialized JSON-LD schema",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Service not found"
+          }
+        }
+      }
+    },
+    "/products": {
+      "get": {
+        "tags": ["Product Catalog & Sizing"],
+        "summary": "Master Products & Tyre Sizing Catalog",
+        "description": "Overview of brand new radial tyres, 5-point safety tested second-hand tyres, and certified cold precure commercial retreads across all rim diameters (10 inches to 34 inches).",
+        "operationId": "getProductsCatalog",
+        "responses": {
+          "200": {
+            "description": "Product catalog gateway page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/vehicles": {
+      "get": {
+        "tags": ["Vehicle Categories"],
+        "summary": "Vehicle Categories Gateway Hub",
+        "description": "Directory of 11 dedicated vehicle segments serviced by Sahara Tyre GIDC Vapi.",
+        "operationId": "getVehiclesHub",
+        "responses": {
+          "200": {
+            "description": "Vehicles category gateway",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/vehicles/{vehicle_type}": {
+      "get": {
+        "tags": ["Vehicle Categories"],
+        "summary": "Vehicle-Specific Tyre Hub",
+        "description": "Technical tyre sizing recommendations, rim diameters, ply ratings, speed indices, and OE brand mappings for a specific vehicle category.",
+        "operationId": "getVehicleTypeHub",
+        "parameters": [
+          {
+            "name": "vehicle_type",
+            "in": "path",
+            "required": true,
+            "description": "Category slug of the vehicle",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "truck-tyres",
+                "bus-tyres",
+                "car-tyres",
+                "bike-tyres",
+                "scooter-tyres",
+                "commercial-vehicle-tyres",
+                "crane-tyres",
+                "tractor-tyres",
+                "agricultural-tyres",
+                "otr-earthmover-tyres",
+                "industrial-tyres"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Vehicle tyre fitment and product recommendations",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Vehicle category not found"
+          }
+        }
+      }
+    },
+    "/condition": {
+      "get": {
+        "tags": ["Buying Guides & CPKM"],
+        "summary": "Tyre Condition Comparison Hub",
+        "description": "Educational guide comparing Brand New vs Quality Tested Used vs Cold Precure Remolded Tyres.",
+        "operationId": "getConditionHub",
+        "responses": {
+          "200": {
+            "description": "Tyre condition comparison hub",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/condition/{condition_type}": {
+      "get": {
+        "tags": ["Buying Guides & CPKM"],
+        "summary": "Dedicated Tyre Condition Hub",
+        "description": "Detailed specifications, warranties, testing standards, and pricing for a specific tyre condition tier.",
+        "operationId": "getConditionDetail",
+        "parameters": [
+          {
+            "name": "condition_type",
+            "in": "path",
+            "required": true,
+            "description": "Tyre condition slug",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "new-tyres",
+                "used-tyres",
+                "remould-tyres"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Condition hub page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Condition type not found"
+          }
+        }
+      }
+    },
+    "/guides": {
+      "get": {
+        "tags": ["Buying Guides & CPKM"],
+        "summary": "Buying Decision & CPKM Guides Hub",
+        "description": "Fleet tyre procurement guides, Cost-Per-Kilometer formulas, and head-to-head comparison studies.",
+        "operationId": "getGuidesHub",
+        "responses": {
+          "200": {
+            "description": "Buyer advisory guides hub",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/guides/{guide_slug}": {
+      "get": {
+        "tags": ["Buying Guides & CPKM"],
+        "summary": "Individual Tyre Comparison Guide",
+        "description": "In-depth mathematical and engineering comparison between tyre purchasing options.",
+        "operationId": "getGuideDetail",
+        "parameters": [
+          {
+            "name": "guide_slug",
+            "in": "path",
+            "required": true,
+            "description": "Comparison guide slug",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "new-vs-used-tyres",
+                "new-vs-remould-tyres",
+                "used-vs-remould-tyres"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Comparison guide article",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Guide not found"
+          }
+        }
+      }
+    },
+    "/brands": {
+      "get": {
+        "tags": ["Product Catalog & Sizing"],
+        "summary": "Authorized Tyre Brands Hub",
+        "description": "Overview of authorized tyre brands stocked at Sahara Tyre GIDC Vapi.",
+        "operationId": "getBrandsHub",
+        "responses": {
+          "200": {
+            "description": "Tyre brands gateway",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/brands/{brand_slug}": {
+      "get": {
+        "tags": ["Product Catalog & Sizing"],
+        "summary": "Dedicated Brand Landing Page",
+        "description": "Warranty information, pattern ranges, and availability for a specific manufacturer brand.",
+        "operationId": "getBrandDetail",
+        "parameters": [
+          {
+            "name": "brand_slug",
+            "in": "path",
+            "required": true,
+            "description": "Brand slug",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "mrf-tyres-vapi",
+                "ceat-tyres-vapi",
+                "apollo-tyres-vapi",
+                "bridgestone-tyres-vapi",
+                "jk-tyres-vapi"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Brand landing page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Brand not found"
+          }
+        }
+      }
+    },
+    "/locations": {
+      "get": {
+        "tags": ["Workshop Navigation & NAP"],
+        "summary": "Geographic Coverage & Driving Directions Hub",
+        "description": "Overview of all 27 covered service areas across Vapi GIDC, Daman, Silvassa, and NH 48 corridor.",
+        "operationId": "getLocationsHub",
+        "responses": {
+          "200": {
+            "description": "Locations directory page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/locations/{location_slug}": {
+      "get": {
+        "tags": ["Workshop Navigation & NAP"],
+        "summary": "Dedicated Locality Service Page",
+        "description": "Neighborhood-specific driving routes, landmarks, transit times, and localized tyre support.",
+        "operationId": "getLocationDetail",
+        "parameters": [
+          {
+            "name": "location_slug",
+            "in": "path",
+            "required": true,
+            "description": "Neighborhood locality slug",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "tyre-shop-vapi-gidc",
+                "tyre-shop-gunjan",
+                "tyre-shop-chala",
+                "tyre-shop-daman"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Locality landing page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Location not found"
+          }
+        }
+      }
+    },
+    "/location": {
+      "get": {
+        "tags": ["Workshop Navigation & NAP"],
+        "summary": "Master Workshop Navigation & GPS Coordinates",
+        "description": "Official physical address, landmark turn-by-turn directions, interactive Google Maps embed, Plus Code, latitude and longitude coordinates, and live phone/WhatsApp contact shortcuts.",
+        "operationId": "getMasterLocationPage",
+        "responses": {
+          "200": {
+            "description": "Workshop navigation page with LocalBusiness and AutoPartsStore Schema.org JSON-LD",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/developer": {
+      "get": {
+        "tags": ["Technical & Developer"],
+        "summary": "Technical Architecture & Developer Profile",
+        "description": "Details the full-stack software architecture, Core Web Vitals optimization, and engineering services of Samir Shaikh (Portfolio: https://samir-portfolio-dev.vercel.app/).",
+        "operationId": "getDeveloperPage",
+        "responses": {
+          "200": {
+            "description": "Developer profile and technical specifications",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/about": {
+      "get": {
+        "tags": ["Workshop Navigation & NAP"],
+        "summary": "Company Heritage & Workshop About Page",
+        "description": "Heritage since 2005, team bios, certified technicians, customer reviews, and workshop capabilities.",
+        "operationId": "getAboutPage",
+        "responses": {
+          "200": {
+            "description": "Company history page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/privacy": {
+      "get": {
+        "tags": ["Workshop Navigation & NAP"],
+        "summary": "Privacy Policy",
+        "description": "Information governance, customer data protection, and cookie disclosures.",
+        "operationId": "getPrivacyPolicy",
+        "responses": {
+          "200": {
+            "description": "Privacy policy document",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/terms": {
+      "get": {
+        "tags": ["Workshop Navigation & NAP"],
+        "summary": "Terms of Service & Warranty Conditions",
+        "description": "Workshop service agreements, retread warranty guidelines, and road safety disclaimers.",
+        "operationId": "getTermsOfService",
+        "responses": {
+          "200": {
+            "description": "Terms and conditions document",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BusinessProfile": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "example": "Sahara Tyre GIDC Vapi"
+          },
+          "establishedYear": {
+            "type": "integer",
+            "example": 2005
+          },
+          "streetAddress": {
+            "type": "string",
+            "example": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC"
+          },
+          "addressLocality": {
+            "type": "string",
+            "example": "Vapi"
+          },
+          "addressRegion": {
+            "type": "string",
+            "example": "Gujarat"
+          },
+          "postalCode": {
+            "type": "string",
+            "example": "396195"
+          },
+          "addressCountry": {
+            "type": "string",
+            "example": "IN"
+          },
+          "geo": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "number",
+                "example": 20.362324
+              },
+              "longitude": {
+                "type": "number",
+                "example": 72.919686
+              },
+              "plusCode": {
+                "type": "string",
+                "example": "9669+V7 Vapi, Gujarat"
+              }
+            }
+          },
+          "telephone": {
+            "type": "string",
+            "example": "+91-9377158216"
+          },
+          "whatsapp": {
+            "type": "string",
+            "example": "https://wa.me/919377158216"
+          },
+          "email": {
+            "type": "string",
+            "example": "shaikh.samir.dev@gmail.com"
+          },
+          "openingHours": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": [
+              "Mo-Sa 07:30-21:00 IST",
+              "Su 07:30-18:00 IST"
+            ]
+          },
+          "aggregateRating": {
+            "type": "object",
+            "properties": {
+              "ratingValue": {
+                "type": "number",
+                "example": 4.8
+              },
+              "reviewCount": {
+                "type": "integer",
+                "example": 120
+              },
+              "bestRating": {
+                "type": "number",
+                "example": 5.0
+              }
+            }
+          }
+        }
+      },
+      "ServiceItem": {
+        "type": "object",
+        "properties": {
+          "serviceId": {
+            "type": "string",
+            "example": "wheel-alignment-vapi"
+          },
+          "name": {
+            "type": "string",
+            "example": "Computerized 3D Laser Wheel Alignment"
+          },
+          "durationMinutes": {
+            "type": "string",
+            "example": "20–30 minutes"
+          },
+          "equipment": {
+            "type": "string",
+            "example": "High-Definition Digital Laser Sensor Cameras & Multi-Target Wheel Clamps"
+          },
+          "deliverables": {
+            "type": "string",
+            "example": "Color Before/After Camber, Caster, Toe diagnostic printout report"
+          },
+          "recommendedInterval": {
+            "type": "string",
+            "example": "Every 5,000 km or upon noticeable steering pull / irregular shoulder wear"
+          }
+        }
+      },
+      "FAQItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "faq-alignment-interval"
+          },
+          "category": {
+            "type": "string",
+            "example": "Wheel Alignment & Balancing"
+          },
+          "question": {
+            "type": "string",
+            "example": "How often should I get 3D wheel alignment done in Vapi?"
+          },
+          "answer": {
+            "type": "string",
+            "example": "We recommend 3D wheel alignment every 5,000 km or every 3 to 4 months. Because Vapi GIDC has heavy monsoon rain, active railway crossings, speed breakers, and industrial transport roads, your wheel angles (camber, caster, and toe) get knocked out of calibration faster. Signs you need immediate alignment include steering pulling to one side, off-center steering wheel, or rapid inside/outside edge tyre wear."
+          }
+        }
+      },
+      "AIPluginManifest": {
+        "type": "object",
+        "properties": {
+          "schema_version": {
+            "type": "string",
+            "example": "v1"
+          },
+          "name_for_human": {
+            "type": "string",
+            "example": "Sahara Tyre GIDC Vapi"
+          },
+          "name_for_model": {
+            "type": "string",
+            "example": "SaharaTyreVapi"
+          },
+          "description_for_human": {
+            "type": "string"
+          },
+          "description_for_model": {
+            "type": "string"
+          },
+          "auth": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "example": "none"
+              }
+            }
+          },
+          "api": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "example": "openapi"
+              },
+              "url": {
+                "type": "string",
+                "example": "https://sahara-tyre.vercel.app/openapi.json"
+              }
+            }
+          },
+          "contact_email": {
+            "type": "string",
+            "example": "shaikh.samir.dev@gmail.com"
+          },
+          "legal_info_url": {
+            "type": "string",
+            "example": "https://sahara-tyre.vercel.app/terms"
+          },
+          "privacy_policy_url": {
+            "type": "string",
+            "example": "https://sahara-tyre.vercel.app/privacy"
+          }
+        }
+      }
+    }
+  }
+}

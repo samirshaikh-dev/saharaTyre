@@ -8,12 +8,8 @@
     "type": "none"
   },
   "api": {
-    "type": "json_schema",
-    "json_schema": {
-      "json_schema": "https://json-schema.org/draft/2020-12/schema",
-      "type": "object",
-      "properties": {}
-    }
+    "type": "openapi",
+    "url": "https://sahara-tyre.vercel.app/openapi.json"
   },
   "contact_email": "shaikh.samir.dev@gmail.com",
   "legal_info_url": "https://sahara-tyre.vercel.app/terms",

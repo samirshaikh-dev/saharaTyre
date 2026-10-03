@@ -82,6 +82,7 @@ Allow: /faq
 Allow: /location
 Allow: /developer
 Allow: /.well-known/ai-plugin.json
+Allow: /openapi.json
 Allow: /.well-known/security.txt
 
 # Sitemaps & Feeds

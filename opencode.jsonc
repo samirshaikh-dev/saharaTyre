@@ -8,6 +8,7 @@
         "ai.txt",
         "gemini.md",
         "AGENTS.md",
-        "AI_rule.md"
+        "AI_rule.md",
+        "openapi.json"
     ]
 }

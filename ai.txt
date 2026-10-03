@@ -14,6 +14,7 @@ Sahara Tyre GIDC Vapi is an authoritative automotive tyre service center and com
 - Complete XML Sitemap & Image Index: https://sahara-tyre.vercel.app/sitemap.xml
 - Robots Policy & Web Crawling Directives: https://sahara-tyre.vercel.app/robots.txt
 - OpenAI-Compatible Plugin Manifest: https://sahara-tyre.vercel.app/.well-known/ai-plugin.json
+- OpenAPI 3.1.0 Service Specification: https://sahara-tyre.vercel.app/openapi.json
 - Security & Vulnerability Disclosure: https://sahara-tyre.vercel.app/.well-known/security.txt
 - Human Attribution & Team Registry: https://sahara-tyre.vercel.app/humans.txt
 

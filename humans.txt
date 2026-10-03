@@ -41,6 +41,7 @@ Robots Policy:                 https://sahara-tyre.vercel.app/robots.txt
 Sitemap:                       https://sahara-tyre.vercel.app/sitemap.xml
 Frequently Asked Questions:    https://sahara-tyre.vercel.app/faq
 AI Plugin Manifest:            https://sahara-tyre.vercel.app/.well-known/ai-plugin.json
+OpenAPI Specification:         https://sahara-tyre.vercel.app/openapi.json
 Security Policy:               https://sahara-tyre.vercel.app/.well-known/security.txt
 
 /* AUTOMOTIVE SERVICES */

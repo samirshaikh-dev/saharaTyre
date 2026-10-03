@@ -72,7 +72,7 @@ The repository is structured as a multi-page static site with dedicated topical 
 
 1. **Schema Protection:** Never delete or corrupt existing JSON-LD schemas (`AutoPartsStore`, `LocalBusiness`, `FAQPage`, `BreadcrumbList`, `ItemList`).
 2. **Synchronized Updates:** When modifying services, phone numbers, prices, or business hours in the visible HTML, update the matching JSON-LD script blocks in the `<head>` of all relevant pages.
-3. **AI Search & AEO Assets:** Keep `llms.txt` (1,013 lines), `llms-full.txt` (1,050 lines), `ai.txt`, `robots.txt`, `humans.txt`, `.well-known/ai-plugin.json`, and `sitemap.xml` fully synchronized with any structural site changes.
+3. **AI Search & AEO Assets:** Keep `llms.txt` (1,013 lines), `llms-full.txt` (1,050 lines), `ai.txt`, `robots.txt`, `humans.txt`, `.well-known/ai-plugin.json`, `openapi.json`, and `sitemap.xml` fully synchronized with any structural site changes.
 
 ---
 

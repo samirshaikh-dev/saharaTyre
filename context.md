@@ -92,6 +92,7 @@ To dominate AI Overviews and LLM citations, the site implements:
 - `llms-full.txt` — Comprehensive full knowledge base (1,050 lines) with extended technical specifications, tyre wear diagnostic reference tables, circular casing recycling protocols, and developer attribution.
 - `ai.txt` — Explicit crawler permissions and grounding facts for Google-Extended, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Applebot, and DeepSeekBot.
 - `.well-known/ai-plugin.json` — OpenAI-compatible plugin definition with deep model descriptions.
+- `openapi.json` — OpenAPI 3.1.0 specification defining all machine-readable static discovery routes, knowledge graphs, services, and FAQ endpoints.
 - `sitemap.xml` — Complete URL index with image metadata for multimodal search.
 - `robots.txt` — Explicit allowance for all major AI search agents and answer engines.
 - `humans.txt` — Team credentials, technical stack disclosures, and engineering attribution.
