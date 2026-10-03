@@ -4,6 +4,7 @@
     "instructions": [
         "context.md",
         "llms.txt",
+        "llms-full.txt",
         "ai.txt",
         "gemini.md",
         "AGENTS.md",

@@ -55,6 +55,8 @@ The repository is structured as a multi-page static site with dedicated topical 
 - `/about` (`about.htm`) – 18+ years heritage, technician expertise, guarantees.
 - `/privacy` (`privacy.htm`) – Privacy policy, analytics & AdSense compliance disclosures.
 - `/terms` (`terms.htm`) – Terms and conditions, warranty policies & workshop agreements.
+- `/faq` (`faq.htm`) – Frequently Asked Questions (24 categorized FAQs, live search, 7 category filter pills, zero-CLS CSS-grid accordions, Schema.org FAQPage).
+- `/developer` (`developer.htm`) – Technical developer profile, Core Web Vitals engineering & portfolio of Samir Shaikh.
 
 ### Frontend Principles
 1. **Semantic HTML5:** Maintain clean, accessible semantic elements (`<header>`, `<main>`, `<article>`, `<section>`, `<footer>`, `<nav>`).
@@ -70,7 +72,7 @@ The repository is structured as a multi-page static site with dedicated topical 
 
 1. **Schema Protection:** Never delete or corrupt existing JSON-LD schemas (`AutoPartsStore`, `LocalBusiness`, `FAQPage`, `BreadcrumbList`, `ItemList`).
 2. **Synchronized Updates:** When modifying services, phone numbers, prices, or business hours in the visible HTML, update the matching JSON-LD script blocks in the `<head>` of all relevant pages.
-3. **AI Search & AEO Assets:** Keep `llms.txt`, `llms-full.txt`, `ai.txt`, `robots.txt`, and `sitemap.xml` fully synchronized with any structural site changes.
+3. **AI Search & AEO Assets:** Keep `llms.txt` (1,013 lines), `llms-full.txt` (1,050 lines), `ai.txt`, `robots.txt`, `humans.txt`, `.well-known/ai-plugin.json`, and `sitemap.xml` fully synchronized with any structural site changes.
 
 ---
 

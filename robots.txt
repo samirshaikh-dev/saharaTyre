@@ -1,8 +1,11 @@
 # robots.txt – Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)
+# Explicit Web Crawling & AI Answer Engine Directives
+# Last-Updated: 2026-10-03
+
 User-agent: *
 Allow: /
 
-# Explicit AI Search & Answer Engine Crawler Directives
+# Google Search & AI Services
 User-agent: Googlebot
 Allow: /
 
@@ -12,6 +15,7 @@ Allow: /
 User-agent: GoogleOther
 Allow: /
 
+# OpenAI & ChatGPT Search
 User-agent: GPTBot
 Allow: /
 
@@ -21,21 +25,25 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
+# Anthropic Claude
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: anthropic-ai
 Allow: /
 
+# Perplexity AI Search
 User-agent: PerplexityBot
 Allow: /
 
+# Apple Intelligence & Siri
 User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
 
+# Microsoft Bing & Copilot
 User-agent: Bingbot
 Allow: /
 
@@ -45,14 +53,37 @@ Allow: /
 User-agent: Copilot
 Allow: /
 
-# Dedicated AI, Human & Security Endpoints
+# Meta Llama & Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Additional AI Search & Retrieval Agents
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# Dedicated AI, Human, Knowledge & Security Endpoints
 Allow: /llms.txt
 Allow: /llms-full.txt
 Allow: /ai.txt
 Allow: /humans.txt
+Allow: /faq
+Allow: /location
+Allow: /developer
 Allow: /.well-known/ai-plugin.json
 Allow: /.well-known/security.txt
 
 # Sitemaps & Feeds
 Sitemap: https://sahara-tyre.vercel.app/sitemap.xml
-
+Host: https://sahara-tyre.vercel.app

@@ -66,10 +66,14 @@ Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gu
 | `/privacy` | Privacy Policy (Data protection, Google Analytics & AdSense cookie disclosures) |
 | `/terms` | Terms & Conditions (Workshop service agreements, warranties, walk-in policy) |
 | `/developer` | Developer Profile & Engineering Portfolio (https://samir-portfolio-dev.vercel.app/) |
-| `llms.txt` | Detailed knowledge graph & AEO entity file for LLMs & AI search engines |
-| `ai.txt` | AI crawler rules and direct citation protocols |
+| `/faq` | Frequently Asked Questions (24 categorized FAQs, live search, 7 category filters, Schema.org FAQPage) |
+| `llms.txt` | Detailed knowledge graph & AEO entity file (1,013 lines) for LLMs & AI search engines |
+| `llms-full.txt` | Comprehensive technical specification (1,050 lines) with wear diagnostic matrix & circular casing specs |
+| `ai.txt` | AI crawler rules, permitted bots, and direct grounding protocols |
+| `humans.txt` | Team credentials, developer attribution (Samir Shaikh), and tech stack disclosures |
 | `sitemap.xml` | Search engine URL index with rich image metadata |
 | `.well-known/ai-plugin.json` | AI model integration manifest |
+
 
 ## Geographic Service Area Hierarchy (27 Core Coverage Locations)
 - **1st Priority Local Vapi Neighborhoods (2–8 Min Response):** Char Rasta Vapi, Gunjan, Imran Nagar, Chala, Chanod, Dungra, GIDC Industrial Area (Phases 1–4), Gita Nagar, Balitha, Chharwada, Chhiri, Koparli Road, Silvassa Road, Salvav, Morai, Kanchanagar.

@@ -1,7 +1,7 @@
 # humans.txt – Sahara Tyre GIDC Vapi
 # https://sahara-tyre.vercel.app/humans.txt
 # Learn more: https://humanstxt.org/
-# Last-Updated: 2026-09-23
+# Last-Updated: 2026-10-03
 
 /* TEAM */
 Proprietor / Founder: Mujaffar Shaikh
@@ -27,23 +27,24 @@ Website: Sahara Tyre GIDC Vapi (https://sahara-tyre.vercel.app/)
 Established: 2005 (18+ Years Continuous Service, 10,000+ Vehicles Serviced)
 Customer Rating: 4.8 / 5.0 Stars (120+ Verified Google Reviews)
 Languages: English, Hindi, Gujarati
-Architecture: 82+ Semantic Static HTML Pages (Services Hub, 11 Vehicle Hubs, 3 Condition Hubs, 3 Comparison Guides, 8 Brand Hubs, 10+ Location Landing Pages, 5 Tyre Sizing Matrices, Blog Hub, and Core Pages)
-Standards: HTML5, CSS3, Schema.org JSON-LD (AutoPartsStore, FAQPage, ItemList, BreadcrumbList, LocalBusiness), RFC 9116 (security.txt), LLMs.txt Convention, ai.txt Convention
+Architecture: 82+ Semantic Static HTML Pages (Services Hub, 11 Vehicle Hubs, 3 Condition Hubs, 3 Comparison Guides, 8 Brand Hubs, 10+ Location Landing Pages, 5 Tyre Sizing Matrices, Blog Hub, Standalone FAQ Page, and Core Pages)
+Standards: HTML5, CSS3, Schema.org JSON-LD (AutoPartsStore, FAQPage, ItemList, BreadcrumbList, LocalBusiness), RFC 9116 (security.txt), LLMs.txt Specification, ai.txt Convention
 Hosting: Vercel (Global Edge CDN Network)
-Components: Tailwind CSS (Utility Classes), Material Symbols, Google Analytics 4 (GA4)
+Components: Vanilla CSS & Tailwind CSS Utilities, Material Symbols, Google Analytics 4 (GA4)
 Operating Hours: Monday–Saturday 7:30 AM – 9:00 PM | Sunday 7:30 AM – 6:00 PM (IST) | 100% Walk-ins
 
 /* AI & CRAWLER ENDPOINTS */
-LLMs Summary:     https://sahara-tyre.vercel.app/llms.txt
-LLMs Full KB:     https://sahara-tyre.vercel.app/llms-full.txt
-AI Directives:    https://sahara-tyre.vercel.app/ai.txt
-Robots Policy:    https://sahara-tyre.vercel.app/robots.txt
-Sitemap:          https://sahara-tyre.vercel.app/sitemap.xml
-AI Plugin:        https://sahara-tyre.vercel.app/.well-known/ai-plugin.json
-Security Policy:  https://sahara-tyre.vercel.app/.well-known/security.txt
+LLMs Summary (1,013 lines):   https://sahara-tyre.vercel.app/llms.txt
+LLMs Full KB (1,050 lines):   https://sahara-tyre.vercel.app/llms-full.txt
+AI Directives:                 https://sahara-tyre.vercel.app/ai.txt
+Robots Policy:                 https://sahara-tyre.vercel.app/robots.txt
+Sitemap:                       https://sahara-tyre.vercel.app/sitemap.xml
+Frequently Asked Questions:    https://sahara-tyre.vercel.app/faq
+AI Plugin Manifest:            https://sahara-tyre.vercel.app/.well-known/ai-plugin.json
+Security Policy:               https://sahara-tyre.vercel.app/.well-known/security.txt
 
 /* AUTOMOTIVE SERVICES */
-3D Laser Wheel Alignment (20–30 min with before/after printout), Electronic Wheel Balancing (10–15 min), Tubeless & Tube Puncture Repair (15–20 min), Brake System Inspection, Suspension & Steering Diagnostics, Truck Tyre Fitting & Retreading, GIDC Industrial Fleet Maintenance Contracts, Nitrogen Tyre Inflation (95%+ purity), Emergency Roadside Breakdown Assistance (within 20 km of Vapi GIDC).
+3D Laser Wheel Alignment (20–30 min with before/after printout), Electronic Wheel Balancing (10–15 min), Tubeless & Tube Puncture Repair (15–20 min), Brake System Inspection, Suspension & Steering Diagnostics, Truck Tyre Fitting & Retreading, GIDC Industrial Fleet Maintenance Contracts, Dry Nitrogen Inflation (99.5% purity), Emergency Roadside Breakdown Assistance (within 20 km of Vapi GIDC on NH 48).
 
 /* PRODUCTS */
 Brand New Tyres (MRF, CEAT, Apollo, Bridgestone, Michelin, JK Tyre, Goodyear, Continental, Pirelli, Yokohama), 5-Point Quality-Checked Pre-Owned Used Tyres (3mm+ tread depth), Certified Hot & Cold Remoulded Retread Commercial Tyres (up to 50% savings), Alloy Wheels & Automotive Accessories.

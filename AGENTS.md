@@ -132,9 +132,12 @@ Each skill file follows this structure:
 | `opencode.jsonc` | OpenCode configuration (provider, agents, skills, context) |
 | `gemini.md` | Google Gemini context file |
 | `context.md` | Full project context for AI assistants |
-| `llms.txt` | Business profile for LLM consumption |
-| `ai.txt` | Crawl policy for AI crawlers |
+| `llms.txt` | Authoritative knowledge graph (1,013 lines) for LLM consumption |
+| `llms-full.txt` | Comprehensive technical specification (1,050 lines) with wear diagnostic matrix |
+| `ai.txt` | Crawl policy and direct grounding protocols for AI crawlers |
+| `humans.txt` | Team credentials, developer attribution, and tech stack disclosures |
 | `AGENTS.md` | This file - agent skill configuration |
+
 
 ## Adding New Skills
 

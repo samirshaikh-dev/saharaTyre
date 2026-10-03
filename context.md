@@ -81,18 +81,20 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
 13. **[privacy.htm](https://sahara-tyre.vercel.app/privacy)** — Privacy Policy: Customer data protection & cookie disclosures.
 14. **[terms.htm](https://sahara-tyre.vercel.app/terms)** — Terms & Conditions: Workshop service agreements & warranties.
 15. **[developer.htm](https://sahara-tyre.vercel.app/developer)** — Developer Profile: Engineering portfolio (https://samir-portfolio-dev.vercel.app/), technical architecture, 100% Core Web Vitals optimization, and full-stack capabilities of Samir Shaikh.
+16. **[faq.htm](https://sahara-tyre.vercel.app/faq)** — Frequently Asked Questions: Dedicated, 24-question customer knowledge base with live search, 7 category filter pills, smooth zero-CLS CSS-grid accordions, WhatsApp lead inquiry modal, and full Schema.org `FAQPage` + `AutoPartsStore` JSON-LD.
 
 ---
 
 ## AI Discovery & AEO (Answer Engine Optimization) Suite
 
 To dominate AI Overviews and LLM citations, the site implements:
-- `llms.txt` — Structured markdown knowledge graph with turnaround times, sizing matrices, and QA references.
-- `llms-full.txt` — Comprehensive full knowledge base covering technical specs, developer attribution, and 3-tier geographic hierarchy.
-- `ai.txt` — Explicit crawler permissions for Google-Extended, GPTBot, ClaudeBot, PerplexityBot, and Applebot.
-- `.well-known/ai-plugin.json` — OpenAI-compatible plugin definition.
+- `llms.txt` — Authoritative markdown knowledge graph (1,013 lines) covering 28 structured sections: NAP data, 27 service zones, workshop SOPs, Indian vehicle fitment matrix, EV engineering specs, CPKM formulas, cold PSI charts, lug nut torque specs, 45+ categorized Q&As, and a 75-term engineering glossary.
+- `llms-full.txt` — Comprehensive full knowledge base (1,050 lines) with extended technical specifications, tyre wear diagnostic reference tables, circular casing recycling protocols, and developer attribution.
+- `ai.txt` — Explicit crawler permissions and grounding facts for Google-Extended, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Applebot, and DeepSeekBot.
+- `.well-known/ai-plugin.json` — OpenAI-compatible plugin definition with deep model descriptions.
 - `sitemap.xml` — Complete URL index with image metadata for multimodal search.
-- `robots.txt` — Explicit allowance for all major AI search agents.
+- `robots.txt` — Explicit allowance for all major AI search agents and answer engines.
+- `humans.txt` — Team credentials, technical stack disclosures, and engineering attribution.
 
 ---
 
