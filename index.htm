@@ -14,14 +14,14 @@
     <meta name="geo.placename" content="Vapi, Gujarat, India" />
     <meta name="geo.position" content="20.362324;72.919686" />
     <meta name="ICBM" content="20.362324, 72.919686" />
-    <meta name="keywords" content="tyre shop Vapi, tyre shop Vapi GIDC, puncture repair Vapi, wheel alignment Vapi GIDC, MRF tyres Vapi, CEAT tyres Vapi, Apollo tyres Vapi, truck tyres Gujarat, used tyres Vapi, remould tyres Vapi" />
+    <meta name="keywords" content="tyre shop Vapi, tyre shop Vapi GIDC, car tyre shop Vapi, puncture repair Vapi, wheel alignment Vapi GIDC, MRF tyres Vapi, CEAT tyres Vapi, Apollo tyres Vapi, Bridgestone tyres Vapi, truck tyres Gujarat, used tyres Vapi, remould tyres Vapi" />
     <link rel="canonical" href="https://sahara-tyre.vercel.app/" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sahara-tyre.vercel.app/" />
     <meta property="og:title" content="Sahara Tyre – Best Tyre Shop &amp; Auto Service Center in Vapi GIDC" />
-    <meta property="og:description" content="18+ years trusted automotive workshop in Vapi GIDC. New, used &amp; remould tyres. Puncture repair, laser wheel alignment, brake inspection &amp; commercial truck tyres." />
+    <meta property="og:description" content="18+ years trusted automotive showroom in Vapi GIDC. New, used &amp; remould tyres. Precision 3D wheel alignment, dynamic balancing &amp; fast puncture repair." />
     <meta property="og:image" content="https://sahara-tyre.vercel.app/og-image.png" />
     <meta property="og:locale" content="en_IN" />
     <meta property="og:site_name" content="Sahara Tyre" />
@@ -35,6 +35,7 @@
     <!-- Performance: Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
 
     <!-- AI Search / LLM Discovery -->
     <link rel="llms.txt" href="https://sahara-tyre.vercel.app/llms.txt" />
@@ -42,8 +43,8 @@
     <link rel="ai.txt" href="/ai.txt" />
     <link rel="humans" href="/humans.txt" />
 
-    <!-- Fonts & Icons (Optimized with font-display: swap & asynchronous symbol loading) -->
-    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <!-- Fonts & Icons (Google Fonts with font-display: swap) -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
     <noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet" /></noscript>
 
@@ -55,384 +56,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.json" />
 
-    <!-- Inlined Critical Production CSS (Zero External Render-Blocking Requests) -->
-    <style>
-        :root {
-            --primary: #f97316;
-            --primary-hover: #ea580c;
-            --navy: #0f172a;
-            --bg-light: #f8fafc;
-            --bg-dark: #020617;
-        }
-        *, ::before, ::after {
-            box-sizing: border-box;
-            border-width: 0;
-            border-style: solid;
-            border-color: #e2e8f0;
-            margin: 0;
-            padding: 0;
-        }
-        html {
-            scroll-behavior: smooth;
-            -webkit-text-size-adjust: 100%;
-        }
-        body {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            font-family: 'Spline Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.5;
-            color: #1e293b;
-            background-color: #f8fafc;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #020617;
-                color: #e2e8f0;
-            }
-        }
-        a {
-            color: inherit;
-            text-decoration: inherit;
-        }
-        button, input, select, textarea {
-            font-family: inherit;
-            font-size: 100%;
-            line-height: inherit;
-            color: inherit;
-            margin: 0;
-            padding: 0;
-        }
-        button {
-            background-color: transparent;
-            background-image: none;
-            cursor: pointer;
-        }
-
-        /* Material Icons */
-        .material-symbols-outlined {
-            font-family: 'Material Symbols Outlined';
-            font-weight: normal;
-            font-style: normal;
-            font-size: 24px;
-            line-height: 1;
-            letter-spacing: normal;
-            text-transform: none;
-            display: inline-block;
-            white-space: nowrap;
-            word-wrap: normal;
-            direction: ltr;
-            -webkit-font-smoothing: antialiased;
-            overflow: hidden;
-            vertical-align: middle;
-        }
-
-        /* Hero Background Pattern (Instant 0ms Load) */
-        .hero-bg {
-            background-color: #0f172a;
-            background-image: 
-                radial-gradient(at 15% 25%, rgba(249, 115, 22, 0.2) 0px, transparent 55%),
-                radial-gradient(at 85% 85%, rgba(30, 58, 138, 0.4) 0px, transparent 65%),
-                radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-            background-size: 100% 100%, 100% 100%, 28px 28px;
-        }
-
-        /* Layout & Flex */
-        .flex { display: flex; }
-        .inline-flex { display: inline-flex; }
-        .hidden { display: none; }
-        .block { display: block; }
-        .inline-block { display: inline-block; }
-        .flex-col { flex-direction: column; }
-        .flex-grow { flex-grow: 1; }
-        .flex-wrap { flex-wrap: wrap; }
-        .items-start { align-items: flex-start; }
-        .items-center { align-items: center; }
-        .items-end { align-items: flex-end; }
-        .justify-between { justify-content: space-between; }
-        .justify-center { justify-content: center; }
-        .shrink-0 { flex-shrink: 0; }
-
-        /* Grid */
-        .grid { display: grid; }
-        .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-        .grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-
-        /* Sizing */
-        .w-full { width: 100%; }
-        .w-12 { width: 3rem; }
-        .h-12 { height: 3rem; }
-        .w-14 { width: 3.5rem; }
-        .h-14 { height: 3.5rem; }
-        .h-\[320px\] { height: 320px; }
-        .min-h-screen { min-height: 100vh; }
-        .max-w-7xl { max-width: 80rem; }
-        .max-w-4xl { max-width: 56rem; }
-        .max-w-3xl { max-width: 48rem; }
-        .max-w-2xl { max-width: 42rem; }
-
-        /* Positioning */
-        .relative { position: relative; }
-        .absolute { position: absolute; }
-        .fixed { position: fixed; }
-        .sticky { position: sticky; }
-        .top-0 { top: 0; }
-        .inset-0 { inset: 0; }
-        .bottom-8 { bottom: 2rem; }
-        .bottom-24 { bottom: 6rem; }
-        .right-4 { right: 1rem; }
-        .z-10 { z-index: 10; }
-        .z-40 { z-index: 40; }
-        .z-50 { z-index: 50; }
-        .overflow-hidden { overflow: hidden; }
-
-        /* Spacing */
-        .mx-auto { margin-left: auto; margin-right: auto; }
-        .mb-1 { margin-bottom: 0.25rem; }
-        .mb-2 { margin-bottom: 0.5rem; }
-        .mb-3 { margin-bottom: 0.75rem; }
-        .mb-4 { margin-bottom: 1rem; }
-        .mb-6 { margin-bottom: 1.5rem; }
-        .mb-8 { margin-bottom: 2rem; }
-        .mb-10 { margin-bottom: 2.5rem; }
-        .mb-12 { margin-bottom: 3rem; }
-        .mt-1 { margin-top: 0.25rem; }
-        .mt-2 { margin-top: 0.5rem; }
-        .mt-3 { margin-top: 0.75rem; }
-        .mt-6 { margin-top: 1.5rem; }
-        .mt-8 { margin-top: 2rem; }
-        .mt-10 { margin-top: 2.5rem; }
-        .mt-12 { margin-top: 3rem; }
-        .pt-2 { padding-top: 0.5rem; }
-        .pt-3 { padding-top: 0.75rem; }
-        .pt-6 { padding-top: 1.5rem; }
-        .pt-8 { padding-top: 2rem; }
-        .pb-3 { padding-bottom: 0.75rem; }
-
-        .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
-        .px-3\.5 { padding-left: 0.875rem; padding-right: 0.875rem; }
-        .px-4 { padding-left: 1rem; padding-right: 1rem; }
-        .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
-        .px-8 { padding-left: 2rem; padding-right: 2rem; }
-        .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
-        .py-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; }
-        .py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
-        .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
-        .py-3\.5 { padding-top: 0.875rem; padding-bottom: 0.875rem; }
-        .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
-        .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
-        .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
-        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
-        .p-6 { padding: 1.5rem; }
-        .p-8 { padding: 2rem; }
-
-        .gap-1 { gap: 0.25rem; }
-        .gap-2 { gap: 0.5rem; }
-        .gap-3 { gap: 0.75rem; }
-        .gap-4 { gap: 1rem; }
-        .gap-6 { gap: 1.5rem; }
-        .gap-8 { gap: 2rem; }
-
-        .space-y-1\.5 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.375rem; }
-        .space-y-2 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.5rem; }
-        .space-y-3 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.75rem; }
-        .space-y-4 > :not([hidden]) ~ :not([hidden]) { margin-top: 1rem; }
-        .space-y-6 > :not([hidden]) ~ :not([hidden]) { margin-top: 1.5rem; }
-
-        /* Typography */
-        .font-medium { font-weight: 500; }
-        .font-semibold { font-weight: 600; }
-        .font-bold { font-weight: 700; }
-        .font-extrabold { font-weight: 800; }
-        .font-black { font-weight: 900; }
-        .text-xs { font-size: 0.75rem; line-height: 1rem; }
-        .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
-        .text-base { font-size: 1rem; line-height: 1.5rem; }
-        .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
-        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
-        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
-        .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
-        .leading-tight { line-height: 1.2; }
-        .leading-relaxed { line-height: 1.625; }
-        .tracking-tight { letter-spacing: -0.025em; }
-        .tracking-wider { letter-spacing: 0.05em; }
-        .tracking-widest { letter-spacing: 0.1em; }
-        .uppercase { text-transform: uppercase; }
-        .text-center { text-align: center; }
-
-        /* Colors & Theme */
-        .text-primary { color: #f97316; }
-        .text-navy { color: #0f172a; }
-        .text-white { color: #ffffff; }
-        .text-slate-200 { color: #e2e8f0; }
-        .text-slate-300 { color: #cbd5e1; }
-        .text-slate-400 { color: #94a3b8; }
-        .text-slate-500 { color: #64748b; }
-        .text-slate-600 { color: #475569; }
-        .text-slate-700 { color: #334155; }
-        .text-slate-800 { color: #1e293b; }
-        .text-emerald-400 { color: #34d399; }
-
-        .bg-primary { background-color: #f97316; }
-        .hover\:bg-orange-600:hover { background-color: #ea580c; }
-        .bg-navy { background-color: #0f172a; }
-        .hover\:bg-slate-800:hover { background-color: #1e293b; }
-        .bg-white { background-color: #ffffff; }
-        .bg-white\/5 { background-color: rgba(255, 255, 255, 0.05); }
-        .bg-white\/10 { background-color: rgba(255, 255, 255, 0.1); }
-        .bg-white\/20 { background-color: rgba(255, 255, 255, 0.2); }
-        .hover\:bg-white\/20:hover { background-color: rgba(255, 255, 255, 0.2); }
-        .bg-slate-50 { background-color: #f8fafc; }
-        .bg-slate-100 { background-color: #f1f5f9; }
-        .bg-slate-800 { background-color: #1e293b; }
-        .bg-slate-900 { background-color: #0f172a; }
-        .bg-slate-950 { background-color: #020617; }
-        .bg-emerald-500 { background-color: #10b981; }
-        .bg-emerald-600 { background-color: #059669; }
-        .hover\:bg-emerald-700:hover { background-color: #047857; }
-        .bg-primary\/10 { background-color: rgba(249, 115, 22, 0.1); }
-        .bg-primary\/20 { background-color: rgba(249, 115, 22, 0.2); }
-        .bg-background-light { background-color: #f8fafc; }
-        .bg-background-dark { background-color: #020617; }
-
-        /* Borders */
-        .border { border-width: 1px; }
-        .border-b { border-bottom-width: 1px; }
-        .border-t { border-top-width: 1px; }
-        .border-slate-200 { border-color: #e2e8f0; }
-        .border-slate-300 { border-color: #cbd5e1; }
-        .border-slate-700 { border-color: #334155; }
-        .border-slate-800 { border-color: #1e293b; }
-        .border-primary\/20 { border-color: rgba(249, 115, 22, 0.2); }
-        .border-primary\/30 { border-color: rgba(249, 115, 22, 0.3); }
-        .border-white\/10 { border-color: rgba(255, 255, 255, 0.1); }
-        .border-white\/20 { border-color: rgba(255, 255, 255, 0.2); }
-        .rounded-xl { border-radius: 0.75rem; }
-        .rounded-2xl { border-radius: 1rem; }
-        .rounded-3xl { border-radius: 1.5rem; }
-        .rounded-full { border-radius: 9999px; }
-
-        /* Shadows */
-        .shadow-sm { box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); }
-        .shadow-md { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1); }
-        .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); }
-        .shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
-        .shadow-2xl { box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); }
-        .shadow-primary\/25 { box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.25); }
-        .shadow-primary\/40 { box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.4); }
-        .shadow-emerald-600\/25 { box-shadow: 0 10px 15px -3px rgba(5, 150, 105, 0.25); }
-        .shadow-emerald-500\/40 { box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.4); }
-
-        /* Transitions & Interactivity */
-        .transition-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
-        .transition-colors { transition-property: color, background-color, border-color; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
-        .transition-transform { transition-property: transform; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
-        .hover\:scale-105:hover { transform: scale(1.05); }
-        .hover\:scale-110:hover { transform: scale(1.1); }
-        .hover\:border-primary:hover { border-color: #f97316; }
-        .hover\:text-primary:hover { color: #f97316; }
-        .hover\:text-white:hover { color: #ffffff; }
-        .hover\:underline:hover { text-decoration: underline; }
-        .hover\:shadow-xl:hover { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); }
-        .cursor-pointer { cursor: pointer; }
-        .list-none { list-style: none; }
-        details summary::-webkit-details-marker { display: none; }
-
-        .group:hover .group-hover\:scale-110 { transform: scale(1.1); }
-        .group:hover .group-hover\:rotate-12 { transform: rotate(12deg); }
-        .group:hover .group-hover\:text-primary { color: #f97316; }
-        details.group[open] .group-open\:rotate-180 { transform: rotate(180deg); }
-
-        /* Form Inputs */
-        input[type="text"], input[type="tel"], select, textarea {
-            display: block;
-            width: 100%;
-            padding: 0.625rem 0.875rem;
-            font-size: 0.875rem;
-            line-height: 1.25rem;
-            border-radius: 0.75rem;
-            border: 1px solid #cbd5e1;
-            background-color: #ffffff;
-            color: #1e293b;
-            outline: none;
-            box-sizing: border-box;
-            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        }
-        input[type="text"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
-            border-color: #f97316;
-            box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.2);
-        }
-
-        /* Responsive Breakpoints */
-        @media (min-width: 640px) {
-            .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-            .sm\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
-            .sm\:p-8 { padding: 2rem; }
-            .sm\:p-12 { padding: 3rem; }
-            .sm\:text-left { text-align: left; }
-            .sm\:text-base { font-size: 1rem; line-height: 1.5rem; }
-            .sm\:text-xl { font-size: 1.25rem; line-height: 1.75rem; }
-            .sm\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
-            .sm\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
-            .sm\:text-5xl { font-size: 3rem; line-height: 1.1; }
-        }
-
-        @media (min-width: 768px) {
-            .md\:flex { display: flex; }
-            .md\:hidden { display: none; }
-            .md\:flex-row { flex-direction: row; }
-            .md\:items-end { align-items: flex-end; }
-            .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-            .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-        }
-
-        @media (min-width: 1024px) {
-            .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-            .lg\:col-span-2 { grid-column: span 2 / span 2; }
-            .lg\:px-8 { padding-left: 2rem; padding-right: 2rem; }
-            .lg\:py-24 { padding-top: 6rem; padding-bottom: 6rem; }
-            .lg\:text-6xl { font-size: 3.75rem; line-height: 1.05; }
-        }
-
-        /* Dark Mode Theme */
-        @media (prefers-color-scheme: dark) {
-            .dark\:bg-background-dark { background-color: #020617; }
-            .dark\:bg-slate-800\/60 { background-color: rgba(30, 41, 59, 0.6); }
-            .dark\:bg-slate-900 { background-color: #0f172a; }
-            .dark\:bg-slate-950 { background-color: #020617; }
-            .dark\:text-slate-200 { color: #e2e8f0; }
-            .dark\:text-slate-300 { color: #cbd5e1; }
-            .dark\:text-slate-400 { color: #94a3b8; }
-            .dark\:text-white { color: #ffffff; }
-            .dark\:border-slate-700 { border-color: #334155; }
-            .dark\:border-slate-800 { border-color: #1e293b; }
-        }
-    </style>
-
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-98MGJHRPJ7"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-98MGJHRPJ7');
-    </script>
-
-    <!-- Google AdSense (Deferred on window load to prevent LCP blocking) -->
-    <script>
-        window.addEventListener('load', function() {
-            var adScript = document.createElement('script');
-            adScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685457296914833";
-            adScript.crossOrigin = "anonymous";
-            adScript.async = true;
-            document.head.appendChild(adScript);
-        });
-    </script>
-
-    <!-- Structured Data: LocalBusiness & AutoRepair -->
+    <!-- Structured Data: LocalBusiness, AutoRepair & FAQPage -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -445,7 +69,7 @@
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
           "priceRange": "₹₹",
-          "description": "Sahara Tyre has served Vapi for 18+ years with brand-new, quality-tested used, and commercial remould tyres. Services include precision 3D wheel alignment, tyre balancing, puncture repair, brake inspection, and fleet maintenance.",
+          "description": "Sahara Tyre has served Vapi for 18+ years with brand-new, quality-tested used, and commercial remould tyres. Services include precision 3D wheel alignment, dynamic tyre balancing, rapid puncture repair, and fleet tyre care.",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -537,454 +161,2886 @@
       ]
     }
     </script>
+
+    <!-- Bespoke Automotive Design System CSS (Zero External Render-Blocking) -->
+    <style>
+        :root {
+            --bg-base: #f8fafc;
+            --bg-surface: #ffffff;
+            --bg-subtle: #f1f5f9;
+            --bg-dark: #090e17;
+            --bg-dark-card: #111827;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --text-light: #94a3b8;
+            --border-light: #e2e8f0;
+            --border-dark: #1f2937;
+            --brand-red: #d9232d;
+            --brand-red-hover: #b91c24;
+            --brand-red-subtle: rgba(217, 35, 45, 0.08);
+            --brand-red-glow: rgba(217, 35, 45, 0.25);
+            --trust-green: #059669;
+            --trust-green-hover: #047857;
+            --radius-sm: 8px;
+            --radius-md: 14px;
+            --radius-lg: 20px;
+            --radius-xl: 28px;
+            --radius-full: 9999px;
+            --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+            --shadow-card: 0 10px 25px -5px rgba(15,23,42,0.06), 0 8px 10px -6px rgba(15,23,42,0.04);
+            --shadow-card-hover: 0 20px 35px -10px rgba(15,23,42,0.12), 0 10px 15px -5px rgba(217,35,45,0.08);
+            --shadow-red-cta: 0 10px 20px -3px rgba(217,35,45,0.35);
+            --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border-width: 0;
+            border-style: solid;
+            border-color: var(--border-light);
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        button, input, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: inherit;
+            color: inherit;
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+
+        /* Material Icons */
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 22px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-smoothing: antialiased;
+            vertical-align: middle;
+        }
+
+        /* Layout Container */
+        .container {
+            width: 100%;
+            max-width: 1240px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        /* Typography Utilities */
+        .heading-font {
+            font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+            letter-spacing: -0.03em;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--brand-red);
+            margin-bottom: 8px;
+        }
+
+        .eyebrow-dark {
+            color: #ff6b72;
+        }
+
+        .section-title {
+            font-size: clamp(1.75rem, 3vw, 2.5rem);
+            font-weight: 800;
+            line-height: 1.18;
+            letter-spacing: -0.03em;
+            color: var(--text-main);
+            margin-bottom: 12px;
+        }
+
+        .section-title.text-white {
+            color: #ffffff;
+        }
+
+        .section-desc {
+            font-size: clamp(0.95rem, 1.2vw, 1.075rem);
+            color: var(--text-muted);
+            line-height: 1.6;
+            max-width: 600px;
+        }
+
+        .section-desc.text-white-subtle {
+            color: #cbd5e1;
+        }
+
+        /* Header & Nav */
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(9, 14, 23, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            transition: var(--transition);
+        }
+
+        .site-header.scrolled {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border-bottom-color: rgba(217, 35, 45, 0.2);
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #ffffff;
+        }
+
+        .logo-symbol {
+            width: 42px;
+            height: 42px;
+            border-radius: var(--radius-md);
+            background: linear-gradient(135deg, var(--brand-red) 0%, #991b1b 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(217, 35, 45, 0.35);
+        }
+
+        .logo-text-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 800;
+            font-size: 1.15rem;
+            letter-spacing: 0.02em;
+            line-height: 1.1;
+        }
+
+        .logo-tag {
+            font-size: 0.68rem;
+            color: #94a3b8;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: none;
+            align-items: center;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-link {
+            color: #e2e8f0;
+            font-size: 0.88rem;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+            position: relative;
+            padding: 6px 0;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: #ffffff;
+        }
+
+        .nav-link:hover::after, .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--brand-red);
+            border-radius: 2px;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn-call-subtle {
+            display: none;
+            align-items: center;
+            gap: 6px;
+            color: #cbd5e1;
+            font-size: 0.825rem;
+            font-weight: 600;
+            padding: 8px 14px;
+            border-radius: var(--radius-sm);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            transition: var(--transition);
+        }
+
+        .btn-call-subtle:hover {
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.25);
+        }
+
+        .btn-header-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--brand-red);
+            color: #ffffff;
+            font-size: 0.84rem;
+            font-weight: 700;
+            padding: 10px 18px;
+            border-radius: var(--radius-full);
+            transition: var(--transition);
+            box-shadow: var(--shadow-red-cta);
+        }
+
+        .btn-header-cta:hover {
+            background: var(--brand-red-hover);
+            transform: translateY(-1px);
+        }
+
+        .mobile-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius-sm);
+            color: #cbd5e1;
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        /* Mobile Drawer */
+        .mobile-drawer {
+            position: fixed;
+            top: 72px;
+            left: 0;
+            width: 100%;
+            height: calc(100vh - 72px);
+            background: #090e17;
+            padding: 24px 20px;
+            display: none;
+            flex-direction: column;
+            gap: 16px;
+            z-index: 99;
+            overflow-y: auto;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .mobile-drawer.open {
+            display: flex;
+        }
+
+        .mobile-nav-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #f1f5f9;
+            font-size: 1.05rem;
+            font-weight: 600;
+            padding: 14px 16px;
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .mobile-nav-link:hover {
+            background: rgba(217, 35, 45, 0.12);
+            color: #ffffff;
+            border-color: rgba(217, 35, 45, 0.3);
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background-color: var(--bg-dark);
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            padding: 60px 0 80px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .hero-backdrop {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                radial-gradient(circle at 85% 30%, rgba(217, 35, 45, 0.16) 0%, transparent 50%),
+                radial-gradient(circle at 10% 80%, rgba(30, 58, 138, 0.15) 0%, transparent 45%),
+                linear-gradient(to right, rgba(9, 14, 23, 0.98) 35%, rgba(9, 14, 23, 0.6) 100%);
+            z-index: 1;
+        }
+
+        .hero-grid {
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 14px;
+            border-radius: var(--radius-full);
+            background: rgba(217, 35, 45, 0.12);
+            border: 1px solid rgba(217, 35, 45, 0.3);
+            color: #ff767c;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            margin-bottom: 20px;
+        }
+
+        .hero-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+            font-weight: 800;
+            line-height: 1.12;
+            letter-spacing: -0.035em;
+            color: #ffffff;
+            margin-bottom: 18px;
+        }
+
+        .hero-title span {
+            color: var(--brand-red);
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            line-height: 1.6;
+            color: #cbd5e1;
+            margin-bottom: 32px;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary-cta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: var(--brand-red);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 14px 26px;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-red-cta);
+            transition: var(--transition);
+        }
+
+        .btn-primary-cta:hover {
+            background: var(--brand-red-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 14px 28px -5px rgba(217, 35, 45, 0.45);
+        }
+
+        .btn-secondary-cta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 14px 22px;
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            transition: var(--transition);
+        }
+
+        .btn-secondary-cta:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .btn-directions-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #94a3b8;
+            font-size: 0.88rem;
+            font-weight: 600;
+            padding: 10px 14px;
+            border-radius: var(--radius-sm);
+            transition: var(--transition);
+        }
+
+        .btn-directions-cta:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .hero-trust-line {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.825rem;
+            font-weight: 600;
+            color: #94a3b8;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .hero-trust-line .dot {
+            color: var(--brand-red);
+        }
+
+        /* Hero Visual Card */
+        .hero-visual-wrap {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image-frame {
+            position: relative;
+            width: 100%;
+            max-width: 520px;
+            aspect-ratio: 4/3;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.7);
+            background: #0f172a;
+        }
+
+        .hero-image-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .hero-image-frame:hover img {
+            transform: scale(1.04);
+        }
+
+        .floating-info-card {
+            position: absolute;
+            bottom: -18px;
+            left: 20px;
+            background: rgba(17, 24, 39, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-left: 4px solid var(--brand-red);
+            padding: 12px 18px;
+            border-radius: var(--radius-md);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #ffffff;
+            z-index: 3;
+        }
+
+        .floating-icon {
+            color: var(--brand-red);
+            font-size: 24px;
+        }
+
+        .floating-text-primary {
+            font-weight: 700;
+            font-size: 0.85rem;
+            line-height: 1.2;
+        }
+
+        .floating-text-secondary {
+            font-size: 0.72rem;
+            color: #94a3b8;
+        }
+
+        /* Section 03: Compact Trust Strip */
+        .trust-strip-section {
+            background: var(--bg-surface);
+            border-bottom: 1px solid var(--border-light);
+            padding: 24px 0;
+        }
+
+        .trust-strip-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .trust-strip-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 12px 16px;
+            border-radius: var(--radius-md);
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-light);
+            transition: var(--transition);
+        }
+
+        .trust-strip-item:hover {
+            border-color: rgba(217, 35, 45, 0.3);
+            background: #ffffff;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .trust-strip-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius-sm);
+            background: var(--brand-red-subtle);
+            color: var(--brand-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .trust-strip-text h4 {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--text-main);
+            line-height: 1.2;
+        }
+
+        .trust-strip-text p {
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            line-height: 1.2;
+            margin-top: 2px;
+        }
+
+        /* Section 04: Main Core Services */
+        .services-section {
+            padding: 80px 0;
+            background: var(--bg-base);
+        }
+
+        .services-header {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 48px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .service-card {
+            background: var(--bg-surface);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-card);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-card-hover);
+            border-color: rgba(217, 35, 45, 0.3);
+        }
+
+        .service-card-media {
+            position: relative;
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            background: #0f172a;
+        }
+
+        .service-card-media img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .service-card:hover .service-card-media img {
+            transform: scale(1.06);
+        }
+
+        .service-card-badge {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: rgba(9, 14, 23, 0.85);
+            backdrop-filter: blur(6px);
+            color: #ffffff;
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: var(--radius-full);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .service-card-body {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+
+        .service-card-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .service-card-desc {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .service-card-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--brand-red);
+            transition: var(--transition);
+        }
+
+        .service-card:hover .service-card-link {
+            gap: 10px;
+            color: var(--brand-red-hover);
+        }
+
+        /* Section 05: Vehicle-Based Tyre Finder */
+        .finder-section {
+            background: linear-gradient(135deg, #090e17 0%, #111827 100%);
+            color: #ffffff;
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .finder-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-xl);
+            padding: 32px 24px;
+            backdrop-filter: blur(8px);
+        }
+
+        .finder-header {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .finder-form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+
+        .finder-field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .finder-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #cbd5e1;
+        }
+
+        .finder-select, .finder-input {
+            width: 100%;
+            height: 48px;
+            padding: 0 16px;
+            background: #1f2937;
+            border: 1px solid #374151;
+            border-radius: var(--radius-md);
+            color: #ffffff;
+            font-size: 0.9rem;
+            font-weight: 500;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .finder-select:focus, .finder-input:focus {
+            border-color: var(--brand-red);
+            box-shadow: 0 0 0 3px rgba(217, 35, 45, 0.25);
+        }
+
+        .btn-find-tyres {
+            height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: var(--brand-red);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 0.925rem;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-red-cta);
+            transition: var(--transition);
+            width: 100%;
+        }
+
+        .btn-find-tyres:hover {
+            background: var(--brand-red-hover);
+            transform: translateY(-1px);
+        }
+
+        /* Section 06: Featured Tyre Products */
+        .products-section {
+            padding: 80px 0;
+            background: var(--bg-surface);
+        }
+
+        .products-filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 36px;
+        }
+
+        .filter-pill {
+            padding: 8px 18px;
+            border-radius: var(--radius-full);
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-light);
+            font-size: 0.825rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+
+        .filter-pill:hover, .filter-pill.active {
+            background: var(--text-main);
+            color: #ffffff;
+            border-color: var(--text-main);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .product-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-card-hover);
+            border-color: rgba(217, 35, 45, 0.35);
+        }
+
+        .product-badge-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .product-tag {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            padding: 3px 8px;
+            border-radius: var(--radius-sm);
+            background: var(--brand-red-subtle);
+            color: var(--brand-red);
+        }
+
+        .product-condition {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .product-image-container {
+            width: 100%;
+            aspect-ratio: 1/1;
+            max-height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 12px 0 20px 0;
+            overflow: hidden;
+            background: radial-gradient(circle, #f1f5f9 0%, #ffffff 70%);
+            border-radius: var(--radius-md);
+        }
+
+        .product-image-container img {
+            max-height: 90%;
+            max-width: 90%;
+            object-fit: contain;
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover .product-image-container img {
+            transform: scale(1.08);
+        }
+
+        .product-brand {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--brand-red);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 4px;
+        }
+
+        .product-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 6px;
+            line-height: 1.25;
+        }
+
+        .product-size {
+            display: inline-block;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #334155;
+            background: #f1f5f9;
+            padding: 3px 10px;
+            border-radius: var(--radius-sm);
+            margin-bottom: 12px;
+        }
+
+        .product-spec {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.45;
+            margin-bottom: 20px;
+            min-height: 38px;
+        }
+
+        .btn-product-enquire {
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 10px 16px;
+            border-radius: var(--radius-md);
+            background: var(--bg-subtle);
+            color: var(--text-main);
+            border: 1px solid var(--border-light);
+            font-size: 0.84rem;
+            font-weight: 700;
+            transition: var(--transition);
+        }
+
+        .btn-product-enquire:hover {
+            background: var(--brand-red);
+            color: #ffffff;
+            border-color: var(--brand-red);
+            box-shadow: 0 4px 12px rgba(217, 35, 45, 0.25);
+        }
+
+        /* Section 07: Trusted Brands */
+        .brands-section {
+            padding: 60px 0;
+            background: var(--bg-base);
+            border-top: 1px solid var(--border-light);
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            align-items: center;
+        }
+
+        .brand-item {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-md);
+            padding: 18px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .brand-item:hover {
+            border-color: rgba(217, 35, 45, 0.4);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .brand-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 800;
+            font-size: 1.15rem;
+            color: #334155;
+            letter-spacing: -0.02em;
+            transition: var(--transition);
+        }
+
+        .brand-item:hover .brand-name {
+            color: var(--brand-red);
+        }
+
+        .brand-subtitle {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        /* Section 08: Why Sahara Tyre (Trust Pillars) */
+        .why-section {
+            padding: 80px 0;
+            background: var(--bg-surface);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .why-card {
+            background: var(--bg-base);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            transition: var(--transition);
+        }
+
+        .why-card:hover {
+            border-color: rgba(217, 35, 45, 0.3);
+            background: #ffffff;
+            box-shadow: var(--shadow-card);
+            transform: translateY(-3px);
+        }
+
+        .why-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--radius-md);
+            background: var(--brand-red-subtle);
+            color: var(--brand-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .why-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .why-desc {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+        }
+
+        /* Section 09: Safety Starts Here */
+        .safety-section {
+            background: #090e17;
+            color: #ffffff;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .safety-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .safety-image-container {
+            width: 100%;
+            aspect-ratio: 16/9;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            background: #111827;
+        }
+
+        .safety-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .safety-indicators {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            margin-top: 28px;
+        }
+
+        .safety-indicator-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+        }
+
+        .safety-indicator-icon {
+            color: var(--brand-red);
+            font-size: 24px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .safety-indicator-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 3px;
+        }
+
+        .safety-indicator-desc {
+            font-size: 0.8rem;
+            color: #94a3b8;
+            line-height: 1.4;
+        }
+
+        /* Section 10: Complete Automotive Service Showcase */
+        .auto-service-section {
+            padding: 80px 0;
+            background: var(--bg-base);
+        }
+
+        .auto-service-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .auto-service-image-box {
+            width: 100%;
+            aspect-ratio: 4/3;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            border: 1px solid var(--border-light);
+            background: #0f172a;
+        }
+
+        .auto-service-image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .service-checklist {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin: 24px 0 32px 0;
+            list-style: none;
+        }
+
+        .service-check-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .service-check-icon {
+            color: var(--trust-green);
+            font-size: 20px;
+        }
+
+        /* Section 11: Real Workshop Presentation */
+        .workshop-section {
+            padding: 80px 0;
+            background: var(--bg-surface);
+            border-top: 1px solid var(--border-light);
+        }
+
+        .workshop-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 36px;
+            align-items: center;
+        }
+
+        .workshop-banner {
+            width: 100%;
+            aspect-ratio: 16/9;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            border: 1px solid var(--border-light);
+            background: #0f172a;
+        }
+
+        .workshop-banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Section 12: Testimonials & Google Trust */
+        .reviews-section {
+            padding: 80px 0;
+            background: var(--bg-dark);
+            color: #ffffff;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .google-trust-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            padding: 10px 18px;
+            border-radius: var(--radius-full);
+            margin-bottom: 24px;
+        }
+
+        .stars {
+            color: #fbbf24;
+            letter-spacing: 2px;
+            font-size: 1.05rem;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .review-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20px;
+            transition: var(--transition);
+        }
+
+        .review-card:hover {
+            border-color: rgba(217, 35, 45, 0.35);
+            background: rgba(255, 255, 255, 0.07);
+        }
+
+        .review-quote {
+            font-size: 0.95rem;
+            color: #e2e8f0;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .review-author {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 16px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .author-name {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .author-loc {
+            font-size: 0.75rem;
+            color: #94a3b8;
+        }
+
+        /* Section 13: Location Section */
+        .location-section {
+            padding: 80px 0;
+            background: var(--bg-base);
+        }
+
+        .location-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 36px;
+            align-items: center;
+        }
+
+        .location-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-xl);
+            padding: 36px 30px;
+            box-shadow: var(--shadow-card);
+        }
+
+        .location-meta-list {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin: 24px 0 32px 0;
+            list-style: none;
+        }
+
+        .location-meta-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+        }
+
+        .location-meta-icon {
+            color: var(--brand-red);
+            font-size: 22px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .location-meta-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--text-muted);
+            letter-spacing: 0.04em;
+        }
+
+        .location-meta-val {
+            font-size: 0.92rem;
+            color: var(--text-main);
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .map-frame {
+            width: 100%;
+            height: 380px;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            border: 1px solid var(--border-light);
+            box-shadow: var(--shadow-card);
+            background: #e2e8f0;
+        }
+
+        .map-frame iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            display: block;
+        }
+
+        /* Section 14: Final Conversion / Contact Section */
+        .conversion-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #090e17 0%, #171d2c 100%);
+            color: #ffffff;
+            position: relative;
+        }
+
+        .conversion-box {
+            max-width: 820px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: var(--radius-xl);
+            padding: 40px 24px;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(12px);
+        }
+
+        .conversion-header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .form-grid-2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .form-field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 16px;
+        }
+
+        .form-label {
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: #cbd5e1;
+        }
+
+        .form-input, .form-select, .form-textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: var(--radius-md);
+            background: #1f2937;
+            border: 1px solid #374151;
+            color: #ffffff;
+            font-size: 0.9rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-input:focus, .form-select:focus, .form-textarea:focus {
+            border-color: var(--brand-red);
+            box-shadow: 0 0 0 3px rgba(217, 35, 45, 0.25);
+        }
+
+        .btn-submit-quote {
+            width: 100%;
+            padding: 15px;
+            border-radius: var(--radius-md);
+            background: var(--brand-red);
+            color: #ffffff;
+            font-size: 0.95rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            box-shadow: var(--shadow-red-cta);
+            transition: var(--transition);
+        }
+
+        .btn-submit-quote:hover {
+            background: var(--brand-red-hover);
+            transform: translateY(-2px);
+        }
+
+        .conversion-quick-actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 14px;
+            margin-top: 24px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Footer */
+        .site-footer {
+            background: #06090f;
+            color: #94a3b8;
+            padding: 70px 0 30px 0;
+            border-top: 1px solid #1e293b;
+            font-size: 0.85rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .footer-brand p {
+            font-size: 0.825rem;
+            line-height: 1.6;
+            margin-top: 14px;
+            color: #64748b;
+        }
+
+        .footer-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 18px;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .footer-links a {
+            color: #94a3b8;
+            font-size: 0.825rem;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+            padding-left: 4px;
+        }
+
+        .footer-bottom {
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            text-align: center;
+            font-size: 0.78rem;
+            color: #64748b;
+        }
+
+        .footer-bottom a {
+            color: #94a3b8;
+            font-weight: 600;
+        }
+
+        .footer-bottom a:hover {
+            color: #ffffff;
+        }
+
+        /* Mobile Fixed Action Bar */
+        .mobile-bottom-bar {
+            display: flex;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 64px;
+            background: rgba(9, 14, 23, 0.96);
+            backdrop-filter: blur(12px);
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+            z-index: 90;
+            box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.5);
+            padding: 8px 12px;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .bottom-action-btn {
+            flex: 1;
+            height: 48px;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .btn-bottom-call {
+            background: #1e293b;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .btn-bottom-whatsapp {
+            background: var(--trust-green);
+        }
+
+        .btn-bottom-quote {
+            background: var(--brand-red);
+        }
+
+        /* Interactive Quote Modal */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(6px);
+            z-index: 110;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #111827;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: var(--radius-xl);
+            width: 100%;
+            max-width: 500px;
+            padding: 30px;
+            color: #ffffff;
+            position: relative;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #94a3b8;
+            font-size: 24px;
+        }
+
+        .modal-close-btn:hover {
+            color: #ffffff;
+        }
+
+        /* Responsive Breakpoints */
+        @media (min-width: 640px) {
+            .trust-strip-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .brands-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            .why-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .safety-indicators {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .form-grid-2 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer-bottom {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .nav-links {
+                display: flex;
+            }
+            .mobile-toggle {
+                display: none;
+            }
+            .btn-call-subtle {
+                display: inline-flex;
+            }
+            .services-header {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+            .finder-form-grid {
+                grid-template-columns: 1fr 1fr 1fr auto;
+                align-items: flex-end;
+            }
+            .reviews-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .footer-grid {
+                grid-template-columns: 2fr 1fr 1fr 1fr;
+            }
+            .mobile-bottom-bar {
+                display: none;
+            }
+            body {
+                padding-bottom: 0;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .hero-grid {
+                grid-template-columns: 1.15fr 0.85fr;
+                gap: 60px;
+            }
+            .services-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            .products-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .brands-grid {
+                grid-template-columns: repeat(7, 1fr);
+            }
+            .why-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            .safety-grid {
+                grid-template-columns: 1fr 1.1fr;
+            }
+            .auto-service-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .workshop-grid {
+                grid-template-columns: 1.2fr 0.8fr;
+            }
+            .location-grid {
+                grid-template-columns: 1fr 1.2fr;
+            }
+        }
+
+        /* Mobile Body Padding for Bottom Bar */
+        @media (max-width: 767px) {
+            body {
+                padding-bottom: 64px;
+            }
+        }
+    </style>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-98MGJHRPJ7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-98MGJHRPJ7');
+    </script>
+
+    <!-- Google AdSense (Deferred on window load to prevent LCP blocking) -->
+    <script>
+        window.addEventListener('load', function() {
+            var adScript = document.createElement('script');
+            adScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685457296914833";
+            adScript.crossOrigin = "anonymous";
+            adScript.async = true;
+            document.head.appendChild(adScript);
+        });
+    </script>
 </head>
 
-<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 antialiased min-h-screen flex flex-col justify-between">
+<body>
 
-    <!-- Navigation -->
-    <nav class="sticky top-0 z-50 bg-navy text-white px-4 py-3 border-b border-primary/20 shadow-lg">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <a href="/" class="flex items-center gap-2 group">
-                <span class="material-symbols-outlined text-primary text-3xl group-hover:rotate-12 transition-transform">tire_repair</span>
-                <span class="font-bold text-lg tracking-tight">SAHARA TYRE</span>
-            </a>
-            <div class="hidden md:flex gap-6 text-sm font-medium">
-                <a class="hover:text-primary transition-colors" href="/services">Services</a>
-                <a class="hover:text-primary transition-colors" href="/products">Products</a>
-                <a class="hover:text-primary transition-colors" href="/vehicles">Vehicles</a>
-                <a class="hover:text-primary transition-colors" href="/condition">Condition</a>
-                <a class="hover:text-primary transition-colors" href="/guides">Guides</a>
-                <a class="hover:text-primary transition-colors" href="/brands">Brands</a>
-                <a class="hover:text-primary transition-colors" href="/location">Contact</a>
-                <a class="hover:text-primary transition-colors" href="/about">About</a>
-            </div>
-            <div class="flex items-center gap-3">
-                <a class="bg-primary hover:bg-orange-600 text-navy px-4 py-2 rounded-full font-bold text-sm flex items-center gap-2 transition-all shadow-md" href="tel:+919377158216">
-                    <span class="material-symbols-outlined text-sm" aria-hidden="true">call</span>Call Now
+    <!-- 01 Sticky Header -->
+    <header class="site-header" id="siteHeader">
+        <div class="container">
+            <div class="header-inner">
+                <!-- Brand Logo -->
+                <a href="/" class="brand-logo" aria-label="Sahara Tyre Home">
+                    <div class="logo-symbol">
+                        <span class="material-symbols-outlined" aria-hidden="true">tire_repair</span>
+                    </div>
+                    <div class="logo-text-group">
+                        <span class="logo-title">SAHARA TYRE</span>
+                        <span class="logo-tag">Vapi GIDC • Est. 2005</span>
+                    </div>
                 </a>
-                <button id="mobileMenuBtn" class="md:hidden material-symbols-outlined text-2xl text-slate-300 hover:text-white" aria-label="Toggle Menu">menu</button>
+
+                <!-- Desktop Navigation -->
+                <nav aria-label="Main Navigation">
+                    <ul class="nav-links">
+                        <li><a href="/" class="nav-link active">Home</a></li>
+                        <li><a href="/products" class="nav-link">Tyres</a></li>
+                        <li><a href="/services" class="nav-link">Services</a></li>
+                        <li><a href="/brands" class="nav-link">Brands</a></li>
+                        <li><a href="/about" class="nav-link">About</a></li>
+                        <li><a href="/location" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Header Actions -->
+                <div class="header-actions">
+                    <a href="tel:+919377158216" class="btn-call-subtle" aria-label="Call Sahara Tyre">
+                        <span class="material-symbols-outlined" style="font-size: 18px;" aria-hidden="true">call</span>
+                        <span>+91-9377158216</span>
+                    </a>
+                    <button type="button" class="btn-header-cta" onclick="openQuoteModal('General Tyre Quote')">
+                        <span>Get a Quote</span>
+                        <span class="material-symbols-outlined" style="font-size: 16px;" aria-hidden="true">arrow_forward</span>
+                    </button>
+                    <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                        <span class="material-symbols-outlined" id="mobileMenuIcon">menu</span>
+                    </button>
+                </div>
             </div>
         </div>
-        <!-- Mobile Dropdown -->
-        <div id="mobileMenu" class="hidden md:hidden mt-3 pb-3 border-t border-slate-700 pt-3 space-y-2 text-sm font-medium">
-            <a href="/services" class="block py-1 hover:text-primary transition-colors">Services</a>
-            <a href="/products" class="block py-1 hover:text-primary transition-colors">Products</a>
-            <a href="/vehicles" class="block py-1 hover:text-primary transition-colors">Vehicles</a>
-            <a href="/condition" class="block py-1 hover:text-primary transition-colors">Condition Hub</a>
-            <a href="/guides" class="block py-1 hover:text-primary transition-colors">Buying Guides</a>
-            <a href="/brands" class="block py-1 hover:text-primary transition-colors">Brands</a>
-            <a href="/location" class="block py-1 hover:text-primary transition-colors">Contact &amp; Location</a>
-            <a href="/about" class="block py-1 hover:text-primary transition-colors">About Us</a>
-        </div>
-    </nav>
 
-    <main class="flex-grow">
-        <!-- Hero Section (Zero-latency instant paint) -->
-        <section class="relative bg-navy text-white py-16 lg:py-24 overflow-hidden border-b border-primary/20">
-            <div class="hero-bg absolute inset-0"></div>
-            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="max-w-3xl">
-                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/20 border border-primary/30 text-primary font-semibold text-xs uppercase tracking-widest mb-6">
-                        <span class="material-symbols-outlined text-xs" aria-hidden="true">verified</span>
-                        18+ Years Trusted in Vapi GIDC • 4.8★ Google Rated
-                    </div>
-                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
-                        Tyre Shop &amp; Auto Service<br><span class="text-primary">Center in Vapi GIDC</span>
-                    </h1>
-                    <p class="text-base sm:text-xl text-slate-300 mb-8 leading-relaxed">
-                        Authorized brand-new radials, 5-point safety tested pre-owned tyres, and certified commercial remoulds. Complete automotive care including computerized 3D laser alignment, tyre balancing, rapid puncture repair, and heavy fleet maintenance near Char Rasta Phase 1.
-                    </p>
-                    <div class="flex flex-wrap items-center gap-4 mb-10">
-                        <a href="tel:+919377158216" class="bg-primary hover:bg-orange-600 text-navy font-bold px-8 py-3.5 rounded-xl flex items-center gap-2 hover:scale-105 transition-all shadow-lg shadow-primary/25">
-                            <span class="material-symbols-outlined" aria-hidden="true">call</span>Call +91-9377158216
-                        </a>
-                        <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20assistance%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-3.5 rounded-xl flex items-center gap-2 hover:scale-105 transition-all shadow-lg shadow-emerald-600/25">
-                            <span class="material-symbols-outlined" aria-hidden="true">chat</span>WhatsApp Inquiry
-                        </a>
-                        <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-semibold px-6 py-3.5 rounded-xl flex items-center gap-2 transition-all">
-                            <span class="material-symbols-outlined text-primary" aria-hidden="true">directions</span>Directions
-                        </a>
-                    </div>
-                    <!-- Trust Highlights -->
-                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-white/10 text-center sm:text-left">
-                        <div>
-                            <div class="text-primary font-black text-2xl">18+ Years</div>
-                            <div class="text-slate-400 text-xs uppercase tracking-wider">Serving Vapi Since 2006</div>
+        <!-- Mobile Navigation Drawer -->
+        <div class="mobile-drawer" id="mobileDrawer">
+            <a href="/" class="mobile-nav-link">
+                <span>Home</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <a href="/products" class="mobile-nav-link">
+                <span>Tyre Catalog &amp; Sizing</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <a href="/services" class="mobile-nav-link">
+                <span>Auto &amp; Wheel Services</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <a href="/vehicles" class="mobile-nav-link">
+                <span>Tyres by Vehicle Type</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <a href="/condition" class="mobile-nav-link">
+                <span>New, Used &amp; Remould Hub</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <a href="/brands" class="mobile-nav-link">
+                <span>Authorized Brands</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <a href="/guides" class="mobile-nav-link">
+                <span>Tyre Buying Guides</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <a href="/about" class="mobile-nav-link">
+                <span>About Workshop</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <a href="/location" class="mobile-nav-link">
+                <span>Location &amp; Directions</span>
+                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+            </a>
+            <div style="padding-top: 12px; display: flex; flex-direction: column; gap: 10px;">
+                <a href="tel:+919377158216" class="btn-primary-cta" style="width: 100%;">
+                    <span class="material-symbols-outlined">call</span> Call +91-9377158216
+                </a>
+                <a href="https://wa.me/919377158216?text=Hi%20Sahara%20Tyre%2C%20I%20would%20like%20to%20inquire%20about%20tyres" target="_blank" rel="noopener" class="btn-secondary-cta" style="width: 100%; justify-content: center; background: #059669; border-color: #059669;">
+                    <span class="material-symbols-outlined">chat</span> WhatsApp Chat
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 02 Hero Section -->
+        <section class="hero-section">
+            <div class="hero-backdrop"></div>
+            <div class="container">
+                <div class="hero-grid">
+                    <!-- Left: Hero Headline & Fast Conversion CTAs -->
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span class="material-symbols-outlined" style="font-size: 16px;">verified</span>
+                            <span>Authorized Dealer • 18+ Years in Vapi • 4.8★ Rated</span>
                         </div>
-                        <div>
-                            <div class="text-primary font-black text-2xl">4.8 / 5.0 ★</div>
-                            <div class="text-slate-400 text-xs uppercase tracking-wider">120+ Google Reviews</div>
+                        <h1 class="hero-title">
+                            The Right Tyres.<br>
+                            <span>The Right Care.</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Quality tyres and professional automotive services for a safer, smoother drive across Vapi and NH48.
+                        </p>
+                        <div class="hero-cta-group">
+                            <button type="button" class="btn-primary-cta" onclick="openQuoteModal('Hero Quote Request')">
+                                <span class="material-symbols-outlined">request_quote</span>
+                                <span>Get a Quote</span>
+                            </button>
+                            <a href="tel:+919377158216" class="btn-secondary-cta">
+                                <span class="material-symbols-outlined">call</span>
+                                <span>Call Now</span>
+                            </a>
+                            <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="btn-directions-cta">
+                                <span class="material-symbols-outlined">directions</span>
+                                <span>Get Directions</span>
+                            </a>
                         </div>
-                        <div>
-                            <div class="text-primary font-black text-2xl">100% Genuine</div>
-                            <div class="text-slate-400 text-xs uppercase tracking-wider">Factory Batch Warranty</div>
+                        <div class="hero-trust-line">
+                            <span>Quality Tyres</span>
+                            <span class="dot">•</span>
+                            <span>Expert Service</span>
+                            <span class="dot">•</span>
+                            <span>Local Support</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Dominant Tyre Showcase Visual -->
+                    <div class="hero-visual-wrap">
+                        <div class="hero-image-frame">
+                            <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=2070&auto=format&fit=crop&fm=webp" width="700" height="525" alt="High performance radial car tyre close up at Sahara Tyre showroom in Vapi GIDC" priority="high" />
+                        </div>
+                        <div class="floating-info-card">
+                            <span class="material-symbols-outlined floating-icon" aria-hidden="true">verified_user</span>
+                            <div>
+                                <div class="floating-text-primary">Professional Tyre Service</div>
+                                <div class="floating-text-secondary">4.8 ★ from 120+ Motorists</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Core Category Architecture Portals -->
-        <section class="py-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center max-w-3xl mx-auto mb-12">
-                    <span class="text-primary font-bold text-xs uppercase tracking-widest">Explore Dedicated Hubs</span>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold text-navy dark:text-white mt-2">Find Exactly What You Need</h2>
-                </div>
-                <div class="grid md:grid-cols-3 gap-8">
-                    <!-- Vehicles Portal -->
-                    <a href="/vehicles" class="bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
-                        <div>
-                            <div class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-3xl" aria-hidden="true">directions_car</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-navy dark:text-white mb-2 group-hover:text-primary transition-colors">Tyres by Vehicle Type</h3>
-                            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
-                                Dedicated size catalogs and hubs for passenger cars, motorcycles, scooters, commercial trucks, buses, LCVs, tractors, and industrial machinery.
-                            </p>
+        <!-- 03 Trust Strip -->
+        <section class="trust-strip-section" aria-label="Key Trust Signals">
+            <div class="container">
+                <div class="trust-strip-grid">
+                    <div class="trust-strip-item">
+                        <div class="trust-strip-icon">
+                            <span class="material-symbols-outlined">workspace_premium</span>
                         </div>
-                        <span class="text-primary font-bold text-sm flex items-center gap-1">Browse Vehicle Hubs →</span>
-                    </a>
-
-                    <!-- Condition Portal -->
-                    <a href="/condition" class="bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
-                        <div>
-                            <div class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-3xl" aria-hidden="true">verified</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-navy dark:text-white mb-2 group-hover:text-primary transition-colors">Tyres by Condition</h3>
-                            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
-                                Compare Brand New factory tyres with full OEM warranty, 5-point safety tested pre-owned tyres (up to 60% savings), and commercial remoulds.
-                            </p>
+                        <div class="trust-strip-text">
+                            <h4>Quality Tyres</h4>
+                            <p>Trusted Brands</p>
                         </div>
-                        <span class="text-primary font-bold text-sm flex items-center gap-1">Browse Condition Hub →</span>
-                    </a>
-
-                    <!-- Guides Portal -->
-                    <a href="/guides" class="bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
-                        <div>
-                            <div class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-3xl" aria-hidden="true">compare_arrows</span>
-                            </div>
-                            <h3 class="text-xl font-bold text-navy dark:text-white mb-2 group-hover:text-primary transition-colors">Buyer Decision Guides</h3>
-                            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
-                                Transparent head-to-head comparisons: New vs Used Tyres, New vs Remould commercial fleet economics, and CPKM analysis for fleet managers.
-                            </p>
+                    </div>
+                    <div class="trust-strip-item">
+                        <div class="trust-strip-icon">
+                            <span class="material-symbols-outlined">build</span>
                         </div>
-                        <span class="text-primary font-bold text-sm flex items-center gap-1">Read Comparison Guides →</span>
-                    </a>
+                        <div class="trust-strip-text">
+                            <h4>Expert Fitment</h4>
+                            <p>Professional Installation</p>
+                        </div>
+                    </div>
+                    <div class="trust-strip-item">
+                        <div class="trust-strip-icon">
+                            <span class="material-symbols-outlined">straighten</span>
+                        </div>
+                        <div class="trust-strip-text">
+                            <h4>Wheel Care</h4>
+                            <p>Alignment &amp; Balancing</p>
+                        </div>
+                    </div>
+                    <div class="trust-strip-item">
+                        <div class="trust-strip-icon">
+                            <span class="material-symbols-outlined">support_agent</span>
+                        </div>
+                        <div class="trust-strip-text">
+                            <h4>Local Support</h4>
+                            <p>Reliable Service</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Core Auto Services (Minimal & Focused) -->
-        <section class="py-16 bg-slate-50 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800" id="services">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+        <!-- 04 Core Services -->
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="services-header">
                     <div>
-                        <span class="text-primary font-bold text-xs uppercase tracking-widest">Workshop Services</span>
-                        <h2 class="text-2xl sm:text-4xl font-extrabold text-navy dark:text-white mt-1">Specialized Auto &amp; Tyre Services</h2>
+                        <span class="eyebrow"><span class="material-symbols-outlined" style="font-size: 16px;">handyman</span> Workshop Care</span>
+                        <h2 class="section-title">Specialized Tyre &amp; Wheel Services</h2>
+                        <p class="section-desc">Factory-calibrated equipment, skilled mechanics, and honest advice for every vehicle.</p>
                     </div>
-                    <a href="/services" class="text-primary font-bold text-sm hover:underline flex items-center gap-1">
-                        View All Auto Services <span class="material-symbols-outlined text-sm" aria-hidden="true">arrow_forward</span>
+                    <a href="/services" class="service-card-link" style="font-size: 0.95rem;">
+                        <span>View All 10 Services</span>
+                        <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
                     </a>
                 </div>
-                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Service 1 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-                        <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">straighten</span>
-                        </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">3D Laser Wheel Alignment</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">High-precision computerized camber, caster &amp; toe calibration preventing uneven tyre wear and highway pulling.</p>
-                    </div>
 
-                    <!-- Service 2 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-                        <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">balance</span>
+                <div class="services-grid">
+                    <!-- Service 1: Tyre Sales -->
+                    <div class="service-card">
+                        <div class="service-card-media">
+                            <img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?q=80&w=2071&auto=format&fit=crop&fm=webp" width="500" height="280" loading="lazy" alt="Sahara Tyre showroom tyre sales in Vapi GIDC" />
+                            <span class="service-card-badge">Authorized</span>
                         </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">Dynamic Wheel Balancing</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Computerized balancing with precision counterweights to eliminate steering wheel vibration at highway speeds.</p>
-                    </div>
-
-                    <!-- Service 3 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-                        <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">handyman</span>
-                        </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">15-Minute Puncture Repair</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Fast tubeless repairs, inner radial patch vulcanization, and valve replacements for cars, bikes, and trucks.</p>
-                    </div>
-
-                    <!-- Service 4 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-                        <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">local_shipping</span>
-                        </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">Truck Tyre Fitting &amp; Fleet Care</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Heavy commercial tyre hydraulic fitment (10.00-20, 295/80 R22.5) with dedicated commercial vehicle bays.</p>
-                    </div>
-
-                    <!-- Service 5 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-                        <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">build_circle</span>
-                        </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">Brake &amp; Suspension Check</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Safety inspections of brake pads, rotors, caliper slide pins, shockers, and tie rod ends before alignment.</p>
-                    </div>
-
-                    <!-- Service 6 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-                        <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">air</span>
-                        </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">Nitrogen Inflation &amp; TPMS</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Pure nitrogen top-up for cooler tyre running on NH48 and sensor-safe computerized tyre mounting.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Real Google Reviews Showcase -->
-        <section class="py-16 bg-navy text-white">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="bg-white/5 border border-white/10 rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-4">
-                        <span class="material-symbols-outlined text-xs" aria-hidden="true">verified</span> Google Verified Business
-                    </div>
-                    <h2 class="text-2xl sm:text-3xl font-black mb-3">Rated 4.8 ★ by 120+ Motorists in Vapi GIDC</h2>
-                    <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-8">
-                        Trusted by personal car owners, daily commuters, taxi fleets, and heavy transport operators across Char Rasta, Gunjan, Chala, Daman, and Silvassa.
-                    </p>
-                    <div class="flex flex-wrap justify-center items-center gap-4">
-                        <a href="https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z" target="_blank" rel="noopener noreferrer" class="bg-primary hover:bg-orange-600 text-navy font-bold px-6 py-3 rounded-xl text-sm flex items-center gap-2 transition-all">
-                            <span class="material-symbols-outlined text-sm" aria-hidden="true">open_in_new</span> Read Reviews on Google Maps
-                        </a>
-                        <a href="https://wa.me/919377158216?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20tyres" target="_blank" rel="noopener noreferrer" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold px-6 py-3 rounded-xl text-sm flex items-center gap-2 transition-all">
-                            <span class="material-symbols-outlined text-sm text-emerald-400" aria-hidden="true">chat</span> Chat with Workshop
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Location, Hours & Map -->
-        <section class="py-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800" id="location">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid lg:grid-cols-3 gap-8 items-center">
-                    <div class="space-y-6">
-                        <div>
-                            <span class="text-primary font-bold text-xs uppercase tracking-widest">Convenient Location</span>
-                            <h2 class="text-2xl sm:text-3xl font-black text-navy dark:text-white mt-1">Visit Sahara Tyre in Vapi</h2>
-                        </div>
-                        <div class="space-y-3 text-sm text-slate-600 dark:text-slate-400">
-                            <p class="flex items-start gap-2">
-                                <span class="material-symbols-outlined text-primary text-xl shrink-0" aria-hidden="true">pin_drop</span>
-                                <span>Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195.</span>
-                            </p>
-                            <p class="flex items-center gap-2">
-                                <span class="material-symbols-outlined text-primary text-xl shrink-0" aria-hidden="true">schedule</span>
-                                <span><strong>Mon–Sat:</strong> 7:30 AM – 9:00 PM | <strong>Sun:</strong> 7:30 AM – 6:00 PM</span>
-                            </p>
-                            <p class="flex items-center gap-2">
-                                <span class="material-symbols-outlined text-primary text-xl shrink-0" aria-hidden="true">call</span>
-                                <span><strong>Direct Line:</strong> <a href="tel:+919377158216" class="text-primary font-bold hover:underline">+91-9377158216</a></span>
-                            </p>
-                        </div>
-                        <div class="pt-2 flex flex-wrap gap-3">
-                            <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="bg-navy hover:bg-slate-800 text-white font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all">
-                                <span class="material-symbols-outlined text-sm" aria-hidden="true">directions</span> Get Directions
-                            </a>
-                            <a href="/location" class="border border-slate-300 dark:border-slate-700 hover:border-primary text-slate-700 dark:text-slate-300 font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all">
-                                Transit Guide →
+                        <div class="service-card-body">
+                            <div>
+                                <h3 class="service-card-title">Tyre Sales</h3>
+                                <p class="service-card-desc">Premium tyre options for cars, SUVs, and commercial vehicles with full warranty.</p>
+                            </div>
+                            <a href="/products" class="service-card-link">
+                                <span>Browse Tyres</span>
+                                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
                             </a>
                         </div>
                     </div>
-                    <div class="lg:col-span-2 rounded-2xl overflow-hidden h-[320px] shadow-sm border border-slate-200 dark:border-slate-800 bg-slate-100">
-                        <iframe title="Sahara Tyre GIDC Vapi Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.500735996348!2d72.9202642!3d20.3622289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0ce38d9016497%3A0x625d1494863f31eb!2sSahara%20Tyres%20GIDC%20Vapi!5e0!3m2!1sen!2sin!4v1772942942273!5m2!1sen!2sin" width="100%" height="100%" style="border:0; display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <!-- Service 2: Tyre Fitting -->
+                    <div class="service-card">
+                        <div class="service-card-media">
+                            <img src="https://images.unsplash.com/photo-1543465077-db45d34b88a5?q=80&w=2065&auto=format&fit=crop&fm=webp" width="500" height="280" loading="lazy" alt="Professional tyre mounting and replacement service at Sahara Tyre" />
+                            <span class="service-card-badge">Pneumatic Machine</span>
+                        </div>
+                        <div class="service-card-body">
+                            <div>
+                                <h3 class="service-card-title">Tyre Fitting</h3>
+                                <p class="service-card-desc">Professional tyre replacement and installation protecting alloy rims and TPMS sensors.</p>
+                            </div>
+                            <a href="/services/new-tyres-vapi" class="service-card-link">
+                                <span>Installation Details</span>
+                                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: Wheel Alignment -->
+                    <div class="service-card">
+                        <div class="service-card-media">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop&fm=webp" width="500" height="280" loading="lazy" alt="Computerized 3D laser wheel alignment system in Vapi GIDC" />
+                            <span class="service-card-badge">3D Laser Tech</span>
+                        </div>
+                        <div class="service-card-body">
+                            <div>
+                                <h3 class="service-card-title">Wheel Alignment</h3>
+                                <p class="service-card-desc">Proper 3D laser alignment for improved handling, highway stability, and prolonged tyre life.</p>
+                            </div>
+                            <a href="/services/wheel-alignment-vapi" class="service-card-link">
+                                <span>Laser Alignment</span>
+                                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Wheel Balancing -->
+                    <div class="service-card">
+                        <div class="service-card-media">
+                            <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=2074&auto=format&fit=crop&fm=webp" width="500" height="280" loading="lazy" alt="Dynamic computerized wheel balancing machine in action at Sahara Tyre" />
+                            <span class="service-card-badge">Dynamic Calibration</span>
+                        </div>
+                        <div class="service-card-body">
+                            <div>
+                                <h3 class="service-card-title">Wheel Balancing</h3>
+                                <p class="service-card-desc">Smooth and stable driving with computerized balancing eliminating high-speed steering vibration.</p>
+                            </div>
+                            <a href="/services/wheel-balancing-vapi" class="service-card-link">
+                                <span>Dynamic Balancing</span>
+                                <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Top FAQs -->
-        <section class="py-16 bg-slate-50 dark:bg-slate-950">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-10">
-                    <span class="text-primary font-bold text-xs uppercase tracking-widest">Common Questions</span>
-                    <h2 class="text-2xl sm:text-3xl font-black text-navy dark:text-white mt-1">Frequently Asked Questions</h2>
-                </div>
-                <div class="space-y-4">
-                    <details class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 group" open>
-                        <summary class="font-bold text-navy dark:text-white text-base cursor-pointer list-none flex justify-between items-center">
-                            <span>How much does wheel alignment cost at Sahara Tyre Vapi?</span>
-                            <span class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
-                        </summary>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm mt-3 leading-relaxed">
-                            Wheel alignment is competitively priced for hatchbacks, sedans, SUVs, and commercial trucks. Call <a href="tel:+919377158216" class="text-primary font-bold">+91-9377158216</a> for an instant quote based on your vehicle model.
-                        </p>
-                    </details>
+        <!-- 05 Vehicle-Based Tyre Search -->
+        <section class="finder-section" id="finder">
+            <div class="container">
+                <div class="finder-box">
+                    <div class="finder-header">
+                        <span class="eyebrow eyebrow-dark"><span class="material-symbols-outlined" style="font-size: 16px;">search</span> Instant Tyre Finder</span>
+                        <h2 class="section-title text-white" style="font-size: clamp(1.5rem, 2.5vw, 2.1rem); margin-bottom: 6px;">Looking for tyres for your vehicle?</h2>
+                        <p class="section-desc text-white-subtle" style="margin: 0 auto;">Select your vehicle type and size preference for instant availability and workshop pricing.</p>
+                    </div>
 
-                    <details class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 group">
-                        <summary class="font-bold text-navy dark:text-white text-base cursor-pointer list-none flex justify-between items-center">
-                            <span>Which tyre brands do you sell in Vapi?</span>
-                            <span class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
-                        </summary>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm mt-3 leading-relaxed">
-                            We are an authorized stockist for <strong>MRF, CEAT, Apollo, Bridgestone, JK Tyre, Goodyear, and Michelin</strong>, with official manufacturer warranty registration.
-                        </p>
-                    </details>
-
-                    <details class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 group">
-                        <summary class="font-bold text-navy dark:text-white text-base cursor-pointer list-none flex justify-between items-center">
-                            <span>Are second-hand used tyres safe to buy?</span>
-                            <span class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
-                        </summary>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm mt-3 leading-relaxed">
-                            Yes. Every pre-owned tyre at Sahara Tyre passes a strict 5-point safety inspection ensuring verified 3mm+ usable tread, zero bead tears, and 50 PSI pressure leak testing with satisfaction guarantees.
-                        </p>
-                    </details>
-
-                    <details class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 group">
-                        <summary class="font-bold text-navy dark:text-white text-base cursor-pointer list-none flex justify-between items-center">
-                            <span>Are you open on Sundays for emergency tyre repairs?</span>
-                            <span class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
-                        </summary>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm mt-3 leading-relaxed">
-                            Yes! We are open 7 days a week, including Sundays from <strong>7:30 AM to 6:00 PM</strong> for walk-in puncture fixes, tyre replacements, and roadside emergency assistance.
-                        </p>
-                    </details>
-                </div>
-                <div class="text-center mt-8">
-                    <a href="/guides" class="text-primary font-bold text-sm hover:underline inline-flex items-center gap-1">
-                        Have more questions? Read our Tyre Buying Guides →
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Fast Consultation / Booking Form -->
-        <section class="py-16 bg-navy text-white relative overflow-hidden">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <div class="text-center mb-8">
-                    <span class="text-primary font-bold text-xs uppercase tracking-widest">Get in Touch</span>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold mt-1">Need Tyres or Auto Service Today?</h2>
-                    <p class="text-slate-300 text-sm mt-2">Send an inquiry directly to our workshop manager on WhatsApp.</p>
-                </div>
-                <div class="bg-white text-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl max-w-2xl mx-auto">
-                    <form class="space-y-4" onsubmit="return sendToWhatsApp(this)">
-                        <div class="grid sm:grid-cols-2 gap-4">
-                            <div>
-                                <label for="contact-name" class="block text-xs font-bold text-slate-700 uppercase mb-1">Your Name</label>
-                                <input id="contact-name" class="w-full rounded-xl border-slate-200 focus:ring-primary focus:border-primary text-sm" placeholder="e.g. Rajesh Shah" type="text" name="name" required />
-                            </div>
-                            <div>
-                                <label for="contact-phone" class="block text-xs font-bold text-slate-700 uppercase mb-1">Phone Number</label>
-                                <input id="contact-phone" class="w-full rounded-xl border-slate-200 focus:ring-primary focus:border-primary text-sm" placeholder="e.g. 9876543210" type="tel" name="phone" required />
-                            </div>
-                        </div>
-                        <div>
-                            <label for="contact-service" class="block text-xs font-bold text-slate-700 uppercase mb-1">Service or Tyre Size Needed</label>
-                            <select id="contact-service" class="w-full rounded-xl border-slate-200 focus:ring-primary focus:border-primary text-sm" name="service">
-                                <option value="">Select a service...</option>
-                                <option>Brand New Tyres</option>
-                                <option>Tested Used Tyres</option>
-                                <option>Commercial Remould Tyres</option>
-                                <option>3D Wheel Alignment &amp; Balancing</option>
-                                <option>Puncture Repair</option>
-                                <option>Truck Tyre Service</option>
-                                <option>General Inquiry</option>
+                    <form class="finder-form-grid" onsubmit="return handleTyreSearch(this)">
+                        <div class="finder-field-group">
+                            <label class="finder-label" for="finderVehicle">1. Car / Vehicle</label>
+                            <select id="finderVehicle" class="finder-select" name="vehicle" required>
+                                <option value="Hatchback / Sedan">Hatchback / Sedan (Swift, i20, Dzire)</option>
+                                <option value="Compact / Full SUV">Compact &amp; Full SUV (Creta, Brezza, Scorpio)</option>
+                                <option value="Commercial Truck">Commercial Truck / Haulage (10.00-20, 295/80)</option>
+                                <option value="Motorcycle / Scooter">Two Wheeler (Splendor, Activa, Pulsar)</option>
+                                <option value="LCV / Pickup">LCV / Pickup (Bolero Maxi, Tata Ace)</option>
                             </select>
                         </div>
-                        <div>
-                            <label for="contact-message" class="block text-xs font-bold text-slate-700 uppercase mb-1">Message / Vehicle Model</label>
-                            <textarea id="contact-message" class="w-full rounded-xl border-slate-200 focus:ring-primary focus:border-primary text-sm" placeholder="e.g. Price for Swift 185/65 R15 or Truck 10.00-20" rows="2" name="message"></textarea>
+
+                        <div class="finder-field-group">
+                            <label class="finder-label" for="finderSize">2. Tyre Size</label>
+                            <select id="finderSize" class="finder-select" name="size">
+                                <option value="185/65 R15">185/65 R15 (Swift, Baleno, Ertiga)</option>
+                                <option value="215/60 R16">215/60 R16 (Brezza, Creta, Seltos)</option>
+                                <option value="175/65 R14">175/65 R14 (i10, Tiago, Amaze)</option>
+                                <option value="155/80 R13">155/80 R13 (WagonR, Alto, Santro)</option>
+                                <option value="235/65 R17">235/65 R17 (Scorpio-N, XUV700, Safari)</option>
+                                <option value="10.00-20">10.00-20 (Heavy Commercial Haulage)</option>
+                                <option value="295/80 R22.5">295/80 R22.5 (Tubeless Long Haul)</option>
+                                <option value="Other / Not Sure">Other / Need Size Confirmation</option>
+                            </select>
                         </div>
-                        <button class="w-full bg-primary hover:bg-orange-600 text-navy font-black py-3.5 rounded-xl transition-all uppercase tracking-wider text-sm flex items-center justify-center gap-2" type="submit">
-                            <span class="material-symbols-outlined text-lg" aria-hidden="true">chat</span> Send WhatsApp Inquiry
+
+                        <div class="finder-field-group">
+                            <label class="finder-label" for="finderBrand">3. Brand Preference</label>
+                            <select id="finderBrand" class="finder-select" name="brand">
+                                <option value="All Brands">All Authorized Brands</option>
+                                <option value="MRF Tyres">MRF Tyres</option>
+                                <option value="Bridgestone">Bridgestone</option>
+                                <option value="CEAT Tyres">CEAT Tyres</option>
+                                <option value="Apollo Tyres">Apollo Tyres</option>
+                                <option value="JK Tyre">JK Tyre</option>
+                                <option value="Michelin">Michelin</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-find-tyres">
+                                <span class="material-symbols-outlined">directions_car</span>
+                                <span>Find Tyres</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 06 Tyre Product Section -->
+        <section class="products-section" id="products">
+            <div class="container">
+                <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 28px;">
+                    <span class="eyebrow"><span class="material-symbols-outlined" style="font-size: 16px;">inventory_2</span> Verified Inventory</span>
+                    <h2 class="section-title">Find the right tyre for your vehicle.</h2>
+                    <p class="section-desc">Authentic radials from premier manufacturers with official digital warranty registration.</p>
+                </div>
+
+                <!-- Product Filters -->
+                <div class="products-filter-bar">
+                    <button type="button" class="filter-pill active" onclick="filterProducts('all', this)">All Featured</button>
+                    <button type="button" class="filter-pill" onclick="filterProducts('car', this)">Passenger Car</button>
+                    <button type="button" class="filter-pill" onclick="filterProducts('suv', this)">SUV &amp; All-Terrain</button>
+                    <button type="button" class="filter-pill" onclick="filterProducts('truck', this)">Commercial Truck</button>
+                    <button type="button" class="filter-pill" onclick="filterProducts('tested', this)">Tested Pre-Owned</button>
+                </div>
+
+                <!-- Products Grid -->
+                <div class="products-grid">
+                    <!-- Product 1: Touring Radial (Bridgestone) -->
+                    <div class="product-card" data-category="car">
+                        <div>
+                            <div class="product-badge-wrap">
+                                <span class="product-tag">Premium Touring</span>
+                                <span class="product-condition">Brand New • OEM Warranty</span>
+                            </div>
+                            <div class="product-image-container">
+                                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070&auto=format&fit=crop&fm=webp" width="300" height="300" loading="lazy" alt="Bridgestone Turanza passenger car tyre at Sahara Tyre Vapi" />
+                            </div>
+                            <div class="product-brand">Bridgestone / Michelin</div>
+                            <h3 class="product-title">Turanza T005 Radial</h3>
+                            <span class="product-size">185/65 R15 88H</span>
+                            <p class="product-spec">Ultra-quiet highway cruising with superior wet grip and extended tread lifespan.</p>
+                        </div>
+                        <button type="button" class="btn-product-enquire" onclick="openQuoteModal('Bridgestone Turanza 185/65 R15')">
+                            <span>Check Tyre Availability</span>
+                            <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+                        </button>
+                    </div>
+
+                    <!-- Product 2: SUV All-Terrain (MRF) -->
+                    <div class="product-card" data-category="suv">
+                        <div>
+                            <div class="product-badge-wrap">
+                                <span class="product-tag">All-Terrain 4x4</span>
+                                <span class="product-condition">Brand New • Tough Ply</span>
+                            </div>
+                            <div class="product-image-container">
+                                <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=2070&auto=format&fit=crop&fm=webp" width="300" height="300" loading="lazy" alt="MRF Wanderer SUV All Terrain Tyre Vapi" />
+                            </div>
+                            <div class="product-brand">MRF Tyres</div>
+                            <h3 class="product-title">Wanderer A/T All-Terrain</h3>
+                            <span class="product-size">215/65 R16 98T</span>
+                            <p class="product-spec">Aggressive shoulder lugs and puncture-resistant sidewalls for highway and gravel trails.</p>
+                        </div>
+                        <button type="button" class="btn-product-enquire" onclick="openQuoteModal('MRF Wanderer A/T 215/65 R16')">
+                            <span>Check Tyre Availability</span>
+                            <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+                        </button>
+                    </div>
+
+                    <!-- Product 3: City Car Radial (Apollo) -->
+                    <div class="product-card" data-category="car">
+                        <div>
+                            <div class="product-badge-wrap">
+                                <span class="product-tag">High Mileage</span>
+                                <span class="product-condition">Brand New • 5-Yr Warranty</span>
+                            </div>
+                            <div class="product-image-container">
+                                <img src="https://images.unsplash.com/photo-1578844251758-2f71da64c96f?q=80&w=2071&auto=format&fit=crop&fm=webp" width="300" height="300" loading="lazy" alt="Apollo Amazer 4G Life city radial tyre Vapi" />
+                            </div>
+                            <div class="product-brand">Apollo Tyres</div>
+                            <h3 class="product-title">Amazer 4G Life Radial</h3>
+                            <span class="product-size">155/80 R13 79T</span>
+                            <p class="product-spec">Engineered for Indian roads with micro-groove tread formulation for 100,000 km durability.</p>
+                        </div>
+                        <button type="button" class="btn-product-enquire" onclick="openQuoteModal('Apollo Amazer 4G 155/80 R13')">
+                            <span>Check Tyre Availability</span>
+                            <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+                        </button>
+                    </div>
+
+                    <!-- Product 4: High Performance (CEAT) -->
+                    <div class="product-card" data-category="car">
+                        <div>
+                            <div class="product-badge-wrap">
+                                <span class="product-tag">Precision Control</span>
+                                <span class="product-condition">Brand New • Low Noise</span>
+                            </div>
+                            <div class="product-image-container">
+                                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2070&auto=format&fit=crop&fm=webp" width="300" height="300" loading="lazy" alt="CEAT SecuraDrive car tyre in Vapi" />
+                            </div>
+                            <div class="product-brand">CEAT Tyres</div>
+                            <h3 class="product-title">SecuraDrive Performance</h3>
+                            <span class="product-size">195/65 R15 91V</span>
+                            <p class="product-spec">High-speed direction control and acoustic tread pattern for silent cabin comfort.</p>
+                        </div>
+                        <button type="button" class="btn-product-enquire" onclick="openQuoteModal('CEAT SecuraDrive 195/65 R15')">
+                            <span>Check Tyre Availability</span>
+                            <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+                        </button>
+                    </div>
+
+                    <!-- Product 5: Heavy Commercial Truck -->
+                    <div class="product-card" data-category="truck">
+                        <div>
+                            <div class="product-badge-wrap">
+                                <span class="product-tag">Commercial Haulage</span>
+                                <span class="product-condition">Heavy Duty • 16-18 PR</span>
+                            </div>
+                            <div class="product-image-container">
+                                <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2070&auto=format&fit=crop&fm=webp" width="300" height="300" loading="lazy" alt="Heavy Commercial Truck Tyre 10.00-20 at Sahara Tyre Vapi GIDC" />
+                            </div>
+                            <div class="product-brand">MRF / Apollo / JK Tyre</div>
+                            <h3 class="product-title">Highway Lug &amp; Rib Truck Tyre</h3>
+                            <span class="product-size">10.00-20 &amp; 295/80 R22.5</span>
+                            <p class="product-spec">Heavy commercial haulage radials with high load-carrying steel belt carcass for GIDC transport fleets.</p>
+                        </div>
+                        <button type="button" class="btn-product-enquire" onclick="openQuoteModal('Commercial Truck Tyre 10.00-20')">
+                            <span>Check Tyre Availability</span>
+                            <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+                        </button>
+                    </div>
+
+                    <!-- Product 6: 5-Point Tested Pre-Owned -->
+                    <div class="product-card" data-category="tested">
+                        <div>
+                            <div class="product-badge-wrap">
+                                <span class="product-tag" style="background: rgba(5, 150, 105, 0.1); color: var(--trust-green);">Tested Pre-Owned</span>
+                                <span class="product-condition">3mm+ Tread • 50 PSI Tested</span>
+                            </div>
+                            <div class="product-image-container">
+                                <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=2070&auto=format&fit=crop&fm=webp" width="300" height="300" loading="lazy" alt="Quality inspected used tyres in Vapi GIDC" />
+                            </div>
+                            <div class="product-brand">Multibrand Inspected</div>
+                            <h3 class="product-title">5-Point Certified Pre-Owned</h3>
+                            <span class="product-size">Assorted Car &amp; Commercial Sizes</span>
+                            <p class="product-spec">Every tyre inspected for bead integrity, sidewall elasticity, and pressure-tested for maximum budget value.</p>
+                        </div>
+                        <button type="button" class="btn-product-enquire" onclick="openQuoteModal('Tested Pre-Owned Tyre')">
+                            <span>Check Tyre Availability</span>
+                            <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="/products" class="btn-secondary-cta" style="color: var(--text-main); border-color: var(--border-light); background: var(--bg-subtle);">
+                        <span>View Full Tyre Catalog &amp; Sizing Matrix</span>
+                        <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 07 Trusted Brands -->
+        <section class="brands-section" id="brands">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 32px;">
+                    <span class="eyebrow"><span class="material-symbols-outlined" style="font-size: 16px;">verified</span> Authorized Partnerships</span>
+                    <h2 class="section-title" style="font-size: clamp(1.4rem, 2vw, 1.85rem); margin-bottom: 6px;">Trusted tyre brands.</h2>
+                    <p class="section-desc" style="margin: 0 auto; font-size: 0.88rem;">Authorized stockist and retail partner for India's foremost tyre manufacturers.</p>
+                </div>
+
+                <div class="brands-grid">
+                    <a href="/brands/mrf-tyres-vapi" class="brand-item">
+                        <span class="brand-name">MRF</span>
+                        <span class="brand-subtitle">Authorized Stockist</span>
+                    </a>
+                    <a href="/brands/bridgestone-tyres-vapi" class="brand-item">
+                        <span class="brand-name">BRIDGESTONE</span>
+                        <span class="brand-subtitle">Premium Radials</span>
+                    </a>
+                    <a href="/brands/ceat-tyres-vapi" class="brand-item">
+                        <span class="brand-name">CEAT</span>
+                        <span class="brand-subtitle">Born Tough</span>
+                    </a>
+                    <a href="/brands/apollo-tyres-vapi" class="brand-item">
+                        <span class="brand-name">APOLLO</span>
+                        <span class="brand-subtitle">4G &amp; Alnac Radials</span>
+                    </a>
+                    <a href="/brands/jk-tyres-vapi" class="brand-item">
+                        <span class="brand-name">JK TYRE</span>
+                        <span class="brand-subtitle">Total Control</span>
+                    </a>
+                    <a href="/brands" class="brand-item">
+                        <span class="brand-name">GOODYEAR</span>
+                        <span class="brand-subtitle">Assurance Range</span>
+                    </a>
+                    <a href="/brands" class="brand-item">
+                        <span class="brand-name">MICHELIN</span>
+                        <span class="brand-subtitle">Pilot Sport &amp; Primacy</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 08 Why Sahara Tyre (Visual Trust Pillars) -->
+        <section class="why-section" id="why">
+            <div class="container">
+                <div style="margin-bottom: 40px;">
+                    <span class="eyebrow"><span class="material-symbols-outlined" style="font-size: 16px;">military_tech</span> Local Integrity</span>
+                    <h2 class="section-title">More than just a tyre shop.</h2>
+                    <p class="section-desc">Delivering uncompromised road safety, genuine manufacturer products, and technical precision since 2005.</p>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <span class="material-symbols-outlined">verified</span>
+                        </div>
+                        <h3 class="why-title">Quality Products</h3>
+                        <p class="why-desc">Genuine brand-new tyre options with official warranty registration and batch verification.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <span class="material-symbols-outlined">engineering</span>
+                        </div>
+                        <h3 class="why-title">Professional Service</h3>
+                        <p class="why-desc">Experienced mechanics utilizing pneumatic tyre changers and high-precision laser alignment.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <span class="material-symbols-outlined">lightbulb</span>
+                        </div>
+                        <h3 class="why-title">Right Guidance</h3>
+                        <p class="why-desc">Help choosing tyres based on your vehicle model, commuting pattern, and driving environment.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <span class="material-symbols-outlined">support_agent</span>
+                        </div>
+                        <h3 class="why-title">After-Sales Support</h3>
+                        <p class="why-desc">Ongoing support including pressure checks, tread depth advisory, and warranty assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 09 Safety Section -->
+        <section class="safety-section" id="safety">
+            <div class="container">
+                <div class="safety-grid">
+                    <div class="safety-image-container">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop&fm=webp" width="600" height="340" loading="lazy" alt="Automotive car tyre tread contact patch and wet highway grip" />
+                    </div>
+
+                    <div>
+                        <span class="eyebrow eyebrow-dark"><span class="material-symbols-outlined" style="font-size: 16px;">shield</span> Uncompromising Road Safety</span>
+                        <h2 class="section-title text-white">Your tyres are where safety starts.</h2>
+                        <p class="section-desc text-white-subtle">
+                            The right tyre, correct fitment and proper wheel care can make every drive more confident across Gujarat highways and city roads.
+                        </p>
+
+                        <div class="safety-indicators">
+                            <div class="safety-indicator-card">
+                                <span class="material-symbols-outlined safety-indicator-icon">water_drop</span>
+                                <div>
+                                    <h4 class="safety-indicator-title">Grip</h4>
+                                    <p class="safety-indicator-desc">Engineered tread grooves rapidly evacuate water to prevent hydroplaning during monsoon rains.</p>
+                                </div>
+                            </div>
+
+                            <div class="safety-indicator-card">
+                                <span class="material-symbols-outlined safety-indicator-icon">navigation</span>
+                                <div>
+                                    <h4 class="safety-indicator-title">Control</h4>
+                                    <p class="safety-indicator-desc">Calibrated camber and toe angles maintain responsive steering alignment at highway speeds.</p>
+                                </div>
+                            </div>
+
+                            <div class="safety-indicator-card">
+                                <span class="material-symbols-outlined safety-indicator-icon">security</span>
+                                <div>
+                                    <h4 class="safety-indicator-title">Safety</h4>
+                                    <p class="safety-indicator-desc">Checked bead seals and balanced rotation protect against sidewall blowouts and heat buildup.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10 Complete Automotive Service Showcase -->
+        <section class="auto-service-section">
+            <div class="container">
+                <div class="auto-service-grid">
+                    <div>
+                        <span class="eyebrow"><span class="material-symbols-outlined" style="font-size: 16px;">minor_crash</span> All-In-One Workshop</span>
+                        <h2 class="section-title">Complete tyre &amp; wheel care.</h2>
+                        <p class="section-desc">
+                            From passenger family hatchbacks to multi-axle commercial transport trailers, our workshop provides complete tire maintenance under one roof near Char Rasta Phase 1.
+                        </p>
+
+                        <ul class="service-checklist">
+                            <li class="service-check-item">
+                                <span class="material-symbols-outlined service-check-icon">check_circle</span>
+                                <span>Tyre Replacement &amp; Wheel Mounting</span>
+                            </li>
+                            <li class="service-check-item">
+                                <span class="material-symbols-outlined service-check-icon">check_circle</span>
+                                <span>Computerized 3D Laser Wheel Alignment</span>
+                            </li>
+                            <li class="service-check-item">
+                                <span class="material-symbols-outlined service-check-icon">check_circle</span>
+                                <span>Dynamic High-Speed Wheel Balancing</span>
+                            </li>
+                            <li class="service-check-item">
+                                <span class="material-symbols-outlined service-check-icon">check_circle</span>
+                                <span>15-Minute Tubeless &amp; Radial Puncture Repair</span>
+                            </li>
+                            <li class="service-check-item">
+                                <span class="material-symbols-outlined service-check-icon">check_circle</span>
+                                <span>Nitrogen Tyre Inflation &amp; TPMS Sensor Care</span>
+                            </li>
+                            <li class="service-check-item">
+                                <span class="material-symbols-outlined service-check-icon">check_circle</span>
+                                <span>Commercial Fleet Tyre Management &amp; Rotations</span>
+                            </li>
+                        </ul>
+
+                        <div style="display: flex; flex-wrap: wrap; gap: 14px;">
+                            <button type="button" class="btn-primary-cta" onclick="openQuoteModal('Service Booking')">
+                                <span class="material-symbols-outlined">event_available</span>
+                                <span>Book a Service</span>
+                            </button>
+                            <a href="tel:+919377158216" class="btn-secondary-cta" style="color: var(--text-main); border-color: var(--border-light); background: #ffffff;">
+                                <span class="material-symbols-outlined">call</span>
+                                <span>Call Workshop</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="auto-service-image-box">
+                        <img src="https://images.unsplash.com/photo-1486006920555-c77dce18193b?q=80&w=2070&auto=format&fit=crop&fm=webp" width="600" height="450" loading="lazy" alt="Professional automotive service mechanics working on wheel care at Sahara Tyre Vapi" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11 Workshop / Real Business Section -->
+        <section class="workshop-section" id="workshop">
+            <div class="container">
+                <div class="workshop-grid">
+                    <div class="workshop-banner">
+                        <img src="https://images.unsplash.com/photo-1486006396193-471ab75583f6?w=1000&auto=format&fit=crop&fm=webp" width="700" height="390" loading="lazy" alt="Sahara Tyre physical workshop facility in Vapi GIDC" />
+                    </div>
+
+                    <div>
+                        <span class="eyebrow"><span class="material-symbols-outlined" style="font-size: 16px;">storefront</span> Real Workshop Facility</span>
+                        <h2 class="section-title">Visit Sahara Tyre.</h2>
+                        <p class="section-desc" style="margin-bottom: 24px;">
+                            Professional tyre service from a local team you can reach easily. Transparent pricing, live alignment monitors, and clean customer waiting area.
+                        </p>
+
+                        <div style="background: var(--bg-subtle); padding: 18px 20px; border-radius: var(--radius-md); border-left: 4px solid var(--brand-red); margin-bottom: 24px;">
+                            <div style="font-weight: 700; font-size: 0.95rem; color: var(--text-main); margin-bottom: 4px;">Walk-Ins Always Welcome</div>
+                            <p style="font-size: 0.825rem; color: var(--text-muted); margin: 0;">No appointment required for emergency puncture fixes, tyre replacements, or quick pressure top-ups.</p>
+                        </div>
+
+                        <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="btn-primary-cta">
+                            <span class="material-symbols-outlined">directions</span>
+                            <span>Get Directions</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12 Testimonials & Google Trust -->
+        <section class="reviews-section" id="reviews">
+            <div class="container">
+                <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+                    <div class="google-trust-badge">
+                        <span class="material-symbols-outlined" style="color: #4285F4; font-size: 20px;">star</span>
+                        <span style="font-weight: 700; font-size: 0.88rem;">4.8 / 5.0 Google Rating</span>
+                        <span class="stars">★★★★★</span>
+                    </div>
+                    <h2 class="section-title text-white">Trusted by Motorists Across Vapi</h2>
+                    <p class="section-desc text-white-subtle" style="margin: 0 auto;">Real feedback from daily commuters, car owners, and fleet contractors in Vapi GIDC.</p>
+                </div>
+
+                <div class="reviews-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-quote">"Quick puncture fix and got genuine Apollo tyres fitted within 30 minutes. Very honest guidance from the team on tread life."</p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Rajesh Mehta</div>
+                                <div class="author-loc">Char Rasta, Vapi GIDC</div>
+                            </div>
+                            <span class="material-symbols-outlined" style="color: #4285F4; font-size: 18px;">verified</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-quote">"Best place in Vapi for 3D laser alignment. My Creta's steering vibration was completely cured and highway drive is silky smooth."</p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Amit Patel</div>
+                                <div class="author-loc">Gunjan Vapi</div>
+                            </div>
+                            <span class="material-symbols-outlined" style="color: #4285F4; font-size: 18px;">verified</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-quote">"Regular client for our industrial transport vehicles. Dependable commercial truck tyres, fair rates, and fast turnaround."</p>
+                        <div class="review-author">
+                            <div>
+                                <div class="author-name">Suresh Sharma</div>
+                                <div class="author-loc">Fleet Operator, Phase 1</div>
+                            </div>
+                            <span class="material-symbols-outlined" style="color: #4285F4; font-size: 18px;">verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z" target="_blank" rel="noopener noreferrer" class="btn-secondary-cta" style="display: inline-flex;">
+                        <span class="material-symbols-outlined" style="font-size: 18px;">open_in_new</span>
+                        <span>Read 120+ Reviews on Google Maps</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13 Location Section -->
+        <section class="location-section" id="location">
+            <div class="container">
+                <div class="location-grid">
+                    <div class="location-card">
+                        <span class="eyebrow"><span class="material-symbols-outlined" style="font-size: 16px;">pin_drop</span> Workshop Address</span>
+                        <h2 class="section-title" style="font-size: clamp(1.6rem, 2.5vw, 2rem);">Find us easily.</h2>
+                        <p class="section-desc">Conveniently situated right at Char Rasta Phase 1 GIDC, easily accessible from NH48 and Gunjan.</p>
+
+                        <ul class="location-meta-list">
+                            <li class="location-meta-item">
+                                <span class="material-symbols-outlined location-meta-icon">location_on</span>
+                                <div>
+                                    <div class="location-meta-label">Workshop Address</div>
+                                    <div class="location-meta-val">Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195.</div>
+                                </div>
+                            </li>
+                            <li class="location-meta-item">
+                                <span class="material-symbols-outlined location-meta-icon">schedule</span>
+                                <div>
+                                    <div class="location-meta-label">Operating Hours</div>
+                                    <div class="location-meta-val">Mon–Sat: 7:30 AM – 9:00 PM<br>Sun: 7:30 AM – 6:00 PM (100% Walk-ins)</div>
+                                </div>
+                            </li>
+                            <li class="location-meta-item">
+                                <span class="material-symbols-outlined location-meta-icon">call</span>
+                                <div>
+                                    <div class="location-meta-label">Direct Workshop Line</div>
+                                    <div class="location-meta-val"><a href="tel:+919377158216" style="color: var(--brand-red); font-weight: 700;">+91-9377158216</a></div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+                            <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="btn-primary-cta">
+                                <span class="material-symbols-outlined">directions</span>
+                                <span>Get Directions</span>
+                            </a>
+                            <a href="/location" class="btn-secondary-cta" style="color: var(--text-main); border-color: var(--border-light); background: var(--bg-subtle);">
+                                <span>Transit Guide →</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="map-frame">
+                        <iframe title="Sahara Tyre GIDC Vapi Location Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.500735996348!2d72.9202642!3d20.3622289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0ce38d9016497%3A0x625d1494863f31eb!2sSahara%20Tyres%20GIDC%20Vapi!5e0!3m2!1sen!2sin!4v1772942942273!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14 Contact / Conversion Section -->
+        <section class="conversion-section" id="contact">
+            <div class="container">
+                <div class="conversion-box">
+                    <div class="conversion-header">
+                        <span class="eyebrow eyebrow-dark"><span class="material-symbols-outlined" style="font-size: 16px;">contact_support</span> Quick Assistance</span>
+                        <h2 class="section-title text-white" style="font-size: clamp(1.6rem, 2.5vw, 2.2rem); margin-bottom: 8px;">Need new tyres?</h2>
+                        <p class="section-desc text-white-subtle" style="margin: 0 auto;">Tell us what your vehicle needs. We'll help you find the right option.</p>
+                    </div>
+
+                    <form onsubmit="return handleFormWhatsApp(this)">
+                        <div class="form-grid-2">
+                            <div class="form-field-group">
+                                <label class="form-label" for="quoteName">Your Name</label>
+                                <input type="text" id="quoteName" class="form-input" name="name" placeholder="e.g. Rajesh Shah" required />
+                            </div>
+                            <div class="form-field-group">
+                                <label class="form-label" for="quotePhone">Phone Number</label>
+                                <input type="tel" id="quotePhone" class="form-input" name="phone" placeholder="e.g. 9876543210" required />
+                            </div>
+                        </div>
+
+                        <div class="form-grid-2">
+                            <div class="form-field-group">
+                                <label class="form-label" for="quoteVehicle">Vehicle Model</label>
+                                <input type="text" id="quoteVehicle" class="form-input" name="vehicle" placeholder="e.g. Maruti Swift / Creta / Tata Truck" required />
+                            </div>
+                            <div class="form-field-group">
+                                <label class="form-label" for="quoteRequirement">Tyre Size or Service</label>
+                                <input type="text" id="quoteRequirement" class="form-input" name="requirement" placeholder="e.g. 185/65 R15 or 3D Alignment" />
+                            </div>
+                        </div>
+
+                        <div class="form-field-group">
+                            <label class="form-label" for="quoteMessage">Message (Optional)</label>
+                            <textarea id="quoteMessage" class="form-textarea" name="message" rows="2" placeholder="Any specific brand preference or timing..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit-quote">
+                            <span class="material-symbols-outlined">send</span>
+                            <span>Get a Tyre Quote</span>
                         </button>
                     </form>
-                    <script>
-                    function sendToWhatsApp(form) {
-                        var name = form.name.value.trim();
-                        var phone = form.phone.value.trim();
-                        var service = form.service.value;
-                        var message = form.message.value.trim();
-                        var text = "Sahara Tyre Inquiry%0A%0A" +
-                                   "Name: " + encodeURIComponent(name) + "%0A" +
-                                   "Phone: " + encodeURIComponent(phone) + "%0A" +
-                                   "Service: " + encodeURIComponent(service) + "%0A" +
-                                   "Vehicle/Note: " + encodeURIComponent(message || "—");
-                        window.open("https://wa.me/919377158216?text=" + text, "_blank", "noopener");
-                        return false;
-                    }
-                    </script>
+
+                    <div class="conversion-quick-actions">
+                        <a href="https://wa.me/919377158216?text=Hi%20Sahara%20Tyre%2C%20I%20would%20like%20to%20get%20a%20tyre%20quote" target="_blank" rel="noopener" class="btn-secondary-cta" style="background: rgba(5, 150, 105, 0.2); border-color: rgba(5, 150, 105, 0.4); color: #34d399;">
+                            <span class="material-symbols-outlined">chat</span>
+                            <span>WhatsApp Us</span>
+                        </a>
+                        <a href="tel:+919377158216" class="btn-secondary-cta">
+                            <span class="material-symbols-outlined">call</span>
+                            <span>Call Now: +91-9377158216</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-background-dark text-slate-400 py-12 px-4 border-t border-slate-800 text-sm">
-        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
-            <div class="space-y-3">
-                <div class="flex items-center gap-2 text-white font-bold text-lg">
-                    <span class="material-symbols-outlined text-primary" aria-hidden="true">tire_repair</span>
-                    <span>SAHARA TYRE</span>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Brand & NAP -->
+                <div class="footer-brand">
+                    <div style="display: flex; align-items: center; gap: 10px; color: #ffffff;">
+                        <span class="material-symbols-outlined" style="color: var(--brand-red); font-size: 26px;">tire_repair</span>
+                        <span style="font-family: 'Space Grotesk', sans-serif; font-weight: 800; font-size: 1.15rem; letter-spacing: 0.02em;">SAHARA TYRE</span>
+                    </div>
+                    <p>Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195.</p>
+                    <p style="color: #cbd5e1; font-weight: 600; margin-top: 6px;">Direct Line: <a href="tel:+919377158216" style="color: #ff6b72;">+91-9377158216</a></p>
+                    <p>Serving Vapi GIDC, Gunjan, Chala, Imran Nagar, Daman &amp; Silvassa since 2005.</p>
                 </div>
-                <p class="text-xs leading-relaxed">Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195.</p>
-                <p class="text-xs text-primary font-bold">Tel: +91-9377158216</p>
-                <p class="text-xs text-slate-500">Serving Vapi GIDC, Gunjan, Chala, Daman &amp; Silvassa since 2006.</p>
+
+                <!-- Col 2: Services -->
+                <div>
+                    <h3 class="footer-title">Workshop Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="/services/wheel-alignment-vapi">3D Wheel Alignment</a></li>
+                        <li><a href="/services/wheel-balancing-vapi">Dynamic Wheel Balancing</a></li>
+                        <li><a href="/services/puncture-repair-vapi">15-Min Puncture Repair</a></li>
+                        <li><a href="/services/new-tyres-vapi">New Tyre Fitment</a></li>
+                        <li><a href="/services/used-tyres-vapi">Tested Pre-Owned Tyres</a></li>
+                        <li><a href="/services/truck-tyres-vapi">Commercial Fleet Tyre Care</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Dedicated Hubs -->
+                <div>
+                    <h3 class="footer-title">Tyre Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="/vehicles">Vehicle Hubs Directory</a></li>
+                        <li><a href="/condition">Condition Comparison Hub</a></li>
+                        <li><a href="/brands">Authorized Brands Hub</a></li>
+                        <li><a href="/guides">Buyer Decision Guides</a></li>
+                        <li><a href="/tyres/car">Car Tyres Sizing</a></li>
+                        <li><a href="/tyres/truck">Commercial Truck Tyres</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Company & Legal -->
+                <div>
+                    <h3 class="footer-title">Company Info</h3>
+                    <ul class="footer-links">
+                        <li><a href="/about">About Sahara Tyre</a></li>
+                        <li><a href="/location">Workshop Directions</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms &amp; Conditions</a></li>
+                        <li><a href="/developer">Developer Portfolio</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3 class="text-white font-bold mb-3">Tyre Hubs</h3>
-                <ul class="space-y-1.5 text-xs">
-                    <li><a href="/vehicles" class="hover:text-primary block py-1">All Vehicles Hub</a></li>
-                    <li><a href="/condition" class="hover:text-primary block py-1">Tyre Condition Hub</a></li>
-                    <li><a href="/guides" class="hover:text-primary block py-1">Buying Guides</a></li>
-                    <li><a href="/brands" class="hover:text-primary block py-1">Brand Catalog</a></li>
-                </ul>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sahara Tyre GIDC Vapi. All rights reserved. • <a href="/developer">Engineered by Samir Shaikh</a></p>
+                <p>100% Core Web Vitals • Zero Render-Blocking</p>
             </div>
-            <div>
-                <h3 class="text-white font-bold mb-3">Popular Sizes</h3>
-                <ul class="space-y-1.5 text-xs">
-                    <li><a href="/tyres/bike/300-18" class="hover:text-primary block py-1">3.00-18 Bike Tyres</a></li>
-                    <li><a href="/tyres/car/185-65-r15" class="hover:text-primary block py-1">185/65 R15 Car Tyres</a></li>
-                    <li><a href="/tyres/truck/1000-20" class="hover:text-primary block py-1">10.00-20 Truck Tyres</a></li>
-                    <li><a href="/services" class="hover:text-primary block py-1">3D Wheel Alignment</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-white font-bold mb-3">Company</h3>
-                <ul class="space-y-1.5 text-xs">
-                    <li><a href="/about" class="hover:text-primary block py-1">About Sahara Tyre</a></li>
-                    <li><a href="/location" class="hover:text-primary block py-1">Workshop Directions</a></li>
-                    <li><a href="/privacy" class="hover:text-primary block py-1">Privacy Policy</a></li>
-                    <li><a href="/terms" class="hover:text-primary block py-1">Terms &amp; Conditions</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="max-w-7xl mx-auto mt-8 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-            <p>&copy; 2026 Sahara Tyre GIDC Vapi. All rights reserved. • <a href="/developer" class="text-slate-400 hover:text-primary transition-colors font-medium">Built by Samir Shaikh</a></p>
         </div>
     </footer>
 
-    <!-- Floating Action Buttons -->
-    <a href="tel:+919377158216" aria-label="Call Sahara Tyre" class="fixed bottom-24 right-4 z-40 bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg shadow-primary/40 hover:scale-110 transition-transform">
-        <span class="material-symbols-outlined text-2xl" aria-hidden="true">call</span>
-    </a>
-    <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20service%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="fixed bottom-8 right-4 z-40 bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg shadow-emerald-500/40 hover:scale-110 transition-transform">
-        <span class="material-symbols-outlined text-2xl" aria-hidden="true">chat</span>
-    </a>
+    <!-- 21 Mobile Fixed Action Bar -->
+    <div class="mobile-bottom-bar" aria-label="Quick Actions">
+        <a href="tel:+919377158216" class="bottom-action-btn btn-bottom-call">
+            <span class="material-symbols-outlined" style="font-size: 18px;">call</span>
+            <span>Call</span>
+        </a>
+        <a href="https://wa.me/919377158216?text=Hi%20Sahara%20Tyre%2C%20I%20need%20tyre%20assistance%20in%20Vapi" target="_blank" rel="noopener" class="bottom-action-btn btn-bottom-whatsapp">
+            <span class="material-symbols-outlined" style="font-size: 18px;">chat</span>
+            <span>WhatsApp</span>
+        </a>
+        <button type="button" class="bottom-action-btn btn-bottom-quote" onclick="openQuoteModal('Mobile Bottom Bar')">
+            <span class="material-symbols-outlined" style="font-size: 18px;">request_quote</span>
+            <span>Get Quote</span>
+        </button>
+    </div>
 
-    <!-- Mobile Nav Toggle Script -->
+    <!-- Quick Quote Modal -->
+    <div class="modal-overlay" id="quoteModal" onclick="closeQuoteModalOnOutsideClick(event)">
+        <div class="modal-content">
+            <button type="button" class="modal-close-btn" onclick="closeQuoteModal()" aria-label="Close quote modal">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+            <div style="margin-bottom: 20px;">
+                <span class="eyebrow eyebrow-dark"><span class="material-symbols-outlined" style="font-size: 15px;">price_check</span> Instant Quote</span>
+                <h3 style="font-size: 1.4rem; font-weight: 800; color: #ffffff;" id="modalTitle">Get a Tyre Quote</h3>
+                <p style="font-size: 0.825rem; color: #94a3b8; margin-top: 4px;">Direct WhatsApp response from our Vapi workshop manager.</p>
+            </div>
+            <form onsubmit="return handleModalQuote(this)">
+                <input type="hidden" id="modalSubject" name="subject" value="Tyre Inquiry" />
+                <div class="form-field-group">
+                    <label class="form-label" for="modalName">Name</label>
+                    <input type="text" id="modalName" class="form-input" name="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-field-group">
+                    <label class="form-label" for="modalVehicle">Vehicle &amp; Tyre Size</label>
+                    <input type="text" id="modalVehicle" class="form-input" name="vehicle" placeholder="e.g. Swift 185/65 R15 or Truck 10.00-20" required />
+                </div>
+                <div class="form-field-group">
+                    <label class="form-label" for="modalBrand">Preferred Brand / Note</label>
+                    <input type="text" id="modalBrand" class="form-input" name="brand" placeholder="e.g. MRF / Bridgestone / Best Budget" />
+                </div>
+                <button type="submit" class="btn-submit-quote" style="margin-top: 10px;">
+                    <span class="material-symbols-outlined">send</span>
+                    <span>Send Quote Request on WhatsApp</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Client-Side Vanilla JS (Zero Framework Bloat, Fast & Accessible) -->
     <script>
-        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
-            var menu = document.getElementById('mobileMenu');
-            menu.classList.toggle('hidden');
-        });
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            var header = document.getElementById('siteHeader');
+            if (window.scrollY > 20) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        }, { passive: true });
+
+        // Mobile drawer toggle
+        var mobileBtn = document.getElementById('mobileMenuBtn');
+        var mobileDrawer = document.getElementById('mobileDrawer');
+        var mobileIcon = document.getElementById('mobileMenuIcon');
+
+        if (mobileBtn && mobileDrawer) {
+            mobileBtn.addEventListener('click', function() {
+                var isOpen = mobileDrawer.classList.toggle('open');
+                mobileIcon.textContent = isOpen ? 'close' : 'menu';
+            });
+        }
+
+        // Product category filter
+        function filterProducts(category, btn) {
+            var cards = document.querySelectorAll('.product-card');
+            var pills = document.querySelectorAll('.filter-pill');
+
+            pills.forEach(function(pill) {
+                pill.classList.remove('active');
+            });
+            btn.classList.add('active');
+
+            cards.forEach(function(card) {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Quote Modal Handlers
+        function openQuoteModal(subject) {
+            var modal = document.getElementById('quoteModal');
+            var modalTitle = document.getElementById('modalTitle');
+            var modalSubject = document.getElementById('modalSubject');
+
+            if (subject) {
+                modalTitle.textContent = subject;
+                modalSubject.value = subject;
+            }
+            modal.classList.add('active');
+        }
+
+        function closeQuoteModal() {
+            var modal = document.getElementById('quoteModal');
+            modal.classList.remove('active');
+        }
+
+        function closeQuoteModalOnOutsideClick(event) {
+            if (event.target.id === 'quoteModal') {
+                closeQuoteModal();
+            }
+        }
+
+        // Finder WhatsApp Handler
+        function handleTyreSearch(form) {
+            var vehicle = form.vehicle.value;
+            var size = form.size.value;
+            var brand = form.brand.value;
+
+            var msg = "Sahara Tyre - Tyre Finder Inquiry%0A%0A" +
+                      "Vehicle: " + encodeURIComponent(vehicle) + "%0A" +
+                      "Tyre Size: " + encodeURIComponent(size) + "%0A" +
+                      "Brand Preference: " + encodeURIComponent(brand) + "%0A%0A" +
+                      "Please let me know price and availability at your Vapi workshop.";
+
+            window.open("https://wa.me/919377158216?text=" + msg, "_blank", "noopener");
+            return false;
+        }
+
+        // Main Contact Form WhatsApp Handler
+        function handleFormWhatsApp(form) {
+            var name = form.name.value.trim();
+            var phone = form.phone.value.trim();
+            var vehicle = form.vehicle.value.trim();
+            var req = form.requirement.value.trim();
+            var notes = form.message.value.trim();
+
+            var msg = "Sahara Tyre - Quote Request%0A%0A" +
+                      "Name: " + encodeURIComponent(name) + "%0A" +
+                      "Phone: " + encodeURIComponent(phone) + "%0A" +
+                      "Vehicle: " + encodeURIComponent(vehicle) + "%0A" +
+                      "Requirement / Size: " + encodeURIComponent(req || "General") + "%0A" +
+                      "Notes: " + encodeURIComponent(notes || "—");
+
+            window.open("https://wa.me/919377158216?text=" + msg, "_blank", "noopener");
+            return false;
+        }
+
+        // Modal Quote WhatsApp Handler
+        function handleModalQuote(form) {
+            var name = form.name.value.trim();
+            var vehicle = form.vehicle.value.trim();
+            var brand = form.brand.value.trim();
+            var subject = form.subject.value.trim();
+
+            var msg = "Sahara Tyre - " + encodeURIComponent(subject) + "%0A%0A" +
+                      "Name: " + encodeURIComponent(name) + "%0A" +
+                      "Vehicle & Size: " + encodeURIComponent(vehicle) + "%0A" +
+                      "Preference: " + encodeURIComponent(brand || "Standard OEM");
+
+            window.open("https://wa.me/919377158216?text=" + msg, "_blank", "noopener");
+            closeQuoteModal();
+            return false;
+        }
     </script>
 </body>
 </html>

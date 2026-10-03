@@ -70,6 +70,19 @@
         </image:image>
     </url>
 
+    <!-- Frequently Asked Questions (FAQ) -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/faq</loc>
+        <lastmod>2026-10-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://sahara-tyre.vercel.app/og-image.png</image:loc>
+            <image:title>Sahara Tyre FAQ – Customer Questions &amp; Answers</image:title>
+            <image:caption>Frequently asked questions about new and used tyres, 3D laser alignment, puncture repair, and workshop hours in Vapi GIDC</image:caption>
+        </image:image>
+    </url>
+
     <!-- Vehicle Category Master Hub & Dedicated Vehicle Pages -->
     <url>
         <loc>https://sahara-tyre.vercel.app/vehicles</loc>

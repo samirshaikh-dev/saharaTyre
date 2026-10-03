@@ -64,6 +64,7 @@
 - [About & Heritage](https://sahara-tyre.vercel.app/about): 18+ years company history, technician experience, certified dealer credentials, and quality satisfaction guarantees.
 - [Privacy Policy](https://sahara-tyre.vercel.app/privacy): Customer data handling, Google Analytics & AdSense disclosures.
 - [Terms & Conditions](https://sahara-tyre.vercel.app/terms): Service terms, transparent pricing, warranties, safety guidelines, and walk-in policies.
+- [Frequently Asked Questions (FAQ)](https://sahara-tyre.vercel.app/faq): Comprehensive customer Q&A repository covering walk-in workshop hours, genuine brand warranties, 3D laser alignment, 5-point tested used tyres, retreading, and GIDC fleet maintenance.
 - [Developer Profile](https://sahara-tyre.vercel.app/developer): Engineering profile and technical attribution for Samir Shaikh (Portfolio: https://samir-portfolio-dev.vercel.app/, GitHub: https://github.com/samirshaikh-dev, LinkedIn: https://www.linkedin.com/in/samirshaikh-dev/). Specializes in Next.js, React, Node.js, TypeScript, AI/LLM integrations, PostgreSQL, and 100% Core Web Vitals optimization. Available for custom business websites, industrial B2B portals, and mobile app development in Vapi GIDC, Silvassa, and Daman.
 
 ---

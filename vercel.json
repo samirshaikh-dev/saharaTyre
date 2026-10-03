@@ -17,6 +17,7 @@
     { "source": "/privacy.htm", "destination": "/privacy", "permanent": true },
     { "source": "/terms.htm", "destination": "/terms", "permanent": true },
     { "source": "/developer.htm", "destination": "/developer", "permanent": true },
+    { "source": "/faq.htm", "destination": "/faq", "permanent": true },
     { "source": "/industrial-tyres.htm", "destination": "/vehicles/industrial-tyres", "permanent": true }
   ],
   "rewrites": [
@@ -90,7 +91,8 @@
     { "source": "/new-vs-remould-tyres", "destination": "/guides/new-vs-remould-tyres.htm" },
     { "source": "/used-vs-remould-tyres", "destination": "/guides/used-vs-remould-tyres.htm" },
     { "source": "/privacy", "destination": "/privacy.htm" },
-    { "source": "/terms", "destination": "/terms.htm" }
+    { "source": "/terms", "destination": "/terms.htm" },
+    { "source": "/faq", "destination": "/faq.htm" }
   ],
   "headers": [
     {
