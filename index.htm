@@ -72,6 +72,11 @@
             margin: 0;
             padding: 0;
         }
+        ul, ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
         html {
             scroll-behavior: smooth;
             -webkit-text-size-adjust: 100%;
@@ -148,6 +153,7 @@
         .inline-block { display: inline-block; }
         .flex-col { flex-direction: column; }
         .flex-grow { flex-grow: 1; }
+        .flex-1 { flex: 1 1 0%; }
         .flex-wrap { flex-wrap: wrap; }
         .items-start { align-items: flex-start; }
         .items-center { align-items: center; }
@@ -163,6 +169,8 @@
 
         /* Sizing */
         .w-full { width: 100%; }
+        .w-10 { width: 2.5rem; }
+        .h-10 { height: 2.5rem; }
         .w-12 { width: 3rem; }
         .h-12 { height: 3rem; }
         .w-14 { width: 3.5rem; }
@@ -173,6 +181,7 @@
         .max-w-4xl { max-width: 56rem; }
         .max-w-3xl { max-width: 48rem; }
         .max-w-2xl { max-width: 42rem; }
+        .max-w-md { max-width: 28rem; }
 
         /* Positioning */
         .relative { position: relative; }
@@ -340,6 +349,63 @@
         .cursor-pointer { cursor: pointer; }
         .list-none { list-style: none; }
         details summary::-webkit-details-marker { display: none; }
+
+        .active\:scale-95:active { transform: scale(0.96); }
+        .backdrop-blur-md { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+        .backdrop-blur-sm { backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+        .text-amber-400 { color: #fbbf24; }
+        .text-blue-400 { color: #60a5fa; }
+        .bg-emerald-500\/10 { background-color: rgba(16, 185, 129, 0.1); }
+        .border-emerald-500\/30 { border-color: rgba(16, 185, 129, 0.3); }
+        .pulse-dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 9999px;
+            background-color: #10b981;
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+            animation: pulse-ring 2s infinite;
+            flex-shrink: 0;
+        }
+        @keyframes pulse-ring {
+            0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+        .premium-card {
+            transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+        }
+        .premium-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+            border-color: rgba(249, 115, 22, 0.4);
+        }
+        .mobile-bottom-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            background: rgba(15, 23, 42, 0.96);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+            padding: 0.5rem 0.75rem;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+        }
+        @supports (padding-bottom: env(safe-area-inset-bottom)) {
+            .mobile-bottom-bar {
+                padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+            }
+        }
+        .pb-mobile-cta {
+            padding-bottom: 5.5rem;
+        }
+        @media (min-width: 768px) {
+            .pb-mobile-cta {
+                padding-bottom: 0;
+            }
+        }
 
         .group:hover .group-hover\:scale-110 { transform: scale(1.1); }
         .group:hover .group-hover\:rotate-12 { transform: rotate(12deg); }
@@ -542,7 +608,7 @@
 <body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 antialiased min-h-screen flex flex-col justify-between">
 
     <!-- Navigation -->
-    <nav class="sticky top-0 z-50 bg-navy text-white px-4 py-3 border-b border-primary/20 shadow-lg">
+    <nav class="sticky top-0 z-50 bg-navy/95 backdrop-blur-md text-white px-4 py-3 border-b border-primary/20 shadow-lg">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <a href="/" class="flex items-center gap-2 group">
                 <span class="material-symbols-outlined text-primary text-3xl group-hover:rotate-12 transition-transform">tire_repair</span>
@@ -559,7 +625,7 @@
                 <a class="hover:text-primary transition-colors" href="/about">About</a>
             </div>
             <div class="flex items-center gap-3">
-                <a class="bg-primary hover:bg-orange-600 text-navy px-4 py-2 rounded-full font-bold text-sm flex items-center gap-2 transition-all shadow-md" href="tel:+919377158216">
+                <a class="bg-primary hover:bg-orange-600 active:scale-95 text-navy px-4 py-2 rounded-full font-bold text-sm flex items-center gap-2 transition-all shadow-md" href="tel:+919377158216">
                     <span class="material-symbols-outlined text-sm" aria-hidden="true">call</span>Call Now
                 </a>
                 <button id="mobileMenuBtn" class="md:hidden material-symbols-outlined text-2xl text-slate-300 hover:text-white" aria-label="Toggle Menu">menu</button>
@@ -578,15 +644,15 @@
         </div>
     </nav>
 
-    <main class="flex-grow">
+    <main class="flex-grow pb-mobile-cta">
         <!-- Hero Section (Zero-latency instant paint) -->
         <section class="relative bg-navy text-white py-16 lg:py-24 overflow-hidden border-b border-primary/20">
             <div class="hero-bg absolute inset-0"></div>
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl">
-                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/20 border border-primary/30 text-primary font-semibold text-xs uppercase tracking-widest mb-6">
-                        <span class="material-symbols-outlined text-xs" aria-hidden="true">verified</span>
-                        18+ Years Trusted in Vapi GIDC • 4.8★ Google Rated
+                    <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-primary/15 border border-primary/30 text-primary font-semibold text-xs uppercase tracking-wider mb-6 backdrop-blur-sm">
+                        <span class="pulse-dot" aria-hidden="true"></span>
+                        <span>18+ Years Trusted in Vapi GIDC • 4.8★ Google Rated</span>
                     </div>
                     <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
                         Tyre Shop &amp; Auto Service<br><span class="text-primary">Center in Vapi GIDC</span>
@@ -594,30 +660,33 @@
                     <p class="text-base sm:text-xl text-slate-300 mb-8 leading-relaxed">
                         Authorized brand-new radials, 5-point safety tested pre-owned tyres, and certified commercial remoulds. Complete automotive care including computerized 3D laser alignment, tyre balancing, rapid puncture repair, and heavy fleet maintenance near Char Rasta Phase 1.
                     </p>
-                    <div class="flex flex-wrap items-center gap-4 mb-10">
-                        <a href="tel:+919377158216" class="bg-primary hover:bg-orange-600 text-navy font-bold px-8 py-3.5 rounded-xl flex items-center gap-2 hover:scale-105 transition-all shadow-lg shadow-primary/25">
-                            <span class="material-symbols-outlined" aria-hidden="true">call</span>Call +91-9377158216
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-10">
+                        <a href="tel:+919377158216" class="bg-primary hover:bg-orange-600 active:scale-95 text-navy font-black px-8 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-primary/25 min-h-[48px]">
+                            <span class="material-symbols-outlined" aria-hidden="true">call</span>
+                            <span>Call +91-9377158216</span>
                         </a>
-                        <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20assistance%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-3.5 rounded-xl flex items-center gap-2 hover:scale-105 transition-all shadow-lg shadow-emerald-600/25">
-                            <span class="material-symbols-outlined" aria-hidden="true">chat</span>WhatsApp Inquiry
+                        <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20assistance%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener" class="bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold px-8 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-emerald-600/25 min-h-[48px]">
+                            <span class="material-symbols-outlined" aria-hidden="true">chat</span>
+                            <span>WhatsApp Inquiry</span>
                         </a>
-                        <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-semibold px-6 py-3.5 rounded-xl flex items-center gap-2 transition-all">
-                            <span class="material-symbols-outlined text-primary" aria-hidden="true">directions</span>Directions
+                        <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="bg-white/10 hover:bg-white/20 active:scale-95 text-white border border-white/20 font-semibold px-6 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all min-h-[48px]">
+                            <span class="material-symbols-outlined text-primary" aria-hidden="true">directions</span>
+                            <span>Directions</span>
                         </a>
                     </div>
                     <!-- Trust Highlights -->
-                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-white/10 text-center sm:text-left">
-                        <div>
-                            <div class="text-primary font-black text-2xl">18+ Years</div>
-                            <div class="text-slate-400 text-xs uppercase tracking-wider">Serving Vapi Since 2006</div>
+                    <div class="grid grid-cols-3 gap-3 sm:gap-4 pt-6 border-t border-white/10 text-center sm:text-left">
+                        <div class="bg-white/5 border border-white/10 rounded-2xl p-3 sm:p-4">
+                            <div class="text-primary font-black text-xl sm:text-2xl">18+ Years</div>
+                            <div class="text-slate-400 text-[11px] sm:text-xs uppercase tracking-wider mt-1">Since 2006</div>
                         </div>
-                        <div>
-                            <div class="text-primary font-black text-2xl">4.8 / 5.0 ★</div>
-                            <div class="text-slate-400 text-xs uppercase tracking-wider">120+ Google Reviews</div>
+                        <div class="bg-white/5 border border-white/10 rounded-2xl p-3 sm:p-4">
+                            <div class="text-primary font-black text-xl sm:text-2xl">4.8 / 5.0 ★</div>
+                            <div class="text-slate-400 text-[11px] sm:text-xs uppercase tracking-wider mt-1">120+ Reviews</div>
                         </div>
-                        <div>
-                            <div class="text-primary font-black text-2xl">100% Genuine</div>
-                            <div class="text-slate-400 text-xs uppercase tracking-wider">Factory Batch Warranty</div>
+                        <div class="bg-white/5 border border-white/10 rounded-2xl p-3 sm:p-4">
+                            <div class="text-primary font-black text-xl sm:text-2xl">100% Genuine</div>
+                            <div class="text-slate-400 text-[11px] sm:text-xs uppercase tracking-wider mt-1">Warranty</div>
                         </div>
                     </div>
                 </div>
@@ -633,7 +702,7 @@
                 </div>
                 <div class="grid md:grid-cols-3 gap-8">
                     <!-- Vehicles Portal -->
-                    <a href="/vehicles" class="bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
+                    <a href="/vehicles" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
                         <div>
                             <div class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                 <span class="material-symbols-outlined text-3xl" aria-hidden="true">directions_car</span>
@@ -647,7 +716,7 @@
                     </a>
 
                     <!-- Condition Portal -->
-                    <a href="/condition" class="bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
+                    <a href="/condition" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
                         <div>
                             <div class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                 <span class="material-symbols-outlined text-3xl" aria-hidden="true">verified</span>
@@ -661,7 +730,7 @@
                     </a>
 
                     <!-- Guides Portal -->
-                    <a href="/guides" class="bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
+                    <a href="/guides" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
                         <div>
                             <div class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                 <span class="material-symbols-outlined text-3xl" aria-hidden="true">compare_arrows</span>
@@ -691,7 +760,7 @@
                 </div>
                 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Service 1 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                    <div class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
                         <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
                             <span class="material-symbols-outlined text-2xl" aria-hidden="true">straighten</span>
                         </div>
@@ -700,7 +769,7 @@
                     </div>
 
                     <!-- Service 2 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                    <div class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
                         <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
                             <span class="material-symbols-outlined text-2xl" aria-hidden="true">balance</span>
                         </div>
@@ -709,7 +778,7 @@
                     </div>
 
                     <!-- Service 3 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                    <div class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
                         <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
                             <span class="material-symbols-outlined text-2xl" aria-hidden="true">handyman</span>
                         </div>
@@ -718,7 +787,7 @@
                     </div>
 
                     <!-- Service 4 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                    <div class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
                         <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
                             <span class="material-symbols-outlined text-2xl" aria-hidden="true">local_shipping</span>
                         </div>
@@ -727,7 +796,7 @@
                     </div>
 
                     <!-- Service 5 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                    <div class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
                         <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
                             <span class="material-symbols-outlined text-2xl" aria-hidden="true">build_circle</span>
                         </div>
@@ -736,7 +805,7 @@
                     </div>
 
                     <!-- Service 6 -->
-                    <div class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                    <div class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
                         <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
                             <span class="material-symbols-outlined text-2xl" aria-hidden="true">air</span>
                         </div>
@@ -750,19 +819,26 @@
         <!-- Real Google Reviews Showcase -->
         <section class="py-16 bg-navy text-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="bg-white/5 border border-white/10 rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto">
+                <div class="bg-white/5 border border-white/10 rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto shadow-2xl">
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-4">
                         <span class="material-symbols-outlined text-xs" aria-hidden="true">verified</span> Google Verified Business
+                    </div>
+                    <div class="flex items-center justify-center gap-1 text-amber-400 mb-3" aria-label="5 star rating">
+                        <span class="material-symbols-outlined text-2xl" aria-hidden="true">star</span>
+                        <span class="material-symbols-outlined text-2xl" aria-hidden="true">star</span>
+                        <span class="material-symbols-outlined text-2xl" aria-hidden="true">star</span>
+                        <span class="material-symbols-outlined text-2xl" aria-hidden="true">star</span>
+                        <span class="material-symbols-outlined text-2xl" aria-hidden="true">star</span>
                     </div>
                     <h2 class="text-2xl sm:text-3xl font-black mb-3">Rated 4.8 ★ by 120+ Motorists in Vapi GIDC</h2>
                     <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-8">
                         Trusted by personal car owners, daily commuters, taxi fleets, and heavy transport operators across Char Rasta, Gunjan, Chala, Daman, and Silvassa.
                     </p>
                     <div class="flex flex-wrap justify-center items-center gap-4">
-                        <a href="https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z" target="_blank" rel="noopener noreferrer" class="bg-primary hover:bg-orange-600 text-navy font-bold px-6 py-3 rounded-xl text-sm flex items-center gap-2 transition-all">
+                        <a href="https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z" target="_blank" rel="noopener noreferrer" class="bg-primary hover:bg-orange-600 active:scale-95 text-navy font-bold px-6 py-3 rounded-xl text-sm flex items-center gap-2 transition-all shadow-md">
                             <span class="material-symbols-outlined text-sm" aria-hidden="true">open_in_new</span> Read Reviews on Google Maps
                         </a>
-                        <a href="https://wa.me/919377158216?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20tyres" target="_blank" rel="noopener noreferrer" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold px-6 py-3 rounded-xl text-sm flex items-center gap-2 transition-all">
+                        <a href="https://wa.me/919377158216?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20tyres" target="_blank" rel="noopener noreferrer" class="bg-white/10 hover:bg-white/20 active:scale-95 text-white border border-white/20 font-bold px-6 py-3 rounded-xl text-sm flex items-center gap-2 transition-all">
                             <span class="material-symbols-outlined text-sm text-emerald-400" aria-hidden="true">chat</span> Chat with Workshop
                         </a>
                     </div>
@@ -776,7 +852,9 @@
                 <div class="grid lg:grid-cols-3 gap-8 items-center">
                     <div class="space-y-6">
                         <div>
-                            <span class="text-primary font-bold text-xs uppercase tracking-widest">Convenient Location</span>
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-bold mb-2">
+                                <span class="pulse-dot" aria-hidden="true"></span> Open Today: 7:30 AM – 9:00 PM
+                            </div>
                             <h2 class="text-2xl sm:text-3xl font-black text-navy dark:text-white mt-1">Visit Sahara Tyre in Vapi</h2>
                         </div>
                         <div class="space-y-3 text-sm text-slate-600 dark:text-slate-400">
@@ -794,10 +872,10 @@
                             </p>
                         </div>
                         <div class="pt-2 flex flex-wrap gap-3">
-                            <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="bg-navy hover:bg-slate-800 text-white font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all">
+                            <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener" class="bg-navy hover:bg-slate-800 active:scale-95 text-white font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all shadow-sm">
                                 <span class="material-symbols-outlined text-sm" aria-hidden="true">directions</span> Get Directions
                             </a>
-                            <a href="/location" class="border border-slate-300 dark:border-slate-700 hover:border-primary text-slate-700 dark:text-slate-300 font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all">
+                            <a href="/location" class="border border-slate-300 dark:border-slate-700 hover:border-primary active:scale-95 text-slate-700 dark:text-slate-300 font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all">
                                 Transit Guide →
                             </a>
                         </div>
@@ -872,6 +950,11 @@
                     <span class="text-primary font-bold text-xs uppercase tracking-widest">Get in Touch</span>
                     <h2 class="text-2xl sm:text-4xl font-extrabold mt-1">Need Tyres or Auto Service Today?</h2>
                     <p class="text-slate-300 text-sm mt-2">Send an inquiry directly to our workshop manager on WhatsApp.</p>
+                    <div class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-300 mt-4">
+                        <span class="inline-flex items-center gap-1.5"><span class="material-symbols-outlined text-emerald-400 text-base" aria-hidden="true">bolt</span> Quick WhatsApp Quote</span>
+                        <span class="inline-flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-base" aria-hidden="true">verified_user</span> Direct Workshop Team</span>
+                        <span class="inline-flex items-center gap-1.5"><span class="material-symbols-outlined text-blue-400 text-base" aria-hidden="true">lock</span> 100% Privacy</span>
+                    </div>
                 </div>
                 <div class="bg-white text-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl max-w-2xl mx-auto">
                     <form class="space-y-4" onsubmit="return sendToWhatsApp(this)">
@@ -902,7 +985,7 @@
                             <label for="contact-message" class="block text-xs font-bold text-slate-700 uppercase mb-1">Message / Vehicle Model</label>
                             <textarea id="contact-message" class="w-full rounded-xl border-slate-200 focus:ring-primary focus:border-primary text-sm" placeholder="e.g. Price for Swift 185/65 R15 or Truck 10.00-20" rows="2" name="message"></textarea>
                         </div>
-                        <button class="w-full bg-primary hover:bg-orange-600 text-navy font-black py-3.5 rounded-xl transition-all uppercase tracking-wider text-sm flex items-center justify-center gap-2" type="submit">
+                        <button class="w-full bg-primary hover:bg-orange-600 active:scale-95 text-navy font-black py-3.5 rounded-xl transition-all uppercase tracking-wider text-sm flex items-center justify-center gap-2 shadow-lg shadow-primary/25 min-h-[48px]" type="submit">
                             <span class="material-symbols-outlined text-lg" aria-hidden="true">chat</span> Send WhatsApp Inquiry
                         </button>
                     </form>
@@ -927,7 +1010,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-background-dark text-slate-400 py-12 px-4 border-t border-slate-800 text-sm">
+    <footer class="bg-background-dark text-slate-400 pt-12 pb-24 md:pb-12 px-4 border-t border-slate-800 text-sm">
         <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
             <div class="space-y-3">
                 <div class="flex items-center gap-2 text-white font-bold text-lg">
@@ -940,7 +1023,7 @@
             </div>
             <div>
                 <h3 class="text-white font-bold mb-3">Tyre Hubs</h3>
-                <ul class="space-y-1.5 text-xs">
+                <ul class="space-y-1.5 text-xs list-none pl-0">
                     <li><a href="/vehicles" class="hover:text-primary block py-1">All Vehicles Hub</a></li>
                     <li><a href="/condition" class="hover:text-primary block py-1">Tyre Condition Hub</a></li>
                     <li><a href="/guides" class="hover:text-primary block py-1">Buying Guides</a></li>
@@ -949,7 +1032,7 @@
             </div>
             <div>
                 <h3 class="text-white font-bold mb-3">Popular Sizes</h3>
-                <ul class="space-y-1.5 text-xs">
+                <ul class="space-y-1.5 text-xs list-none pl-0">
                     <li><a href="/tyres/bike/300-18" class="hover:text-primary block py-1">3.00-18 Bike Tyres</a></li>
                     <li><a href="/tyres/car/185-65-r15" class="hover:text-primary block py-1">185/65 R15 Car Tyres</a></li>
                     <li><a href="/tyres/truck/1000-20" class="hover:text-primary block py-1">10.00-20 Truck Tyres</a></li>
@@ -958,7 +1041,7 @@
             </div>
             <div>
                 <h3 class="text-white font-bold mb-3">Company</h3>
-                <ul class="space-y-1.5 text-xs">
+                <ul class="space-y-1.5 text-xs list-none pl-0">
                     <li><a href="/about" class="hover:text-primary block py-1">About Sahara Tyre</a></li>
                     <li><a href="/location" class="hover:text-primary block py-1">Workshop Directions</a></li>
                     <li><a href="/privacy" class="hover:text-primary block py-1">Privacy Policy</a></li>
@@ -971,13 +1054,30 @@
         </div>
     </footer>
 
-    <!-- Floating Action Buttons -->
-    <a href="tel:+919377158216" aria-label="Call Sahara Tyre" class="fixed bottom-24 right-4 z-40 bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg shadow-primary/40 hover:scale-110 transition-transform">
+    <!-- Desktop Floating Action Buttons -->
+    <a href="tel:+919377158216" aria-label="Call Sahara Tyre" class="hidden md:flex fixed bottom-24 right-4 z-40 bg-primary text-white w-14 h-14 rounded-full items-center justify-center shadow-lg shadow-primary/40 hover:scale-110 active:scale-95 transition-transform">
         <span class="material-symbols-outlined text-2xl" aria-hidden="true">call</span>
     </a>
-    <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20service%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="fixed bottom-8 right-4 z-40 bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg shadow-emerald-500/40 hover:scale-110 transition-transform">
+    <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20service%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="hidden md:flex fixed bottom-8 right-4 z-40 bg-emerald-500 text-white w-14 h-14 rounded-full items-center justify-center shadow-lg shadow-emerald-500/40 hover:scale-110 active:scale-95 transition-transform">
         <span class="material-symbols-outlined text-2xl" aria-hidden="true">chat</span>
     </a>
+
+    <!-- Mobile Sticky Conversion Bar (1-Tap Fast Contact) -->
+    <aside aria-label="Quick Contact Bar" class="mobile-bottom-bar md:hidden">
+        <div class="max-w-md mx-auto flex items-center gap-2">
+            <a href="tel:+919377158216" class="flex-1 bg-primary active:scale-95 text-navy font-black py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs sm:text-sm tracking-tight shadow-sm transition-transform min-h-[42px]">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                <span>Call Now</span>
+            </a>
+            <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20service%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener noreferrer" class="flex-1 bg-emerald-600 active:scale-95 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs sm:text-sm tracking-tight shadow-sm transition-transform min-h-[42px]">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">chat</span>
+                <span>WhatsApp</span>
+            </a>
+            <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener noreferrer" aria-label="Directions to Sahara Tyre" class="bg-slate-800/80 hover:bg-slate-700 active:scale-95 text-primary border border-slate-700/80 w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-transform">
+                <span class="material-symbols-outlined text-lg" aria-hidden="true">directions</span>
+            </a>
+        </div>
+    </aside>
 
     <!-- Mobile Nav Toggle Script -->
     <script>
