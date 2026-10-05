@@ -62,11 +62,14 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "AutoRepair",
+          "@type": ["AutoRepair", "AutoPartsStore"],
           "@id": "https://sahara-tyre.vercel.app/#business",
           "name": "Sahara Tyre GIDC Vapi",
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Direct B2B Bank Transfer",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -82,6 +85,26 @@
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sahara-tyre.vercel.app/" },
             { "@type": "ListItem", "position": 2, "name": "Brands", "item": "https://sahara-tyre.vercel.app/brands" },
             { "@type": "ListItem", "position": 3, "name": "JK Tyre Vapi", "item": "https://sahara-tyre.vercel.app/brands/jk-tyres-vapi" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Which JK Tyre patterns are available in Vapi?",
+              "acceptedAnswer": { "@type": "Answer", "text": "We stock JK UX Royale (for premium sedans), JK Ranger A/T (for SUVs), JK Jet Xtra, and JUH 1 all-steel radials for heavy commercial trucks." }
+            },
+            {
+              "@type": "Question",
+              "name": "Does JK Tyre have smart tyre TPMS technology?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes, JK Tyre's SMART Tyre sensor technology connects with cloud monitoring systems to measure tyre pressure and temperature in real time, available for commercial fleets at Sahara Tyre." }
+            },
+            {
+              "@type": "Question",
+              "name": "Do JK Tyres come with official company warranty?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes, all JK Tyre products sold at Sahara Tyre include 100% manufacturer warranty against defects and casing failures." }
+            }
           ]
         }
       ]
@@ -154,6 +177,14 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 prose prose-slate max-w-none">
             <h2 class="text-3xl font-black text-navy mb-6">JK Tyre Range at Sahara Tyre</h2>
+            <div class="bg-navy text-white rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-primary">
+                <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="material-symbols-outlined text-sm">bolt</span>Direct Answer for Buyers
+                </div>
+                <p class="text-base md:text-lg font-semibold leading-relaxed">
+                    Sahara Tyre is an authorized retailer for genuine JK Tyre in Vapi GIDC. We supply the complete portfolio including UX Royale (asymmetric sedan radial), Ranger A/T (SUV all-terrain), Jet Xtra (haulage bias), and JUH 1 / Jetsteel commercial truck radials with SMART TPMS fleet sensor integration, manufacturer warranty, touchless alloy mounting, and 3D laser alignment at Char Rasta Phase 1 GIDC (+91-9377158216).
+                </p>
+            </div>
             <div class="grid md:grid-cols-2 gap-6 mb-8">
                 <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl">
                     <h3 class="font-bold text-navy text-lg mb-2">JK UX Royale</h3>
@@ -171,6 +202,46 @@
                     <h3 class="font-bold text-navy text-lg mb-2">JK JUH 1 Truck Radial</h3>
                     <p class="text-sm text-slate-600">Advanced all-wheel position tubeless radial for long-haul interstate commercial transport.</p>
                 </div>
+            </div>
+
+            <h2 class="text-2xl font-black text-navy mb-4">JK Tyre Specifications &amp; Vehicle Compatibility Matrix</h2>
+            <div class="overflow-x-auto mb-10">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-navy">
+                            <th class="p-3 border border-slate-200 font-bold">JK Tyre Pattern</th>
+                            <th class="p-3 border border-slate-200 font-bold">Vehicle Segment</th>
+                            <th class="p-3 border border-slate-200 font-bold">Popular Tyre Sizes</th>
+                            <th class="p-3 border border-slate-200 font-bold">Key Benefit on Gujarat Roads</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">UX Royale</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Sedans &amp; Premium Hatchbacks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">175/65 R14, 185/65 R15, 195/60 R16</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Asymmetric 5-rib design ensures quiet high-speed cruising and sharp monsoon lane stability</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Ranger A/T</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">SUVs &amp; Cross-overs</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">215/65 R16, 235/65 R17, 265/65 R17</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Deep traction lugs provide all-weather grip on mud and rough monsoon gravel roads</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Jet Xtra Miles</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Medium &amp; Heavy Commercial Vehicles</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">9.00-20, 10.00-20 (16PR)</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">High-ply bias casing resists high overload stresses on local industrial factory runs</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">JUH 1 / Jetsteel JDH</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Long-Haul Interstate Trailers</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">295/90 R20, 11 R22.5</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Smart-sensing compatibility with low rolling resistance for lowest freight cost per kilometer</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

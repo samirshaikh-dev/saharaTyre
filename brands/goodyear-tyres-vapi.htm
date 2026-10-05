@@ -62,11 +62,14 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "AutoRepair",
+          "@type": ["AutoRepair", "AutoPartsStore"],
           "@id": "https://sahara-tyre.vercel.app/#business",
           "name": "Sahara Tyre GIDC Vapi",
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Direct B2B Bank Transfer",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -174,6 +177,14 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 prose prose-slate max-w-none">
             <h2 class="text-3xl font-black text-navy mb-6">Why Drivers in Vapi Choose Goodyear Tyres</h2>
+            <div class="bg-navy text-white rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-primary">
+                <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="material-symbols-outlined text-sm">bolt</span>Direct Answer for Buyers
+                </div>
+                <p class="text-base md:text-lg font-semibold leading-relaxed">
+                    Sahara Tyre is an authorized retailer for genuine Goodyear tyres in Vapi GIDC. We offer the full portfolio including Assurance TripleMax 2 (wet braking), Assurance Duraplus 2 (100,000+ km TredLife), Wrangler AT SilentTrac (Kevlar SUV), and Cargo G26 with official manufacturer warranty, touchless alloy-safe mounting, dynamic wheel balancing, and 3D laser alignment at Char Rasta Phase 1 GIDC (+91-9377158216).
+                </p>
+            </div>
             <p class="text-lg text-slate-600 leading-relaxed mb-6">
                 Goodyear is engineered for durability, exceptional wet braking distance, and high mileage. With heavy monsoons along the Gujarat-Maharashtra industrial corridor, Goodyear's advanced HydroTred silica compound delivers crucial stopping power when you need it most.
             </p>
@@ -196,6 +207,46 @@
                     <h3 class="font-bold text-navy text-lg mb-2">Goodyear Cargo G26 / Marathon</h3>
                     <p class="text-sm text-slate-600">Heavy load rating and cut-resistant compound for light commercial trucks, intra-city vans, and utility delivery fleets operating in Vapi GIDC.</p>
                 </div>
+            </div>
+
+            <h2 class="text-2xl font-black text-navy mb-4">Goodyear Tyre Specifications &amp; Vehicle Compatibility Matrix</h2>
+            <div class="overflow-x-auto mb-10">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-navy">
+                            <th class="p-3 border border-slate-200 font-bold">Goodyear Pattern</th>
+                            <th class="p-3 border border-slate-200 font-bold">Vehicle Segment</th>
+                            <th class="p-3 border border-slate-200 font-bold">Popular Tyre Sizes</th>
+                            <th class="p-3 border border-slate-200 font-bold">Key Benefit on Gujarat Roads</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Assurance TripleMax 2</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Sedans &amp; Premium Hatchbacks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">175/65 R15, 185/65 R15, 195/60 R16</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">HydroTred technology reduces wet braking distance significantly on coastal rain-soaked tarmac</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Assurance Duraplus 2</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">High Mileage Commuter Cars</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">145/80 R12, 155/80 R13, 165/80 R14</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">TredLife compound built for 100,000+ km endurance on high-abrasion industrial routes</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Wrangler AT SilentTrac</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">SUVs &amp; 4x4 Off-Roaders</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">215/75 R15, 235/70 R16, 245/70 R16</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">DuPont Kevlar layer absorbs shock and prevents sidewall punctures on rocky industrial terrains</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Cargo G26</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">LCV &amp; Commercial Pickups</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">165 R13C, 195 R15C, 215/75 R16C</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Reinforced steel carcass handles heavy payload stresses without shoulder overheating</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

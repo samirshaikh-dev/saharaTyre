@@ -62,11 +62,14 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "AutoRepair",
+          "@type": ["AutoRepair", "AutoPartsStore"],
           "@id": "https://sahara-tyre.vercel.app/#business",
           "name": "Sahara Tyre GIDC Vapi",
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Direct B2B Bank Transfer",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -82,6 +85,26 @@
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sahara-tyre.vercel.app/" },
             { "@type": "ListItem", "position": 2, "name": "Brands", "item": "https://sahara-tyre.vercel.app/brands" },
             { "@type": "ListItem", "position": 3, "name": "CEAT Tyres Vapi", "item": "https://sahara-tyre.vercel.app/brands/ceat-tyres-vapi" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Which CEAT tyre patterns are available at Sahara Tyre Vapi?",
+              "acceptedAnswer": { "@type": "Answer", "text": "We stock CEAT Milaze X3 (100,000 km warranty tyre), SecuraDrive (premium sedan touring), Gripp X3 (high-traction bike radial), and Winmile commercial truck tyres." }
+            },
+            {
+              "@type": "Question",
+              "name": "Does CEAT provide warranty on manufacturing defects?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes, every CEAT tyre purchased at Sahara Tyre comes with official manufacturer warranty registered on CEAT's online portal for seamless claim handling." }
+            },
+            {
+              "@type": "Question",
+              "name": "Are CEAT tyres suitable for rough road conditions in Vapi?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes, CEAT Milaze X3 and SecuraDrive feature robust high-density rubber compounds and reinforced sidewalls designed to resist pothole damage and abrasion on industrial asphalt." }
+            }
           ]
         }
       ]
@@ -154,6 +177,14 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 prose prose-slate max-w-none">
             <h2 class="text-3xl font-black text-navy mb-6">Explore the CEAT Tyre Collection</h2>
+            <div class="bg-navy text-white rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-primary">
+                <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="material-symbols-outlined text-sm">bolt</span>Direct Answer for Buyers
+                </div>
+                <p class="text-base md:text-lg font-semibold leading-relaxed">
+                    Sahara Tyre is an authorized retailer for genuine CEAT tyres in Vapi GIDC. We stock high-mileage Milaze X3 (100,000 km warranty), SecuraDrive (highway comfort &amp; wet braking), Gripp X3 (motorcycle dual-compound), and Winmile commercial truck radials with 100% manufacturer warranty, scratch-free wheel mounting, dynamic balancing, and 3D laser alignment at Char Rasta Phase 1 GIDC (+91-9377158216).
+                </p>
+            </div>
             <div class="grid md:grid-cols-2 gap-6 mb-8">
                 <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl">
                     <h3 class="font-bold text-navy text-lg mb-2">CEAT Milaze X3</h3>
@@ -171,6 +202,46 @@
                     <h3 class="font-bold text-navy text-lg mb-2">CEAT Winmile</h3>
                     <p class="text-sm text-slate-600">Heavy commercial truck radial built for lowest cost-per-kilometer on regional highways.</p>
                 </div>
+            </div>
+
+            <h2 class="text-2xl font-black text-navy mb-4">CEAT Tyre Specifications &amp; Vehicle Compatibility Matrix</h2>
+            <div class="overflow-x-auto mb-10">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-navy">
+                            <th class="p-3 border border-slate-200 font-bold">CEAT Pattern</th>
+                            <th class="p-3 border border-slate-200 font-bold">Vehicle Segment</th>
+                            <th class="p-3 border border-slate-200 font-bold">Popular Tyre Sizes</th>
+                            <th class="p-3 border border-slate-200 font-bold">Key Benefit on Gujarat Roads</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Milaze X3</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Hatchbacks &amp; Daily Commuters</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">145/80 R12, 155/80 R13, 165/80 R14</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">High-rubber non-directional tread compound delivering up to 100,000 km lifespan</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">SecuraDrive</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Executive Sedans &amp; SUVs</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">185/65 R15, 195/55 R16, 205/55 R16</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Wide longitudinal grooves evacuate rainwater rapidly to prevent high-speed aquaplaning</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Gripp X3</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Motorcycles (100cc to 200cc)</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">2.75-18, 3.00-18, 100/90-17</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Dual compound technology provides continuous cornering adhesion through the life of tyre</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Winmile D</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Commercial Multi-Axle Trucks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">10.00 R20, 295/90 R20</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Cool running base compound prevents casing degradation during long summer runs on NH 48</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

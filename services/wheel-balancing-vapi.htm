@@ -62,11 +62,14 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "AutoRepair",
+          "@type": ["AutoRepair", "AutoPartsStore"],
           "@id": "https://sahara-tyre.vercel.app/#business",
           "name": "Sahara Tyre GIDC Vapi",
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Direct B2B Bank Transfer",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -194,12 +197,54 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 prose prose-slate max-w-none">
             <h2 class="text-3xl font-black text-navy mb-6">Why High-Speed Wheel Balancing Matters in Vapi</h2>
+            <div class="bg-navy text-white rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-primary">
+                <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="material-symbols-outlined text-sm">bolt</span>Direct Answer for Drivers
+                </div>
+                <p class="text-base md:text-lg font-semibold leading-relaxed">
+                    Sahara Tyre provides digital computerized wheel balancing in Vapi GIDC to cure steering wheel flutter and body shake between 60–110 km/h on NH 48. Utilizing dynamic spin-balancing machines with alloy-safe adhesive and clip-on counterweights, we balance tyres down to 1-gram accuracy in 15–20 minutes, protecting steering linkages and avoiding patchy tread scalloping (+91-9377158216).
+                </p>
+            </div>
             <p class="text-lg text-slate-600 leading-relaxed mb-6">
                 Even a minor weight discrepancy of 10–15 grams on a wheel creates centrifugal forces that translate into perceptible steering wheel shakes when traveling at 60–100 km/h. Left unresolved, unbalanced wheels cause premature tyre cupping, damaged ball joints, and worn shock absorbers.
             </p>
             <p class="text-lg text-slate-600 leading-relaxed mb-8">
                 Sahara Tyre's advanced digital spin balancers rotate each wheel assembly, compute exact unbalance locations on inner and outer rims, and calculate precision counterweight requirements down to single-gram increments.
             </p>
+
+            <h2 class="text-2xl font-black text-navy mb-4">Vehicle Vibration Diagnostic Matrix</h2>
+            <div class="overflow-x-auto mb-8">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-navy">
+                            <th class="p-3 border border-slate-200 font-bold">Vibration Symptom</th>
+                            <th class="p-3 border border-slate-200 font-bold">Speed Range</th>
+                            <th class="p-3 border border-slate-200 font-bold">Root Cause</th>
+                            <th class="p-3 border border-slate-200 font-bold">Recommended Workshop Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Steering Wheel Shaking</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">70 – 100 km/h</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Front wheel dynamic weight imbalance</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Computerized spin balancing on front wheel pair</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Floorboard / Seat Humming</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">80 – 110 km/h</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Rear wheel weight discrepancy or rim runout</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Dynamic balancing of rear wheels + alloy bend inspection</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Braking Vibration Only</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Any speed during braking</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Warped brake rotors or disc thickness variation</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Brake disc inspection and resurfacing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <h2 class="text-2xl font-black text-navy mb-4">Signs Your Wheels Are Out of Balance</h2>
             <ul class="space-y-3 mb-8">

@@ -62,11 +62,14 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "AutoRepair",
+          "@type": ["AutoRepair", "AutoPartsStore"],
           "@id": "https://sahara-tyre.vercel.app/#business",
           "name": "Sahara Tyre GIDC Vapi",
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Direct B2B Bank Transfer",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -174,6 +177,14 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 prose prose-slate max-w-none">
             <h2 class="text-3xl font-black text-navy mb-6">Why Choose Continental Tyres in Vapi</h2>
+            <div class="bg-navy text-white rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-primary">
+                <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="material-symbols-outlined text-sm">bolt</span>Direct Answer for Buyers
+                </div>
+                <p class="text-base md:text-lg font-semibold leading-relaxed">
+                    Sahara Tyre is an authorized retailer for genuine Continental tyres in Vapi GIDC. We stock precision German-engineered lines including UltraContact UC6 (wet braking &amp; silica compound), ComfortContact CC6 (silent harmonic chambers), and CrossContact AX6 (all-terrain SUV) with full manufacturer warranty, touchless alloy-safe wheel mounting, and 3D laser alignment at Char Rasta Phase 1 GIDC (+91-9377158216).
+                </p>
+            </div>
             <p class="text-lg text-slate-600 leading-relaxed mb-6">
                 Founded in Germany over 150 years ago, Continental is renowned for industry-leading braking performance and precision electronic chassis integration. Equipped with Diamond Blend polymer compounds and Aqua Channel high-speed sipes, Continental radials safeguard against aquaplaning during Gujarat's heaviest monsoon storms.
             </p>
@@ -196,6 +207,46 @@
                     <h3 class="font-bold text-navy text-lg mb-2">Continental MaxContact MC6</h3>
                     <p class="text-sm text-slate-600">Dedicated high-performance sports radial delivering instant steering turn-in response and maximum lateral cornering grip for driving enthusiasts.</p>
                 </div>
+            </div>
+
+            <h2 class="text-2xl font-black text-navy mb-4">Continental Tyre Specifications &amp; Vehicle Compatibility Matrix</h2>
+            <div class="overflow-x-auto mb-10">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-navy">
+                            <th class="p-3 border border-slate-200 font-bold">Continental Pattern</th>
+                            <th class="p-3 border border-slate-200 font-bold">Vehicle Segment</th>
+                            <th class="p-3 border border-slate-200 font-bold">Popular Tyre Sizes</th>
+                            <th class="p-3 border border-slate-200 font-bold">Key Benefit on Gujarat Roads</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">UltraContact UC6</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Premium Sedans &amp; Hatchbacks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">185/65 R15, 195/60 R15, 205/55 R16</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Diamond Blend polymer with Aqua Channel sipes for ultra-short wet stopping distances</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">ComfortContact CC6</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Executive &amp; Family Cars</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">175/65 R14, 185/70 R14, 195/65 R15</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Harmonic Comfort Chambers eliminate unpleasant road noise frequencies for silent cruising</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">CrossContact AX6</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Mid-size &amp; Heavy SUVs</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">215/65 R16, 235/65 R17, 265/65 R17</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Open tread shoulder and silica compound provide traction in mud and industrial gravel</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">MaxContact MC6</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Sports &amp; Tuned Vehicles</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">205/50 R17, 225/45 R17, 245/45 R18</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Multifunctional tread design delivering razor-sharp cornering grip and high-speed stability</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

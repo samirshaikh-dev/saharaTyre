@@ -739,5 +739,79 @@
         <priority>0.75</priority>
     </url>
 
+    <!-- Authorized Tyre Brands Hub & Dedicated Brand Pages -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/mrf-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/ceat-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/apollo-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/bridgestone-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/jk-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/michelin-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/goodyear-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/yokohama-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/continental-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/bkt-tyres-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/brands/tvs-eurogrip-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
 </urlset>
 

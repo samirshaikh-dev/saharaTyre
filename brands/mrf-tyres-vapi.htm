@@ -62,11 +62,14 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "AutoRepair",
+          "@type": ["AutoRepair", "AutoPartsStore"],
           "@id": "https://sahara-tyre.vercel.app/#business",
           "name": "Sahara Tyre GIDC Vapi",
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Direct B2B Bank Transfer",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -169,6 +172,14 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 prose prose-slate max-w-none">
             <h2 class="text-3xl font-black text-navy mb-6">Why MRF Tyres Are Vapi's Top Choice</h2>
+            <div class="bg-navy text-white rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-primary">
+                <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="material-symbols-outlined text-sm">bolt</span>Direct Answer for Buyers
+                </div>
+                <p class="text-base md:text-lg font-semibold leading-relaxed">
+                    Sahara Tyre is an authorized retailer for genuine MRF tyres in Vapi GIDC. We stock high-demand lines including MRF ZLX (quiet sedan comfort), Wanderer (SUV all-terrain), ZVTV (fuel-efficient OEM), Zapper/Nylogrip (two-wheeler), and Steel Muscle / Super Lug (commercial haulage) with 100% genuine batch codes, manufacturer warranty, touchless wheel mounting, and 3D laser alignment at Char Rasta Phase 1 GIDC (+91-9377158216).
+                </p>
+            </div>
             <p class="text-lg text-slate-600 leading-relaxed mb-6">
                 Engineered specifically for Indian driving conditions, MRF tyres excel across Gujarat's high temperatures and industrial road surfaces. At Sahara Tyre, we supply genuine MRF stock with recent manufacturing codes.
             </p>
@@ -191,6 +202,46 @@
                     <h3 class="font-bold text-navy text-lg mb-2">MRF Super Lug 50 Plus</h3>
                     <p class="text-sm text-slate-600">The undisputed champion for heavy commercial haulage trucks along NH 48.</p>
                 </div>
+            </div>
+
+            <h2 class="text-2xl font-black text-navy mb-4">MRF Tyre Specifications &amp; Vehicle Compatibility Matrix</h2>
+            <div class="overflow-x-auto mb-10">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-navy">
+                            <th class="p-3 border border-slate-200 font-bold">MRF Pattern</th>
+                            <th class="p-3 border border-slate-200 font-bold">Vehicle Segment</th>
+                            <th class="p-3 border border-slate-200 font-bold">Popular Tyre Sizes</th>
+                            <th class="p-3 border border-slate-200 font-bold">Key Benefit on Gujarat Roads</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">MRF ZLX</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Sedans &amp; Hatchbacks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">175/65 R14, 185/65 R15, 195/60 R15</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Specially curved sipes reduce road vibration on concrete highway sections</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">MRF Wanderer A/T</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">SUVs &amp; MUVs</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">215/65 R16, 235/65 R17, 265/65 R17</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Reinforced multi-layered sidewall resists cuts and stone bruises on rough GIDC approach roads</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">MRF ZVTV</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Compact Hatchbacks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">155/80 R13, 165/80 R14, 185/70 R14</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Optimized contact patch gives consistent tyre wear and higher km-per-litre efficiency</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">MRF Steel Muscle-S3K4</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Commercial Trucks &amp; Trailers</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">295/90 R20, 10.00 R20, 11 R22.5</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Heavy-duty all-steel casing provides high mileage with multiple retreading life cycles</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

@@ -62,11 +62,14 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "AutoRepair",
+          "@type": ["AutoRepair", "AutoPartsStore"],
           "@id": "https://sahara-tyre.vercel.app/#business",
           "name": "Sahara Tyre GIDC Vapi",
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Direct B2B Bank Transfer",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -82,6 +85,26 @@
             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sahara-tyre.vercel.app/" },
             { "@type": "ListItem", "position": 2, "name": "Brands", "item": "https://sahara-tyre.vercel.app/brands" },
             { "@type": "ListItem", "position": 3, "name": "Apollo Tyres Vapi", "item": "https://sahara-tyre.vercel.app/brands/apollo-tyres-vapi" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Which Apollo tyre models are in stock at Sahara Tyre Vapi?",
+              "acceptedAnswer": { "@type": "Answer", "text": "We stock Apollo Alnac 4G (high-speed stability), Amazer 4G Life (long tread life), Apterra AT2 (SUV all-terrain), and Endurace commercial truck radials." }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Apollo provide unconditional warranty on tyres in India?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes, select Apollo car tyres come with 2-year unconditional warranty covering cuts and road hazard impacts in addition to standard 5-year manufacturing defect coverage." }
+            },
+            {
+              "@type": "Question",
+              "name": "Why choose Apollo Endurace tyres for commercial transport?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Apollo Endurace features a reinforced bead design and durable casing compound that delivers superior fuel economy, resists irregular wear, and supports multiple retreading cycles." }
+            }
           ]
         }
       ]
@@ -154,6 +177,14 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 prose prose-slate max-w-none">
             <h2 class="text-3xl font-black text-navy mb-6">The Apollo Advantage</h2>
+            <div class="bg-navy text-white rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-primary">
+                <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="material-symbols-outlined text-sm">bolt</span>Direct Answer for Buyers
+                </div>
+                <p class="text-base md:text-lg font-semibold leading-relaxed">
+                    Sahara Tyre is an authorized retailer for genuine Apollo tyres in Vapi GIDC. We offer the complete range including Alnac 4G (high-speed stability &amp; braking), Amazer 4G Life (long tread life), Apterra AT2 (SUV all-terrain), and Endurace commercial truck radials with unconditional warranty on select patterns, precision alloy mounting, and 3D laser alignment at Char Rasta Phase 1 GIDC (+91-9377158216).
+                </p>
+            </div>
             <div class="grid md:grid-cols-2 gap-6 mb-8">
                 <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl">
                     <h3 class="font-bold text-navy text-lg mb-2">Apollo Alnac 4G</h3>
@@ -171,6 +202,46 @@
                     <h3 class="font-bold text-navy text-lg mb-2">Apollo Endurace LD</h3>
                     <p class="text-sm text-slate-600">India's leading commercial truck radial with robust casing built for multiple retread cycles.</p>
                 </div>
+            </div>
+
+            <h2 class="text-2xl font-black text-navy mb-4">Apollo Tyre Specifications &amp; Vehicle Compatibility Matrix</h2>
+            <div class="overflow-x-auto mb-10">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-navy">
+                            <th class="p-3 border border-slate-200 font-bold">Apollo Pattern</th>
+                            <th class="p-3 border border-slate-200 font-bold">Vehicle Segment</th>
+                            <th class="p-3 border border-slate-200 font-bold">Popular Tyre Sizes</th>
+                            <th class="p-3 border border-slate-200 font-bold">Key Benefit on Gujarat Roads</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Alnac 4G</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Premium Sedans &amp; Hatchbacks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">185/65 R15, 195/55 R16, 205/60 R16</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">High-silica tread compound delivers short wet stopping distance during coastal monsoon rains</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Amazer 4G Life</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Daily Commuter Hatchbacks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">145/80 R12, 155/80 R13, 165/80 R14</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Micro-polymer technology resists pothole bruising and extends tread life to 100,000 km</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Apterra AT2</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Compact &amp; Full-Size SUVs</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">215/65 R16, 235/65 R17, 265/65 R17</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Herringbone grooves eject stones and deliver superior traction in soft mud and industrial gravel</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Endurace LD / RA</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Commercial Heavy Trucks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">10.00 R20, 295/90 R20, 11 R22.5</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Advanced belt package minimizes heat build-up and ensures high casing retreadability</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

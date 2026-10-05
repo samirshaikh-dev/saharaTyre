@@ -62,11 +62,14 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "AutoRepair",
+          "@type": ["AutoRepair", "AutoPartsStore"],
           "@id": "https://sahara-tyre.vercel.app/#business",
           "name": "Sahara Tyre GIDC Vapi",
           "url": "https://sahara-tyre.vercel.app/",
           "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "currenciesAccepted": "INR",
+          "paymentAccepted": "Cash, Credit Card, UPI, Direct B2B Bank Transfer",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
@@ -174,6 +177,14 @@
     <section class="py-20 bg-white">
         <div class="max-w-4xl mx-auto px-4 prose prose-slate max-w-none">
             <h2 class="text-3xl font-black text-navy mb-6">Why Yokohama Tyres Are Built for South Gujarat</h2>
+            <div class="bg-navy text-white rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-primary">
+                <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="material-symbols-outlined text-sm">bolt</span>Direct Answer for Buyers
+                </div>
+                <p class="text-base md:text-lg font-semibold leading-relaxed">
+                    Sahara Tyre is an authorized retailer for genuine Japanese-engineered Yokohama tyres in Vapi GIDC. We stock the full lineup including India-specialist Earth-1 E400, highway touring BluEarth-GT AE51, and rugged Geolandar A/T G015 for SUVs with 100% manufacturer warranty, precision alloy mounting, dynamic wheel balancing, and 3D laser alignment at Char Rasta Phase 1 GIDC (+91-9377158216).
+                </p>
+            </div>
             <p class="text-lg text-slate-600 leading-relaxed mb-6">
                 Yokohama's dedicated development for India led to the celebrated Earth-1 tread compound, blending natural rubber with advanced synthetic polymers to resist uneven wear and sidewall cuts. From industrial haulage corridors in Vapi GIDC to the open stretches of the Mumbai-Delhi expressway, Yokohama provides steady road contact, reduced road noise, and sharp steering response.
             </p>
@@ -196,6 +207,46 @@
                     <h3 class="font-bold text-navy text-lg mb-2">Yokohama Advan Fleva / Sport</h3>
                     <p class="text-sm text-slate-600">Ultra-high-performance radial designed for enthusiasts seeking razor-sharp steering feedback, cornering precision, and short stopping distances.</p>
                 </div>
+            </div>
+
+            <h2 class="text-2xl font-black text-navy mb-4">Yokohama Tyre Specifications &amp; Vehicle Compatibility Matrix</h2>
+            <div class="overflow-x-auto mb-10">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-100 text-navy">
+                            <th class="p-3 border border-slate-200 font-bold">Yokohama Pattern</th>
+                            <th class="p-3 border border-slate-200 font-bold">Vehicle Segment</th>
+                            <th class="p-3 border border-slate-200 font-bold">Popular Tyre Sizes</th>
+                            <th class="p-3 border border-slate-200 font-bold">Key Benefit on Gujarat Roads</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Earth-1 (E400)</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Daily Sedans &amp; Hatchbacks</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">175/65 R14, 185/65 R15, 195/65 R15</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Reinforced dual-ply sidewall construction resists high-impact pothole bruising</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">BluEarth-GT (AE51)</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Executive &amp; GT Sedans</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">195/55 R16, 205/55 R16, 215/55 R17</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Triple-pitch noise reduction and asymmetric high-speed cornering stability on NH 48</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Geolandar A/T G015</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">All-Terrain 4x4 &amp; SUVs</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">215/75 R15, 245/70 R16, 265/65 R17</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Enduro compound resists stone cut &amp; chipping on rough quarry and monsoon gravel tracks</td>
+                        </tr>
+                        <tr class="bg-slate-50">
+                            <td class="p-3 border border-slate-200 font-semibold text-navy">Advan Fleva V701</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Sport Performance Vehicles</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">205/50 R17, 225/45 R17, 225/40 R18</td>
+                            <td class="p-3 border border-slate-200 text-slate-600">Nano-blend compound offers extreme dry grip and razor-sharp steering turn-in response</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
