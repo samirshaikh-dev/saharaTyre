@@ -576,6 +576,54 @@
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/truck/7-00-16</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/truck/7-50-16</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/truck/8-00-19</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/truck/9-00-20</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/truck/11-r22-5</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/truck/12-r22-5</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/truck/315-70-r22-5</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/tyres/truck/315-80-r22-5</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
 
 </urlset>
 

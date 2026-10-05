@@ -58,7 +58,7 @@ Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gu
 | `/brands` | Authorized Brand Hubs (MRF, CEAT, Apollo, Bridgestone, JK Tyre) |
 | `/locations` | Geographic Coverage Hub (Vapi GIDC, Gunjan, Chala, Daman) |
 | `/tyres/car` | Passenger Car Sizing Matrix (10 dedicated size pages) |
-| `/tyres/truck` | Commercial Truck Sizing Matrix (6 dedicated size pages) |
+| `/tyres/truck` | Commercial Truck Sizing Matrix (14 dedicated size pages) |
 | `/tyres/bike` | Motorcycle Sizing Matrix (6 dedicated size pages) |
 | `/blog` | Automotive Care & Tyre Knowledge Hub (5 technical articles) |
 | `/location` | Landmark Navigation (directions from Vapi Station, Daman, Silvassa, parking info) |

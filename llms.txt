@@ -263,7 +263,7 @@ The Sahara Tyre digital ecosystem comprises over 80 dedicated semantic static pa
 
 ### Tyre Size Matrices (`/tyres/`)
 46. `https://sahara-tyre.vercel.app/tyres/car` — Car Radial Matrix (145/80 R12 to 235/65 R17).
-47. `https://sahara-tyre.vercel.app/tyres/truck` — Truck Radial Matrix (1000-20 to 295/80 R22.5).
+47. `https://sahara-tyre.vercel.app/tyres/truck` — Truck Radial Matrix (7.00-16 to 315/80 R22.5, 14 dedicated size pages).
 48. `https://sahara-tyre.vercel.app/tyres/bike` — Motorcycle Matrix (2.75-18 to 130/70-17).
 49. `https://sahara-tyre.vercel.app/tyres/scooter` — Scooter Matrix (90/100-10, 90/90-12, 100/80-12).
 50. `https://sahara-tyre.vercel.app/tyres/rickshaw` — Auto Rickshaw Matrix (4.00-8, 145 R12 LT).

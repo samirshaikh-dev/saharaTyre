@@ -49,7 +49,7 @@ The repository is structured as a multi-page static site with dedicated topical 
   - `mrf-tyres-vapi`, `ceat-tyres-vapi`, `apollo-tyres-vapi`, `bridgestone-tyres-vapi`, `jk-tyres-vapi`.
 - `/locations` (`locations/index.htm`) – Local coverage hubs:
   - `tyre-shop-vapi-gidc`, `tyre-shop-gunjan`, `tyre-shop-chala`, `tyre-shop-daman`.
-- `/tyres` (`tyres/car/index.htm`, `tyres/truck/index.htm`, `tyres/bike/index.htm`) – Specific tyre size matrices (10 car sizes, 6 truck sizes, 6 bike sizes).
+- `/tyres` (`tyres/car/index.htm`, `tyres/truck/index.htm`, `tyres/bike/index.htm`) – Specific tyre size matrices (10 car sizes, 14 truck sizes, 6 bike sizes).
 - `/blog` (`blog/index.htm`) – Automotive educational articles.
 - `/location` (`location.htm`) – Route directions, landmark navigation, parking & transit info.
 - `/about` (`about.htm`) – 18+ years heritage, technician expertise, guarantees.
