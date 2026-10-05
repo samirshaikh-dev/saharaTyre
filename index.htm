@@ -390,12 +390,12 @@
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
             border-top: 1px solid rgba(255, 255, 255, 0.12);
-            padding: 0.5rem 0.75rem;
-            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+            padding: 0.75rem 1rem;
+            box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
         }
         @supports (padding-bottom: env(safe-area-inset-bottom)) {
             .mobile-bottom-bar {
-                padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+                padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
             }
         }
         .pb-mobile-cta {
@@ -1010,7 +1010,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-background-dark text-slate-400 pt-12 pb-24 md:pb-12 px-4 border-t border-slate-800 text-sm">
+    <footer class="bg-background-dark text-slate-400 pt-12 pb-28 md:pb-12 px-4 border-t border-slate-800 text-sm">
         <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
             <div class="space-y-3">
                 <div class="flex items-center gap-2 text-white font-bold text-lg">
@@ -1064,17 +1064,14 @@
 
     <!-- Mobile Sticky Conversion Bar (1-Tap Fast Contact) -->
     <aside aria-label="Quick Contact Bar" class="mobile-bottom-bar md:hidden">
-        <div class="max-w-md mx-auto flex items-center gap-2">
-            <a href="tel:+919377158216" class="flex-1 bg-primary active:scale-95 text-navy font-black py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs sm:text-sm tracking-tight shadow-sm transition-transform min-h-[42px]">
-                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+        <div class="max-w-md mx-auto grid grid-cols-2 gap-4">
+            <a href="tel:+919377158216" class="bg-primary hover:bg-orange-600 active:scale-95 text-white font-bold py-3 px-4 rounded-full flex items-center justify-center gap-2 text-sm sm:text-base tracking-tight shadow-md transition-all h-12">
+                <span class="material-symbols-outlined text-xl text-white" aria-hidden="true">call</span>
                 <span>Call Now</span>
             </a>
-            <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20service%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener noreferrer" class="flex-1 bg-emerald-600 active:scale-95 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs sm:text-sm tracking-tight shadow-sm transition-transform min-h-[42px]">
-                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">chat</span>
+            <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20service%20at%20Sahara%20Tyre%20Vapi" target="_blank" rel="noopener noreferrer" class="bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold py-3 px-4 rounded-full flex items-center justify-center gap-2 text-sm sm:text-base tracking-tight shadow-md transition-all h-12">
+                <span class="material-symbols-outlined text-xl text-white" aria-hidden="true">chat</span>
                 <span>WhatsApp</span>
-            </a>
-            <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener noreferrer" aria-label="Directions to Sahara Tyre" class="bg-slate-800/80 hover:bg-slate-700 active:scale-95 text-primary border border-slate-700/80 w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-transform">
-                <span class="material-symbols-outlined text-lg" aria-hidden="true">directions</span>
             </a>
         </div>
     </aside>
