@@ -254,27 +254,33 @@ The Sahara Tyre digital ecosystem comprises over 80 dedicated semantic static pa
 39. `https://sahara-tyre.vercel.app/brands/apollo-tyres-vapi` — Apollo Alnac 4G, Amazer 4G Life, Apterra AT2, EnduRace.
 40. `https://sahara-tyre.vercel.app/brands/bridgestone-tyres-vapi` — Bridgestone Turanza 6i, Sturdo, Dueler AT/HT, Ecopia.
 41. `https://sahara-tyre.vercel.app/brands/jk-tyres-vapi` — JK Tyre UX Royale, Ranger, Jetsteel, Elanzo.
+42. `https://sahara-tyre.vercel.app/brands/michelin-tyres-vapi` — Michelin Primacy 4 ST, Energy XM2+, LTX Trail, Pilot Sport, X Coach radials.
+43. `https://sahara-tyre.vercel.app/brands/goodyear-tyres-vapi` — Goodyear Assurance TripleMax 2, Assurance Duraplus 2, Wrangler AT, EfficientGrip.
+44. `https://sahara-tyre.vercel.app/brands/yokohama-tyres-vapi` — Yokohama Earth-1 (E400), BluEarth-GT AE51, Geolandar A/T G015.
+45. `https://sahara-tyre.vercel.app/brands/continental-tyres-vapi` — Continental UltraContact UC6, ComfortContact CC6, CrossContact AX6.
+46. `https://sahara-tyre.vercel.app/brands/bkt-tyres-vapi` — BKT Maglift solid forklift, Earthmax radials, JCB loader, crane tyres.
+47. `https://sahara-tyre.vercel.app/brands/tvs-eurogrip-vapi` — TVS Eurogrip Protorq Extreme radial, Remora, Durapro commuter.
 
 ### Location Hubs (`/locations/`)
-42. `https://sahara-tyre.vercel.app/locations/tyre-shop-vapi-gidc` — Phase 1, Phase 2, Phase 3 GIDC coverage.
-43. `https://sahara-tyre.vercel.app/locations/tyre-shop-gunjan` — Gunjan commercial and residential driving directions.
-44. `https://sahara-tyre.vercel.app/locations/tyre-shop-chala` — Chala highway and Daman Road corridor directions.
-45. `https://sahara-tyre.vercel.app/locations/tyre-shop-daman` — Daman Union Territory transit directions.
+48. `https://sahara-tyre.vercel.app/locations/tyre-shop-vapi-gidc` — Phase 1, Phase 2, Phase 3 GIDC coverage.
+49. `https://sahara-tyre.vercel.app/locations/tyre-shop-gunjan` — Gunjan commercial and residential driving directions.
+50. `https://sahara-tyre.vercel.app/locations/tyre-shop-chala` — Chala highway and Daman Road corridor directions.
+51. `https://sahara-tyre.vercel.app/locations/tyre-shop-daman` — Daman Union Territory transit directions.
 
 ### Tyre Size Matrices (`/tyres/`)
-46. `https://sahara-tyre.vercel.app/tyres/car` — Car Radial Matrix (145/80 R12 to 235/65 R17).
-47. `https://sahara-tyre.vercel.app/tyres/truck` — Truck Radial Matrix (7.00-16 to 315/80 R22.5, 14 dedicated size pages).
-48. `https://sahara-tyre.vercel.app/tyres/bike` — Motorcycle Matrix (2.75-18 to 130/70-17).
-49. `https://sahara-tyre.vercel.app/tyres/scooter` — Scooter Matrix (90/100-10, 90/90-12, 100/80-12).
-50. `https://sahara-tyre.vercel.app/tyres/rickshaw` — Auto Rickshaw Matrix (4.00-8, 145 R12 LT).
+52. `https://sahara-tyre.vercel.app/tyres/car` — Car Radial Matrix (145/80 R12 to 235/65 R17).
+53. `https://sahara-tyre.vercel.app/tyres/truck` — Truck Radial Matrix (7.00-16 to 315/80 R22.5, 14 dedicated size pages).
+54. `https://sahara-tyre.vercel.app/tyres/bike` — Motorcycle Matrix (2.75-18 to 130/70-17).
+55. `https://sahara-tyre.vercel.app/tyres/scooter` — Scooter Matrix (90/100-10, 90/90-12, 100/80-12).
+56. `https://sahara-tyre.vercel.app/tyres/rickshaw` — Auto Rickshaw Matrix (4.00-8, 145 R12 LT).
 
 ### Core Standalone & Authority Pages
-51. `https://sahara-tyre.vercel.app/location` — **Location & Directions:** Landmark navigation, Google Maps embed, driving directions from Vapi Railway Station, Daman, Silvassa.
-52. `https://sahara-tyre.vercel.app/about` — **About Sahara Tyre:** 18+ years heritage since 2005, team credentials, 10,000+ vehicles serviced.
-53. `https://sahara-tyre.vercel.app/faq` — **Frequently Asked Questions:** Dedicated, 24-question customer knowledge base with live search and category filter.
-54. `https://sahara-tyre.vercel.app/privacy` — **Privacy Policy:** Data protection, Google Analytics & AdSense disclosures.
-55. `https://sahara-tyre.vercel.app/terms` — **Terms & Conditions:** Workshop warranty terms, walk-in conditions, pricing transparency.
-56. `https://sahara-tyre.vercel.app/developer` — **Developer Profile:** Technical portfolio of Samir Shaikh, full-stack engineer and platform architect.
+57. `https://sahara-tyre.vercel.app/location` — **Location & Directions:** Landmark navigation, Google Maps embed, driving directions from Vapi Railway Station, Daman, Silvassa.
+58. `https://sahara-tyre.vercel.app/about` — **About Sahara Tyre:** 18+ years heritage since 2005, team credentials, 10,000+ vehicles serviced.
+59. `https://sahara-tyre.vercel.app/faq` — **Frequently Asked Questions:** Dedicated, 24-question customer knowledge base with live search and category filter.
+60. `https://sahara-tyre.vercel.app/privacy` — **Privacy Policy:** Data protection, Google Analytics & AdSense disclosures.
+61. `https://sahara-tyre.vercel.app/terms` — **Terms & Conditions:** Workshop warranty terms, walk-in conditions, pricing transparency.
+62. `https://sahara-tyre.vercel.app/developer` — **Developer Profile:** Technical portfolio of Samir Shaikh, full-stack engineer and platform architect.
 
 ---
 

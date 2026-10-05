@@ -567,7 +567,13 @@
                 "ceat-tyres-vapi",
                 "apollo-tyres-vapi",
                 "bridgestone-tyres-vapi",
-                "jk-tyres-vapi"
+                "jk-tyres-vapi",
+                "michelin-tyres-vapi",
+                "goodyear-tyres-vapi",
+                "yokohama-tyres-vapi",
+                "continental-tyres-vapi",
+                "bkt-tyres-vapi",
+                "tvs-eurogrip-vapi"
               ]
             }
           }

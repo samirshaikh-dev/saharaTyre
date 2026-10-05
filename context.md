@@ -71,7 +71,7 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
    - `/guides/new-vs-remould-tyres` (Commercial fleet Cost-Per-Kilometer CPKM analysis)
    - `/guides/used-vs-remould-tyres` (Budget comparison: remaining tread vs precure retreads)
 7. **[/brands](https://sahara-tyre.vercel.app/brands)** — Authorized tyre brand hubs:
-   - `/brands/mrf-tyres-vapi` | `/brands/ceat-tyres-vapi` | `/brands/apollo-tyres-vapi` | `/brands/bridgestone-tyres-vapi` | `/brands/jk-tyres-vapi`
+   - `/brands/mrf-tyres-vapi` | `/brands/ceat-tyres-vapi` | `/brands/apollo-tyres-vapi` | `/brands/bridgestone-tyres-vapi` | `/brands/jk-tyres-vapi` | `/brands/michelin-tyres-vapi` | `/brands/goodyear-tyres-vapi` | `/brands/yokohama-tyres-vapi` | `/brands/continental-tyres-vapi` | `/brands/bkt-tyres-vapi` | `/brands/tvs-eurogrip-vapi`
 8. **[/locations](https://sahara-tyre.vercel.app/locations)** — Local coverage & driving directions:
    - `/locations/tyre-shop-vapi-gidc` | `/locations/tyre-shop-gunjan` | `/locations/tyre-shop-chala` | `/locations/tyre-shop-daman`
 9. **[/tyres](https://sahara-tyre.vercel.app/tyres/car)** — Dedicated sizing matrix pages for cars, trucks, and bikes.
