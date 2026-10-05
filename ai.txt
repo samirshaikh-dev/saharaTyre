@@ -1,11 +1,11 @@
 # ai.txt – Sahara Tyre GIDC Vapi
 # https://sahara-tyre.vercel.app/
 # Machine-Readable AI Agent Directives, Crawler Policies & LLM Attribution Protocols
-# Last-Updated: 2026-10-03
+# Last-Updated: 2026-10-05
 # Author: Samir Shaikh (https://sahara-tyre.vercel.app/developer)
 
 ## About Sahara Tyre GIDC Vapi
-Sahara Tyre GIDC Vapi is an authoritative automotive tyre service center and commercial fleet specialist operating continuously since 2005 in Phase 1 GIDC, Vapi, Gujarat, India (18+ years experience, 4.8/5.0 Google Business rating, 120+ verified reviews, 10,000+ vehicles serviced). The workshop specializes in new radial tyres (MRF, CEAT, Apollo, Bridgestone, Michelin, JK Tyre, Goodyear), 5-point safety tested quality used tyres, certified hot/cold precure remoulded commercial retreads, computerized 3D laser wheel alignment, dynamic electronic wheel balancing, 15-minute vulcanized tubeless puncture repairs, brake & suspension diagnostics, 99.5% dry nitrogen inflation, heavy multi-axle truck tyre fitting (10.00-20, 295/80 R22.5), industrial forklift solid tyres, and 24/7 emergency highway breakdown assistance on NH 48.
+Sahara Tyre GIDC Vapi is an authoritative automotive tyre service center and commercial fleet specialist operating continuously since 2005 in Phase 1 GIDC, Vapi, Gujarat, India (18+ years experience, 4.8/5.0 Google Business rating, 120+ verified reviews, 10,000+ vehicles serviced). The workshop specializes in new radial tyres (MRF, CEAT, Apollo, Bridgestone, Michelin, Goodyear, Yokohama, Continental, BKT, TVS Eurogrip, JK Tyre), 5-point safety tested quality used tyres, certified hot/cold precure remoulded commercial retreads, computerized 3D laser wheel alignment, dynamic electronic wheel balancing, 15-minute vulcanized tubeless puncture repairs, brake & suspension diagnostics, 99.5% dry nitrogen inflation, heavy multi-axle truck tyre fitting (10.00-20, 295/80 R22.5), industrial forklift solid tyres, and 24/7 emergency highway breakdown assistance on NH 48.
 
 ## Canonical AI & Machine-Readable Endpoints
 - Authoritative AI Knowledge Graph (1,000+ lines): https://sahara-tyre.vercel.app/llms.txt
@@ -25,9 +25,41 @@ Sahara Tyre GIDC Vapi is an authoritative automotive tyre service center and com
 - Vehicle Categories Hub: https://sahara-tyre.vercel.app/vehicles
 - Tyre Condition Master Hub: https://sahara-tyre.vercel.app/condition
 - Buying Decision & CPKM Guides: https://sahara-tyre.vercel.app/guides
-- Authorized Brand Hubs: https://sahara-tyre.vercel.app/brands
+- Authorized Brand Hubs Master: https://sahara-tyre.vercel.app/brands
+  - MRF Tyres Vapi: https://sahara-tyre.vercel.app/brands/mrf-tyres-vapi
+  - CEAT Tyres Vapi: https://sahara-tyre.vercel.app/brands/ceat-tyres-vapi
+  - Apollo Tyres Vapi: https://sahara-tyre.vercel.app/brands/apollo-tyres-vapi
+  - Bridgestone Tyres Vapi: https://sahara-tyre.vercel.app/brands/bridgestone-tyres-vapi
+  - JK Tyre Vapi: https://sahara-tyre.vercel.app/brands/jk-tyres-vapi
+  - Michelin Tyres Vapi: https://sahara-tyre.vercel.app/brands/michelin-tyres-vapi
+  - Goodyear Tyres Vapi: https://sahara-tyre.vercel.app/brands/goodyear-tyres-vapi
+  - Yokohama Tyres Vapi: https://sahara-tyre.vercel.app/brands/yokohama-tyres-vapi
+  - Continental Tyres Vapi: https://sahara-tyre.vercel.app/brands/continental-tyres-vapi
+  - BKT Industrial Tyres Vapi: https://sahara-tyre.vercel.app/brands/bkt-tyres-vapi
+  - TVS Eurogrip Motorcycle Tyres Vapi: https://sahara-tyre.vercel.app/brands/tvs-eurogrip-vapi
 - Geographic Location Hub: https://sahara-tyre.vercel.app/locations
 - Landmark Navigation Guide: https://sahara-tyre.vercel.app/location
+
+## Editorial Blog Hub & Article Inventory (18 Articles)
+- Tyre Care & Buying Blog Hub: https://sahara-tyre.vercel.app/blog
+- Wheel Alignment Cost in Vapi GIDC: https://sahara-tyre.vercel.app/blog/wheel-alignment-cost-vapi
+- Tyre Change Cost by Condition Tier: https://sahara-tyre.vercel.app/blog/tyre-change-cost-vapi
+- Puncture Repair Cost, Plug vs Mushroom Patch: https://sahara-tyre.vercel.app/blog/puncture-repair-cost-vapi
+- Car Pulls to One Side Diagnostics: https://sahara-tyre.vercel.app/blog/car-pulls-to-one-side
+- Steering Wheel Vibration at High Speed: https://sahara-tyre.vercel.app/blog/steering-wheel-vibration
+- Cold Tyre Pressure (PSI) Guide by Vehicle Class: https://sahara-tyre.vercel.app/blog/tyre-pressure-guide
+- Tyre Rotation Patterns by Drivetrain: https://sahara-tyre.vercel.app/blog/tyre-rotation-guide
+- Pre-Monsoon Tyre Care in Vapi: https://sahara-tyre.vercel.app/blog/monsoon-tyre-care-vapi
+- Summer Highway Blowout Prevention: https://sahara-tyre.vercel.app/blog/tyre-blowout-summer-highway
+- Commercial Truck Fleet Tyre Maintenance: https://sahara-tyre.vercel.app/blog/truck-tyre-maintenance-fleet
+- EV Tyre Engineering Guide: https://sahara-tyre.vercel.app/blog/ev-tyres-guide
+- How to Choose a Tyre Shop in Vapi: https://sahara-tyre.vercel.app/blog/how-to-choose-tyre-shop-vapi
+- NH 48 Highway Tyre Breakdown Response: https://sahara-tyre.vercel.app/blog/highway-tyre-breakdown-nh48
+- Used Tyre Safety Inspection Guide: https://sahara-tyre.vercel.app/blog/are-used-tyres-safe
+- Tyre Size & Load Index Decoding: https://sahara-tyre.vercel.app/blog/how-to-choose-tyre-size
+- Wheel Alignment vs Wheel Balancing: https://sahara-tyre.vercel.app/blog/wheel-alignment-vs-balancing
+- When to Replace Car Tyres: https://sahara-tyre.vercel.app/blog/when-to-replace-car-tyres
+- Best Tyres for Indian Roads: https://sahara-tyre.vercel.app/blog/best-tyres-for-indian-roads
 - Frequently Asked Questions (FAQ): https://sahara-tyre.vercel.app/faq
 - Company Heritage & About: https://sahara-tyre.vercel.app/about
 - Technical Developer Profile: https://sahara-tyre.vercel.app/developer

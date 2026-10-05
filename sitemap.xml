@@ -407,7 +407,7 @@
     <!-- Blog Hub & Educational Articles -->
     <url>
         <loc>https://sahara-tyre.vercel.app/blog</loc>
-        <lastmod>2026-09-06</lastmod>
+        <lastmod>2026-10-05</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.80</priority>
     </url>
@@ -440,6 +440,84 @@
         <lastmod>2026-09-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/wheel-alignment-cost-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/tyre-change-cost-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/puncture-repair-cost-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/car-pulls-to-one-side</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/steering-wheel-vibration</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/tyre-pressure-guide</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/tyre-rotation-guide</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/monsoon-tyre-care-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/tyre-blowout-summer-highway</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/truck-tyre-maintenance-fleet</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/ev-tyres-guide</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/how-to-choose-tyre-shop-vapi</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/blog/highway-tyre-breakdown-nh48</loc>
+        <lastmod>2026-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
     </url>
 
     <!-- Tyre Vehicle Category Master Hubs -->

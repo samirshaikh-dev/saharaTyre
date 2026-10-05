@@ -12,7 +12,7 @@ This website drives local, in-person visits to the physical workshop. It is NOT 
 Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
 
 ## Tech Stack & Architecture
-- Multi-page static website (82 semantic pages organized into dedicated topical hubs)
+- Multi-page static website (95 semantic pages organized into dedicated topical hubs)
 - Vanilla CSS + Tailwind CSS utilities with zero layout shift (CLS containment)
 - Deployed on Vercel Edge CDN with custom routing, rewrites, and 301 redirects
 - Google Analytics 4 (`G-98MGJHRPJ7`) & Google AdSense (`pub-2685457296914833`)
@@ -60,7 +60,7 @@ Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gu
 | `/tyres/car` | Passenger Car Sizing Matrix (10 dedicated size pages) |
 | `/tyres/truck` | Commercial Truck Sizing Matrix (14 dedicated size pages) |
 | `/tyres/bike` | Motorcycle Sizing Matrix (6 dedicated size pages) |
-| `/blog` | Automotive Care & Tyre Knowledge Hub (5 technical articles) |
+| `/blog` | Automotive Care & Tyre Knowledge Hub (18 technical articles: costs, diagnostics, pressure, rotation, seasonal care, fleets, EVs) |
 | `/location` | Landmark Navigation (directions from Vapi Station, Daman, Silvassa, parking info) |
 | `/about` | Heritage & Trust (18+ years heritage, certified mechanics, satisfaction guarantees) |
 | `/privacy` | Privacy Policy (Data protection, Google Analytics & AdSense cookie disclosures) |

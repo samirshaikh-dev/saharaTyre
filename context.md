@@ -75,7 +75,7 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
 8. **[/locations](https://sahara-tyre.vercel.app/locations)** — Local coverage & driving directions:
    - `/locations/tyre-shop-vapi-gidc` | `/locations/tyre-shop-gunjan` | `/locations/tyre-shop-chala` | `/locations/tyre-shop-daman`
 9. **[/tyres](https://sahara-tyre.vercel.app/tyres/car)** — Dedicated sizing matrix pages for cars, trucks, and bikes.
-10. **[/blog](https://sahara-tyre.vercel.app/blog)** — Technical maintenance and buyer advisory articles.
+10. **[/blog](https://sahara-tyre.vercel.app/blog)** — 18 technical maintenance, cost, diagnostics, seasonal and buyer advisory articles.
 11. **[location.htm](https://sahara-tyre.vercel.app/location)** — Master navigation & landmark turn-by-turn directions.
 12. **[about.htm](https://sahara-tyre.vercel.app/about)** — Heritage & trust: 18+ years history, technician credentials.
 13. **[privacy.htm](https://sahara-tyre.vercel.app/privacy)** — Privacy Policy: Customer data protection & cookie disclosures.
