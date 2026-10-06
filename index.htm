@@ -319,6 +319,10 @@
             position: sticky;
         }
 
+        nav.sticky {
+            background-color: #0f172a !important;
+        }
+
         .top-0 {
             top: 0;
         }
@@ -757,6 +761,10 @@
 
         .bg-navy {
             background-color: #0f172a;
+        }
+
+        .bg-navy\/95 {
+            background-color: rgba(15, 23, 42, 0.95);
         }
 
         .hover\:bg-slate-800:hover {
@@ -1441,9 +1449,9 @@
 <body
     class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 antialiased min-h-screen flex flex-col justify-between">
 
-    <!-- Navigation -->
     <nav
-        class="sticky top-0 z-50 bg-navy/95 backdrop-blur-md text-white px-4 py-3 border-b border-primary/20 shadow-lg">
+        class="sticky top-0 z-50 bg-navy text-white px-4 py-3 border-b border-primary/20 shadow-lg"
+        style="background-color: #0f172a;">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <a href="/" class="flex items-center gap-2 group">
                 <span
