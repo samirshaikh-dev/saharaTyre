@@ -162,14 +162,11 @@
             vertical-align: middle;
         }
 
-        /* Hero Background Pattern (Instant 0ms Load) */
+        /* Hero Background Pattern (Clean Industrial Grid, Zero Glow Blobs) */
         .hero-bg {
             background-color: #0f172a;
-            background-image:
-                radial-gradient(at 15% 25%, rgba(249, 115, 22, 0.2) 0px, transparent 55%),
-                radial-gradient(at 85% 85%, rgba(30, 58, 138, 0.4) 0px, transparent 65%),
-                radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-            background-size: 100% 100%, 100% 100%, 28px 28px;
+            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 24px 24px;
         }
 
         /* Layout & Flex */
@@ -921,7 +918,7 @@
         .badge-continental { background-color: rgba(217, 119, 6, 0.12); color: #d97706; border: 1px solid rgba(217, 119, 6, 0.25); }
         .badge-bkt { background-color: rgba(16, 185, 129, 0.12); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.25); }
         .badge-tvs { background-color: rgba(6, 182, 212, 0.12); color: #06b6d4; border: 1px solid rgba(6, 182, 212, 0.25); }
-        .badge-hub { background-color: #f97316; color: #0f172a; box-shadow: 0 4px 12px rgba(249, 115, 22, 0.35); }
+        .badge-hub { background-color: #f97316; color: #0f172a; }
 
         /* Shadows */
         .shadow-sm {
@@ -945,19 +942,19 @@
         }
 
         .shadow-primary\/25 {
-            box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.25);
+            box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.12), 0 2px 4px -2px rgba(15, 23, 42, 0.08);
         }
 
         .shadow-primary\/40 {
-            box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.4);
+            box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.15), 0 4px 6px -4px rgba(15, 23, 42, 0.1);
         }
 
         .shadow-emerald-600\/25 {
-            box-shadow: 0 10px 15px -3px rgba(5, 150, 105, 0.25);
+            box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.12), 0 2px 4px -2px rgba(15, 23, 42, 0.08);
         }
 
         .shadow-emerald-500\/40 {
-            box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.4);
+            box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.15), 0 4px 6px -4px rgba(15, 23, 42, 0.1);
         }
 
         /* Transitions & Interactivity */
@@ -1055,23 +1052,7 @@
             height: 8px;
             border-radius: 9999px;
             background-color: #10b981;
-            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-            animation: pulse-ring 2s infinite;
             flex-shrink: 0;
-        }
-
-        @keyframes pulse-ring {
-            0% {
-                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-            }
-
-            70% {
-                box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
-            }
-
-            100% {
-                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
-            }
         }
 
         .premium-card {
@@ -1080,7 +1061,7 @@
 
         .premium-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+            box-shadow: 0 12px 20px -5px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
             border-color: rgba(249, 115, 22, 0.4);
         }
 
@@ -1090,12 +1071,10 @@
             left: 0;
             right: 0;
             z-index: 50;
-            background: rgba(15, 23, 42, 0.96);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+            background: #0f172a;
             border-top: 1px solid rgba(255, 255, 255, 0.12);
             padding: 0.625rem 0.75rem;
-            box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.25);
         }
 
         @supports (padding-bottom: env(safe-area-inset-bottom)) {
@@ -1499,7 +1478,7 @@
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl">
                     <div
-                        class="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-primary/15 border border-primary/30 text-primary font-semibold text-xs uppercase tracking-wider mb-6 backdrop-blur-sm">
+                        class="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-primary/15 border border-primary/30 text-primary font-semibold text-xs uppercase tracking-wider mb-6">
                         <span class="pulse-dot" aria-hidden="true"></span>
                         <span>18+ Years Trusted in Vapi GIDC • 4.8★ Google Rated</span>
                     </div>
@@ -1513,13 +1492,13 @@
                     </p>
                     <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-10">
                         <a href="tel:+919377158216"
-                            class="bg-primary hover:bg-orange-600 active:scale-95 text-navy font-black px-8 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-primary/25 min-h-[48px]">
+                            class="bg-primary hover:bg-orange-600 active:scale-95 text-navy font-black px-8 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-md min-h-[48px]">
                             <span class="material-symbols-outlined" aria-hidden="true">call</span>
                             <span>Call +91-9377158216</span>
                         </a>
                         <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20assistance%20at%20Sahara%20Tyre%20Vapi"
                             target="_blank" rel="noopener"
-                            class="bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold px-8 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-emerald-600/25 min-h-[48px]">
+                            class="bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold px-8 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-md min-h-[48px]">
                             <span class="material-symbols-outlined" aria-hidden="true">chat</span>
                             <span>WhatsApp Inquiry</span>
                         </a>
@@ -1898,7 +1877,7 @@
         <section class="py-16 bg-navy text-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div
-                    class="bg-white/5 border border-white/10 rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto shadow-2xl">
+                    class="bg-slate-900 border border-slate-800 rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto shadow-xl">
                     <div
                         class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-4">
                         <span class="material-symbols-outlined text-xs" aria-hidden="true">verified</span> Google
@@ -2088,7 +2067,7 @@
                             100% Privacy</span>
                     </div>
                 </div>
-                <div class="bg-white text-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl max-w-2xl mx-auto">
+                <div class="bg-white text-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-200 max-w-2xl mx-auto">
                     <form class="space-y-4" onsubmit="return sendToWhatsApp(this)">
                         <div class="grid sm:grid-cols-2 gap-4">
                             <div>
@@ -2133,7 +2112,7 @@
                                 name="message"></textarea>
                         </div>
                         <button
-                            class="w-full bg-primary hover:bg-orange-600 active:scale-95 text-navy font-black py-3.5 rounded-xl transition-all uppercase tracking-wider text-sm flex items-center justify-center gap-2 shadow-lg shadow-primary/25 min-h-[48px]"
+                            class="w-full bg-primary hover:bg-orange-600 active:scale-95 text-navy font-black py-3.5 rounded-xl transition-all uppercase tracking-wider text-sm flex items-center justify-center gap-2 shadow-md min-h-[48px]"
                             type="submit">
                             <span class="material-symbols-outlined text-lg" aria-hidden="true">chat</span> Send WhatsApp
                             Inquiry
@@ -2219,12 +2198,12 @@
 
     <!-- Desktop Floating Action Buttons -->
     <a href="tel:+919377158216" aria-label="Call Sahara Tyre"
-        class="hidden md:flex fixed bottom-24 right-4 z-40 bg-primary text-white w-14 h-14 rounded-full items-center justify-center shadow-lg shadow-primary/40 hover:scale-110 active:scale-95 transition-transform">
+        class="hidden md:flex fixed bottom-24 right-4 z-40 bg-primary text-white w-14 h-14 rounded-full items-center justify-center shadow-lg hover:scale-110 active:scale-95 transition-transform">
         <span class="material-symbols-outlined text-2xl" aria-hidden="true">call</span>
     </a>
     <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20service%20at%20Sahara%20Tyre%20Vapi"
         target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"
-        class="hidden md:flex fixed bottom-8 right-4 z-40 bg-emerald-500 text-white w-14 h-14 rounded-full items-center justify-center shadow-lg shadow-emerald-500/40 hover:scale-110 active:scale-95 transition-transform">
+        class="hidden md:flex fixed bottom-8 right-4 z-40 bg-emerald-500 text-white w-14 h-14 rounded-full items-center justify-center shadow-lg hover:scale-110 active:scale-95 transition-transform">
         <span class="material-symbols-outlined text-2xl" aria-hidden="true">chat</span>
     </a>
 
