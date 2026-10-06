@@ -114,11 +114,9 @@
             -moz-osx-font-smoothing: grayscale;
         }
 
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #020617;
-                color: #e2e8f0;
-            }
+        .industrial-grid {
+            background-image: radial-gradient(circle at 2px 2px, rgba(15, 23, 42, 0.05) 1px, transparent 0);
+            background-size: 24px 24px;
         }
 
         a {
@@ -1252,47 +1250,62 @@
             }
         }
 
-        /* Dark Mode Theme */
-        @media (prefers-color-scheme: dark) {
-            .dark\:bg-background-dark {
-                background-color: #020617;
-            }
+        /* Warm Badge Accents (Matching Services Page) */
+        .bg-orange-50 {
+            background-color: #fff7ed;
+        }
 
-            .dark\:bg-slate-800\/60 {
-                background-color: rgba(30, 41, 59, 0.6);
-            }
+        .border-orange-100 {
+            border-color: #ffedd5;
+        }
 
-            .dark\:bg-slate-900 {
-                background-color: #0f172a;
-            }
+        .border-orange-200 {
+            border-color: #fed7aa;
+        }
 
-            .dark\:bg-slate-950 {
-                background-color: #020617;
-            }
+        .text-orange-600 {
+            color: #ea580c;
+        }
 
-            .dark\:text-slate-200 {
-                color: #e2e8f0;
-            }
+        /* Class-Based Dark Mode (Only active when .dark class is on html) */
+        .dark .dark\:bg-background-dark {
+            background-color: #020617;
+        }
 
-            .dark\:text-slate-300 {
-                color: #cbd5e1;
-            }
+        .dark .dark\:bg-slate-800\/60 {
+            background-color: rgba(30, 41, 59, 0.6);
+        }
 
-            .dark\:text-slate-400 {
-                color: #94a3b8;
-            }
+        .dark .dark\:bg-slate-900 {
+            background-color: #0f172a;
+        }
 
-            .dark\:text-white {
-                color: #ffffff;
-            }
+        .dark .dark\:bg-slate-950 {
+            background-color: #020617;
+        }
 
-            .dark\:border-slate-700 {
-                border-color: #334155;
-            }
+        .dark .dark\:text-slate-200 {
+            color: #e2e8f0;
+        }
 
-            .dark\:border-slate-800 {
-                border-color: #1e293b;
-            }
+        .dark .dark\:text-slate-300 {
+            color: #cbd5e1;
+        }
+
+        .dark .dark\:text-slate-400 {
+            color: #94a3b8;
+        }
+
+        .dark .dark\:text-white {
+            color: #ffffff;
+        }
+
+        .dark .dark\:border-slate-700 {
+            border-color: #334155;
+        }
+
+        .dark .dark\:border-slate-800 {
+            border-color: #1e293b;
         }
     </style>
 
@@ -1472,9 +1485,15 @@
     </nav>
 
     <main class="flex-grow pb-mobile-cta">
-        <!-- Hero Section (Zero-latency instant paint) -->
-        <section class="relative bg-navy text-white py-16 lg:py-24 overflow-hidden border-b border-primary/20">
-            <div class="hero-bg absolute inset-0"></div>
+        <!-- Hero Section -->
+        <section class="relative min-h-[65vh] flex flex-col justify-center bg-navy text-white py-16 lg:py-24 overflow-hidden border-b border-primary/20">
+            <div class="absolute inset-0 bg-navy">
+                <div class="absolute inset-0 opacity-25 bg-[url('https://images.unsplash.com/photo-1486006396193-471ab75583f6?w=1920&q=80')] bg-cover bg-center"
+                    aria-label="Sahara Tyre GIDC Vapi automotive workshop">
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/95 to-navy/80"></div>
+                <div class="hero-bg absolute inset-0 opacity-40"></div>
+            </div>
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl">
                     <div
@@ -1490,21 +1509,21 @@
                         remoulds. Complete automotive care including computerized 3D laser alignment, tyre balancing,
                         rapid puncture repair, and heavy fleet maintenance near Char Rasta Phase 1.
                     </p>
-                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-10">
+                    <div class="flex flex-wrap gap-4 mb-10">
                         <a href="tel:+919377158216"
-                            class="bg-primary hover:bg-orange-600 active:scale-95 text-navy font-black px-8 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-md min-h-[48px]">
-                            <span class="material-symbols-outlined" aria-hidden="true">call</span>
+                            class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-orange-600 active:scale-95 text-navy font-bold px-8 py-3.5 rounded-xl transition-all shadow-md min-h-[48px]">
+                            <span class="material-symbols-outlined text-sm" aria-hidden="true">call</span>
                             <span>Call +91-9377158216</span>
                         </a>
                         <a href="https://wa.me/919377158216?text=Hi%2C%20I%20need%20tyre%20assistance%20at%20Sahara%20Tyre%20Vapi"
                             target="_blank" rel="noopener"
-                            class="bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white font-bold px-8 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-md min-h-[48px]">
-                            <span class="material-symbols-outlined" aria-hidden="true">chat</span>
-                            <span>WhatsApp Inquiry</span>
+                            class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 active:scale-95 text-white border border-white/20 font-bold px-8 py-3.5 rounded-xl transition-all min-h-[48px]">
+                            <span class="material-symbols-outlined text-sm text-emerald-400" aria-hidden="true">chat</span>
+                            <span>WhatsApp Us</span>
                         </a>
                         <a href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener"
-                            class="bg-white/10 hover:bg-white/20 active:scale-95 text-white border border-white/20 font-semibold px-6 py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all min-h-[48px]">
-                            <span class="material-symbols-outlined text-primary" aria-hidden="true">directions</span>
+                            class="inline-flex items-center justify-center gap-2 bg-transparent hover:bg-white/10 active:scale-95 text-slate-300 hover:text-white border border-white/20 font-semibold px-6 py-3.5 rounded-xl transition-all min-h-[48px]">
+                            <span class="material-symbols-outlined text-sm text-primary" aria-hidden="true">directions</span>
                             <span>Directions</span>
                         </a>
                     </div>
@@ -1528,89 +1547,81 @@
         </section>
 
         <!-- Core Category Architecture Portals -->
-        <section class="py-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+        <section class="py-16 bg-slate-50 industrial-grid border-b border-slate-200">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-3xl mx-auto mb-12">
                     <span class="text-primary font-bold text-xs uppercase tracking-widest">Explore Dedicated Hubs</span>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold text-navy dark:text-white mt-2">Find Exactly What You
-                        Need</h2>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-navy mt-2">Find Exactly What You Need</h2>
+                    <p class="text-slate-600 text-sm sm:text-base mt-2">Browse dedicated catalog hubs by vehicle category, condition grade, or buyer decision guides.</p>
                 </div>
-                <div class="grid md:grid-cols-3 gap-8">
+                <div class="grid md:grid-cols-3 gap-6 sm:gap-8">
                     <!-- Vehicles Portal -->
                     <a href="/vehicles"
-                        class="premium-card bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
+                        class="bg-white p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
                         <div>
                             <div
-                                class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-3xl"
-                                    aria-hidden="true">directions_car</span>
+                                class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">directions_car</span>
                             </div>
-                            <h3
-                                class="text-xl font-bold text-navy dark:text-white mb-2 group-hover:text-primary transition-colors">
+                            <h3 class="text-xl font-bold text-navy mb-2 group-hover:text-primary transition-colors">
                                 Tyres by Vehicle Type</h3>
-                            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
                                 Dedicated size catalogs and hubs for passenger cars, motorcycles, scooters, commercial
                                 trucks, buses, LCVs, tractors, and industrial machinery.
                             </p>
                         </div>
-                        <span class="text-primary font-bold text-sm flex items-center gap-1">Browse Vehicle Hubs
-                            →</span>
+                        <span class="text-primary font-bold text-sm flex items-center gap-1">Browse Vehicle Hubs →</span>
                     </a>
 
                     <!-- Condition Portal -->
                     <a href="/condition"
-                        class="premium-card bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
+                        class="bg-white p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
                         <div>
                             <div
-                                class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-3xl" aria-hidden="true">verified</span>
+                                class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">verified</span>
                             </div>
-                            <h3
-                                class="text-xl font-bold text-navy dark:text-white mb-2 group-hover:text-primary transition-colors">
+                            <h3 class="text-xl font-bold text-navy mb-2 group-hover:text-primary transition-colors">
                                 Tyres by Condition</h3>
-                            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
                                 Compare Brand New factory tyres with full OEM warranty, 5-point safety tested pre-owned
                                 tyres (up to 60% savings), and commercial remoulds.
                             </p>
                         </div>
-                        <span class="text-primary font-bold text-sm flex items-center gap-1">Browse Condition Hub
-                            →</span>
+                        <span class="text-primary font-bold text-sm flex items-center gap-1">Browse Condition Hub →</span>
                     </a>
 
                     <!-- Guides Portal -->
                     <a href="/guides"
-                        class="premium-card bg-slate-50 dark:bg-slate-800/60 p-8 rounded-3xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-xl transition-all group flex flex-col justify-between">
+                        class="bg-white p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
                         <div>
                             <div
-                                class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <span class="material-symbols-outlined text-3xl"
-                                    aria-hidden="true">compare_arrows</span>
+                                class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">compare_arrows</span>
                             </div>
-                            <h3
-                                class="text-xl font-bold text-navy dark:text-white mb-2 group-hover:text-primary transition-colors">
+                            <h3 class="text-xl font-bold text-navy mb-2 group-hover:text-primary transition-colors">
                                 Buyer Decision Guides</h3>
-                            <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
                                 Transparent head-to-head comparisons: New vs Used Tyres, New vs Remould commercial fleet
                                 economics, and CPKM analysis for fleet managers.
                             </p>
                         </div>
-                        <span class="text-primary font-bold text-sm flex items-center gap-1">Read Comparison Guides
-                            →</span>
+                        <span class="text-primary font-bold text-sm flex items-center gap-1">Read Comparison Guides →</span>
                     </a>
                 </div>
             </div>
         </section>
 
         <!-- Authorized Tyre Brands Showcase (11 Brands) -->
-        <section class="py-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800" id="brands">
+        <section class="py-16 bg-white border-b border-slate-200" id="brands">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
                     <div>
                         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-3">
                             <span class="material-symbols-outlined text-xs" aria-hidden="true">verified</span> 100% Genuine Manufacturer Stock
                         </div>
-                        <h2 class="text-2xl sm:text-4xl font-extrabold text-navy dark:text-white">Authorized Tyre Brands in Vapi GIDC</h2>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base max-w-2xl mt-2 leading-relaxed">
+                        <h2 class="text-2xl sm:text-4xl font-extrabold text-navy">Authorized Tyre Brands in Vapi GIDC</h2>
+                        <p class="text-slate-600 text-sm sm:text-base max-w-2xl mt-2 leading-relaxed">
                             Official dealership stock for India's and the world's premier tyre manufacturers. Backed by full digital warranty registration, touchless alloy-safe rim mounting, dynamic wheel balancing, and 3D laser alignment.
                         </p>
                     </div>
@@ -1620,7 +1631,7 @@
                 </div>
 
                 <!-- Direct Answer AI Summary Callout -->
-                <div class="bg-navy text-white rounded-2xl p-6 mb-8 border-l-4 border-primary shadow-md">
+                <div class="bg-navy text-white rounded-2xl p-6 mb-8 border-l-4 border-primary shadow-sm">
                     <div class="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest mb-2">
                         <span class="material-symbols-outlined text-sm" aria-hidden="true">bolt</span> Direct Answer for Tyre Buyers in Vapi GIDC
                     </div>
@@ -1632,139 +1643,139 @@
                 <!-- 11 Brands Grid + Matrix Link -->
                 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                     <!-- MRF -->
-                    <a href="/brands/mrf-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/mrf-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-mrf flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 MRF
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">MRF Tyres</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">India's #1 rugged durability. ZVTV, ZLX quiet ride, Wanderer SUV &amp; Steel Muscle commercial truck radials.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">MRF Tyres</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">India's #1 rugged durability. ZVTV, ZLX quiet ride, Wanderer SUV &amp; Steel Muscle commercial truck radials.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore MRF →</span>
                     </a>
 
                     <!-- CEAT -->
-                    <a href="/brands/ceat-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/ceat-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-ceat flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 CEAT
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">CEAT Tyres</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">High mileage &amp; wet braking. Milaze X3 (100,000 km warranty), SecuraDrive sedans &amp; Gripp X3 bikes.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">CEAT Tyres</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">High mileage &amp; wet braking. Milaze X3 (100,000 km warranty), SecuraDrive sedans &amp; Gripp X3 bikes.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore CEAT →</span>
                     </a>
 
                     <!-- Apollo -->
-                    <a href="/brands/apollo-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/apollo-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-apollo flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 APO
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">Apollo Tyres</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">Precision stability &amp; unconditional warranty. Alnac 4G, Amazer 4G Life, Apterra &amp; Endurace truck radials.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">Apollo Tyres</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">Precision stability &amp; unconditional warranty. Alnac 4G, Amazer 4G Life, Apterra &amp; Endurace truck radials.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore Apollo →</span>
                     </a>
 
                     <!-- Bridgestone -->
-                    <a href="/brands/bridgestone-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/bridgestone-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-bridgestone flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 BS
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">Bridgestone</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">Premium Japanese comfort &amp; fuel economy. Turanza 6i acoustic hush, Ecopia eco-drive &amp; Dueler SUV.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">Bridgestone</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">Premium Japanese comfort &amp; fuel economy. Turanza 6i acoustic hush, Ecopia eco-drive &amp; Dueler SUV.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore Bridgestone →</span>
                     </a>
 
                     <!-- JK Tyre -->
-                    <a href="/brands/jk-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/jk-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-jk flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 JK
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">JK Tyre</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">India's radial technology pioneer. UX Royale passenger comfort, Treel SMART TPMS &amp; Jetsteel fleets.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">JK Tyre</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">India's radial technology pioneer. UX Royale passenger comfort, Treel SMART TPMS &amp; Jetsteel fleets.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore JK Tyre →</span>
                     </a>
 
                     <!-- Michelin -->
-                    <a href="/brands/michelin-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/michelin-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-michelin flex items-center justify-center font-black text-xs mb-4 group-hover:scale-110 transition-transform">
                                 MICH
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">Michelin Tyres</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">World-leading acoustic silence &amp; wet safety. Primacy 4 ST, Energy XM2+, LTX Trail &amp; interstate coach radials.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">Michelin Tyres</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">World-leading acoustic silence &amp; wet safety. Primacy 4 ST, Energy XM2+, LTX Trail &amp; interstate coach radials.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore Michelin →</span>
                     </a>
 
                     <!-- Goodyear -->
-                    <a href="/brands/goodyear-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/goodyear-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-goodyear flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 GY
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">Goodyear Tyres</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">American wet-braking performance. Assurance TripleMax 2 HydroTred &amp; Wrangler AT Kevlar off-road.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">Goodyear Tyres</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">American wet-braking performance. Assurance TripleMax 2 HydroTred &amp; Wrangler AT Kevlar off-road.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore Goodyear →</span>
                     </a>
 
                     <!-- Yokohama -->
-                    <a href="/brands/yokohama-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/yokohama-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-yokohama flex items-center justify-center font-black text-xs mb-4 group-hover:scale-110 transition-transform">
                                 YOKO
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">Yokohama Tyres</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">Japanese road handling built for India. Earth-1 pothole defense compound, BluEarth-GT &amp; Geolandar A/T.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">Yokohama Tyres</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">Japanese road handling built for India. Earth-1 pothole defense compound, BluEarth-GT &amp; Geolandar A/T.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore Yokohama →</span>
                     </a>
 
                     <!-- Continental -->
-                    <a href="/brands/continental-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/continental-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-continental flex items-center justify-center font-black text-xs mb-4 group-hover:scale-110 transition-transform">
                                 CONT
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">Continental Tyres</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">German engineering precision. UltraContact UC6 wet braking &amp; ComfortContact CC6 Helmholtz noise chambers.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">Continental Tyres</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">German engineering precision. UltraContact UC6 wet braking &amp; ComfortContact CC6 Helmholtz noise chambers.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore Continental →</span>
                     </a>
 
                     <!-- BKT -->
-                    <a href="/brands/bkt-tyres-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/bkt-tyres-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-bkt flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 BKT
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">BKT Tyres</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">Heavy off-highway &amp; industrial leader. Maglift puncture-free solid forklift tyres, Earthmax &amp; JCB loader tyres.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">BKT Tyres</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">Heavy off-highway &amp; industrial leader. Maglift puncture-free solid forklift tyres, Earthmax &amp; JCB loader tyres.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore BKT →</span>
                     </a>
 
                     <!-- TVS Eurogrip -->
-                    <a href="/brands/tvs-eurogrip-vapi" class="premium-card bg-slate-50 dark:bg-slate-800/60 p-6 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands/tvs-eurogrip-vapi" class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-tvs flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 TVS
                             </div>
-                            <h3 class="font-bold text-base text-navy dark:text-white mb-1 group-hover:text-primary transition-colors">TVS Eurogrip</h3>
-                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">European performance bike &amp; scooter radials. Protorq Extreme steel-belted track radials &amp; Remora sport grip.</p>
+                            <h3 class="font-bold text-base text-navy mb-1 group-hover:text-primary transition-colors">TVS Eurogrip</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">European performance bike &amp; scooter radials. Protorq Extreme steel-belted track radials &amp; Remora sport grip.</p>
                         </div>
                         <span class="text-primary font-bold text-xs flex items-center gap-1 mt-auto pt-2">Explore TVS →</span>
                     </a>
 
                     <!-- All Brands Hub CTA Card -->
-                    <a href="/brands" class="premium-card bg-navy text-white p-6 rounded-2xl border border-primary/40 hover:border-primary hover:shadow-lg transition-all group flex flex-col justify-between h-full">
+                    <a href="/brands" class="bg-navy text-white p-6 rounded-2xl border border-primary/40 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between h-full shadow-sm">
                         <div>
                             <div class="w-12 h-12 rounded-xl badge-hub flex items-center justify-center font-black text-sm mb-4 group-hover:scale-110 transition-transform">
                                 <span class="material-symbols-outlined text-2xl" aria-hidden="true">dashboard</span>
@@ -1779,95 +1790,88 @@
         </section>
 
         <!-- Core Auto Services (Minimal & Focused) -->
-        <section class="py-16 bg-slate-50 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800"
-            id="services">
+        <section class="py-16 bg-slate-50 industrial-grid border-b border-slate-200" id="services">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
                     <div>
                         <span class="text-primary font-bold text-xs uppercase tracking-widest">Workshop Services</span>
-                        <h2 class="text-2xl sm:text-4xl font-extrabold text-navy dark:text-white mt-1">Specialized Auto
-                            &amp; Tyre Services</h2>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold text-navy mt-1">Specialized Auto &amp; Tyre Services</h2>
                     </div>
                     <a href="/services" class="text-primary font-bold text-sm hover:underline flex items-center gap-1">
-                        View All Auto Services <span class="material-symbols-outlined text-sm"
-                            aria-hidden="true">arrow_forward</span>
+                        View All Auto Services <span class="material-symbols-outlined text-sm" aria-hidden="true">arrow_forward</span>
                     </a>
                 </div>
-                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                     <!-- Service 1 -->
-                    <div
-                        class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">straighten</span>
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">straighten</span>
+                            </div>
+                            <h3 class="font-bold text-lg text-navy mb-2 group-hover:text-primary transition-colors">3D Laser Wheel Alignment</h3>
+                            <p class="text-xs sm:text-sm text-slate-500 leading-relaxed mb-4">High-precision computerized camber, caster &amp; toe calibration preventing uneven tyre wear and highway pulling.</p>
                         </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">3D Laser Wheel Alignment</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">High-precision
-                            computerized camber, caster &amp; toe calibration preventing uneven tyre wear and highway
-                            pulling.</p>
+                        <a href="/services" class="text-primary font-bold text-sm inline-flex items-center gap-1 mt-auto pt-2">Learn More →</a>
                     </div>
 
                     <!-- Service 2 -->
-                    <div
-                        class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">balance</span>
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">balance</span>
+                            </div>
+                            <h3 class="font-bold text-lg text-navy mb-2 group-hover:text-primary transition-colors">Dynamic Wheel Balancing</h3>
+                            <p class="text-xs sm:text-sm text-slate-500 leading-relaxed mb-4">Computerized balancing with precision counterweights to eliminate steering wheel vibration at highway speeds.</p>
                         </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">Dynamic Wheel Balancing</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Computerized balancing
-                            with precision counterweights to eliminate steering wheel vibration at highway speeds.</p>
+                        <a href="/services" class="text-primary font-bold text-sm inline-flex items-center gap-1 mt-auto pt-2">Learn More →</a>
                     </div>
 
                     <!-- Service 3 -->
-                    <div
-                        class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">handyman</span>
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">handyman</span>
+                            </div>
+                            <h3 class="font-bold text-lg text-navy mb-2 group-hover:text-primary transition-colors">15-Minute Puncture Repair</h3>
+                            <p class="text-xs sm:text-sm text-slate-500 leading-relaxed mb-4">Fast tubeless repairs, inner radial patch vulcanization, and valve replacements for cars, bikes, and trucks.</p>
                         </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">15-Minute Puncture Repair</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Fast tubeless repairs,
-                            inner radial patch vulcanization, and valve replacements for cars, bikes, and trucks.</p>
+                        <a href="/services" class="text-primary font-bold text-sm inline-flex items-center gap-1 mt-auto pt-2">Learn More →</a>
                     </div>
 
                     <!-- Service 4 -->
-                    <div
-                        class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">local_shipping</span>
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">local_shipping</span>
+                            </div>
+                            <h3 class="font-bold text-lg text-navy mb-2 group-hover:text-primary transition-colors">Truck Tyre Fitting &amp; Fleet Care</h3>
+                            <p class="text-xs sm:text-sm text-slate-500 leading-relaxed mb-4">Heavy commercial tyre hydraulic fitment with dedicated commercial vehicle bays. All 14 truck tyre sizes stocked in stock.</p>
                         </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">Truck Tyre Fitting &amp; Fleet Care
-                        </h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Heavy commercial tyre
-                            hydraulic fitment with dedicated commercial vehicle bays. All
-                            <a href="/tyres/truck" class="text-primary font-semibold hover:underline">14 truck tyre sizes from 7.00-16 to 315/80 R22.5</a>
-                            stocked in stock.</p>
+                        <a href="/services" class="text-primary font-bold text-sm inline-flex items-center gap-1 mt-auto pt-2">Learn More →</a>
                     </div>
 
                     <!-- Service 5 -->
-                    <div
-                        class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">build_circle</span>
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">build_circle</span>
+                            </div>
+                            <h3 class="font-bold text-lg text-navy mb-2 group-hover:text-primary transition-colors">Brake &amp; Suspension Check</h3>
+                            <p class="text-xs sm:text-sm text-slate-500 leading-relaxed mb-4">Safety inspections of brake pads, rotors, caliper slide pins, shockers, and tie rod ends before alignment.</p>
                         </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">Brake &amp; Suspension Check</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Safety inspections of
-                            brake pads, rotors, caliper slide pins, shockers, and tie rod ends before alignment.</p>
+                        <a href="/services" class="text-primary font-bold text-sm inline-flex items-center gap-1 mt-auto pt-2">Learn More →</a>
                     </div>
 
                     <!-- Service 6 -->
-                    <div
-                        class="premium-card bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 hover:border-primary/40 shadow-sm transition-all">
-                        <div
-                            class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-4">
-                            <span class="material-symbols-outlined text-2xl" aria-hidden="true">air</span>
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">air</span>
+                            </div>
+                            <h3 class="font-bold text-lg text-navy mb-2 group-hover:text-primary transition-colors">Nitrogen Inflation &amp; TPMS</h3>
+                            <p class="text-xs sm:text-sm text-slate-500 leading-relaxed mb-4">Pure nitrogen top-up for cooler tyre running on NH48 and sensor-safe computerized tyre mounting.</p>
                         </div>
-                        <h3 class="font-bold text-lg text-navy dark:text-white mb-2">Nitrogen Inflation &amp; TPMS</h3>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">Pure nitrogen top-up for
-                            cooler tyre running on NH48 and sensor-safe computerized tyre mounting.</p>
+                        <a href="/services" class="text-primary font-bold text-sm inline-flex items-center gap-1 mt-auto pt-2">Learn More →</a>
                     </div>
                 </div>
             </div>
@@ -1909,24 +1913,19 @@
                                 aria-hidden="true">chat</span> Chat with Workshop
                         </a>
                     </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Location, Hours & Map -->
-        <section class="py-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800" id="location">
+        <section class="py-16 bg-white border-b border-slate-200" id="location">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid lg:grid-cols-3 gap-8 items-center">
                     <div class="space-y-6">
                         <div>
                             <div
-                                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-bold mb-2">
+                                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 text-xs font-bold mb-2">
                                 <span class="pulse-dot" aria-hidden="true"></span> Open Today: 7:30 AM – 9:00 PM
                             </div>
-                            <h2 class="text-2xl sm:text-3xl font-black text-navy dark:text-white mt-1">Visit Sahara Tyre
-                                in Vapi</h2>
+                            <h2 class="text-2xl sm:text-3xl font-black text-navy mt-1">Visit Sahara Tyre in Vapi</h2>
                         </div>
-                        <div class="space-y-3 text-sm text-slate-600 dark:text-slate-400">
+                        <div class="space-y-3 text-sm text-slate-600">
                             <p class="flex items-start gap-2">
                                 <span class="material-symbols-outlined text-primary text-xl shrink-0"
                                     aria-hidden="true">pin_drop</span>
@@ -1954,13 +1953,13 @@
                                 Directions
                             </a>
                             <a href="/location"
-                                class="border border-slate-300 dark:border-slate-700 hover:border-primary active:scale-95 text-slate-700 dark:text-slate-300 font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all">
+                                class="border border-slate-300 hover:border-primary active:scale-95 text-slate-700 font-bold px-6 py-3 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all">
                                 Transit Guide →
                             </a>
                         </div>
                     </div>
                     <div
-                        class="lg:col-span-2 rounded-2xl overflow-hidden h-[320px] shadow-sm border border-slate-200 dark:border-slate-800 bg-slate-100">
+                        class="lg:col-span-2 rounded-2xl overflow-hidden h-[320px] shadow-sm border border-slate-200 bg-slate-100">
                         <iframe title="Sahara Tyre GIDC Vapi Location"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.500735996348!2d72.9202642!3d20.3622289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0ce38d9016497%3A0x625d1494863f31eb!2sSahara%20Tyres%20GIDC%20Vapi!5e0!3m2!1sen!2sin!4v1772942942273!5m2!1sen!2sin"
                             width="100%" height="100%" style="border:0; display:block;" allowfullscreen=""
@@ -1971,24 +1970,23 @@
         </section>
 
         <!-- Top FAQs -->
-        <section class="py-16 bg-slate-50 dark:bg-slate-950">
+        <section class="py-16 bg-slate-50 industrial-grid border-b border-slate-200">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-10">
                     <span class="text-primary font-bold text-xs uppercase tracking-widest">Common Questions</span>
-                    <h2 class="text-2xl sm:text-3xl font-black text-navy dark:text-white mt-1">Frequently Asked
-                        Questions</h2>
+                    <h2 class="text-2xl sm:text-3xl font-black text-navy mt-1">Frequently Asked Questions</h2>
                 </div>
                 <div class="space-y-4">
                     <details
-                        class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 group"
+                        class="bg-white rounded-2xl border border-slate-200 p-6 group shadow-sm"
                         open>
                         <summary
-                            class="font-bold text-navy dark:text-white text-base cursor-pointer list-none flex justify-between items-center">
+                            class="font-bold text-navy text-base cursor-pointer list-none flex justify-between items-center">
                             <span>How much does wheel alignment cost at Sahara Tyre Vapi?</span>
                             <span
                                 class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
                         </summary>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm mt-3 leading-relaxed">
+                        <p class="text-slate-600 text-sm mt-3 leading-relaxed">
                             Wheel alignment is competitively priced for hatchbacks, sedans, SUVs, and commercial trucks.
                             Call <a href="tel:+919377158216" class="text-primary font-bold">+91-9377158216</a> for an
                             instant quote based on your vehicle model.
@@ -1996,28 +1994,28 @@
                     </details>
 
                     <details
-                        class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 group">
+                        class="bg-white rounded-2xl border border-slate-200 p-6 group shadow-sm">
                         <summary
-                            class="font-bold text-navy dark:text-white text-base cursor-pointer list-none flex justify-between items-center">
+                            class="font-bold text-navy text-base cursor-pointer list-none flex justify-between items-center">
                             <span>Which tyre brands do you sell in Vapi?</span>
                             <span
                                 class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
                         </summary>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm mt-3 leading-relaxed">
+                        <p class="text-slate-600 text-sm mt-3 leading-relaxed">
                             We are an authorized stockist for <strong>MRF, CEAT, Apollo, Bridgestone, JK Tyre, Goodyear,
                                 and Michelin</strong>, with official manufacturer warranty registration.
                         </p>
                     </details>
 
                     <details
-                        class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 group">
+                        class="bg-white rounded-2xl border border-slate-200 p-6 group shadow-sm">
                         <summary
-                            class="font-bold text-navy dark:text-white text-base cursor-pointer list-none flex justify-between items-center">
+                            class="font-bold text-navy text-base cursor-pointer list-none flex justify-between items-center">
                             <span>Are second-hand used tyres safe to buy?</span>
                             <span
                                 class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
                         </summary>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm mt-3 leading-relaxed">
+                        <p class="text-slate-600 text-sm mt-3 leading-relaxed">
                             Yes. Every pre-owned tyre at Sahara Tyre passes a strict 5-point safety inspection ensuring
                             verified 3mm+ usable tread, zero bead tears, and 50 PSI pressure leak testing with
                             satisfaction guarantees.
@@ -2025,14 +2023,14 @@
                     </details>
 
                     <details
-                        class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-6 group">
+                        class="bg-white rounded-2xl border border-slate-200 p-6 group shadow-sm">
                         <summary
-                            class="font-bold text-navy dark:text-white text-base cursor-pointer list-none flex justify-between items-center">
+                            class="font-bold text-navy text-base cursor-pointer list-none flex justify-between items-center">
                             <span>Are you open on Sundays for emergency tyre repairs?</span>
                             <span
                                 class="material-symbols-outlined text-slate-400 group-open:rotate-180 transition-transform">expand_more</span>
                         </summary>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm mt-3 leading-relaxed">
+                        <p class="text-slate-600 text-sm mt-3 leading-relaxed">
                             Yes! We are open 7 days a week, including Sundays from <strong>7:30 AM to 6:00 PM</strong>
                             for walk-in puncture fixes, tyre replacements, and roadside emergency assistance.
                         </p>
