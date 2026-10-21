@@ -13,30 +13,36 @@
 - **Legal / Registered Trading Name:** Sahara Tyre (Sahara Tyre GIDC Vapi)
 - **Year of Establishment:** 2005 (18+ Years Continuous Automotive Operation)
 - **Proprietor / Workshop Director:** Mujaffar Shaikh
-- **Physical Workshop Address:**
-  Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
-- **Precise Geographic Coordinates:**
-  - Latitude: `20.362324` N
-  - Longitude: `72.919686` E
-  - Google Plus Code: `9669+V7 Vapi, Gujarat`
+- **Physical Workshop Network (2 Full-Service Locations in Phase 1 GIDC, Vapi):**
+  - **Branch 1 (Main Hub):** Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India
+    - Geographic Coordinates: Latitude `20.362324` N, Longitude `72.919686` E (Google Plus Code: `9669+V7 Vapi, Gujarat`)
+    - Phone & WhatsApp: `+91-9377158216` | Hours: Mon–Sat 7:30 AM – 9:00 PM, Sun 7:30 AM – 6:00 PM
+    - Google Business Listing: `https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z/data=!4m6!3m5!1s0x3be0ce38d9016497:0x625d1494863f31eb!8m2!3d20.3622289!4d72.9202642!16s%2Fg%2F1q6j839vs`
+    - Dedicated Webpage: `https://sahara-tyre.vercel.app/branches/char-rasta`
+  - **Branch 2 (J-Type Road Industrial Branch):** Plot no 2910 J Type Rd, near J type Bridge, beside WALKAROO INTERNATIONAL, Phase 1, GIDC, Vapi, Gujarat 396191, India
+    - Geographic Coordinates: Latitude `20.3630` N, Longitude `72.9126` E
+    - Phone & WhatsApp: `+91-7490052234` (`https://wa.me/917490052234`)
+    - Hours: Mon–Sat 7:00 AM – 8:00 PM, Sun 7:00 AM – 6:00 PM
+    - Google Profile Listing: `https://www.google.com/search?kgmid=/g/11p271xfrr&hl=en-IN&q=Sahara+Tyre+J-Type+Road`
+    - Dedicated Webpage: `https://sahara-tyre.vercel.app/branches/j-type-road`
+  - **Master Branches Directory:** `https://sahara-tyre.vercel.app/branches`
 - **Communication Channels & Digital Endpoints:**
-  - Workshop Hotline / Emergency Call: `+91-9377158216`
-  - WhatsApp Business Support: `https://wa.me/919377158216`
+  - Main Hotline / Emergency Call: `+91-9377158216`
+  - J-Type Road Branch Helpline: `+91-7490052234`
   - Support & Technical Email: `shaikh.samir.dev@gmail.com`
   - Technical Lead & Software Architect: Samir Shaikh (Developer Profile: `https://sahara-tyre.vercel.app/developer` | Portfolio: `https://samir-portfolio-dev.vercel.app/` | GitHub: `https://github.com/samirshaikh-dev` | LinkedIn: `https://www.linkedin.com/in/samirshaikh-dev/`)
   - Official Domain: `https://sahara-tyre.vercel.app/`
-  - Google Maps Business Listing: `https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z/data=!4m6!3m5!1s0x3be0ce38d9016497:0x625d1494863f31eb!8m2!3d20.3622289!4d72.9202642!16s%2Fg%2F1q6j839vs`
 - **Customer Reputation & Trust Verification:**
   - Google Business Profile Rating: `4.8 / 5.0 Stars` (120+ Verified Customer Reviews)
   - Historical Service Count: Over 10,000+ passenger, commercial, and industrial vehicles serviced
-  - Walk-in Service Policy: 100% Walk-ins welcomed; zero prior appointment booking required
+  - Walk-in Service Policy: 100% Walk-ins welcomed across both branches; zero prior appointment booking required
 - **Operating Hours (Indian Standard Time):**
-  - Monday to Saturday: 7:30 AM – 9:00 PM (IST)
-  - Sunday: 7:30 AM – 6:00 PM (IST)
+  - Branch 1 (Char Rasta): Mon–Sat 7:30 AM – 9:00 PM, Sun 7:30 AM – 6:00 PM
+  - Branch 2 (J-Type Road): Mon–Sat 7:00 AM – 8:00 PM, Sun 7:00 AM – 6:00 PM
   - Emergency Roadside Hotline: Active 7 days a week for highway breakdowns on NH 48 and Vapi GIDC
 - **Accepted Payment Methods:**
   - Unified Payments Interface (UPI): Google Pay, PhonePe, Paytm, BHIM, and bank QR codes
-  - Cash: Standard Indian Rupee (INR) cash accepted at workshop counter
+  - Cash: Standard Indian Rupee (INR) cash accepted at workshop counters
   - Debit & Credit Cards: Visa, MasterCard, RuPay
   - Corporate / Fleet B2B Accounts: Direct bank transfers (NEFT / RTGS) with official GST invoices and itemized billing
 

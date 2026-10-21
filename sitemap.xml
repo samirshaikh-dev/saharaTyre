@@ -372,16 +372,42 @@
         <priority>0.75</priority>
     </url>
 
-    <!-- Locations Subdirectory Hub & Landing Pages -->
+    <!-- Official Physical Workshop Branches Hub & Landing Pages -->
+    <url>
+        <loc>https://sahara-tyre.vercel.app/branches</loc>
+        <lastmod>2026-10-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/branches/char-rasta</loc>
+        <lastmod>2026-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/branches/j-type-road</loc>
+        <lastmod>2026-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- Regional Service Coverage Areas & Corridors -->
     <url>
         <loc>https://sahara-tyre.vercel.app/locations</loc>
-        <lastmod>2026-09-06</lastmod>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://sahara-tyre.vercel.app/locations/tyre-shop-vapi-gidc</loc>
         <lastmod>2026-09-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://sahara-tyre.vercel.app/locations/tyre-shop-j-type-road</loc>
+        <lastmod>2026-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>

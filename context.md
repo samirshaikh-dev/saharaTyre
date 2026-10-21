@@ -20,16 +20,18 @@ The website is NOT an e-commerce store. It does NOT sell tyres online for shippi
 
 ## Google Business Profile (GBP) & Local SEO Synergy
 
-This website is linked and used within the **Google Business Profile** account for Sahara Tyre:
+This website is linked and used within the **Google Business Profile** accounts for Sahara Tyre's 2 physical workshop branches:
 
-| GBP Element | Website Connection |
-|---|---|
-| Website URL | `https://sahara-tyre.vercel.app/` |
-| Primary Phone | `+91-9377158216` (exact match across all pages and NAP schema) |
-| Physical Address | Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195 |
-| Business Hours | Mon–Sat 7:30 AM – 9:00 PM, Sun 7:30 AM – 6:00 PM (100% Walk-ins) |
-| Reviews & Trust | 4.8/5 rating from 120+ reviews displayed with live Google Maps link |
-| Geo Coordinates | `20.362324, 72.919686` embedded in HTML geo meta and JSON-LD schema |
+| GBP Element | Branch 1: Char Rasta (Main Hub) | Branch 2: J-Type Road (Industrial Branch) |
+|---|---|---|
+| Website URL | `https://sahara-tyre.vercel.app/branches/char-rasta` | `https://sahara-tyre.vercel.app/branches/j-type-road` |
+| Primary Phone | `+91-9377158216` | `+91-7490052234` |
+| WhatsApp | `https://wa.me/919377158216` | `https://wa.me/917490052234` |
+| Physical Address | Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195 | Plot no 2910 J Type Rd, near J type Bridge, beside WALKAROO INTERNATIONAL, Phase 1, GIDC, Vapi, Gujarat 396191 |
+| Business Hours | Mon–Sat 7:30 AM – 9:00 PM, Sun 7:30 AM – 6:00 PM | Mon–Sat 7:00 AM – 8:00 PM, Sun 7:00 AM – 6:00 PM |
+| Walk-in Policy | 100% Walk-ins Welcomed | 100% Walk-ins Welcomed |
+| Reviews & Trust | 4.8/5 rating from 120+ reviews | Google Maps Profile Listing Verified |
+| Geo Coordinates | `20.362324, 72.919686` | `20.3630, 72.9126` |
 
 ---
 
@@ -38,7 +40,10 @@ This website is linked and used within the **Google Business Profile** account f
 The website is organized into dedicated pages and modular topical hubs to avoid keyword cannibalization and maximize topical authority:
 
 1. **[index.htm](https://sahara-tyre.vercel.app/)** — Master hub with broad local automotive discovery, master FAQs, review highlights, and primary CTAs.
-2. **[/services](https://sahara-tyre.vercel.app/services)** — Auto services directory hub and 10 dedicated service landing pages:
+2. **[/branches](https://sahara-tyre.vercel.app/branches)** — Dedicated physical workshop locator hub and 2 official store branches:
+   - `/branches/char-rasta` (Flagship Char Rasta Main Workshop Hub)
+   - `/branches/j-type-road` (J-Type Road Phase 1 Industrial Branch)
+3. **[/services](https://sahara-tyre.vercel.app/services)** — Auto services directory hub and 10 dedicated service landing pages:
    - `/services/wheel-alignment-vapi` (3D laser wheel alignment)
    - `/services/wheel-balancing-vapi` (Dynamic computerized balancing)
    - `/services/puncture-repair-vapi` (15-min tubeless vulcanized puncture repair)
@@ -49,8 +54,8 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
    - `/services/car-tyres-vapi` (Passenger car & SUV wheel maintenance)
    - `/services/fleet-tyre-service-vapi` (GIDC corporate fleet maintenance contracts)
    - `/services/roadside-tyre-assistance-vapi` (On-site puncture assistance within 20km)
-3. **[/products](https://sahara-tyre.vercel.app/products)** — Product catalog & category gateway connecting brand-new, quality used, and remoulded commercial tyres.
-4. **[/vehicles](https://sahara-tyre.vercel.app/vehicles)** — 11 dedicated vehicle category hubs:
+4. **[/products](https://sahara-tyre.vercel.app/products)** — Product catalog & category gateway connecting brand-new, quality used, and remoulded commercial tyres.
+5. **[/vehicles](https://sahara-tyre.vercel.app/vehicles)** — 11 dedicated vehicle category hubs:
    - `/vehicles/truck-tyres` (Multi-axle haulage & tipper trucks: `10.00-20`, `295/80 R22.5`, `11.00 R20`)
    - `/vehicles/bus-tyres` (Intercity luxury coaches & staff buses)
    - `/vehicles/car-tyres` (Passenger cars & SUVs: `155/80 R13` to `265/65 R17`)
@@ -62,23 +67,23 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
    - `/vehicles/agricultural-tyres` (Trailer trolley & combine harvester tyres)
    - `/vehicles/otr-earthmover-tyres` (OTR loader, grader & JCB 3DX tyres)
    - `/vehicles/industrial-tyres` (Solid resilient & cleanroom forklift tyres)
-5. **[/condition](https://sahara-tyre.vercel.app/condition)** — Tyre condition comparison hub and dedicated category hubs:
+6. **[/condition](https://sahara-tyre.vercel.app/condition)** — Tyre condition comparison hub and dedicated category hubs:
    - `/condition/new-tyres` (Brand-new tyres: MRF, CEAT, Apollo, Bridgestone, Michelin)
    - `/condition/used-tyres` (5-point safety tested second-hand tyres with 3mm+ tread depth)
    - `/condition/remould-tyres` (Certified cold precure & hot mould retread commercial tyres)
-6. **[/guides](https://sahara-tyre.vercel.app/guides)** — Buyer decision and comparison guides:
+7. **[/guides](https://sahara-tyre.vercel.app/guides)** — Buyer decision and comparison guides:
    - `/guides/new-vs-used-tyres` (Head-to-head price, lifespan & safety analysis)
    - `/guides/new-vs-remould-tyres` (Commercial fleet Cost-Per-Kilometer CPKM analysis)
    - `/guides/used-vs-remould-tyres` (Budget comparison: remaining tread vs precure retreads)
-7. **[/brands](https://sahara-tyre.vercel.app/brands)** — Authorized tyre brand hubs:
+8. **[/brands](https://sahara-tyre.vercel.app/brands)** — Authorized tyre brand hubs:
    - `/brands/mrf-tyres-vapi` | `/brands/ceat-tyres-vapi` | `/brands/apollo-tyres-vapi` | `/brands/bridgestone-tyres-vapi` | `/brands/jk-tyres-vapi` | `/brands/michelin-tyres-vapi` | `/brands/goodyear-tyres-vapi` | `/brands/yokohama-tyres-vapi` | `/brands/continental-tyres-vapi` | `/brands/bkt-tyres-vapi` | `/brands/tvs-eurogrip-vapi`
-8. **[/locations](https://sahara-tyre.vercel.app/locations)** — Local coverage & driving directions:
-   - `/locations/tyre-shop-vapi-gidc` | `/locations/tyre-shop-gunjan` | `/locations/tyre-shop-chala` | `/locations/tyre-shop-daman`
-9. **[/tyres](https://sahara-tyre.vercel.app/tyres/car)** — Dedicated sizing matrix pages for cars, trucks, and bikes.
-10. **[/blog](https://sahara-tyre.vercel.app/blog)** — 18 technical maintenance, cost, diagnostics, seasonal and buyer advisory articles.
-11. **[location.htm](https://sahara-tyre.vercel.app/location)** — Master navigation & landmark turn-by-turn directions.
-12. **[about.htm](https://sahara-tyre.vercel.app/about)** — Heritage & trust: 18+ years history, technician credentials.
-13. **[privacy.htm](https://sahara-tyre.vercel.app/privacy)** — Privacy Policy: Customer data protection & cookie disclosures.
+9. **[/locations](https://sahara-tyre.vercel.app/locations)** — Local coverage & driving directions:
+   - `/locations/tyre-shop-gunjan` | `/locations/tyre-shop-chala` | `/locations/tyre-shop-daman`
+10. **[/tyres](https://sahara-tyre.vercel.app/tyres/car)** — Dedicated sizing matrix pages for cars, trucks, and bikes.
+11. **[/blog](https://sahara-tyre.vercel.app/blog)** — 18 technical maintenance, cost, diagnostics, seasonal and buyer advisory articles.
+12. **[location.htm](https://sahara-tyre.vercel.app/location)** — Master navigation & landmark turn-by-turn directions.
+13. **[about.htm](https://sahara-tyre.vercel.app/about)** — Heritage & trust: 18+ years history, technician credentials.
+14. **[privacy.htm](https://sahara-tyre.vercel.app/privacy)** — Privacy Policy: Customer data protection & cookie disclosures.
 14. **[terms.htm](https://sahara-tyre.vercel.app/terms)** — Terms & Conditions: Workshop service agreements & warranties.
 15. **[developer.htm](https://sahara-tyre.vercel.app/developer)** — Developer Profile: Engineering portfolio (https://samir-portfolio-dev.vercel.app/), technical architecture, 100% Core Web Vitals optimization, and full-stack capabilities of Samir Shaikh.
 16. **[faq.htm](https://sahara-tyre.vercel.app/faq)** — Frequently Asked Questions: Dedicated, 24-question customer knowledge base with live search, 7 category filter pills, smooth zero-CLS CSS-grid accordions, WhatsApp lead inquiry modal, and full Schema.org `FAQPage` + `AutoPartsStore` JSON-LD.

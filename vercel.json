@@ -18,10 +18,18 @@
     { "source": "/terms.htm", "destination": "/terms", "permanent": true },
     { "source": "/developer.htm", "destination": "/developer", "permanent": true },
     { "source": "/faq.htm", "destination": "/faq", "permanent": true },
-    { "source": "/industrial-tyres.htm", "destination": "/vehicles/industrial-tyres", "permanent": true }
+    { "source": "/industrial-tyres.htm", "destination": "/vehicles/industrial-tyres", "permanent": true },
+    { "source": "/branches.htm", "destination": "/branches", "permanent": true },
+    { "source": "/locations/tyre-shop-vapi-gidc", "destination": "/branches/char-rasta", "permanent": true },
+    { "source": "/locations/tyre-shop-vapi-gidc.htm", "destination": "/branches/char-rasta", "permanent": true },
+    { "source": "/locations/tyre-shop-j-type-road", "destination": "/branches/j-type-road", "permanent": true },
+    { "source": "/locations/tyre-shop-j-type-road.htm", "destination": "/branches/j-type-road", "permanent": true }
   ],
   "rewrites": [
     { "source": "/", "destination": "/index.htm" },
+    { "source": "/branches", "destination": "/branches/index.htm" },
+    { "source": "/branches/", "destination": "/branches/index.htm" },
+    { "source": "/branches/:slug", "destination": "/branches/:slug.htm" },
     { "source": "/services", "destination": "/services/index.htm" },
     { "source": "/services/", "destination": "/services/index.htm" },
     { "source": "/services/:slug", "destination": "/services/:slug.htm" },

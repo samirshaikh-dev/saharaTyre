@@ -131,82 +131,99 @@
         }
     </style>
 
-    <!-- Structured Data: LocalBusiness -->
+    <!-- Structured Data: LocalBusiness Multi-Branch -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "AutoPartsStore",
-      "name": "Sahara Tyre GIDC Vapi",
-      "image": "https://sahara-tyre.vercel.app/og-image.png",
-      "@id": "https://sahara-tyre.vercel.app/#business",
-      "url": "https://sahara-tyre.vercel.app/location",
-      "telephone": "+91-9377158216",
-      "priceRange": "₹₹",
-      "description": "Sahara Tyre is located at Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195. We serve Vapi GIDC, Gunjan, Chala, Daman, Silvassa and nearby areas with new, used and remolded tyres, puncture repair, wheel alignment, tyre balancing, brake inspection, suspension check, fleet maintenance and roadside assistance.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
-        "addressLocality": "Vapi",
-        "addressRegion": "Gujarat",
-        "postalCode": "396195",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 20.362324,
-        "longitude": 72.919686
-      },
-      "openingHoursSpecification": [
+      "@graph": [
         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-          "opens": "07:30",
-          "closes": "21:00"
+          "@type": "AutoPartsStore",
+          "@id": "https://sahara-tyre.vercel.app/#business",
+          "name": "Sahara Tyre GIDC Vapi (Char Rasta Hub)",
+          "image": "https://sahara-tyre.vercel.app/og-image.png",
+          "url": "https://sahara-tyre.vercel.app/location",
+          "telephone": "+91-9377158216",
+          "priceRange": "₹₹",
+          "description": "Sahara Tyre Main Hub is located at Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195. Full-service tyre center with 3D wheel alignment, dynamic balancing, puncture repair, new/used tyres, and commercial fleet services.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
+            "addressLocality": "Vapi",
+            "addressRegion": "Gujarat",
+            "postalCode": "396195",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 20.362324,
+            "longitude": 72.919686
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+              "opens": "07:30",
+              "closes": "21:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Sunday",
+              "opens": "07:30",
+              "closes": "18:00"
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "120"
+          },
+          "sameAs": [
+            "https://wa.me/919377158216",
+            "https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z/data=!4m6!3m5!1s0x3be0ce38d9016497:0x625d1494863f31eb!8m2!3d20.3622289!4d72.9202642!16s%2Fg%2F1q6j839vs"
+          ]
         },
         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "07:30",
-          "closes": "18:00"
+          "@type": "AutoPartsStore",
+          "@id": "https://sahara-tyre.vercel.app/branches/j-type-road#business",
+          "name": "Sahara Tyre J-Type Road",
+          "image": "https://sahara-tyre.vercel.app/og-image.png",
+          "url": "https://sahara-tyre.vercel.app/branches/j-type-road",
+          "telephone": "+91-7490052234",
+          "priceRange": "₹₹",
+          "description": "Sahara Tyre J-Type Road branch: Plot no 2910 J Type Rd, near J type Bridge, beside WALKAROO INTERNATIONAL, Phase 1, GIDC, Vapi, Gujarat 396191. High-capacity workshop for passenger cars, LCVs, multi-axle trucks, and industrial fleet care.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Plot no 2910 J Type Rd, near J type Bridge, beside WALKAROO INTERNATIONAL, Phase 1, GIDC",
+            "addressLocality": "Vapi",
+            "addressRegion": "Gujarat",
+            "postalCode": "396191",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 20.3630,
+            "longitude": 72.9126
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+              "opens": "07:00",
+              "closes": "20:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Sunday",
+              "opens": "07:00",
+              "closes": "18:00"
+            }
+          ],
+          "hasMap": "https://www.google.com/search?kgmid=/g/11p271xfrr&hl=en-IN&q=Sahara+Tyre+J-Type+Road",
+          "sameAs": [
+            "https://wa.me/917490052234",
+            "https://www.google.com/search?kgmid=/g/11p271xfrr&hl=en-IN&q=Sahara+Tyre+J-Type+Road"
+          ]
         }
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "120"
-      },
-      "areaServed": [
-        "Char Rasta Vapi",
-        "Gunjan",
-        "Imran Nagar",
-        "Chala",
-        "Chanod",
-        "Dungra",
-        "GIDC Industrial Area",
-        "Gita Nagar",
-        "Balitha",
-        "Chharwada",
-        "Chhiri",
-        "Koparli Road",
-        "Silvassa Road",
-        "Salvav",
-        "Morai",
-        "Kanchanagar",
-        "Daman",
-        "Silvassa",
-        "Valsad",
-        "Pardi",
-        "Umbergaon",
-        "Bhilad",
-        "Vanganga Lake Garden",
-        "Arjungad Fort",
-        "Daman Ganga Dam",
-        "Hirwa Van Garden",
-        "Sunrise Point"
-      ],
-      "sameAs": [
-        "https://wa.me/919377158216",
-        "https://www.google.com/maps/place/Sahara+Tyres+GIDC+Vapi/@20.362324,72.919686,17z/data=!4m6!3m5!1s0x3be0ce38d9016497:0x625d1494863f31eb!8m2!3d20.3622289!4d72.9202642!16s%2Fg%2F1q6j839vs?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D"
       ]
     }
     </script>
@@ -313,6 +330,7 @@
                 <span class="font-bold text-lg tracking-tight">SAHARA TYRE</span>
             </a>
             <div class="hidden md:flex gap-6 text-sm font-medium">
+                <a class="hover:text-primary transition-colors" href="/branches">Branches</a>
                 <a class="hover:text-primary transition-colors" href="/services">Services</a>
                 <a class="hover:text-primary transition-colors" href="/products">Products</a>
                 <a class="hover:text-primary transition-colors" href="/vehicles">Vehicles</a>
@@ -353,35 +371,110 @@
             <div class="relative max-w-7xl mx-auto px-4 py-20 space-y-8">
                 <div
                     class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 border border-primary/30 text-primary font-semibold text-xs uppercase tracking-widest">
-                    <span class="material-symbols-outlined text-xs">location_on</span>
-                    Vapi GIDC Phase 1
+                    <span class="material-symbols-outlined text-xs">storefront</span>
+                    2 Physical Workshop Hubs in Vapi GIDC Phase 1
                 </div>
-                <h1 class="text-4xl md:text-6xl font-black text-white leading-tight max-w-3xl">Visit Sahara Tyre in
-                    Vapi GIDC</h1>
-                <p class="text-slate-300 text-lg md:text-xl max-w-2xl">Shop No 07, Amidhara Complex, Char Rasta, near
-                    CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195</p>
+                <h1 class="text-4xl md:text-6xl font-black text-white leading-tight max-w-4xl">Visit Sahara Tyre Workshops in Vapi GIDC</h1>
+                <p class="text-slate-300 text-lg md:text-xl max-w-3xl">Serving motorists, fleet operators, and industrial units from two strategic Phase 1 locations: <strong>Char Rasta (Main Hub)</strong> and <strong>J-Type Road (Industrial Branch)</strong>.</p>
                 <div class="flex flex-wrap gap-4 pt-4">
-                    <a class="bg-primary hover:bg-orange-600 text-navy px-8 py-4 rounded-full font-bold text-lg flex items-center gap-2 transition-all shadow-lg shadow-primary/30"
-                        href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener">
-                        <span class="material-symbols-outlined">directions</span>
-                        Get Directions
-                    </a>
-                    <a class="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-full font-bold text-lg flex items-center gap-2 transition-all border border-white/20"
+                    <a class="bg-primary hover:bg-orange-600 text-navy px-8 py-4 rounded-full font-bold text-base md:text-lg flex items-center gap-2 transition-all shadow-lg shadow-primary/30"
                         href="tel:+919377158216">
                         <span class="material-symbols-outlined">call</span>
-                        Call +91-9377158216
+                        Char Rasta: +91-9377158216
+                    </a>
+                    <a class="bg-primary hover:bg-orange-600 text-navy px-8 py-4 rounded-full font-bold text-base md:text-lg flex items-center gap-2 transition-all shadow-lg shadow-primary/30"
+                        href="tel:+917490052234">
+                        <span class="material-symbols-outlined">call</span>
+                        J-Type Road: +91-7490052234
+                    </a>
+                    <a class="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-full font-bold text-base md:text-lg flex items-center gap-2 transition-all border border-white/20"
+                        href="#workshops">
+                        <span class="material-symbols-outlined">directions</span>
+                        View Both Workshops
                     </a>
                 </div>
             </div>
         </section>
 
         <!-- Map & Address Section -->
-        <section class="py-20 bg-white industrial-grid">
+        <section id="workshops" class="py-20 bg-white industrial-grid scroll-mt-20">
             <div class="max-w-7xl mx-auto px-4 space-y-12">
                 <div class="text-center space-y-4">
-                    <h2 class="text-3xl md:text-4xl font-black">Find Us on the Map</h2>
-                    <p class="text-slate-600 text-lg max-w-2xl mx-auto">Located in the heart of Vapi GIDC Phase 1,
-                        near the CNG pump at Char Rasta. Free parking available.</p>
+                    <h2 class="text-3xl md:text-4xl font-black">Our 2 Workshop Locations in Vapi GIDC</h2>
+                    <p class="text-slate-600 text-lg max-w-2xl mx-auto">Choose the branch closest to your vehicle or workplace in Phase 1 GIDC. Both workshops provide identical premium services, 3D laser alignment, and warranty protection.</p>
+                </div>
+
+                <!-- Two Branch Cards Grid -->
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Branch 1: Char Rasta Main Workshop -->
+                    <div class="bg-slate-50 rounded-3xl p-8 border-2 border-primary/40 shadow-sm flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-start">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-wider">
+                                    <span class="material-symbols-outlined text-sm">stars</span> Workshop Hub 1 • Flagship
+                                </span>
+                                <span class="text-xs text-slate-500 font-bold">Est. 2005</span>
+                            </div>
+                            <h3 class="text-2xl font-black text-navy">Char Rasta Main Workshop</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                <strong>Address:</strong> Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195
+                            </p>
+                            <div class="p-3 bg-white rounded-xl border border-slate-200 text-xs text-slate-700 space-y-1.5">
+                                <div><strong>Landmark:</strong> Directly near CNG Pump at Char Rasta junction</div>
+                                <div><strong>Hours:</strong> Mon–Sat: 7:30 AM – 9:00 PM | Sun: 7:30 AM – 6:00 PM</div>
+                                <div><strong>Phone &amp; WhatsApp:</strong> <a href="tel:+919377158216" class="text-primary font-bold">+91-9377158216</a></div>
+                            </div>
+                        </div>
+                        <div class="mt-6 pt-6 border-t border-slate-200 flex flex-wrap gap-3">
+                            <a class="bg-primary text-navy font-bold px-5 py-2.5 rounded-xl text-sm flex items-center gap-1.5 hover:scale-105 transition-transform"
+                                href="tel:+919377158216">
+                                <span class="material-symbols-outlined text-sm">call</span>Call Hub
+                            </a>
+                            <a class="bg-white text-navy border border-slate-300 font-bold px-5 py-2.5 rounded-xl text-sm flex items-center gap-1.5 hover:bg-slate-100 transition-colors"
+                                href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank" rel="noopener">
+                                <span class="material-symbols-outlined text-sm">directions</span>Directions
+                            </a>
+                            <a class="text-primary font-bold text-sm flex items-center gap-1 ml-auto self-center hover:underline"
+                                href="/branches/char-rasta">
+                                Hub Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Branch 2: J-Type Road Workshop -->
+                    <div class="bg-slate-50 rounded-3xl p-8 border-2 border-primary/40 shadow-sm flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-start">
+                                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-wider">
+                                    <span class="material-symbols-outlined text-sm">new_releases</span> Workshop Hub 2 • Industrial Branch
+                                </span>
+                                <span class="text-xs text-emerald-700 bg-emerald-100 px-2.5 py-0.5 rounded-full font-bold">New Branch</span>
+                            </div>
+                            <h3 class="text-2xl font-black text-navy">Sahara Tyre J-Type Road</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                <strong>Address:</strong> Plot no 2910 J Type Rd, near J type Bridge, beside WALKAROO INTERNATIONAL, Phase 1, GIDC, Vapi, Gujarat 396191
+                            </p>
+                            <div class="p-3 bg-white rounded-xl border border-slate-200 text-xs text-slate-700 space-y-1.5">
+                                <div><strong>Landmark:</strong> Near J-Type Bridge, beside Walkaroo International</div>
+                                <div><strong>Hours:</strong> Mon–Sat: 7:00 AM – 8:00 PM | Sun: 7:00 AM – 6:00 PM</div>
+                                <div><strong>Phone &amp; WhatsApp:</strong> <a href="tel:+917490052234" class="text-primary font-bold">+91-7490052234</a></div>
+                            </div>
+                        </div>
+                        <div class="mt-6 pt-6 border-t border-slate-200 flex flex-wrap gap-3">
+                            <a class="bg-primary text-navy font-bold px-5 py-2.5 rounded-xl text-sm flex items-center gap-1.5 hover:scale-105 transition-transform"
+                                href="tel:+917490052234">
+                                <span class="material-symbols-outlined text-sm">call</span>Call Branch
+                            </a>
+                            <a class="bg-white text-navy border border-slate-300 font-bold px-5 py-2.5 rounded-xl text-sm flex items-center gap-1.5 hover:bg-slate-100 transition-colors"
+                                href="https://www.google.com/search?kgmid=/g/11p271xfrr&hl=en-IN&q=Sahara+Tyre+J-Type+Road" target="_blank" rel="noopener">
+                                <span class="material-symbols-outlined text-sm">directions</span>Directions
+                            </a>
+                            <a class="text-primary font-bold text-sm flex items-center gap-1 ml-auto self-center hover:underline"
+                                href="/branches/j-type-road">
+                                Branch Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Google Maps Embed -->
@@ -394,69 +487,30 @@
                     </iframe>
                 </div>
 
-                <!-- Address & Hours Grid -->
-                <div class="grid md:grid-cols-3 gap-8">
-                    <!-- Address -->
-                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 space-y-4">
-                        <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
-                            <span class="material-symbols-outlined text-primary text-2xl">location_on</span>
+                <!-- Payment, Walk-ins & Parking Grid -->
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 space-y-3">
+                        <div class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-xl">local_parking</span>
                         </div>
-                        <h3 class="text-lg font-bold">Our Address</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Shop No 07, Amidhara Complex, Char Rasta,
-                            near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India</p>
-                        <a class="text-primary font-semibold text-sm hover:underline flex items-center gap-1"
-                            href="https://www.google.com/maps/dir//20.3622289,72.9202642" target="_blank"
-                            rel="noopener">
-                            Get Directions
-                            <span class="material-symbols-outlined text-sm">open_in_new</span>
-                        </a>
+                        <h4 class="font-bold text-navy">Dedicated Heavy Parking</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Ample roadside and bay parking at both branches designed for cars, commercial LCVs, multi-axle haulage trucks, and trailers.</p>
                     </div>
 
-                    <!-- Business Hours -->
-                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 space-y-4">
-                        <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
-                            <span class="material-symbols-outlined text-primary text-2xl">schedule</span>
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 space-y-3">
+                        <div class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-xl">payments</span>
                         </div>
-                        <h3 class="text-lg font-bold">Business Hours</h3>
-                        <div class="space-y-2 text-sm">
-                            <div class="flex justify-between">
-                                <span class="text-slate-600">Monday – Saturday</span>
-                                <span class="font-semibold">7:30 AM – 9:00 PM</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="text-slate-600">Sunday</span>
-                                <span class="font-semibold">7:30 AM – 6:00 PM</span>
-                            </div>
-                            <div class="pt-2 border-t border-slate-200">
-                                <span class="text-primary font-semibold text-xs">Open 7 days a week</span>
-                            </div>
-                        </div>
+                        <h4 class="font-bold text-navy">Seamless Payments</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Cash, Google Pay, PhonePe, Paytm, RuPay, and formal corporate GST invoice billing for fleet contracts.</p>
                     </div>
 
-                    <!-- Payment & Parking -->
-                    <div class="bg-slate-50 rounded-2xl p-8 border border-slate-200 space-y-4">
-                        <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
-                            <span class="material-symbols-outlined text-primary text-2xl">local_parking</span>
+                    <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 space-y-3">
+                        <div class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-xl">verified</span>
                         </div>
-                        <h3 class="text-lg font-bold">Parking &amp; Payment</h3>
-                        <div class="space-y-3 text-sm">
-                            <div class="flex items-start gap-2">
-                                <span
-                                    class="material-symbols-outlined text-green-500 text-base mt-0.5">check_circle</span>
-                                <span class="text-slate-600"><strong>Free on-site parking</strong> for cars, SUVs &amp;
-                                    trucks</span>
-                            </div>
-                            <div class="flex items-start gap-2">
-                                <span
-                                    class="material-symbols-outlined text-green-500 text-base mt-0.5">check_circle</span>
-                                <span class="text-slate-600">Cash, Google Pay, PhonePe, Paytm &amp; all UPI</span>
-                            </div>
-                            <div class="flex items-start gap-2">
-                                <span
-                                    class="material-symbols-outlined text-green-500 text-base mt-0.5">check_circle</span>
-                                <span class="text-slate-600">No appointment needed — walk-ins welcome</span>
-                            </div>
-                        </div>
+                        <h4 class="font-bold text-navy">100% Walk-ins Welcomed</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Zero prior appointment needed. Drive in directly for immediate puncture repairs, wheel alignments, or tyre replacements.</p>
                     </div>
                 </div>
             </div>

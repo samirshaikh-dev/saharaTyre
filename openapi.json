@@ -595,6 +595,64 @@
         }
       }
     },
+    "/branches": {
+      "get": {
+        "tags": ["Workshop Navigation & NAP"],
+        "summary": "Official Physical Workshop Branches Locator Hub",
+        "description": "Master directory and locator for Sahara Tyre's 2 official physical workshop branches in Phase 1 GIDC Vapi: Char Rasta (Main Hub) and J-Type Road (Industrial Branch).",
+        "operationId": "getBranchesHub",
+        "responses": {
+          "200": {
+            "description": "Branches directory and workshop comparison page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/branches/{branch_slug}": {
+      "get": {
+        "tags": ["Workshop Navigation & NAP"],
+        "summary": "Dedicated Physical Workshop Branch Page",
+        "description": "Individual branch specifications, equipment inventory, direct phone/WhatsApp contacts, operating hours, and turn-by-turn navigation.",
+        "operationId": "getBranchDetail",
+        "parameters": [
+          {
+            "name": "branch_slug",
+            "in": "path",
+            "required": true,
+            "description": "Branch identifier slug",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "char-rasta",
+                "j-type-road"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Individual branch landing page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Branch not found"
+          }
+        }
+      }
+    },
     "/locations": {
       "get": {
         "tags": ["Workshop Navigation & NAP"],
@@ -631,6 +689,7 @@
               "type": "string",
               "enum": [
                 "tyre-shop-vapi-gidc",
+                "tyre-shop-j-type-road",
                 "tyre-shop-gunjan",
                 "tyre-shop-chala",
                 "tyre-shop-daman"
