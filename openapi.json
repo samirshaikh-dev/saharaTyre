@@ -22,6 +22,20 @@
       "description": "Production Edge CDN Server (Vercel Global Edge Network)"
     }
   ],
+  "x-markdown-endpoints": {
+    "services": "https://sahara-tyre.vercel.app/services.md",
+    "about": "https://sahara-tyre.vercel.app/about.md",
+    "products": "https://sahara-tyre.vercel.app/products.md",
+    "vehicles": "https://sahara-tyre.vercel.app/vehicles.md",
+    "brands": "https://sahara-tyre.vercel.app/brands.md",
+    "condition": "https://sahara-tyre.vercel.app/condition.md",
+    "guides": "https://sahara-tyre.vercel.app/guides.md",
+    "blog": "https://sahara-tyre.vercel.app/blog.md",
+    "branches": "https://sahara-tyre.vercel.app/branches.md",
+    "locations": "https://sahara-tyre.vercel.app/locations.md",
+    "location": "https://sahara-tyre.vercel.app/location.md",
+    "faq": "https://sahara-tyre.vercel.app/faq.md"
+  },
   "tags": [
     {
       "name": "AI Knowledge & Directives",
@@ -339,6 +353,102 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/tyres": {
+      "get": {
+        "tags": ["Product Catalog & Sizing"],
+        "summary": "Master 57 Tyre Sizes Catalogue Hub",
+        "description": "Comprehensive catalogue of 57 verified tyre sizes across 5 vehicle segments (Car & SUV, Commercial Truck, Motorcycle, Scooter, Auto Rickshaw) with live price bands, dimensional specifications, and in-store fitting in Vapi GIDC.",
+        "operationId": "getTyresMasterHub",
+        "responses": {
+          "200": {
+            "description": "Semantic HTML5 master tyre catalogue hub with ItemList schema",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/tyres/{category}": {
+      "get": {
+        "tags": ["Product Catalog & Sizing"],
+        "summary": "Vehicle Category Tyre Sizes Hub",
+        "description": "Lists all available tyre sizes within a specific vehicle category with ItemList schema and dimensional specifications.",
+        "operationId": "getTyresCategoryHub",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "description": "Vehicle tyre category",
+            "schema": {
+              "type": "string",
+              "enum": ["car", "truck", "bike", "scooter", "rickshaw"]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Vehicle category size directory page",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/tyres/{category}/{slug}": {
+      "get": {
+        "tags": ["Product Catalog & Sizing"],
+        "summary": "Tyre Size Detail Landing Page",
+        "description": "Dedicated tyre size page with 9 technical specifications, compatible vehicles, OEM brand patterns, fitment guidance, price range, and FAQ schema.",
+        "operationId": "getTyreSizeDetail",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "description": "Vehicle tyre category",
+            "schema": {
+              "type": "string",
+              "enum": ["car", "truck", "bike", "scooter", "rickshaw"]
+            }
+          },
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "Tyre size dimensional slug (e.g., 185-65-r15, 1000-20, 90-100-10)",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Tyre size detail landing page with AutoRepair, Product, and FAQPage JSON-LD schemas",
+            "content": {
+              "text/html; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Tyre size not found"
           }
         }
       }

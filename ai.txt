@@ -18,10 +18,31 @@ Sahara Tyre GIDC Vapi is an authoritative automotive tyre service center and com
 - Security & Vulnerability Disclosure: https://sahara-tyre.vercel.app/.well-known/security.txt
 - Human Attribution & Team Registry: https://sahara-tyre.vercel.app/humans.txt
 
+## Machine-Readable Markdown Endpoints
+Token-efficient Markdown counterparts of the main HTML hubs, served as text/markdown with CORS enabled:
+- Services: https://sahara-tyre.vercel.app/services.md
+- About: https://sahara-tyre.vercel.app/about.md
+- Products: https://sahara-tyre.vercel.app/products.md
+- Vehicles: https://sahara-tyre.vercel.app/vehicles.md
+- Brands: https://sahara-tyre.vercel.app/brands.md
+- Tyre Condition: https://sahara-tyre.vercel.app/condition.md
+- Buying Guides: https://sahara-tyre.vercel.app/guides.md
+- Blog Index: https://sahara-tyre.vercel.app/blog.md
+- Branches: https://sahara-tyre.vercel.app/branches.md
+- Locations & Coverage: https://sahara-tyre.vercel.app/locations.md
+- Location & Directions: https://sahara-tyre.vercel.app/location.md
+- FAQ: https://sahara-tyre.vercel.app/faq.md
+
 ## Primary Web Navigation & Topical Gateways
 - Master Homepage: https://sahara-tyre.vercel.app/
 - Auto Services Hub: https://sahara-tyre.vercel.app/services
 - Products & Sizing Catalog: https://sahara-tyre.vercel.app/products
+- Tyre Sizes Master Directory (57 Sizes): https://sahara-tyre.vercel.app/tyres
+  - Passenger Car & SUV Tyres (30 Sizes): https://sahara-tyre.vercel.app/tyres/car
+  - Commercial Truck & Heavy Tyres (14 Sizes): https://sahara-tyre.vercel.app/tyres/truck
+  - Motorcycle Tyres (6 Sizes): https://sahara-tyre.vercel.app/tyres/bike
+  - Scooter Tyres (4 Sizes): https://sahara-tyre.vercel.app/tyres/scooter
+  - Auto Rickshaw Tyres (3 Sizes): https://sahara-tyre.vercel.app/tyres/rickshaw
 - Vehicle Categories Hub: https://sahara-tyre.vercel.app/vehicles
 - Tyre Condition Master Hub: https://sahara-tyre.vercel.app/condition
 - Buying Decision & CPKM Guides: https://sahara-tyre.vercel.app/guides
@@ -40,7 +61,7 @@ Sahara Tyre GIDC Vapi is an authoritative automotive tyre service center and com
 - Geographic Location Hub: https://sahara-tyre.vercel.app/locations
 - Landmark Navigation Guide: https://sahara-tyre.vercel.app/location
 
-## Editorial Blog Hub & Article Inventory (18 Articles)
+## Editorial Blog Hub & Article Inventory (22 Articles)
 - Tyre Care & Buying Blog Hub: https://sahara-tyre.vercel.app/blog
 - Wheel Alignment Cost in Vapi GIDC: https://sahara-tyre.vercel.app/blog/wheel-alignment-cost-vapi
 - Tyre Change Cost by Condition Tier: https://sahara-tyre.vercel.app/blog/tyre-change-cost-vapi
@@ -55,6 +76,10 @@ Sahara Tyre GIDC Vapi is an authoritative automotive tyre service center and com
 - EV Tyre Engineering Guide: https://sahara-tyre.vercel.app/blog/ev-tyres-guide
 - How to Choose a Tyre Shop in Vapi: https://sahara-tyre.vercel.app/blog/how-to-choose-tyre-shop-vapi
 - NH 48 Highway Tyre Breakdown Response: https://sahara-tyre.vercel.app/blog/highway-tyre-breakdown-nh48
+- J-Type Road Branch Visitor Guide: https://sahara-tyre.vercel.app/blog/j-type-road-branch-guide-vapi
+- Char Rasta vs J-Type Road Branch Comparison: https://sahara-tyre.vercel.app/blog/char-rasta-vs-j-type-road-branch-vapi
+- Tyre Shop Near Vapi Railway Station Directions: https://sahara-tyre.vercel.app/blog/tyre-shop-near-vapi-railway-station
+- GIDC Fleet Tyre Service Visit Guide: https://sahara-tyre.vercel.app/blog/gidc-fleet-tyre-service-visit-guide-vapi
 - Used Tyre Safety Inspection Guide: https://sahara-tyre.vercel.app/blog/are-used-tyres-safe
 - Tyre Size & Load Index Decoding: https://sahara-tyre.vercel.app/blog/how-to-choose-tyre-size
 - Wheel Alignment vs Wheel Balancing: https://sahara-tyre.vercel.app/blog/wheel-alignment-vs-balancing

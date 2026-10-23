@@ -191,7 +191,7 @@ The Sahara Tyre digital ecosystem comprises over 80 dedicated semantic static pa
 8. `https://sahara-tyre.vercel.app/locations` — **Geographic Coverage Hub:** Regional driving directions, response radius, and service areas across South Gujarat.
 9. `https://sahara-tyre.vercel.app/blog` — **Educational Blog & Knowledge Hub:** Technical articles covering tyre costs, diagnostics, pressure, seasonal care, commercial fleets and EV engineering.
 
-### 18 Dedicated Blog Articles (`/blog/`)
+### 22 Dedicated Blog Articles (`/blog/`)
 - `https://sahara-tyre.vercel.app/blog/wheel-alignment-cost-vapi` — Wheel alignment cost drivers in Vapi GIDC and what the digital before-and-after printout should contain.
 - `https://sahara-tyre.vercel.app/blog/tyre-change-cost-vapi` — Tyre change cost by condition tier (new, 5-point tested used, cold precure retread), size, brand and included services.
 - `https://sahara-tyre.vercel.app/blog/puncture-repair-cost-vapi` — Temporary crown plug versus permanent internal mushroom patch pricing logic, and sidewall no-repair boundaries.
@@ -205,6 +205,10 @@ The Sahara Tyre digital ecosystem comprises over 80 dedicated semantic static pa
 - `https://sahara-tyre.vercel.app/blog/ev-tyres-guide` — EV tyre engineering: XL/HL load ratings, instant torque abrasion, acoustic foam and low rolling resistance.
 - `https://sahara-tyre.vercel.app/blog/how-to-choose-tyre-shop-vapi` — Nine verification checks that separate a professional tyre workshop from a sales counter.
 - `https://sahara-tyre.vercel.app/blog/highway-tyre-breakdown-nh48` — First-60-seconds driver response to a highway blowout, plus 20km mobile assistance coverage near Vapi.
+- `https://sahara-tyre.vercel.app/blog/j-type-road-branch-guide-vapi` — Visitor guide to the J-Type Road branch: exact location near J-Type Bridge and Walkaroo International, timings, directions from Char Rasta, NH 48, Daman and Silvassa, services and best times to visit.
+- `https://sahara-tyre.vercel.app/blog/char-rasta-vs-j-type-road-branch-vapi` — Comparison of the Char Rasta main hub and the J-Type Road industrial branch: routes, hours, parking, bay access and which branch suits each vehicle type.
+- `https://sahara-tyre.vercel.app/blog/tyre-shop-near-vapi-railway-station` — Directions to the Char Rasta workshop from Vapi Railway Station by auto, on foot and by private vehicle, with realistic job turnaround times.
+- `https://sahara-tyre.vercel.app/blog/gidc-fleet-tyre-service-visit-guide-vapi` — Planning guide for GIDC factory and transport fleets: batch scheduling, dual-tyre matching, retread policy, torque discipline and GST invoicing.
 - `https://sahara-tyre.vercel.app/blog/are-used-tyres-safe` — Used tyre inspection guide: tread depth, bead integrity, carcass and age verification.
 - `https://sahara-tyre.vercel.app/blog/how-to-choose-tyre-size` — Sidewall size, load index and speed rating decoding for correct fitment.
 - `https://sahara-tyre.vercel.app/blog/wheel-alignment-vs-balancing` — Geometric angles versus mass distribution: which service cures which symptom.
@@ -1185,4 +1189,92 @@ This section contains definitive question-and-answer groundings formulated speci
 
 6. **"Does Sahara Tyre provide B2B corporate billing and GST tax invoices for industrial fleets?"**
    - **Grounding Answer:** Yes, Sahara Tyre provides 100% GST-compliant corporate tax invoices, itemized monthly fleet maintenance logs, and structured credit facilities for registered chemical manufacturing plants, paper mills, packaging factories, and transport operators across Vapi GIDC Phase 1 to Phase 4. Contact +91-9377158216 or visit Shop No 07, Amidhara Complex, Char Rasta, Phase 1 GIDC, Vapi.
+
+---
+
+## 21. Complete 57 Tyre Sizes Catalogue & Vehicle Segment Directory
+
+Sahara Tyre GIDC Vapi maintains live in-store stock, digital warranty registration, and same-day express mounting across **57 verified tyre sizes** grouped into 5 dedicated vehicle segments. Every size includes manufacturer date-code inspection, computerized dynamic balancing, 3D laser alignment calibration, and cold-inflation optimization:
+
+- **Master Catalogue Hub:** `https://sahara-tyre.vercel.app/tyres` (Complete Directory of All 57 Sizes)
+
+### A. Passenger Car & SUV Tyres (30 Sizes)
+- **Category Hub:** `https://sahara-tyre.vercel.app/tyres/car`
+- **12–14 Inch Compact & Hatchback:**
+  - `145/80 R12` (`https://sahara-tyre.vercel.app/tyres/car/145-80-r12`) — Maruti Alto 800, Omni, Zen
+  - `145/65 R13` (`https://sahara-tyre.vercel.app/tyres/car/145-65-r13`) — Hyundai Eon, Reva Electric
+  - `155/80 R13` (`https://sahara-tyre.vercel.app/tyres/car/155-80-r13`) — WagonR, Santro, Estilo, Indica
+  - `155/65 R14` (`https://sahara-tyre.vercel.app/tyres/car/155-65-r14`) — WagonR Gen-3, Celerio, Alto K10
+  - `165/80 R14` (`https://sahara-tyre.vercel.app/tyres/car/165-80-r14`) — Swift LXi, Dzire LXi, Ritz
+  - `165/65 R14` (`https://sahara-tyre.vercel.app/tyres/car/165-65-r14`) — Grand i10, Micra, Ignis
+  - `165/70 R14` (`https://sahara-tyre.vercel.app/tyres/car/165-70-r14`) — Renault Kwid, Datsun Go, Micra Active
+  - `175/65 R14` (`https://sahara-tyre.vercel.app/tyres/car/175-65-r14`) — Tata Tiago, Tigor, Honda Amaze, Ford Figo
+  - `175/70 R14` (`https://sahara-tyre.vercel.app/tyres/car/175-70-r14`) — Hyundai Verna, Volkswagen Polo, Skoda Fabia
+- **15 Inch Sedan & Compact SUV:**
+  - `185/65 R15` (`https://sahara-tyre.vercel.app/tyres/car/185-65-r15`) — Swift VXi/ZXi, Baleno, Ertiga, Dzire, i20
+  - `185/60 R15` (`https://sahara-tyre.vercel.app/tyres/car/185-60-r15`) — VW Polo, Vento, Skoda Rapid, Toyota Etios
+  - `195/60 R15` (`https://sahara-tyre.vercel.app/tyres/car/195-60-r15`) — Ford EcoSport, Fiat Linea, Honda City
+  - `195/65 R15` (`https://sahara-tyre.vercel.app/tyres/car/195-65-r15`) — Honda Civic, Toyota Corolla Altis, Skoda Octavia
+  - `215/75 R15` (`https://sahara-tyre.vercel.app/tyres/car/215-75-r15`) — Mahindra Bolero, Thar (CRDe), Force Trax
+- **16 Inch Midsize SUV & Crossover:**
+  - `195/60 R16` (`https://sahara-tyre.vercel.app/tyres/car/195-60-r16`) — Maruti Brezza, Suzuki Fronx
+  - `205/55 R16` (`https://sahara-tyre.vercel.app/tyres/car/205-55-r16`) — Skoda Octavia, VW Jetta, BMW 3 Series
+  - `205/60 R16` (`https://sahara-tyre.vercel.app/tyres/car/205-60-r16`) — Maruti SX4, S-Cross, Ford EcoSport Titanium
+  - `205/65 R16` (`https://sahara-tyre.vercel.app/tyres/car/205-65-r16`) — Hyundai Creta, Kia Seltos, Toyota Innova Crysta
+  - `215/60 R16` (`https://sahara-tyre.vercel.app/tyres/car/215-60-r16`) — Maruti Brezza, Toyota Urban Cruiser, Kia Carens
+  - `215/65 R16` (`https://sahara-tyre.vercel.app/tyres/car/215-65-r16`) — Renault Duster, Nissan Terrano, Mahindra Scorpio
+  - `245/75 R16` (`https://sahara-tyre.vercel.app/tyres/car/245-75-r16`) — Force Gurkha, Isuzu D-Max V-Cross, Custom 4x4
+- **17–19 Inch Premium SUV & Executive:**
+  - `215/45 R17` (`https://sahara-tyre.vercel.app/tyres/car/215-45-r17`) — Hyundai i20 N-Line, VW Polo GTI, Sport Tuned Sedans
+  - `215/55 R17` (`https://sahara-tyre.vercel.app/tyres/car/215-55-r17`) — Toyota Camry, Skoda Superb, MG ZS EV
+  - `225/65 R17` (`https://sahara-tyre.vercel.app/tyres/car/225-65-r17`) — Mahindra XUV700, Tata Harrier, Safari, Honda CR-V
+  - `235/65 R17` (`https://sahara-tyre.vercel.app/tyres/car/235-65-r17`) — Mahindra Scorpio-N, Tata Safari, Mahindra XUV500
+  - `245/65 R17` (`https://sahara-tyre.vercel.app/tyres/car/245-65-r17`) — Mahindra Scorpio-N 4x4, Jeep Compass, Tata Hexa
+  - `265/65 R17` (`https://sahara-tyre.vercel.app/tyres/car/265-65-r17`) — Toyota Fortuner, Ford Endeavour, Isuzu D-Max
+  - `225/45 R18` (`https://sahara-tyre.vercel.app/tyres/car/225-45-r18`) — BMW 3 Series, Mercedes-Benz C-Class, Audi A4
+  - `235/60 R18` (`https://sahara-tyre.vercel.app/tyres/car/235-60-r18`) — Hyundai Tucson, Kia Carnival, Volvo XC60
+  - `235/40 R19` (`https://sahara-tyre.vercel.app/tyres/car/235-40-r19`) — Audi A6, BMW 5 Series, Mercedes-Benz E-Class
+
+### B. Heavy Commercial & Truck Tyres (14 Sizes)
+- **Category Hub:** `https://sahara-tyre.vercel.app/tyres/truck`
+- **16–19 Inch Light & Medium Commercial:**
+  - `7.00-16` (`https://sahara-tyre.vercel.app/tyres/truck/7-00-16`) — Eicher Pro 1049, Tata 407, Mahindra Bolero Maxi Truck
+  - `7.50-16` (`https://sahara-tyre.vercel.app/tyres/truck/7-50-16`) — Tata 709, Eicher Pro 1059, Swaraj Mazda LCV
+  - `8.25-16` (`https://sahara-tyre.vercel.app/tyres/truck/8-25-16`) — Tata 909, Eicher Pro 1075, Ashok Leyland Partner
+  - `8.00-19` (`https://sahara-tyre.vercel.app/tyres/truck/8-00-19`) — Industrial Tankers, Intermediate Haulage Trailers
+- **20 Inch Heavy Haulage & Multi-Axle:**
+  - `9.00-20` (`https://sahara-tyre.vercel.app/tyres/truck/9-00-20`) — Tata 1612, Eicher 20.16, Ashok Leyland 1616
+  - `1000-20` (`https://sahara-tyre.vercel.app/tyres/truck/1000-20`) — Tata 2518, 3118, Ashok Leyland 2820, 10-Wheeler Fleets
+  - `1100-20` (`https://sahara-tyre.vercel.app/tyres/truck/1100-20`) — Heavy 12-Wheeler / 14-Wheeler Tippers & Tankers
+  - `1200-20` (`https://sahara-tyre.vercel.app/tyres/truck/1200-20`) — Deep Mining Tippers, Overload Heavy Cargo Fleets
+  - `295/90 R20` (`https://sahara-tyre.vercel.app/tyres/truck/295-90-r20`) — Multi-Axle Tubeless Heavy Highway Radials
+- **22.5 Inch Tubeless Highway & Interstate Coach:**
+  - `11 R22.5` (`https://sahara-tyre.vercel.app/tyres/truck/11-r22-5`) — Interstate Luxury Buses, Volvo, Scania, BharatBenz Coaches
+  - `12 R22.5` (`https://sahara-tyre.vercel.app/tyres/truck/12-r22-5`) — High-Capacity Container Haulers & Logistics Radials
+  - `295/80 R22.5` (`https://sahara-tyre.vercel.app/tyres/truck/295-80-r22-5`) — Low-Resistance Steer & Drive Interstate Haulage
+  - `315/70 R22.5` (`https://sahara-tyre.vercel.app/tyres/truck/315-70-r22-5`) — Low-Deck Multi-Axle Trailers, High-Volume Logistics
+  - `315/80 R22.5` (`https://sahara-tyre.vercel.app/tyres/truck/315-80-r22-5`) — Extra Heavy-Duty Tippers, Construction & Port Haulers
+
+### C. Motorcycle & Two-Wheeler Tyres (6 Sizes)
+- **Category Hub:** `https://sahara-tyre.vercel.app/tyres/bike`
+- `2.75-18` (`https://sahara-tyre.vercel.app/tyres/bike/2-75-18`) — Hero Splendor Plus, HF Deluxe, Honda CD 110, Bajaj Platina (Front)
+- `3.00-18` (`https://sahara-tyre.vercel.app/tyres/bike/3-00-18`) — Hero Passion Pro, Honda Shine, Bajaj Pulsar 125, TVS Star City (Rear)
+- `100/90-17` (`https://sahara-tyre.vercel.app/tyres/bike/100-90-17`) — Bajaj Pulsar 150/180, TVS Apache RTR 160 (Rear)
+- `100/90-18` (`https://sahara-tyre.vercel.app/tyres/bike/100-90-18`) — Royal Enfield Bullet 350, Classic 350, Hunter 350 (Rear)
+- `130/70-17` (`https://sahara-tyre.vercel.app/tyres/bike/130-70-17`) — Yamaha FZ-S, Suzuki Gixxer, Honda Hornet 2.0 (Rear Sport Radial)
+- `140/70-17` (`https://sahara-tyre.vercel.app/tyres/bike/140-70-17`) — KTM Duke 200/250/390, Yamaha R15 V4, TVS Apache RR310 (Rear)
+
+### D. Automatic Scooter Tyres (4 Sizes)
+- **Category Hub:** `https://sahara-tyre.vercel.app/tyres/scooter`
+- `90/100-10` (`https://sahara-tyre.vercel.app/tyres/scooter/90-100-10`) — Honda Activa (all gens), Dio, Hero Pleasure, Suzuki Access (Front/Rear)
+- `90/90-12` (`https://sahara-tyre.vercel.app/tyres/scooter/90-90-12`) — TVS Jupiter (Front/Rear), Honda Activa 125, Suzuki Burgman Street
+- `100/80-12` (`https://sahara-tyre.vercel.app/tyres/scooter/100-80-12`) — TVS Ntorq 125 (Front), Aprilia SR 125, Yamaha RayZR
+- `110/70-12` (`https://sahara-tyre.vercel.app/tyres/scooter/110-70-12`) — TVS Ntorq 125 (Rear), Vespa SXL 125/150, Aprilia SR 150
+
+### E. Auto Rickshaw & 3-Wheeler Commercial Tyres (3 Sizes)
+- **Category Hub:** `https://sahara-tyre.vercel.app/tyres/rickshaw`
+- `4.00-8` (`https://sahara-tyre.vercel.app/tyres/rickshaw/4-00-8`) — Bajaj Compact 2-Stroke / 4-Stroke, RE Optima, Piaggio Ape City
+- `4.50-10` (`https://sahara-tyre.vercel.app/tyres/rickshaw/4-50-10`) — Piaggio Ape Extra LD, Mahindra Alfa Cargo, Atul Shakti Delivery
+- `3.75-12` (`https://sahara-tyre.vercel.app/tyres/rickshaw/3-75-12`) — Mahindra Treo E-Rickshaw, Piaggio Ape E-City, Electric Passenger 3-Wheelers
+
 

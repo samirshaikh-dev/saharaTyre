@@ -1,0 +1,2119 @@
+{
+  "site": {
+    "name": "Sahara Tyre GIDC Vapi",
+    "legalName": "Sahara Tyre",
+    "baseUrl": "https://sahara-tyre.vercel.app",
+    "phone": "+91-9377158216",
+    "tel": "+919377158216",
+    "whatsapp": "https://wa.me/919377158216",
+    "email": "shaikh.samir.dev@gmail.com",
+    "address": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gujarat 396195, India",
+    "street": "Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC",
+    "locality": "Vapi",
+    "region": "Gujarat",
+    "postalCode": "396195",
+    "country": "IN",
+    "geo": {
+      "latitude": 20.362324,
+      "longitude": 72.919686,
+      "plusCode": "9669+V7 Vapi, Gujarat"
+    },
+    "hours": [
+      "Mo-Sa 07:30-21:00",
+      "Su 07:30-18:00"
+    ],
+    "rating": {
+      "value": 4.8,
+      "count": 120,
+      "bestRating": 5
+    },
+    "ga": "G-98MGJHRPJ7",
+    "adsense": "pub-2685457296914833",
+    "verification": "H6Pq0eI_0M2sSwSWyHpuCbS7ufcyBMaw_r2k7VCv9Ok",
+    "established": "2005",
+    "updated": "2026-10-21"
+  },
+  "categories": [
+    {
+      "key": "car",
+      "label": "Car & SUV Tyres",
+      "hub": "/tyres/car",
+      "hubFile": "tyres/car/index.htm",
+      "icon": "directions_car",
+      "title": "Car & SUV Tyre Sizes in Vapi GIDC",
+      "description": "Complete size matrix for hatchback, sedan, crossover and SUV radial tyres - from 12-inch commuters to 19-inch performance fitments."
+    },
+    {
+      "key": "bike",
+      "label": "Motorcycle Tyres",
+      "hub": "/tyres/bike",
+      "hubFile": "tyres/bike/index.htm",
+      "icon": "two_wheeler",
+      "title": "Motorcycle Tyre Sizes in Vapi GIDC",
+      "description": "Commuter, sport and touring motorcycle tyre sizes from 17-inch fronts to 18-inch rears, with radials, tubeless and bias-ply options."
+    },
+    {
+      "key": "scooter",
+      "label": "Scooter & EV Tyres",
+      "hub": "/tyres/scooter",
+      "hubFile": "tyres/scooter/index.htm",
+      "icon": "electric_scooter",
+      "title": "Scooter & Electric Two-Wheeler Tyres in Vapi GIDC",
+      "description": "10-inch and 12-inch scooter radials plus low-rolling-resistance EV compounds for Activa, Jupiter, Access, Dio, Ola S1 and Ather 450X."
+    },
+    {
+      "key": "rickshaw",
+      "label": "Rickshaw & Auto Tyres",
+      "hub": "/tyres/rickshaw",
+      "hubFile": "tyres/rickshaw/index.htm",
+      "icon": "airport_shuttle",
+      "title": "Rickshaw & Auto Rickshaw Tyre Sizes in Vapi GIDC",
+      "description": "Bias-ply and radial fitments for passenger CNG autos, cargo three-wheelers and electric rickshaws running the GIDC industrial belt."
+    },
+    {
+      "key": "truck",
+      "label": "Truck & Commercial Tyres",
+      "hub": "/tyres/truck",
+      "hubFile": "tyres/truck/index.htm",
+      "icon": "local_shipping",
+      "title": "Truck & Commercial Tyre Sizes in Vapi GIDC",
+      "description": "Nylon bias, all-steel radial and tubeless truck tyres from 7.00-16 mini trucks to 315/80 R22.5 multi-axle haulage radials."
+    }
+  ],
+  "sizes": [
+    {
+      "category": "car",
+      "slug": "145-80-r12",
+      "size": "145/80 R12",
+      "badge": "12 Inch Compact",
+      "priceFrom": 2100,
+      "cardTitle": "145/80 R12",
+      "cardDesc": "High mileage & low running cost for Maruti Alto 800, Alto K10, Maruti 800, Omni, and Eeco.",
+      "itemListName": "145/80 R12",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "155-80-r13",
+      "size": "155/80 R13",
+      "badge": "13 Inch Hatchback",
+      "priceFrom": 2400,
+      "cardTitle": "155/80 R13",
+      "cardDesc": "Cushioned ride comfort and wet grip for Maruti WagonR, Hyundai Santro, Tata Tiago, and i10.",
+      "itemListName": "155/80 R13",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "165-80-r14",
+      "size": "165/80 R14",
+      "badge": "14 Inch Sedan",
+      "priceFrom": 3100,
+      "cardTitle": "165/80 R14",
+      "cardDesc": "Long-distance commercial and family durability for Maruti Swift, Dzire, Ritz, and Celerio.",
+      "itemListName": "165/80 R14",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "175-65-r14",
+      "size": "175/65 R14",
+      "badge": "14 Inch Radial",
+      "priceFrom": 1700,
+      "cardTitle": "175/65 R14",
+      "cardDesc": "Standard fitment for Tata Tiago, Tigor, Honda Amaze, WagonR, Hyundai i10, and Ford Figo.",
+      "itemListName": "175/65 R14",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "185-65-r15",
+      "size": "185/65 R15",
+      "badge": "15 Inch Radial",
+      "priceFrom": 1800,
+      "cardTitle": "185/65 R15",
+      "cardDesc": "Top-selling radial for Maruti Swift, Dzire, Baleno, Ertiga, Ciaz, and Hyundai i20.",
+      "itemListName": "185/65 R15",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "195-65-r15",
+      "size": "195/65 R15",
+      "badge": "15 Inch Premium",
+      "priceFrom": 1900,
+      "cardTitle": "195/65 R15",
+      "cardDesc": "High-comfort highway radial for Toyota Corolla, Honda Civic, Hyundai Verna, and Skoda Octavia.",
+      "itemListName": "195/65 R15",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "205-55-r16",
+      "size": "205/55 R16",
+      "badge": "16 Inch Executive",
+      "priceFrom": 2400,
+      "cardTitle": "205/55 R16",
+      "cardDesc": "Precision steering tyre for Skoda Laura, Octavia, Hyundai Elantra, VW Virtus & Verna.",
+      "itemListName": "205/55 R16",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "215-60-r16",
+      "size": "215/60 R16",
+      "badge": "16 Inch Compact SUV",
+      "priceFrom": 2600,
+      "cardTitle": "215/60 R16",
+      "cardDesc": "Rugged crossover tyre for Maruti Brezza, Hyundai Creta, Kia Seltos, S-Cross & Grand Vitara.",
+      "itemListName": "215/60 R16",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "215-65-r16",
+      "size": "215/65 R16",
+      "badge": "16 Inch All-Terrain",
+      "priceFrom": 5200,
+      "cardTitle": "215/65 R16",
+      "cardDesc": "Tough all-road tyre for Renault Duster, Nissan Terrano, and Mahindra Scorpio classic.",
+      "itemListName": "215/65 R16",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "car",
+      "slug": "235-65-r17",
+      "size": "235/65 R17",
+      "badge": "17 Inch Premium SUV",
+      "priceFrom": 7800,
+      "cardTitle": "235/65 R17",
+      "cardDesc": "Flagship touring radial for Mahindra Scorpio-N, Mahindra XUV700, Tata Safari, and Harrier.",
+      "itemListName": "235/65 R17",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "bike",
+      "slug": "300-18",
+      "size": "3.00-18",
+      "badge": "Rear 18\" Commuter",
+      "priceFrom": 1250,
+      "cardTitle": "3.00-18 Splendor & Platina",
+      "cardDesc": "India's #1 commuter rear tyre. Extreme fuel economy and heavy load durability for Hero Splendor, HF Deluxe, Passion, and Bajaj Platina.",
+      "itemListName": "3.00-18 Splendor & Platina",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "bike",
+      "slug": "80-100-18",
+      "size": "80/100-18",
+      "badge": "Tubeless 18\"",
+      "priceFrom": 1350,
+      "cardTitle": "80/100-18 Shine & SP 125",
+      "cardDesc": "Modern tubeless commuter radial offering wet grip and long tread life on Honda CB Shine, SP 125, and Hero Glamour.",
+      "itemListName": "80/100-18 Shine & SP 125",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "bike",
+      "slug": "275-17",
+      "size": "2.75-17",
+      "badge": "Front 17\" Commuter",
+      "priceFrom": 1150,
+      "cardTitle": "2.75-17 Front Tyre",
+      "cardDesc": "Agile steering and straight-line stability for Bajaj Platina, Discover, CT 100, and TVS Star City front wheels.",
+      "itemListName": "2.75-17 Front Tyre",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "bike",
+      "slug": "90-90-17",
+      "size": "90/90-17",
+      "badge": "Front 17\" Sport",
+      "priceFrom": 1250,
+      "cardTitle": "90/90-17 Pulsar & Apache",
+      "cardDesc": "Sharp steering feedback and hydroplaning resistance for Bajaj Pulsar 150/180/220, TVS Apache RTR, and Yamaha FZ.",
+      "itemListName": "90/90-17 Pulsar & Apache",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "bike",
+      "slug": "100-90-17",
+      "size": "100/90-17",
+      "badge": "Rear 17\" Traction",
+      "priceFrom": 1450,
+      "cardTitle": "100/90-17 Rear Tyre",
+      "cardDesc": "Heavy-duty rear drive tyre with deep tread grooves for braking grip and long life on Pulsar, Unicorn, and CB Trigger.",
+      "itemListName": "100/90-17 Rear Tyre",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "bike",
+      "slug": "130-70-17",
+      "size": "130/70-17",
+      "badge": "Wide Rear 17\"",
+      "priceFrom": 2400,
+      "cardTitle": "130/70-17 FZ & NS200",
+      "cardDesc": "Wide sport contact patch delivering cornering grip and highway stability for Yamaha FZ-S, Pulsar NS200, and Apache RTR 200.",
+      "itemListName": "130/70-17 FZ & NS200",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "7-00-16",
+      "size": "7.00-16",
+      "badge": "12PR Mini Truck",
+      "priceFrom": 3800,
+      "cardTitle": "7.00-16 Tata Ace & Super Ace",
+      "cardDesc": "Light commercial load tyre for Tata Ace, Mahindra Bolero Maxi and mini-truck city freight operations.",
+      "itemListName": "7.00-16 Tata Ace & Super Ace",
+      "lastmod": "2026-10-05",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "7-50-16",
+      "size": "7.50-16",
+      "badge": "12PR LCV Radial",
+      "priceFrom": 4600,
+      "cardTitle": "7.50-16 Ashok Leyland Dost",
+      "cardDesc": "LCV pickup and light truck tyre for Ashok Leyland Dost, Tata Intra and BharatBenz rear-drive axles.",
+      "itemListName": "7.50-16 Ashok Leyland Dost",
+      "lastmod": "2026-10-05",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "8-00-19",
+      "size": "8.00-19",
+      "badge": "16PR Medium Commercial",
+      "priceFrom": 9200,
+      "cardTitle": "8.00-19 Ashok Leyland Boss & Tata 1210",
+      "cardDesc": "Nylon bias medium commercial casing for Boss 1215, Tata 1210 SE and SML fleet carriers on regional freight.",
+      "itemListName": "8.00-19 Ashok Leyland Boss & Tata 1210",
+      "lastmod": "2026-10-05",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "9-00-20",
+      "size": "9.00-20",
+      "badge": "16PR Heavy Drive",
+      "priceFrom": 6800,
+      "cardTitle": "9.00-20 Tata 1613 & AL 1616",
+      "cardDesc": "Cost-efficient 10-wheeler drive and steer casing for legacy haulers, cold-precure retread friendly.",
+      "itemListName": "9.00-20 Tata 1613 & AL 1616",
+      "lastmod": "2026-10-05",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "11-r22-5",
+      "size": "11 R22.5",
+      "badge": "18PR Tubeless Coach Radial",
+      "priceFrom": 24500,
+      "cardTitle": "11 R22.5 Coach & Prime Mover",
+      "cardDesc": "Low-rolling-resistance all-steel radial for Volvo, Scania and Setco coaches and container prime movers.",
+      "itemListName": "11 R22.5 Coach & Prime Mover",
+      "lastmod": "2026-10-05",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "12-r22-5",
+      "size": "12 R22.5",
+      "badge": "18PR Super Single Hauler",
+      "priceFrom": 26000,
+      "cardTitle": "12 R22.5 Super Single Heavy Hauler",
+      "cardDesc": "Single-wheel-per-hub tubeless casing for mining tippers, quarry haulers and construction carriers.",
+      "itemListName": "12 R22.5 Super Single Heavy Hauler",
+      "lastmod": "2026-10-05",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "315-70-r22-5",
+      "size": "315/70 R22.5",
+      "badge": "18PR Wide Drive Radial",
+      "priceFrom": 21500,
+      "cardTitle": "315/70 R22.5 Drive & Trailer",
+      "cardDesc": "Wider crown than 295/80 for tandem drive axles, larger contact patch and stronger traction.",
+      "itemListName": "315/70 R22.5 Drive & Trailer",
+      "lastmod": "2026-10-05",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "315-80-r22-5",
+      "size": "315/80 R22.5",
+      "badge": "18PR Multi-Axle Radial",
+      "priceFrom": 22500,
+      "cardTitle": "315/80 R22.5 14 & 16-Wheeler",
+      "cardDesc": "Standard tubeless all-steel casing for Tata Prima 4018, BharatBenz 4228 and multi-axle trailers.",
+      "itemListName": "315/80 R22.5 14 & 16-Wheeler",
+      "lastmod": "2026-10-05",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "1000-20",
+      "size": "10.00-20",
+      "badge": "16PR / 18PR Commercial",
+      "priceFrom": 4500,
+      "cardTitle": "10.00-20 (1000-20)",
+      "cardDesc": "India's most popular commercial transport tyre for multi-axle 10-wheelers, 12-wheelers, and regional cargo trucks.",
+      "itemListName": "10.00-20 (1000-20)",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "1100-20",
+      "size": "11.00-20",
+      "badge": "18PR Overload Radial",
+      "priceFrom": 5500,
+      "cardTitle": "11.00-20 (1100-20)",
+      "cardDesc": "Heavy-haulage tyre engineered for overload resilience on industrial tankers, bulk carriers, and steel transit haulers.",
+      "itemListName": "11.00-20 (1100-20)",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "1200-20",
+      "size": "12.00-20",
+      "badge": "20PR Mining / Tipper",
+      "priceFrom": 6500,
+      "cardTitle": "12.00-20 (1200-20)",
+      "cardDesc": "Severe-duty extra-lug tyre for mining tippers, dump trucks, construction haulers, and heavy stone quarry operations.",
+      "itemListName": "12.00-20 (1200-20)",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "295-80-r22-5",
+      "size": "295/80 R22.5",
+      "badge": "Tubeless Highway Radial",
+      "priceFrom": 22000,
+      "cardTitle": "295/80 R22.5 Express",
+      "cardDesc": "All-steel tubeless radial for BharatBenz, Tata Prima, and Volvo long-haul express containers along NH 48.",
+      "itemListName": "295/80 R22.5 Express",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "295-90-r20",
+      "size": "295/90 R20",
+      "badge": "16PR Long-Haul",
+      "priceFrom": 21500,
+      "cardTitle": "295/90 R20 Multi-Axle",
+      "cardDesc": "Heavy commercial radial built for 14-wheel and 16-wheel national highway freight distribution.",
+      "itemListName": "295/90 R20 Multi-Axle",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "truck",
+      "slug": "8-25-16",
+      "size": "8.25-16",
+      "badge": "14PR Light Commercial",
+      "priceFrom": 11800,
+      "cardTitle": "8.25-16 Eicher & 407",
+      "cardDesc": "Intermediate commercial tyre for Eicher Pro 2049/2059, Tata 407, Tata 709, and local industrial delivery.",
+      "itemListName": "8.25-16 Eicher & 407",
+      "lastmod": "2026-09-06",
+      "generate": false
+    },
+    {
+      "category": "scooter",
+      "slug": "90-100-10",
+      "size": "90/100-10",
+      "generate": true,
+      "badge": "10 Inch Tubeless",
+      "priceFrom": 1050,
+      "priceTo": 1400,
+      "cardTitle": "90/100-10",
+      "cardDesc": "India's most popular scooter rear size for Honda Activa (3G/4G/5G/6G), TVS Jupiter, Suzuki Access 125 and Hero Pleasure.",
+      "cardMeta": "MRF Zapper / CEAT Milaze",
+      "itemListName": "90/100-10",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "90/100-10 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 90/100-10 scooter tyres in Vapi from ₹1,050. MRF, CEAT and TVS Eurogrip stock with free fitting, valve replacement and balancing. Call +91-9377158216.",
+        "keywords": "90/100-10 tyres vapi, 90 100 10 tyre price vapi, scooter rear tyre vapi, Activa rear tyre vapi, 90/100-10 tubeless tyre near me"
+      },
+      "hero": {
+        "eyebrow": "Scooter Radial · 10 Inch Tubeless",
+        "headline": "90/100-10 Tyres in Vapi GIDC",
+        "lede": "The default rear-wheel fitment for Activa, Jupiter, Access and Pleasure scooters, held in stock as new radials and 5-point safety tested used tyres with same-day fitting at Char Rasta."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "90 mm" },
+        { "label": "Aspect Ratio", "value": "100% (bias profile)" },
+        { "label": "Rim Diameter", "value": "10 inch (254 mm)" },
+        { "label": "Overall Diameter", "value": "434 mm" },
+        { "label": "Construction", "value": "Tubeless bias-ply scooter radial" },
+        { "label": "Load Index / Speed Rating", "value": "33J (41 kg) / 80 km/h" },
+        { "label": "Tread Depth (New)", "value": "6.0 mm" },
+        { "label": "Cold Pressure", "value": "29 PSI solo / 36 PSI with pillion" },
+        { "label": "Best Suited For", "value": "Honda Activa 3G/4G/5G/6G, TVS Jupiter 110/125, Suzuki Access 125, Hero Pleasure 100/110" }
+      ],
+      "vehicles": [
+        "Honda Activa 3G / 4G / 5G / 6G (rear wheel)",
+        "TVS Jupiter 110 and 125 (rear wheel)",
+        "Suzuki Access 125 (rear wheel)",
+        "Hero Pleasure 100 and 110"
+      ],
+      "patterns": [
+        { "name": "MRF Zapper 90/100-10", "note": "India's best-selling commuter rear radial, with a manufacturer warranty and the strongest monsoon wet grip in this size." },
+        { "name": "CEAT Milaze Scooter 90/100-10", "note": "Dual-compound silica casing tuned for daily mileage, with a puncture-resistant sidewall and 5-year company warranty." },
+        { "name": "TVS Eurogrip Durapro 90/100-10", "note": "OEM-grade commuter radial for Activa and Access duty cycles, supplied with our 15-minute express fitting service." }
+      ],
+      "fitment": "90/100-10 is the standard rear fitment for the Activa 3G through 6G, Jupiter 110/125, Access 125 and Pleasure 100 platform. Scooters use different front and rear sizes, so confirm the code moulded on your existing sidewall or the specification in the owner's manual before ordering - the front wheel on most of these scooters is 90/90-12. If you are unsure, ride the scooter to our Char Rasta workshop and we will verify the fitment on the spot.",
+      "faq": [
+        {
+          "q": "What is the difference between 90/100-10 and 90/90-12?",
+          "a": "They are the front and rear sizes of the same scooter, not alternatives. 90/90-12 is the narrow 12-inch front wheel tyre and 90/100-10 is the wider, stronger 10-inch rear wheel tyre. Fitting the wrong one changes the rolling diameter and spoils handling, so always match the code moulded on your existing sidewall."
+        },
+        {
+          "q": "How much does a 90/100-10 tyre cost in Vapi?",
+          "a": "New MRF, CEAT and TVS Eurogrip 90/100-10 radials start from ₹1,050 at Sahara Tyre GIDC, and 5-point safety tested used tyres are available at roughly 25% to 40% of the new price. Fitting, tubeless valve replacement and initial nitrogen inflation are all included in the quoted price."
+        },
+        {
+          "q": "What cold tyre pressure should I use for a 90/100-10?",
+          "a": "Run 29 PSI at the rear when the scooter carries only the rider and 36 PSI with a pillion passenger, always measured cold. Highway friction on NH 48 and Daman Road raises pressure by 4 to 6 PSI, so never bleed a hot tyre - check first thing in the morning instead."
+        }
+      ]
+    },
+    {
+      "category": "scooter",
+      "slug": "90-90-12",
+      "size": "90/90-12",
+      "generate": true,
+      "badge": "12 Inch Front / Rear",
+      "priceFrom": 1150,
+      "priceTo": 1600,
+      "cardTitle": "90/90-12",
+      "cardDesc": "Standard 12-inch front wheel size for Suzuki Access 125, TVS Jupiter 125, Honda Activa 125 and Honda Dio 125 with exceptional directional control.",
+      "cardMeta": "CEAT Zoom / TVS Eurogrip",
+      "itemListName": "90/90-12",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "90/90-12 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 90/90-12 scooter front tyres in Vapi from ₹1,150. CEAT, MRF and TVS Eurogrip stock with free fitting and balancing. Call +91-9377158216.",
+        "keywords": "90/90-12 tyres vapi, 90 90 12 tyre price vapi, scooter front tyre vapi, Activa front tyre vapi, 90/90-12 tubeless tyre near me"
+      },
+      "hero": {
+        "eyebrow": "Scooter Radial · 12 Inch Tubeless",
+        "headline": "90/90-12 Tyres in Vapi GIDC",
+        "lede": "The steering wheel size on India's most common 125cc scooters, stocked in new commuter radials and tested used tyres with instant valve replacement and wheel balancing at Char Rasta."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "90 mm" },
+        { "label": "Aspect Ratio", "value": "90% (bias profile)" },
+        { "label": "Rim Diameter", "value": "12 inch (305 mm)" },
+        { "label": "Overall Diameter", "value": "467 mm" },
+        { "label": "Construction", "value": "Tubeless bias-ply scooter radial" },
+        { "label": "Load Index / Speed Rating", "value": "41J (45 kg) / 80 km/h" },
+        { "label": "Tread Depth (New)", "value": "6.0 mm" },
+        { "label": "Cold Pressure", "value": "22 PSI solo / 24 PSI with pillion" },
+        { "label": "Best Suited For", "value": "Honda Activa 125, TVS Jupiter 125, Suzuki Access 125, Honda Dio 125 (front wheel)" }
+      ],
+      "vehicles": [
+        "Honda Activa 6G and Activa 125 (front wheel)",
+        "TVS Jupiter 125 (front wheel)",
+        "Suzuki Access 125 (front wheel)",
+        "Honda Dio 125 (front wheel)"
+      ],
+      "patterns": [
+        { "name": "CEAT Zoom 90/90-12", "note": "High-mileage commuter casing with reinforced sidewalls, delivered with our 15-minute express fitting service and nitrogen inflation." },
+        { "name": "TVS Eurogrip Conti 90/90-12", "note": "Directional water-displacement tread from TVS Eurogrip, built for stable cornering on the wet GIDC industrial roads." },
+        { "name": "MRF Nylogrip Plus 90/90-12", "note": "All-weather commuter radial with puncture-resistant compound and a manufacturer defect warranty." }
+      ],
+      "fitment": "90/90-12 is the front wheel size on the Activa 125, Jupiter 125, Access 125 and Dio 125 platform. Because this is the steered wheel, a correct fitment matters more than usual - a wrong size changes the steering feel and the speedometer reading. Most of these scooters run 90/90-12 at the front and 90/100-10 at the rear, so a complete set means ordering both sizes. Bring the scooter in and we will read the moulded size codes for you.",
+      "faq": [
+        {
+          "q": "Is 90/90-12 the front or the rear tyre on a scooter?",
+          "a": "On most 125cc scooters, including the Activa 125, Jupiter 125, Access 125 and Dio 125, 90/90-12 is the front wheel size and 90/100-10 is the rear. The front is narrower to sit inside the fork legs and the rear is wider to carry engine, battery and passenger load."
+        },
+        {
+          "q": "Can I run a 90/90-12 on the rear of my Activa?",
+          "a": "No. A 90/90-12 on the rear axle would reduce the rolling diameter by roughly 7%, which stretches gearing, unsettles the speedometer and reduces wet grip under load. Use 90/100-10 at the rear unless the manufacturer placard for your model states otherwise."
+        },
+        {
+          "q": "How long does a scooter tyre fitting take in Vapi?",
+          "a": "A 90/90-12 changeover takes about 15 to 20 minutes, including removal, valve replacement, refitting, nitrogen inflation and a balance check. There is no appointment needed - walk into either the Char Rasta or J-Type Road branch during working hours."
+        }
+      ]
+    },
+    {
+      "category": "scooter",
+      "slug": "100-80-12",
+      "size": "100/80-12",
+      "generate": true,
+      "badge": "Electric Scooter EV",
+      "priceFrom": 1350,
+      "priceTo": 1950,
+      "cardTitle": "100/80-12",
+      "cardDesc": "Low rolling resistance 12-inch EV radial for Ola S1 Pro, Ather 450X and TVS iQube, built for instant motor torque, battery range and rim protection.",
+      "cardMeta": "MRF Steel X / CEAT EnergyDrive",
+      "itemListName": "100/80-12",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "100/80-12 Tyres in Vapi GIDC | EV Scooter Radial Price",
+        "description": "Buy 100/80-12 electric scooter tyres in Vapi from ₹1,350. Low rolling resistance EV radials with fitting and balancing included. Call +91-9377158216.",
+        "keywords": "100/80-12 tyres vapi, 100 80 12 tyre price vapi, ev scooter tyre vapi, Ola S1 Pro tyre vapi, electric two wheeler tyre near me"
+      },
+      "hero": {
+        "eyebrow": "EV Radial · 12 Inch Tubeless",
+        "headline": "100/80-12 Tyres in Vapi GIDC",
+        "lede": "A low rolling resistance 12-inch radial for electric scooters and e-rickshaws, with reinforced bead apexes for battery weight and compounds that trade nothing away in monsoon grip."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "100 mm" },
+        { "label": "Aspect Ratio", "value": "80% (radial profile)" },
+        { "label": "Rim Diameter", "value": "12 inch (305 mm)" },
+        { "label": "Overall Diameter", "value": "465 mm" },
+        { "label": "Construction", "value": "Tubeless EV radial, reinforced bead apex" },
+        { "label": "Load Index / Speed Rating", "value": "51J (55 kg) / 80 km/h" },
+        { "label": "Tread Depth (New)", "value": "6.0 mm" },
+        { "label": "Cold Pressure", "value": "29 PSI solo / 36 PSI with pillion" },
+        { "label": "Best Suited For", "value": "Ola S1 Pro, Ather 450X, TVS iQube, 12-inch electric rickshaws" }
+      ],
+      "vehicles": [
+        "Ola S1 Pro (12-inch wheel variants)",
+        "Ather 450X (12-inch wheel variants)",
+        "TVS iQube (select variants)",
+        "Electric rickshaws running 12-inch wheels"
+      ],
+      "patterns": [
+        { "name": "MRF Steel X 100/80-12", "note": "Steel-belted EV radial with a silica-silane compound that returns 5% to 8% more range per charge without losing wet bite." },
+        { "name": "CEAT EnergyDrive 100/80-12", "note": "Low hysteresis compound built for instant electric torque and a reinforced casing that resists shoulder scrub." },
+        { "name": "Apollo ActiGrip 100/80-12", "note": "Dual-compound scooter radial with acoustic foam damping to cut the high-frequency roar inside an EV cabin." }
+      ],
+      "fitment": "100/80-12 is commonly fitted on 12-inch electric scooter and e-rickshaw platforms including the Ola S1 Pro, Ather 450X and TVS iQube. EV manufacturers change wheel and tyre combinations between variants and model years, so verify the size moulded on your current tyre or in the owner's manual rather than assuming. Because electric scooters carry 25 to 40 kg of battery weight and deliver peak torque from zero speed, the tyre must be the correct size and the cold pressure checked every month.",
+      "faq": [
+        {
+          "q": "Are EV scooter tyres different from petrol scooter tyres?",
+          "a": "Yes. An EV adds 25 to 40 kg of battery weight and delivers full torque from zero RPM, so EV-specific tyres use reinforced bead apexes, XL-rated casings and low hysteresis silica compounds. They also carry acoustic damping foam, because without engine noise the tyre cavity roar becomes obvious inside the cabin."
+        },
+        {
+          "q": "How often should I check pressure on an EV scooter?",
+          "a": "Every month, and before any long trip. Battery weight sits permanently over the rear axle, so a soft rear tyre heats up quickly, scrubs the shoulder and quietly shortens range. Keep the rear at the placard pressure with the vehicle cold - it is the cheapest range protection available."
+        },
+        {
+          "q": "Do you fit tyres on electric rickshaws in Vapi?",
+          "a": "Yes. We fit 12-inch electric scooter and e-rickshaw radials every week, including 100/80-12 and 110/70-12, at both the Char Rasta and J-Type Road branches. Bring the vehicle in during working hours - no booking is needed and typical turnaround is 20 to 30 minutes."
+        }
+      ]
+    },
+    {
+      "category": "scooter",
+      "slug": "110-70-12",
+      "size": "110/70-12",
+      "generate": true,
+      "badge": "Electric Scooter EV",
+      "priceFrom": 1350,
+      "priceTo": 1950,
+      "cardTitle": "110/70-12",
+      "cardDesc": "Wider 12-inch EV radial for heavier battery packs and cargo duty, with a high-grip compound for monsoon industrial roads and low rolling resistance.",
+      "cardMeta": "MRF Steel X / CEAT EnergyDrive",
+      "itemListName": "110/70-12",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "110/70-12 Tyres in Vapi GIDC | EV Scooter & Rickshaw Radial",
+        "description": "Buy 110/70-12 EV scooter and e-rickshaw tyres in Vapi from ₹1,350. Reinforced EV radials with fitting and balancing. Call +91-9377158216.",
+        "keywords": "110/70-12 tyres vapi, 110 70 12 tyre price vapi, ev rickshaw tyre vapi, 12 inch electric tyre vapi, 110/70-12 tyre near me"
+      },
+      "hero": {
+        "eyebrow": "EV Radial · 12 Inch Tubeless",
+        "headline": "110/70-12 Tyres in Vapi GIDC",
+        "lede": "The widest 12-inch electric radial we stock, built for heavier battery packs and cargo three-wheelers that still need a short footprint for tight GIDC lanes."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "110 mm" },
+        { "label": "Aspect Ratio", "value": "70% (radial profile)" },
+        { "label": "Rim Diameter", "value": "12 inch (305 mm)" },
+        { "label": "Overall Diameter", "value": "459 mm" },
+        { "label": "Construction", "value": "Tubeless EV radial, reinforced bead apex" },
+        { "label": "Load Index / Speed Rating", "value": "55J (61 kg) / 80 km/h" },
+        { "label": "Tread Depth (New)", "value": "6.0 mm" },
+        { "label": "Cold Pressure", "value": "28 PSI solo / 34 PSI loaded" },
+        { "label": "Best Suited For", "value": "Ola S1 Pro, Ather 450X, 12-inch electric rickshaws, cargo e-trikes" }
+      ],
+      "vehicles": [
+        "Ola S1 Pro (12-inch wheel variants)",
+        "Ather 450X (12-inch wheel variants)",
+        "Electric rickshaws running 12-inch wheels",
+        "Cargo electric three-wheelers"
+      ],
+      "patterns": [
+        { "name": "MRF Steel X 110/70-12", "note": "Wide EV radial with a silica-silane compound that holds grip on wet, oily GIDC service roads while keeping rolling resistance low." },
+        { "name": "CEAT EnergyDrive 110/70-12", "note": "Reinforced casing for battery and payload loads, with acoustic damping to keep an EV cabin quiet at 60 km/h." },
+        { "name": "TVS Eurogrip Durapro 110/70-12", "note": "Directional EV tread with stone ejectors, a practical choice on the broken approach roads around GIDC Phase 2 and 3." }
+      ],
+      "fitment": "110/70-12 is the heavier-duty 12-inch electric fitment, used on electric scooters with larger battery packs and on cargo electric three-wheelers. The 110 mm section width gives a larger contact patch for wet grip while the 70% aspect ratio keeps the overall diameter close to standard, so gearing and speedometer accuracy stay within the normal two percent tolerance. Confirm the code on your current tyre or in the owner's manual before ordering, and check the rear pressure monthly because the battery weight sits over that axle.",
+      "faq": [
+        {
+          "q": "Should I choose 100/80-12 or 110/70-12 for my electric scooter?",
+          "a": "Both are 12-inch EV fitments. 100/80-12 has a slightly taller sidewall and is typically the passenger scooter choice, while 110/70-12 is the wider, lower-profile option used on heavier battery packs and cargo variants. Match the code moulded on your existing tyre - do not decide by appearance."
+        },
+        {
+          "q": "What pressure do I run on a 110/70-12 EV tyre?",
+          "a": "28 PSI cold for a solo ride and around 34 PSI when the vehicle is carrying its full battery load with a pillion passenger. Check cold, in the morning, and never bleed air from a warm tyre - EV tyres heat faster than petrol scooter tyres because of the battery mass and torque delivery."
+        },
+        {
+          "q": "Can a 110/70-12 be fitted on a 12-inch alloy or steel rim?",
+          "a": "Yes, provided the rim is genuinely 12 inches and in good condition. We check the rim diameter, flange condition and bead seat before mounting, and fit a fresh tubeless valve with every tyre. If the rim is corroded or out of round we will tell you before the job starts."
+        }
+      ]
+    },
+    {
+      "category": "rickshaw",
+      "slug": "4-00-8",
+      "size": "4.00-8",
+      "generate": true,
+      "badge": "Passenger CNG Auto",
+      "priceFrom": 1100,
+      "priceTo": 1650,
+      "cardTitle": "4.00-8 (400-8) 6PR",
+      "cardDesc": "Standard front and rear fitment for Bajaj RE Compact, TVS King, Mahindra Alfa Passenger and Atul Auto Gemini, with low rolling resistance for CNG mileage.",
+      "cardMeta": "MRF Savari / CEAT Anmol",
+      "itemListName": "4.00-8 (400-8) 6PR",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "4.00-8 Tyres in Vapi GIDC | Auto Rickshaw Tyre Price",
+        "description": "Buy 4.00-8 6PR auto rickshaw tyres in Vapi from ₹1,100. MRF Savari and CEAT Anmol with fitting and balancing included. Call +91-9377158216.",
+        "keywords": "4.00-8 tyre vapi, 400-8 tyre price vapi, auto rickshaw tyre vapi, CNG auto tyre vapi, 4.00-8 6PR tyre near me"
+      },
+      "hero": {
+        "eyebrow": "Three-Wheeler · 8 Inch Bias Ply",
+        "headline": "4.00-8 Auto Rickshaw Tyres in Vapi GIDC",
+        "lede": "The default 6PR fitment for passenger CNG autos and compact three-wheelers, with a hard-wearing casing and low rolling resistance that stretches every litre of CNG."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "4.00 inch (102 mm)" },
+        { "label": "Aspect Ratio", "value": "Bias-ply casing" },
+        { "label": "Rim Diameter", "value": "8 inch (203 mm)" },
+        { "label": "Overall Diameter", "value": "406 mm" },
+        { "label": "Construction", "value": "Nylon bias-ply, tube type, 6PR" },
+        { "label": "Load Rating", "value": "6PR - 60 kg per tyre at 45 PSI" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "32 PSI solo / 35 PSI laden" },
+        { "label": "Best Suited For", "value": "Bajaj RE Compact, TVS King, Mahindra Alfa Passenger, Atul Auto Gemini" }
+      ],
+      "vehicles": [
+        "Bajaj RE Compact",
+        "TVS King passenger auto",
+        "Mahindra Alfa Passenger",
+        "Atul Auto Gemini"
+      ],
+      "patterns": [
+        { "name": "MRF Savari 4.00-8", "note": "The volume seller in this size - tough nylon casing, strong sidewall and excellent CNG mileage on GIDC routes." },
+        { "name": "CEAT Anmol 4.00-8", "note": "Budget commuter casing with a reinforced tread block layout that resists cut wear on broken factory roads." }
+      ],
+      "fitment": "4.00-8 6PR is the standard front and rear fitment on the Bajaj RE Compact, TVS King, Mahindra Alfa Passenger and Atul Auto Gemini. Because three-wheeler rims are small and the tyre is tube type, the valve must be replaced with the tube and the rim bead seat checked for rust before mounting. Keep the cold pressure at 32 PSI solo and 35 PSI with a full passenger load - a soft tyre on a CNG auto raises fuel consumption and wears the shoulder unevenly. If your auto runs a different code, we will read it off the tyre for you at the workshop.",
+      "faq": [
+        {
+          "q": "What ply rating should a 4.00-8 auto rickshaw tyre be?",
+          "a": "A 6PR casing is the standard for passenger CNG autos running this size, and an 8PR 4.00-8 is the correct choice for cargo three-wheelers that carry heavier loads. Using too low a ply rating on a loaded vehicle causes the casing to flex, heat up and separate at the shoulder."
+        },
+        {
+          "q": "Are 4.00-8 tyres tube type or tubeless?",
+          "a": "Almost all 4.00-8 6PR and 8PR tyres in this size are tube type, because the 8-inch steel rims on three-wheelers are not tubeless-compatible. We always fit a fresh tube and valve with the tyre and check the tube for pinhole leaks before refitting."
+        },
+        {
+          "q": "How much does a 4.00-8 tyre cost in Vapi?",
+          "a": "New 6PR 4.00-8 tyres start from ₹1,100 at Sahara Tyre GIDC, and 5-point safety tested used tyres are available at roughly 25% to 40% of the new price. Fitting, tube replacement, valve replacement and balance are included in the quoted price with no hidden charges."
+        }
+      ]
+    },
+    {
+      "category": "rickshaw",
+      "slug": "4-50-10",
+      "size": "4.50-10",
+      "generate": true,
+      "badge": "Heavy Cargo 3-Wheeler",
+      "priceFrom": 1450,
+      "priceTo": 2200,
+      "cardTitle": "4.50-10 (450-10) 8PR",
+      "cardDesc": "Heavy-duty payload tyre for Piaggio Ape Xtra LDX, Ape City, Atul Auto Shakti and Mahindra Alfa Load in the Vapi GIDC industrial estates.",
+      "cardMeta": "MRF Lug / CEAT Buland",
+      "itemListName": "4.50-10 (450-10) 8PR",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "4.50-10 Tyres in Vapi GIDC | 8PR Cargo 3-Wheeler Price",
+        "description": "Buy 4.50-10 8PR cargo three-wheeler tyres in Vapi from ₹1,450. MRF and CEAT stock for Ape, Alfa and Atul Auto loads. Call +91-9377158216.",
+        "keywords": "4.50-10 tyre vapi, 450-10 tyre price vapi, cargo three wheeler tyre vapi, Ape tyre vapi, 4.50-10 8PR tyre near me"
+      },
+      "hero": {
+        "eyebrow": "Cargo Three-Wheeler · 10 Inch Bias Ply",
+        "headline": "4.50-10 Cargo Tyre Sizes in Vapi GIDC",
+        "lede": "An 8PR heavy-cargo casing for three-wheelers running full loads through the GIDC industrial belt, where sidewall heat and shoulder wear end up costing a fleet more than the tyre itself."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "4.50 inch (114 mm)" },
+        { "label": "Aspect Ratio", "value": "Bias-ply casing" },
+        { "label": "Rim Diameter", "value": "10 inch (254 mm)" },
+        { "label": "Overall Diameter", "value": "483 mm" },
+        { "label": "Construction", "value": "Nylon bias-ply, tube type, 8PR" },
+        { "label": "Load Rating", "value": "8PR - 85 kg per tyre at 55 PSI" },
+        { "label": "Tread Depth (New)", "value": "9.0 mm" },
+        { "label": "Cold Pressure", "value": "35 PSI solo / 45 PSI laden" },
+        { "label": "Best Suited For", "value": "Piaggio Ape Xtra LDX, Ape City, Atul Auto Shakti, Mahindra Alfa Load" }
+      ],
+      "vehicles": [
+        "Piaggio Ape Xtra LDX",
+        "Piaggio Ape City",
+        "Atul Auto Shakti",
+        "Mahindra Alfa Load"
+      ],
+      "patterns": [
+        { "name": "MRF Lug 4.50-10 8PR", "note": "Deep lug geometry that bites in soft mud and survives the sharp-edged debris found on broken GIDC service roads." },
+        { "name": "CEAT Buland 4.50-10 8PR", "note": "Load-rated casing with a cut and chip resistant compound, sized for continuous payload work in Vapi's factory belt." }
+      ],
+      "fitment": "4.50-10 8PR is the heavier-duty fitment used on cargo three-wheelers such as the Piaggio Ape Xtra LDX, Ape City, Atul Auto Shakti and Mahindra Alfa Load. A cargo vehicle running this size must keep 45 PSI at the rear once it is loaded, and 35 PSI when empty, because the same casing is expected to work on wet, broken, oil-contaminated factory approach roads. Measure the pressure cold and re-torque the wheel nuts after the first 100 km with a new tyre fitted.",
+      "faq": [
+        {
+          "q": "What is the difference between a 4.00-8 and a 4.50-10 tyre?",
+          "a": "The 4.50-10 is a larger tyre on a bigger rim, which raises the overall diameter to about 483 mm against 406 mm on the 4.00-8. That gives a larger contact patch and a higher load rating, so the 4.50-10 suits cargo three-wheelers while the 4.00-8 suits passenger CNG autos. The sizes are not interchangeable without changing the rims."
+        },
+        {
+          "q": "How much pressure should a loaded 4.50-10 cargo tyre run?",
+          "a": "45 PSI cold when the vehicle is fully loaded and 35 PSI when it is running empty. Running a loaded cargo three-wheeler soft is the single biggest cause of premature casing failure, because the sidewall flexes on every joint and the heat builds up in the shoulder."
+        },
+        {
+          "q": "Do you supply 4.50-10 tyres for delivery fleets in Vapi?",
+          "a": "Yes. We stock 4.50-10 8PR casings and supply regular commercial buyers in Vapi GIDC, Sarigam and Umbergaon with bulk pricing, GST invoices and scheduled pressure audits. Call +91-9377158216 to talk about fleet rates."
+        }
+      ]
+    },
+    {
+      "category": "rickshaw",
+      "slug": "3-75-12",
+      "size": "3.75-12",
+      "generate": true,
+      "badge": "Electric Rickshaw",
+      "priceFrom": 1200,
+      "priceTo": 1750,
+      "cardTitle": "3.75-12 (375-12) 8PR",
+      "cardDesc": "Heavy-ply 12-inch tyre for electric rickshaws and passenger autos, built for battery weight, instant motor torque and wet grip on monsoon industrial roads.",
+      "cardMeta": "TVS Eurogrip / CEAT Anmol",
+      "itemListName": "3.75-12 (375-12) 8PR",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "3.75-12 Tyres in Vapi GIDC | Electric Rickshaw Tyre Price",
+        "description": "Buy 3.75-12 8PR electric rickshaw and auto tyres in Vapi from ₹1,200. TVS Eurogrip, CEAT and MRF stock with fitting included. Call +91-9377158216.",
+        "keywords": "3.75-12 tyre vapi, 375-12 tyre price vapi, electric rickshaw tyre vapi, 3-wheeler tyre vapi, 3.75-12 8PR tyre near me"
+      },
+      "hero": {
+        "eyebrow": "Three-Wheeler · 12 Inch Bias Ply",
+        "headline": "3.75-12 Electric Rickshaw Tyres in Vapi GIDC",
+        "lede": "A heavy-ply 12-inch casing for electric rickshaws and passenger three-wheelers, engineered for battery weight and instant motor torque in South Gujarat's monsoon traffic."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "3.75 inch (95 mm)" },
+        { "label": "Aspect Ratio", "value": "Bias-ply casing" },
+        { "label": "Rim Diameter", "value": "12 inch (305 mm)" },
+        { "label": "Overall Diameter", "value": "495 mm" },
+        { "label": "Construction", "value": "Nylon bias-ply, tube type, 8PR" },
+        { "label": "Load Rating", "value": "8PR - 90 kg per tyre at 60 PSI" },
+        { "label": "Tread Depth (New)", "value": "8.5 mm" },
+        { "label": "Cold Pressure", "value": "40 PSI solo / 50 PSI laden" },
+        { "label": "Best Suited For", "value": "Electric rickshaws, passenger autos and cargo three-wheelers on 12-inch rims" }
+      ],
+      "vehicles": [
+        "Electric rickshaws running 12-inch wheels",
+        "Passenger auto-rickshaws on 12-inch rims",
+        "Atul Auto passenger variants (select)",
+        "City cargo three-wheelers"
+      ],
+      "patterns": [
+        { "name": "TVS Eurogrip Durapro 3.75-12", "note": "Directional radial construction with a wet-weather compound that holds line in the heavy monsoon rain Vapi sees each year." },
+        { "name": "CEAT Anmol 3.75-12", "note": "Reinforced 8PR casing with a cut and chip resistant compound for debris-strewn factory approach roads." },
+        { "name": "MRF Savari 3.75-12", "note": "Hard-wearing nylon casing that holds air pressure through long CNG or battery duty cycles." }
+      ],
+      "fitment": "3.75-12 8PR is the heavy-ply 12-inch fitment used on electric rickshaws, passenger autos and cargo three-wheelers running 12-inch rims. Note that the widely used 90/90-12 on the same rim diameter is a much lighter scooter pattern - the 3.75-12 is the reinforced alternative for battery and payload duty. Confirm the code moulded on your existing tyre before ordering, and run 50 PSI at the rear when loaded, measured cold.",
+      "faq": [
+        {
+          "q": "Is 3.75-12 the same as 90/90-12?",
+          "a": "No. They sit on the same 12-inch rim but are completely different tyres. 90/90-12 is a narrow 90 mm scooter pattern for passenger duty, while 3.75-12 is a 95 mm heavy-ply 8PR casing for electric rickshaws, passenger autos and cargo three-wheelers. Fitting the wrong one risks casing failure under load."
+        },
+        {
+          "q": "Why does my electric rickshaw tyre need more pressure than a scooter tyre?",
+          "a": "An electric rickshaw carries 60 to 90 kg of battery permanently over the rear axle, so the casing carries a much higher static load than a petrol scooter. Running it at scooter pressures causes sidewall flex, heat build-up and shoulder separation. Keep it at 50 PSI cold when loaded and check it every month."
+        },
+        {
+          "q": "Can a 3.75-12 be fitted on a 90/90-12 rim?",
+          "a": "The rim diameter matches at 12 inches, so the tyre will physically mount, but the load rating and casing differ. We will check the rim, the bead seat and the load requirement before fitting, and tell you if the pattern is not right for the vehicle."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "145-65-r13",
+      "size": "145/65 R13",
+      "generate": true,
+      "badge": "13 Inch Compact",
+      "priceFrom": 2100,
+      "priceTo": 3600,
+      "cardTitle": "145/65 R13",
+      "cardDesc": "Compact 13-inch radial for Maruti 800, Hyundai Santro (early variants) and Hyundai Atos, with a comfort-first profile for city commuting.",
+      "cardMeta": "MRF ZVTS / CEAT Milaze",
+      "itemListName": "145/65 R13",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "145/65 R13 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 145/65 R13 car tyres in Vapi from ₹2,100. MRF, CEAT and Apollo options with fitting, balancing and alignment. Call +91-9377158216.",
+        "keywords": "145/65 r13 tyres vapi, 145 65 r13 tyre price vapi, 145/65 r13 tyre near me vapi, santro tyre vapi, 145/65 R13 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car Radial · 13 Inch",
+        "headline": "145/65 R13 Tyres in Vapi GIDC",
+        "lede": "A narrow 13-inch radial for light-weight city cars, stocked in economical commuter patterns and 5-point safety tested used tyres with same-day fitting at Char Rasta."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "145 mm" },
+        { "label": "Aspect Ratio", "value": "65%" },
+        { "label": "Rim Diameter", "value": "13 inch (330 mm)" },
+        { "label": "Overall Diameter", "value": "519 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "74T (410 kg) / 180 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "32 PSI front / 32 PSI rear" },
+        { "label": "Best Suited For", "value": "Maruti 800, Hyundai Santro (early variants), Hyundai Atos" }
+      ],
+      "vehicles": [
+        "Maruti 800",
+        "Hyundai Santro (early and Xing variants)",
+        "Hyundai Atos",
+        "City hatchbacks on 13-inch steel rims"
+      ],
+      "patterns": [
+        { "name": "MRF ZVTS 145/65 R13", "note": "Rugged Indian-road compound with a reinforced sidewall - the standard OEM choice on Maruti-built hatchbacks." },
+        { "name": "CEAT Milaze 145/65 R13", "note": "High-mileage compound built for daily commuting, backed by a 5-year manufacturer warranty." },
+        { "name": "Apollo Amazer 4G 145/65 R13", "note": "Silica-based radial that sharpens steering response while keeping ride noise low on patched Vapi roads." }
+      ],
+      "fitment": "145/65 R13 is a narrow 13-inch radial used on light-weight city cars such as the Maruti 800, early Santro variants and the Hyundai Atos. This is a small-diameter fitment, so fitting a wider 165/65 R13 without changing the rim is not a safe upgrade - it changes the rolling diameter beyond the two percent tolerance and moves the tyre close to the suspension strut. Confirm the code moulded on your sidewall or on the driver door placard, and bring the car in if you are unsure.",
+      "faq": [
+        {
+          "q": "Can I fit 165/65 R13 instead of 145/65 R13?",
+          "a": "Not on the same 13-inch rim without checking carefully. A 165/65 R13 is about 3.4% larger in rolling diameter than a 145/65 R13, which is outside the safe two percent tolerance - the speedometer will read low, the ABS and stability systems will see a different wheel speed, and the wider tyre can foul the strut on full lock. We will measure both before fitting."
+        },
+        {
+          "q": "What tyre pressure should a 145/65 R13 run at?",
+          "a": "30 to 32 PSI cold front and rear for normal city running, and about 2 PSI higher during the monsoon so the casing stays firm over standing water. Check the door placard for your specific model rather than relying on a general figure."
+        },
+        {
+          "q": "Are used 145/65 R13 tyres safe for a city car?",
+          "a": "They can be, provided they pass our 5-point inspection - minimum 3.0 mm of usable tread across all ribs, intact bead wire, no sidewall bulge or bulge scars, no internal ply separation and a clean 45 PSI immersion tank test. Every used tyre we sell carries that certification."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "155-65-r14",
+      "size": "155/65 R14",
+      "generate": true,
+      "badge": "14 Inch Hatchback",
+      "priceFrom": 1900,
+      "priceTo": 4200,
+      "cardTitle": "155/65 R14",
+      "cardDesc": "Economical 14-inch radial for Maruti WagonR, Maruti Celerio, Chevrolet Spark and Nissan Pixo, with a narrow profile built for city fuel efficiency.",
+      "cardMeta": "MRF ZLX / CEAT FuelSmarrt",
+      "itemListName": "155/65 R14",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "155/65 R14 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 155/65 R14 car tyres in Vapi from ₹1,900. MRF, CEAT and Apollo stock with fitting, balancing and warranty support. Call +91-9377158216.",
+        "keywords": "155/65 r14 tyres vapi, 155 65 r14 tyre price vapi, 155/65 r14 tyre near me vapi, wagonr tyre vapi, 155/65 R14 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car Radial · 14 Inch",
+        "headline": "155/65 R14 Tyres in Vapi GIDC",
+        "lede": "The narrow, fuel-thrifty 14-inch radial used across India's most-sold city hatchbacks, available new or as 5-point safety tested used tyres with instant fitting."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "155 mm" },
+        { "label": "Aspect Ratio", "value": "65%" },
+        { "label": "Rim Diameter", "value": "14 inch (356 mm)" },
+        { "label": "Overall Diameter", "value": "557 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "82T (425 kg) / 180 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "32 PSI front / 32 PSI rear" },
+        { "label": "Best Suited For", "value": "Maruti WagonR, Maruti Celerio, Chevrolet Spark, Nissan Pixo" }
+      ],
+      "vehicles": [
+        "Maruti Suzuki WagonR 1.0 and 1.2",
+        "Maruti Suzuki Celerio",
+        "Chevrolet Spark (retail and used stock)",
+        "Nissan Pixo (retail and used stock)"
+      ],
+      "patterns": [
+        { "name": "MRF ZLX 155/65 R14", "note": "Acoustic-tuned comfort radial that keeps the cabin quiet on patched GIDC roads at low rolling resistance." },
+        { "name": "CEAT FuelSmarrt 155/65 R14", "note": "Fuel-efficiency compound with a silica base that holds grip in standing monsoon water." },
+        { "name": "Apollo Amazer 4G 155/65 R14", "note": "High-silica radial with sharp wet braking and a reinforced bead for steel rims." }
+      ],
+      "fitment": "155/65 R14 is the narrow 14-inch radial used on the Maruti WagonR, Celerio, Chevrolet Spark and Nissan Pixo. It is a popular width in this rim size, so it is worth checking whether your car came with 155/65 R14 or the wider 165/70 R14 - the two are not interchangeable and the width difference changes both the grip and the fuel economy. The door placard or the sidewall code is the authority, and we will read it for you at the workshop.",
+      "faq": [
+        {
+          "q": "What is the difference between 155/65 R14 and 165/70 R14?",
+          "a": "Both are 14-inch radials and the rolling diameters are close, but 165/70 R14 is 10 mm wider with a taller sidewall, which usually means a slightly larger overall diameter. That changes clearance under the arch, the speedometer reading and the fuel economy, so fit the size printed on your placard rather than the wider one by default."
+        },
+        {
+          "q": "Are 155/65 R14 tyres good for highway driving on NH 48?",
+          "a": "They are fine for highway use at the correct pressure, but the narrow 155 mm section gives a smaller contact patch than a 185 or 195 section, so braking distances will be longer and the sidewall will flex more in crosswinds. If you do a lot of highway running, a wider pattern in the same rim size is the better choice."
+        },
+        {
+          "q": "How much does a 155/65 R14 tyre cost in Vapi?",
+          "a": "New 155/65 R14 radials start from ₹1,900 at Sahara Tyre GIDC, with premium brand patterns running to about ₹4,200. Quality-checked used tyres are available at 25% to 40% of the new price. Fitting, valve replacement, balancing and initial nitrogen are included."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "165-65-r14",
+      "size": "165/65 R14",
+      "generate": true,
+      "badge": "14 Inch Radial",
+      "priceFrom": 2000,
+      "priceTo": 4200,
+      "cardTitle": "165/65 R14",
+      "cardDesc": "Everyday 14-inch radial for Mahindra Verito, Ford Figo (older variants) and compact sedans, balancing ride comfort with an efficient footprint.",
+      "cardMeta": "MRF ZLX / Apollo Alnac 4G",
+      "itemListName": "165/65 R14",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "165/65 R14 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 165/65 R14 car tyres in Vapi from ₹2,000. MRF, CEAT, Apollo and Bridgestone with fitting and alignment. Call +91-9377158216.",
+        "keywords": "165/65 r14 tyres vapi, 165 65 r14 tyre price vapi, 165/65 r14 tyre near me vapi, verito tyre vapi, 165/65 R14 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car Radial · 14 Inch",
+        "headline": "165/65 R14 Tyres in Vapi GIDC",
+        "lede": "A mid-width 14-inch radial that suits the compact sedans and tallies on the Vapi GIDC fleet, stocked in everything from value commuters to premium touring patterns."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "165 mm" },
+        { "label": "Aspect Ratio", "value": "65%" },
+        { "label": "Rim Diameter", "value": "14 inch (356 mm)" },
+        { "label": "Overall Diameter", "value": "570 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "85T (440 kg) / 180 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "32 PSI front / 32 PSI rear" },
+        { "label": "Best Suited For", "value": "Mahindra Verito, Ford Figo (older variants), compact sedans" }
+      ],
+      "vehicles": [
+        "Mahindra Verito",
+        "Ford Figo (older variants)",
+        "Compact sedans and hatchbacks on 14-inch rims",
+        "Taxi and fleet cars in Vapi GIDC"
+      ],
+      "patterns": [
+        { "name": "MRF ZLX 165/65 R14", "note": "Quiet comfort radial with a long tread life, a favourite on high-mileage Vapi fleet cars." },
+        { "name": "Apollo Alnac 4G 165/65 R14", "note": "Asymmetric tread with a stiff outer shoulder for cornering stability and a 5-year warranty." },
+        { "name": "CEAT SecuraDrive 165/65 R14", "note": "Wide longitudinal grooves for monsoon aquaplaning resistance with unconditional road hazard cover on eligible patterns." }
+      ],
+      "fitment": "165/65 R14 suits the Mahindra Verito, older Ford Figo variants and a wide range of compact sedans and fleet cars that run 14-inch rims. The 165 mm section gives a noticeably better contact patch than 155/65 R14 while staying inside the same rolling-diameter envelope, which is why it remains a safe, popular choice. Confirm the code on your sidewall, and if you are moving up from a smaller width, budget for a 3D wheel alignment because the wider tyre changes the scrub radius.",
+      "faq": [
+        {
+          "q": "Can I upsize 165/65 R14 to 175/70 R14?",
+          "a": "Yes, that is a common and legal upgrade. A 175/70 R14 measures about 601 mm in overall diameter against 570 mm for a 165/65 R14, an increase of roughly 5.4% - which is above the two percent tolerance, so it is not a like-for-like change. Stay at or below 2% and the speedometer and ABS stay accurate. We will measure the old and new tyres before fitting."
+        },
+        {
+          "q": "What is the correct cold pressure for 165/65 R14?",
+          "a": "32 PSI front and rear is the normal city setting for this size, rising by 2 to 3 PSI on a full load or during monsoon running. Always check the door placard, because the correct figure depends on the vehicle, not just the tyre size."
+        },
+        {
+          "q": "Do you balance 165/65 R14 wheels on steel rims?",
+          "a": "Yes. Steel rims are balanced with clip-on steel weights and alloy rims with lead-free adhesive zinc weights, so the diamond cut face of an alloy wheel is never scratched. Every wheel is re-spun after the weights are applied to confirm the reading."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "165-70-r14",
+      "size": "165/70 R14",
+      "generate": true,
+      "badge": "14 Inch Hatchback",
+      "priceFrom": 2100,
+      "priceTo": 4200,
+      "cardTitle": "165/70 R14",
+      "cardDesc": "Best-selling 14-inch radial for Hyundai i10, Renault Kwid, Maruti WagonR and Hyundai Santro, with a taller sidewall for pothole protection.",
+      "cardMeta": "MRF ZLX / CEAT SecuraDrive",
+      "itemListName": "165/70 R14",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "165/70 R14 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 165/70 R14 car tyres in Vapi from ₹2,100. MRF, CEAT, Apollo and Michelin patterns with fitting and balancing. Call +91-9377158216.",
+        "keywords": "165/70 r14 tyres vapi, 165 70 r14 tyre price vapi, 165/70 r14 tyre near me vapi, i10 tyre vapi, kwid tyre vapi, 165/70 R14 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car Radial · 14 Inch",
+        "headline": "165/70 R14 Tyres in Vapi GIDC",
+        "lede": "India's most-used 14-inch size, chosen for the taller sidewall that absorbs monsoon potholes on GIDC roads while keeping the rolling diameter inside the OEM tolerance."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "165 mm" },
+        { "label": "Aspect Ratio", "value": "70%" },
+        { "label": "Rim Diameter", "value": "14 inch (356 mm)" },
+        { "label": "Overall Diameter", "value": "587 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "81T (437 kg) / 180 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 33 PSI rear" },
+        { "label": "Best Suited For", "value": "Hyundai i10, Renault Kwid, Maruti WagonR, Hyundai Santro (Xing)" }
+      ],
+      "vehicles": [
+        "Hyundai i10 / Nios (14-inch variants)",
+        "Renault Kwid",
+        "Maruti Suzuki WagonR (1.2 variants)",
+        "Hyundai Santro (Xing variants)",
+        "Chevrolet Beat (retail and used stock)"
+      ],
+      "patterns": [
+        { "name": "MRF ZLX 165/70 R14", "note": "The default choice for i10 and Kwid owners, with a reinforced sidewall built for rough GIDC surfaces." },
+        { "name": "CEAT SecuraDrive 165/70 R14", "note": "High-silica radial with wide drainage channels for short monsoon braking distances." },
+        { "name": "Apollo Alnac 4G 165/70 R14", "note": "Asymmetric European-style tread with a 5-year manufacturer warranty and strong high-speed stability." },
+        { "name": "Michelin Energy XM2+ 165/70 R14", "note": "Ultra low rolling resistance compound that returns measurable fuel economy on daily commutes." }
+      ],
+      "fitment": "165/70 R14 is the most widely used 14-inch radial in India, fitting the Hyundai i10, Renault Kwid, Maruti WagonR, Santro Xing and a long list of fleet cars. Its 70% aspect ratio gives a taller sidewall than 165/65 R14, which is why it absorbs the sharp-edged monsoon potholes around GIDC Phase 1 and 2 far better. If your car came with 155/65 R14, moving to 165/70 R14 is an upgrade in width and sidewall, so re-run a 3D alignment after fitting to correct the scrub radius.",
+      "faq": [
+        {
+          "q": "Is 165/70 R14 the same as 165/65 R14?",
+          "a": "No. Both are 14-inch radials, but 165/70 R14 has a 5 mm taller sidewall, so the overall diameter grows from about 570 mm to 587 mm. The 165/70 R14 gives a softer, more protective ride, while the 165/65 R14 is a little more precise. Fit the size on your door placard."
+        },
+        {
+          "q": "Why does 165/70 R14 suit rough roads better than 165/60 R14?",
+          "a": "The 70% sidewall is roughly 17 mm taller than a 60% sidewall of the same width, and that extra rubber is what absorbs sharp pothole edges. On the broken GIDC roads and the NH 48 stretch through Vapi, a taller sidewall significantly lowers the risk of a sidewall bulge and puncture."
+        },
+        {
+          "q": "How many tyres do I need to replace at once?",
+          "a": "Replace in pairs on the same axle at minimum. A new tyre on one side and a worn tyre on the other changes the grip balance and makes the car pull, and it also wears the new tyre faster. If only one tyre is damaged, we will still fit a matched pair at the same price per tyre."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "175-70-r14",
+      "size": "175/70 R14",
+      "generate": true,
+      "badge": "14 Inch Sedan",
+      "priceFrom": 2400,
+      "priceTo": 4200,
+      "cardTitle": "175/70 R14",
+      "cardDesc": "Mid-size 14-inch radial for Fiat Punto, Nissan Sunny and Hyundai Accent variants, with a wider footprint for better highway stability.",
+      "cardMeta": "MRF ZLX / Apollo Alnac 4G",
+      "itemListName": "175/70 R14",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "175/70 R14 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 175/70 R14 car tyres in Vapi from ₹2,400. MRF, Apollo, CEAT and Bridgestone with fitting, balancing and alignment. Call +91-9377158216.",
+        "keywords": "175/70 r14 tyres vapi, 175 70 r14 tyre price vapi, 175/70 r14 tyre near me vapi, punto tyre vapi, 175/70 R14 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car Radial · 14 Inch",
+        "headline": "175/70 R14 Tyres in Vapi GIDC",
+        "lede": "A 175 mm section on a 14-inch rim - the wider, more planted option for compact sedans that carry a full load of passengers on NH 48 runs."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "175 mm" },
+        { "label": "Aspect Ratio", "value": "70%" },
+        { "label": "Rim Diameter", "value": "14 inch (356 mm)" },
+        { "label": "Overall Diameter", "value": "601 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "84T (450 kg) / 180 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "32 PSI front / 32 PSI rear" },
+        { "label": "Best Suited For", "value": "Fiat Punto, Nissan Sunny, Hyundai Accent (older variants)" }
+      ],
+      "vehicles": [
+        "Fiat Punto",
+        "Nissan Sunny",
+        "Hyundai Accent (older variants)",
+        "Compact sedans and hatchbacks on 14-inch rims"
+      ],
+      "patterns": [
+        { "name": "MRF ZLX 175/70 R14", "note": "Quiet, long-life comfort radial with a reinforced casing for rough GIDC road surfaces." },
+        { "name": "Apollo Alnac 4G 175/70 R14", "note": "Asymmetric tread with a stiff shoulder block that stabilises the car through highway crosswinds." },
+        { "name": "Bridgestone Sturdo 175/70 R14", "note": "Built specifically for Indian road conditions, with 3D tread blocks that deliver noticeably longer tread life." }
+      ],
+      "fitment": "175/70 R14 is the wider 14-inch radial used on the Fiat Punto, Nissan Sunny and older Hyundai Accent variants. Compared with a 165/70 R14 it adds 10 mm of section width, which improves cornering and braking but tightens the arch clearance, so check for any rubbing on full steering lock before committing to it. If your existing tyre is a 165/70 R14, this is a plus-size change of roughly 2.4% in rolling diameter, so we measure and confirm it before fitting.",
+      "faq": [
+        {
+          "q": "Can I fit 175/70 R14 in place of 165/70 R14?",
+          "a": "Usually yes, because the overall diameter only grows by about 2.4% - close enough to the two percent tolerance that we still measure both tyres before fitting. The wider tyre will also reduce the arch gap, so we check for rubbing on full lock and re-align the car afterwards."
+        },
+        {
+          "q": "What tyre pressure should I run on 175/70 R14?",
+          "a": "32 PSI cold front and rear is the normal setting, and 34 to 35 PSI when the car is fully loaded on a highway trip. Measure cold in the morning - if the reading is taken after driving, subtract 4 to 6 PSI to get the true cold figure."
+        },
+        {
+          "q": "Do 175/70 R14 tyres need nitrogen?",
+          "a": "Nitrogen is optional but recommended for regular highway users. It holds pressure more steadily across a 200 km NH 48 run and keeps moisture out of the rim, which matters on coastal Vapi roads. We fit it as part of every new tyre installation at no extra charge."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "185-60-r15",
+      "size": "185/60 R15",
+      "generate": true,
+      "badge": "15 Inch Sedan",
+      "priceFrom": 2300,
+      "priceTo": 4800,
+      "cardTitle": "185/60 R15",
+      "cardDesc": "The classic 15-inch sedan radial for Toyota Etios, Toyota Corolla, Skoda Octavia and Nissan Sunny, with a balanced comfort and handling profile.",
+      "cardMeta": "MRF ZLX / Michelin Energy XM2+",
+      "itemListName": "185/60 R15",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "185/60 R15 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 185/60 R15 car tyres in Vapi from ₹2,300. MRF, Michelin, Apollo and Bridgestone with fitting, balancing and alignment. Call +91-9377158216.",
+        "keywords": "185/60 r15 tyres vapi, 185 60 r15 tyre price vapi, 185/60 r15 tyre near me vapi, etios tyre vapi, corolla tyre vapi, 185/60 R15 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car Radial · 15 Inch",
+        "headline": "185/60 R15 Tyres in Vapi GIDC",
+        "lede": "One of the most widely used 15-inch sedan fitments in the country, stocked from value commuter patterns up to premium touring radials with company warranty."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "185 mm" },
+        { "label": "Aspect Ratio", "value": "60%" },
+        { "label": "Rim Diameter", "value": "15 inch (381 mm)" },
+        { "label": "Overall Diameter", "value": "603 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "84H (475 kg) / 210 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 32 PSI rear" },
+        { "label": "Best Suited For", "value": "Toyota Etios, Toyota Corolla, Skoda Octavia, Nissan Sunny" }
+      ],
+      "vehicles": [
+        "Toyota Etios and Etios Cross",
+        "Toyota Corolla (older variants)",
+        "Skoda Octavia (older variants)",
+        "Nissan Sunny",
+        "Hyundai Elantra (older variants)"
+      ],
+      "patterns": [
+        { "name": "MRF ZLX 185/60 R15", "note": "Comfort-focused radial with a proven long tread life on the concrete arterials of GIDC." },
+        { "name": "Michelin Energy XM2+ 185/60 R15", "note": "Ultra low rolling resistance compound that returns up to 29% longer tread life than typical competitors." },
+        { "name": "Apollo Alnac 4G 185/60 R15", "note": "European-style asymmetric tread with sharp steering response and a 5-year warranty." },
+        { "name": "Bridgestone Sturdo 185/60 R15", "note": "Engineered for Indian road durability with reinforced casing and 3D tread blocks." }
+      ],
+      "fitment": "185/60 R15 is one of the most common 15-inch fitments in India, fitted to the Toyota Etios, older Corolla and Octavia variants, and the Nissan Sunny. It is a well-balanced size - wide enough for confident braking, tall enough to soften broken-road impacts. If your car came with 185/65 R15, the 60 profile is a mild step down in sidewall height and a better match for 15-inch alloys, and the rolling diameter change stays close to the two percent limit.",
+      "faq": [
+        {
+          "q": "Is 185/60 R15 the same as 185/65 R15?",
+          "a": "No. The 185/60 R15 has a 60% sidewall against 65% on the 185/65 R15, so the overall diameter drops from about 616 mm to 603 mm - a difference of roughly 2.1%. Both sit on a 15-inch rim, and the 60 profile looks better on alloys while the 65 profile gives more sidewall cushioning."
+        },
+        {
+          "q": "Which brand 185/60 R15 lasts longest in Vapi?",
+          "a": "It depends on the duty cycle. For mixed city and highway running, the Michelin Energy XM2+ and MRF ZLX give the best tread life. For monsoon-dominant use on broken GIDC roads, the Bridgestone Sturdo and Apollo Alnac 4G have the tougher casing. We will match the pattern to how and where you drive."
+        },
+        {
+          "q": "How much does a 185/60 R15 tyre cost in Vapi?",
+          "a": "New 185/60 R15 radials start from ₹2,300 at Sahara Tyre GIDC, with premium patterns running up to about ₹4,800. Used tyres that pass our 5-point inspection are available at 25% to 40% of the new price, with fitting and balancing included."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "195-60-r15",
+      "size": "195/60 R15",
+      "generate": true,
+      "badge": "15 Inch Premium",
+      "priceFrom": 2600,
+      "priceTo": 4800,
+      "cardTitle": "195/60 R15",
+      "cardDesc": "Wider 15-inch premium radial for Toyota Corolla, Skoda Rapid and Honda City variants, with a wider contact patch for highway braking.",
+      "cardMeta": "Apollo Alnac 4G / Michelin Energy XM2+",
+      "itemListName": "195/60 R15",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "195/60 R15 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 195/60 R15 car tyres in Vapi from ₹2,600. Apollo, Michelin, CEAT and Goodyear with fitting and alignment included. Call +91-9377158216.",
+        "keywords": "195/60 r15 tyres vapi, 195 60 r15 tyre price vapi, 195/60 r15 tyre near me vapi, rapid tyre vapi, 195/60 R15 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car Radial · 15 Inch",
+        "headline": "195/60 R15 Tyres in Vapi GIDC",
+        "lede": "A 195 mm section on a 15-inch rim - the premium sedan size, stocked with high-silica patterns that shorten monsoon braking distances on NH 48."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "195 mm" },
+        { "label": "Aspect Ratio", "value": "60%" },
+        { "label": "Rim Diameter", "value": "15 inch (381 mm)" },
+        { "label": "Overall Diameter", "value": "615 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "88H (490 kg) / 210 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 32 PSI rear" },
+        { "label": "Best Suited For", "value": "Toyota Corolla, Skoda Rapid, Honda City (older variants)" }
+      ],
+      "vehicles": [
+        "Toyota Corolla (older variants)",
+        "Skoda Rapid",
+        "Honda City (older variants)",
+        "Hyundai Elantra (select variants)",
+        "Mid-size sedans on 15-inch rims"
+      ],
+      "patterns": [
+        { "name": "Apollo Alnac 4G 195/60 R15", "note": "High-silica asymmetric tread with razor-sharp steering response and a 5-year manufacturer warranty." },
+        { "name": "Michelin Energy XM2+ 195/60 R15", "note": "Long-life low rolling resistance compound that holds wet braking performance even when worn." },
+        { "name": "CEAT SecuraDrive 195/60 R15", "note": "Wide longitudinal grooves and aquaplaning sipes for the heavy South Gujarat monsoon." },
+        { "name": "Goodyear Assurance TripleMax 2 195/60 R15", "note": "HydroTred silica matrix that disperses standing water in milliseconds on flooded roads." }
+      ],
+      "fitment": "195/60 R15 is the premium 15-inch sedan size used on the Toyota Corolla, Skoda Rapid and older Honda City variants. Compared with a 185/60 R15 it adds 10 mm of width, which measurably shortens braking distances but does tighten the arch gap - on 15-inch alloys with low-profile fitments it is worth checking that nothing fouls on full lock. If your placard lists 195/55 R16, this is a downgrade in rim size and we will confirm the load rating before fitting.",
+      "faq": [
+        {
+          "q": "Can I fit 195/60 R15 on a 15-inch rim with 195/55 R16 tyres currently?",
+          "a": "No. 195/60 R15 needs a 15-inch rim and 195/55 R16 needs a 16-inch rim - the bead diameter is different, so the tyre will not seat. If you want to stay on 16-inch rims, the equivalent 16-inch sizes are 205/55 R16 and 205/60 R16, both of which we stock."
+        },
+        {
+          "q": "Does a wider 195 tyre improve braking?",
+          "a": "Yes, noticeably. A 195 mm section gives roughly 10% more contact patch than a 185 mm section at the same pressure, which translates into shorter wet braking distances. It also adds steering effort by about 5% and can reduce fuel economy by 0.5 to 1 km/l, so the trade-off is grip for economy."
+        },
+        {
+          "q": "How do I check my current tyre size?",
+          "a": "Look at the sidewall of the tyre itself. The full size code, for example 195/60 R15 88H, is moulded on the sidewall of every tyre, and the size placard on the driver door jamb lists the factory-fitted size and pressures. Both should agree - if they do not, the tyres have already been changed at some point."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "215-75-r15",
+      "size": "215/75 R15",
+      "generate": true,
+      "badge": "15 Inch Utility 4x4",
+      "priceFrom": 3400,
+      "priceTo": 5400,
+      "cardTitle": "215/75 R15",
+      "cardDesc": "High-profile 4x4 radial for Mahindra Bolero, Bolero Neo and Maruti Gypsy, with a deep tread block pattern built for off-road and rough-road duty.",
+      "cardMeta": "MRF Wanderer / CEAT Czar AT",
+      "itemListName": "215/75 R15",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "215/75 R15 Tyres in Vapi GIDC | 4x4 & Utility Tyre Price",
+        "description": "Buy 215/75 R15 tyres in Vapi from ₹3,400. MRF Wanderer, CEAT Czar AT and Apollo for Bolero and Gypsy. Fitting included. Call +91-9377158216.",
+        "keywords": "215/75 r15 tyres vapi, 215 75 r15 tyre price vapi, 215/75 r15 tyre near me vapi, bolero tyre vapi, 4x4 tyre vapi, 215/75 R15 all terrain vapi"
+      },
+      "hero": {
+        "eyebrow": "Utility 4x4 Radial · 15 Inch",
+        "headline": "215/75 R15 Tyres in Vapi GIDC",
+        "lede": "The classic high-profile 4x4 size, with the tall sidewall that lets the Bolero and Gypsy absorb broken industrial roads and the deep blocks that work off the tarmac."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "215 mm" },
+        { "label": "Aspect Ratio", "value": "75%" },
+        { "label": "Rim Diameter", "value": "15 inch (381 mm)" },
+        { "label": "Overall Diameter", "value": "704 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "100S (850 kg) / 180 km/h" },
+        { "label": "Tread Depth (New)", "value": "9.5 mm" },
+        { "label": "Cold Pressure", "value": "32 PSI front / 36 PSI rear" },
+        { "label": "Best Suited For", "value": "Mahindra Bolero, Mahindra Bolero Neo, Maruti Suzuki Gypsy" }
+      ],
+      "vehicles": [
+        "Mahindra Bolero",
+        "Mahindra Bolero Neo",
+        "Maruti Suzuki Gypsy",
+        "Mahindra Scorpio (older variants)",
+        "Utility and light 4x4 platforms on 15-inch rims"
+      ],
+      "patterns": [
+        { "name": "MRF Wanderer 215/75 R15", "note": "Aggressive all-terrain block pattern with a cut and chip resistant compound for broken factory roads and off-road use." },
+        { "name": "CEAT Czar AT 215/75 R15", "note": "Tough SUV casing with stone ejectors and a reinforced sidewall that resists impact damage." },
+        { "name": "Apollo Apterra AT2 215/75 R15", "note": "Triple-polymer off-road compound with sawtooth shoulder blocks for mud, sand and rock." }
+      ],
+      "fitment": "215/75 R15 is the classic 4x4 and utility fitment, standard on the Mahindra Bolero, Bolero Neo, Maruti Gypsy and older Scorpio variants. The 75% aspect ratio gives one of the tallest sidewalls in the 15-inch family, which is exactly what these vehicles need on the broken GIDC approach roads and on the way to Daman and Bhilad. Because the sidewall is soft by design, check the cold pressure monthly at 32 PSI front and 36 PSI rear, and re-align after fitting because a tall sidewall shifts the scrub radius.",
+      "faq": [
+        {
+          "q": "Why does the Bolero need a 75-profile tyre?",
+          "a": "The tall 75% sidewall gives the Bolero the articulation and sidewall travel it needs on broken roads, and it also lowers the effective rolling resistance compared with a low-profile tyre on the same rim. It is the reason the Bolero can run 32 PSI and still not feel harsh, which protects both the rim and the tyre from pothole damage."
+        },
+        {
+          "q": "Can I fit 265/65 R15 on my Bolero?",
+          "a": "No. 265/65 R15 does not exist as a standard fitment, and a 265 section on a 15-inch rim would be far too wide for the arch and the steering lock. The 265/65 R17 size we stock is for 17-inch rims on the Fortuner and Endeavour class of vehicles. Bolt pattern and width both have to match the vehicle."
+        },
+        {
+          "q": "What pressure should a Bolero tyre run at?",
+          "a": "32 PSI at the front and 36 PSI at the rear when loaded, measured cold. A 4x4 carrying a full load over long distances on NH 48 should never run under-inflated - sidewall flex on a tall-profile tyre generates heat fast and is the leading cause of summer blowouts."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "195-60-r16",
+      "size": "195/60 R16",
+      "generate": true,
+      "badge": "16 Inch Sedan",
+      "priceFrom": 2600,
+      "priceTo": 6500,
+      "cardTitle": "195/60 R16",
+      "cardDesc": "Light 16-inch radial for Toyota Corolla Altis, Skoda Octavia, Honda Amaze and select Ciaz variants, with a comfort-biased profile on alloy rims.",
+      "cardMeta": "Apollo Alnac 4G / Bridgestone Turanza 6i",
+      "itemListName": "195/60 R16",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "195/60 R16 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 195/60 R16 car tyres in Vapi from ₹2,600. Apollo, Bridgestone, Michelin and Goodyear with fitting, balancing and alignment. Call +91-9377158216.",
+        "keywords": "195/60 r16 tyres vapi, 195 60 r16 tyre price vapi, 195/60 r16 tyre near me vapi, corolla altis tyre vapi, octavia tyre vapi, 195/60 R16 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car Radial · 16 Inch",
+        "headline": "195/60 R16 Tyres in Vapi GIDC",
+        "lede": "A 16-inch size with a 60% profile - the light, comfort-first option for compact sedans on alloy wheels, with a full premium brand range in stock."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "195 mm" },
+        { "label": "Aspect Ratio", "value": "60%" },
+        { "label": "Rim Diameter", "value": "16 inch (406 mm)" },
+        { "label": "Overall Diameter", "value": "632 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "89H (615 kg) / 210 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 34 PSI rear" },
+        { "label": "Best Suited For", "value": "Toyota Corolla Altis, Skoda Octavia, Honda Amaze, Honda Ciaz (select variants)" }
+      ],
+      "vehicles": [
+        "Toyota Corolla Altis (select variants)",
+        "Skoda Octavia",
+        "Honda Amaze",
+        "Honda Ciaz (select variants)",
+        "Hyundai Aura (select variants)"
+      ],
+      "patterns": [
+        { "name": "Apollo Alnac 4G 195/60 R16", "note": "Asymmetric high-silica tread with sharp wet grip and a 5-year manufacturer warranty." },
+        { "name": "Bridgestone Turanza 6i 195/60 R16", "note": "3D resonance-cancelling tread blocks for a near-silent cabin on long NH 48 runs." },
+        { "name": "Michelin Primacy 4ST 195/60 R16", "note": "Class-leading wet braking that stays short even when the tyre is 80% worn." },
+        { "name": "Goodyear Assurance Duraplus 2 195/60 R16", "note": "TredLife compound engineered for 100,000 km of daily driving." }
+      ],
+      "fitment": "195/60 R16 is a 16-inch fitment used on the Toyota Corolla Altis in some variants, the Skoda Octavia, the Honda Amaze and selected Honda Ciaz trims. The 60% profile keeps the sidewall tall enough to take the broken-road hits on GIDC roads while sitting comfortably on a 16-inch alloy. If your placard shows 195/55 R16, the 60 profile is the more protected option and stays within a couple of percent on rolling diameter; we measure before fitting either way.",
+      "faq": [
+        {
+          "q": "Is 195/60 R16 the same as 195/55 R16?",
+          "a": "No. The 60% profile gives a 5 mm taller sidewall, taking the overall diameter from about 622 mm to 632 mm - a difference of roughly 1.6%, comfortably inside the safe two percent window. The 60 profile protects the alloy better on broken roads, while the 55 profile looks lower and is more common on sporty trims."
+        },
+        {
+          "q": "Which 195/60 R16 pattern gives the best wet braking?",
+          "a": "The Michelin Primacy 4ST, Continental UltraContact UC6 and Goodyear Assurance TripleMax 2 are the benchmark wet performers. Their micro-siping and high-silica compounds disperse standing water far faster than a general commuter pattern, which matters in the South Gujarat monsoon."
+        },
+        {
+          "q": "Do you fit 195/60 R16 on alloy rims?",
+          "a": "Yes. Alloy rims are balanced using lead-free adhesive zinc weights applied inside the rim barrel, so the diamond-cut or polished face is never marked. Every wheel is re-spun to a zero reading after the weights are placed."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "205-60-r16",
+      "size": "205/60 R16",
+      "generate": true,
+      "badge": "16 Inch Compact SUV",
+      "priceFrom": 2900,
+      "priceTo": 6500,
+      "cardTitle": "205/60 R16",
+      "cardDesc": "Versatile 16-inch radial for Renault Duster, Renault Captur, Honda Amaze and select Corolla Altis trims, with extra width for stable highway cornering.",
+      "cardMeta": "Apollo Apterra Cross / MRF ZLX",
+      "itemListName": "205/60 R16",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "205/60 R16 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 205/60 R16 car tyres in Vapi from ₹2,900. MRF, Apollo, Michelin and Bridgestone with fitting and 3D alignment. Call +91-9377158216.",
+        "keywords": "205/60 r16 tyres vapi, 205 60 r16 tyre price vapi, 205/60 r16 tyre near me vapi, duster tyre vapi, captur tyre vapi, 205/60 R16 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Passenger Car & Compact SUV Radial · 16 Inch",
+        "headline": "205/60 R16 Tyres in Vapi GIDC",
+        "lede": "The 205 mm section on a 16-inch rim - a wider, more planted fitment for compact SUVs and sedans that carry family loads on NH 48."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "205 mm" },
+        { "label": "Aspect Ratio", "value": "60%" },
+        { "label": "Rim Diameter", "value": "16 inch (406 mm)" },
+        { "label": "Overall Diameter", "value": "637 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "92H (630 kg) / 210 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 34 PSI rear" },
+        { "label": "Best Suited For", "value": "Renault Duster, Renault Captur, Honda Amaze, Toyota Corolla Altis (select)" }
+      ],
+      "vehicles": [
+        "Renault Duster",
+        "Renault Captur",
+        "Honda Amaze",
+        "Toyota Corolla Altis (select variants)",
+        "Hyundai Venue and Aura (select variants)"
+      ],
+      "patterns": [
+        { "name": "MRF ZLX 205/60 R16", "note": "Comfort touring radial with a long-durability compound and a reinforced sidewall for rough GIDC roads." },
+        { "name": "Apollo Apterra Cross 205/60 R16", "note": "Dual-purpose tread that stays quiet on tarmac and holds grip when a Duster heads onto unpaved factory roads." },
+        { "name": "Michelin Primacy 4ST 205/60 R16", "note": "Ultra-quiet premium radial with EverGrip sipes for consistently short monsoon braking distances." },
+        { "name": "Bridgestone Turanza 6i 205/60 R16", "note": "Comfort-focused 3D tread pattern that cuts cabin noise on long highway drives." }
+      ],
+      "fitment": "205/60 R16 fits the Renault Duster and Captur, the Honda Amaze and select Corolla Altis trims, and a number of Hyundai and Kia models that use the 205 mm section on 16-inch rims. It is a 10 mm step up in width from 195/60 R16 and the overall diameter moves only about 0.8%, so it stays inside the two percent tolerance - but a wider tyre always needs a 3D alignment afterwards to correct the scrub radius.",
+      "faq": [
+        {
+          "q": "Can I fit 205/60 R16 on a car that came with 195/60 R16?",
+          "a": "Yes, and it is a common upgrade. The rolling diameter changes from 632 mm to 637 mm, about 0.8%, so the speedometer and ABS readings stay accurate. You will need to check the arch clearance on full steering lock, and we will re-align the wheels because the wider tyre shifts the scrub radius."
+        },
+        {
+          "q": "Is 205/60 R16 suitable for a Renault Duster?",
+          "a": "Yes, it is a standard fitment on several Duster variants and is a good match for the vehicle's weight and its frequent use on broken GIDC approach roads. An all-terrain pattern is a better choice if you regularly drive on mud or loose surfaces, while a highway pattern suits tarmac-only running."
+        },
+        {
+          "q": "What pressure do I need on 205/60 R16?",
+          "a": "33 PSI front and 34 PSI rear is the normal cold setting, adding 2 to 3 PSI when the vehicle is fully loaded. For any size above 200 mm section width, always check the door placard, because the load-carrying pressure on the wider fitment is higher than on a narrow one."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "205-65-r16",
+      "size": "205/65 R16",
+      "generate": true,
+      "badge": "16 Inch Compact SUV",
+      "priceFrom": 3400,
+      "priceTo": 6500,
+      "cardTitle": "205/65 R16",
+      "cardDesc": "Popular 16-inch SUV radial for Hyundai Creta, Kia Seltos, Maruti Brezza and Toyota Innova Crysta, with a taller sidewall for pothole protection.",
+      "cardMeta": "Bridgestone Turanza 6i / Apollo Apterra AT2",
+      "itemListName": "205/65 R16",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "205/65 R16 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 205/65 R16 SUV and car tyres in Vapi from ₹3,400. Bridgestone, Apollo, Michelin and Goodyear with fitting and alignment. Call +91-9377158216.",
+        "keywords": "205/65 r16 tyres vapi, 205 65 r16 tyre price vapi, 205/65 r16 tyre near me vapi, creta tyre vapi, seltos tyre vapi, brezza tyre vapi, 205/65 R16 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Compact SUV Radial · 16 Inch",
+        "headline": "205/65 R16 Tyres in Vapi GIDC",
+        "lede": "The most sought-after compact SUV size in Vapi - a taller 65% sidewall that protects the alloy on broken roads, with the full premium brand range available."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "205 mm" },
+        { "label": "Aspect Ratio", "value": "65%" },
+        { "label": "Rim Diameter", "value": "16 inch (406 mm)" },
+        { "label": "Overall Diameter", "value": "657 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "91H (615 kg) / 210 km/h - XL 96H available" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 35 PSI rear" },
+        { "label": "Best Suited For", "value": "Hyundai Creta, Kia Seltos, Maruti Brezza, Toyota Innova Crysta" }
+      ],
+      "vehicles": [
+        "Hyundai Creta (earlier variants)",
+        "Kia Seltos (earlier variants)",
+        "Maruti Suzuki Brezza",
+        "Toyota Innova Crysta",
+        "Hyundai Venue and Kia Sonet (select variants)"
+      ],
+      "patterns": [
+        { "name": "Bridgestone Turanza 6i 205/65 R16", "note": "Ultra-quiet comfort radial with nano-compound technology and a reinforced casing for SUV duty." },
+        { "name": "Apollo Apterra AT2 205/65 R16", "note": "All-terrain pattern with stone ejectors and a cut and chip resistant compound for rough roads." },
+        { "name": "Michelin Primacy SUV 205/65 R16", "note": "SUV-specific casing with a reinforced bead and a compound tuned for higher vehicle loads." },
+        { "name": "Goodyear Assurance TripleMax 2 205/65 R16", "note": "HydroTred wet compound paired with DuraWall sidewall reinforcement for pothole protection." }
+      ],
+      "fitment": "205/65 R16 is the most common compact SUV size in Vapi, fitted to the Hyundai Creta and Kia Seltos in earlier variants, the Maruti Brezza, the Toyota Innova Crysta and several Venue and Sonet variants. The 65% profile gives a taller sidewall than the 205/60 R16, which is exactly what these vehicles need on broken GIDC roads, and the size fits inside a 16-inch alloy with room to spare. If your car carries a full family load, the XL 96H version is worth specifying for the extra load capacity.",
+      "faq": [
+        {
+          "q": "Should I choose the XL version of 205/65 R16?",
+          "a": "For a Creta, Seltos, Brezza or Innova running near the gross axle weight rating, the XL 96H version is the better choice because it is rated for a higher load at the same inflation pressure. It is usually a few hundred rupees more and gives more margin before the sidewall starts flexing. We will check the load on your door placard and recommend accordingly."
+        },
+        {
+          "q": "What is the correct cold pressure for 205/65 R16?",
+          "a": "33 PSI front and 35 PSI rear is the normal setting, and the rear pressure should rise to 36 to 37 PSI when the vehicle is fully loaded. An SUV carries more weight over the rear axle, so running the rear soft is the most common cause of uneven shoulder wear and unstable highway behaviour."
+        },
+        {
+          "q": "Is 205/65 R16 the same size as 205/60 R16?",
+          "a": "No, although both fit a 16-inch rim. The 65% profile adds about 10 mm of sidewall height, taking the overall diameter from 637 mm to 657 mm - a 3.1% increase. If your placard lists 205/60 R16, stay with that size unless you want a deliberate plus-size, and we will measure the difference before fitting."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "215-45-r17",
+      "size": "215/45 R17",
+      "generate": true,
+      "badge": "17 Inch Premium",
+      "priceFrom": 3800,
+      "priceTo": 10500,
+      "cardTitle": "215/45 R17",
+      "cardDesc": "Low-profile 17-inch performance radial for VW Virtus, Skoda Slavia, Maruti Fronx and newer City and Verna variants.",
+      "cardMeta": "Michelin Primacy 4ST / Continental ComfortContact CC6",
+      "itemListName": "215/45 R17",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "215/45 R17 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 215/45 R17 premium car tyres in Vapi from ₹3,800. Michelin, Continental, Bridgestone and Goodyear with fitting and 3D alignment. Call +91-9377158216.",
+        "keywords": "215/45 r17 tyres vapi, 215 45 r17 tyre price vapi, 215/45 r17 tyre near me vapi, virtus tyre vapi, slavia tyre vapi, 215/45 R17 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Premium Sedan Radial · 17 Inch",
+        "headline": "215/45 R17 Tyres in Vapi GIDC",
+        "lede": "A low-profile 17-inch size for the new generation of premium sedans, where sharper cornering and a quieter cabin matter as much as the monsoon grip."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "215 mm" },
+        { "label": "Aspect Ratio", "value": "45%" },
+        { "label": "Rim Diameter", "value": "17 inch (432 mm)" },
+        { "label": "Overall Diameter", "value": "668 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "91V (615 kg) / 240 km/h - XL available" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 34 PSI rear" },
+        { "label": "Best Suited For", "value": "VW Virtus, Skoda Slavia, Maruti Fronx, Honda City (newer), Hyundai Verna (newer)" }
+      ],
+      "vehicles": [
+        "Volkswagen Virtus",
+        "Skoda Slavia",
+        "Maruti Suzuki Fronx",
+        "Honda City (newer variants)",
+        "Hyundai Verna (newer variants)"
+      ],
+      "patterns": [
+        { "name": "Michelin Primacy 4ST 215/45 R17", "note": "Silent-Rib touring radial with EverGrip sipes for class-leading wet braking even when worn." },
+        { "name": "Continental ComfortContact CC6 215/45 R17", "note": "Helmholtz-resonator acoustic chambers that trap high-frequency road rumble for a near-silent cabin." },
+        { "name": "Bridgestone Turanza 6i 215/45 R17", "note": "3D resonance-cancelling blocks with a cushioning compound for long NH 48 drives." },
+        { "name": "Goodyear Assurance TripleMax 2 215/45 R17", "note": "HydroTred wet compound with DuraWall sidewall reinforcement for broken-road protection." }
+      ],
+      "fitment": "215/45 R17 is the low-profile 17-inch size used by the Volkswagen Virtus, Skoda Slavia, Maruti Fronx and the newer Honda City and Hyundai Verna variants. At a 45% profile the sidewall is short, so the alloy face needs protection from the sharp-edged potholes around GIDC - which is a strong argument for a pattern with a reinforced sidewall. Running pressures here are higher than on a 60-profile tyre, so always follow the placard. A 3D alignment after fitting is essential, because a low-profile tyre reacts far more sharply to toe error.",
+      "faq": [
+        {
+          "q": "Why does a 215/45 R17 need higher pressure than a 215/60 R17?",
+          "a": "The sidewall is shorter and the tyre carries the load over a smaller deflection zone, so the manufacturer specifies a higher cold pressure to keep the contact patch and the carcass behaviour correct. The 45 profile also gives less impact cushioning, which is exactly why broken-road protection matters more on this size."
+        },
+        {
+          "q": "Does 215/45 R17 fit a 17-inch alloy with low-profile tyre clearance?",
+          "a": "It is the standard size for most 17-inch alloys on modern sedans, but on alloys with very low profiles it can run close to the lip. We check the rim diameter, the tyre width against the rim width and the arch clearance before mounting, and we will tell you if the fitment is not correct for your car."
+        },
+        {
+          "q": "Should low-profile 17-inch tyres be nitrogen filled?",
+          "a": "Yes, strongly recommended. Nitrogen holds pressure more steadily across a high-speed NH 48 run and keeps the sidewall at a stable temperature, which reduces the heat that a short sidewall generates at 100 km/h. We fit dry nitrogen as standard with every new tyre installation."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "215-55-r17",
+      "size": "215/55 R17",
+      "generate": true,
+      "badge": "17 Inch Sedan",
+      "priceFrom": 4200,
+      "priceTo": 10500,
+      "cardTitle": "215/55 R17",
+      "cardDesc": "Premium 17-inch sedan radial for Toyota Corolla, Skoda Octavia, Honda City and select Jetta trims, with a 55% sidewall for ride comfort.",
+      "cardMeta": "Michelin Primacy 4ST / Bridgestone Turanza 6i",
+      "itemListName": "215/55 R17",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "215/55 R17 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 215/55 R17 premium car tyres in Vapi from ₹4,200. Michelin, Bridgestone, Continental and Goodyear with fitting and alignment. Call +91-9377158216.",
+        "keywords": "215/55 r17 tyres vapi, 215 55 r17 tyre price vapi, 215/55 r17 tyre near me vapi, corolla tyre vapi, city tyre vapi, 215/55 R17 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Premium Sedan Radial · 17 Inch",
+        "headline": "215/55 R17 Tyres in Vapi GIDC",
+        "lede": "The premium sedan size - a 55% profile on a 17-inch rim that keeps a comfortable sidewall while holding sharp steering response at highway speed."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "215 mm" },
+        { "label": "Aspect Ratio", "value": "55%" },
+        { "label": "Rim Diameter", "value": "17 inch (432 mm)" },
+        { "label": "Overall Diameter", "value": "667 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "94V (670 kg) / 240 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 35 PSI rear" },
+        { "label": "Best Suited For", "value": "Toyota Corolla, Skoda Octavia, Honda City (newer), VW Jetta (select)" }
+      ],
+      "vehicles": [
+        "Toyota Corolla",
+        "Skoda Octavia",
+        "Honda City (newer variants)",
+        "Volkswagen Jetta (select variants)",
+        "Hyundai Verna (newer variants)"
+      ],
+      "patterns": [
+        { "name": "Michelin Primacy 4ST 215/55 R17", "note": "Benchmark quiet comfort with the shortest wet stopping distances in its class." },
+        { "name": "Bridgestone Turanza 6i 215/55 R17", "note": "Cushioning compound and 3D tread blocks for the quietest long-distance cabin in this size." },
+        { "name": "Continental UltraContact UC6 215/55 R17", "note": "Aqua Channel siphoning conduits that clear standing water from the contact patch in under 0.05 seconds." },
+        { "name": "Goodyear Assurance Duraplus 2 215/55 R17", "note": "100,000 km TredLife compound for high-mileage premium sedans." }
+      ],
+      "fitment": "215/55 R17 is the premium 17-inch sedan fitment used on the Toyota Corolla, Skoda Octavia, newer Honda City and Hyundai Verna variants, and select Volkswagen Jetta trims. It keeps a 55% sidewall, which is a meaningful amount of rubber compared with a 45 profile and gives a noticeably softer ride over the broken roads in Vapi GIDC. Because these cars are usually run at higher speeds on NH 48, the higher load index and speed rating of this size give more thermal margin than a passenger car radial.",
+      "faq": [
+        {
+          "q": "Is 215/55 R17 the same size as 215/45 R17?",
+          "a": "Both fit a 17-inch rim, but the 55 profile is 10 mm taller, taking the overall diameter from 668 mm to 667 mm - almost identical. The bigger difference is ride comfort and sidewall protection: the 55 profile absorbs rough-road impacts far better, while the 45 profile feels sharper and looks lower on the alloy."
+        },
+        {
+          "q": "What is the right cold pressure for 215/55 R17?",
+          "a": "33 PSI at the front and 35 PSI at the rear is the normal setting, rising to 36 to 37 PSI at the rear under a full load. Check the door placard for the specific trim, because the recommended figure changes with load rating and trim level."
+        },
+        {
+          "q": "Are premium 17-inch tyres worth the price in Vapi?",
+          "a": "For a car that is used mostly on the highway, yes - the difference in wet braking and cabin noise between a premium radial and a value pattern is most noticeable above 80 km/h. For a pure city commuter, a mid-range pattern in the same size gives most of the benefit at a fraction of the price. We will be straight with you about which fits your usage."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "225-65-r17",
+      "size": "225/65 R17",
+      "generate": true,
+      "badge": "17 Inch Midsize SUV",
+      "priceFrom": 4800,
+      "priceTo": 10500,
+      "cardTitle": "225/65 R17",
+      "cardDesc": "Midsize SUV radial for Maruti Grand Vitara, Honda CR-V, Nissan X-Trail and select Hyundai Tucson variants, with a taller sidewall.",
+      "cardMeta": "Michelin Primacy SUV / Bridgestone Dueler AT",
+      "itemListName": "225/65 R17",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "225/65 R17 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 225/65 R17 SUV tyres in Vapi from ₹4,800. Michelin, Bridgestone, Continental and Goodyear with fitting and alignment. Call +91-9377158216.",
+        "keywords": "225/65 r17 tyres vapi, 225 65 r17 tyre price vapi, 225/65 r17 tyre near me vapi, grand vitara tyre vapi, crv tyre vapi, 225/65 R17 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Midsize SUV Radial · 17 Inch",
+        "headline": "225/65 R17 Tyres in Vapi GIDC",
+        "lede": "A 225 mm section with a 65% sidewall on a 17-inch rim - the balanced midsize SUV size for Vapi, ready for both the highway and the factory road."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "225 mm" },
+        { "label": "Aspect Ratio", "value": "65%" },
+        { "label": "Rim Diameter", "value": "17 inch (432 mm)" },
+        { "label": "Overall Diameter", "value": "674 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "102H (850 kg) / 210 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.5 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 35 PSI rear" },
+        { "label": "Best Suited For", "value": "Maruti Grand Vitara, Honda CR-V, Nissan X-Trail, Hyundai Tucson (select)" }
+      ],
+      "vehicles": [
+        "Maruti Suzuki Grand Vitara",
+        "Honda CR-V",
+        "Nissan X-Trail",
+        "Hyundai Tucson (select variants)",
+        "Toyota Fortuner (select variants)"
+      ],
+      "patterns": [
+        { "name": "Michelin Primacy SUV 225/65 R17", "note": "SUV-specific casing with a reinforced bead and a compound tuned for higher vehicle loads." },
+        { "name": "Bridgestone Dueler AT 225/65 R17", "note": "All-terrain pattern with a rugged sidewall that handles broken factory approaches and light off-road use." },
+        { "name": "Continental CrossContact AX6 225/65 R17", "note": "Open-shoulder all-terrain tread with a puncture guard casing and quiet on-road manners." },
+        { "name": "Goodyear Wrangler AT 225/65 R17", "note": "DuraWall Kevlar reinforced sidewall that resists cuts and impact damage on rough roads." }
+      ],
+      "fitment": "225/65 R17 is the midsize SUV size used on the Maruti Grand Vitara, Honda CR-V, Nissan X-Trail and some Hyundai Tucson variants. The 65% profile is taller than the 55% sedan size on the same rim, which is what gives these vehicles the sidewall travel they need on the broken roads and industrial tracks around Vapi GIDC and on the road to Daman. If your vehicle came with a 235/65 R17, this size changes the rolling diameter by under 2% and we will confirm the clearance before fitting.",
+      "faq": [
+        {
+          "q": "Can I use 225/65 R17 on a vehicle that came with 235/65 R17?",
+          "a": "Yes, it is a common and safe change - the overall diameter moves from about 680 mm to 674 mm, roughly 0.9%, so the speedometer and ABS stay accurate. Going narrower does reduce the contact patch slightly, so if you do a lot of highway braking, keep the 235 width if the arch allows it."
+        },
+        {
+          "q": "What is the correct pressure for 225/65 R17 on an SUV?",
+          "a": "33 PSI front and 35 PSI rear cold, going to 36 to 37 PSI at the rear when fully loaded. Midsize SUVs in Vapi frequently carry family, luggage and long highway stretches, so rear pressure matters more than most owners expect."
+        },
+        {
+          "q": "Should an SUV on 225/65 R17 use an all-terrain pattern?",
+          "a": "Only if the vehicle spends real time on unpaved, broken or muddy roads. On tarmac, an all-terrain pattern gives more noise, softer on-road grip and worse fuel economy than an H/T pattern of the same size. We will recommend based on where you actually drive."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "245-65-r17",
+      "size": "245/65 R17",
+      "generate": true,
+      "badge": "17 Inch 4x4 & SUV",
+      "priceFrom": 6200,
+      "priceTo": 10500,
+      "cardTitle": "245/65 R17",
+      "cardDesc": "Heavy-duty 4x4 radial for Mahindra Scorpio-N, Jeep Compass and select Hyundai Tucson variants, built for full-load and off-road use.",
+      "cardMeta": "Bridgestone Dueler A/T / Michelin LTX Trail",
+      "itemListName": "245/65 R17",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "245/65 R17 Tyres in Vapi GIDC | 4x4 Tyre Price & Fitment",
+        "description": "Buy 245/65 R17 4x4 and SUV tyres in Vapi from ₹6,200. Bridgestone, Michelin, Apollo and Goodyear with fitting and alignment. Call +91-9377158216.",
+        "keywords": "245/65 r17 tyres vapi, 245 65 r17 tyre price vapi, 245/65 r17 tyre near me vapi, scorpio n tyre vapi, 4x4 tyre vapi, 245/65 R17 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "4x4 & Midsize SUV Radial · 17 Inch",
+        "headline": "245/65 R17 Tyres in Vapi GIDC",
+        "lede": "A wide 245 mm section on a 17-inch rim, carrying a 1,090 kg load index - the size built for full-load 4x4 work on and off the tarmac."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "245 mm" },
+        { "label": "Aspect Ratio", "value": "65%" },
+        { "label": "Rim Diameter", "value": "17 inch (432 mm)" },
+        { "label": "Overall Diameter", "value": "680 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "111H (1,090 kg) / 210 km/h" },
+        { "label": "Tread Depth (New)", "value": "9.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 35 PSI rear" },
+        { "label": "Best Suited For", "value": "Mahindra Scorpio-N, Jeep Compass, Hyundai Tucson (select), Tata Hexa (select)" }
+      ],
+      "vehicles": [
+        "Mahindra Scorpio-N",
+        "Jeep Compass",
+        "Hyundai Tucson (select variants)",
+        "Tata Hexa (select variants)",
+        "Full-size 4x4 and midsize SUV platforms on 17-inch rims"
+      ],
+      "patterns": [
+        { "name": "Bridgestone Dueler A/T 245/65 R17", "note": "Tough all-terrain casing with reinforced sidewalls and stone ejectors for mud, sand and rock." },
+        { "name": "Michelin LTX Trail 245/65 R17", "note": "Reinforced RallyForce sidewall built for gravel, sand and highway, with a long tread life." },
+        { "name": "Apollo Apterra AT2 245/65 R17", "note": "Triple-polymer off-road compound with sawtooth shoulder blocks and a cut-resistant base." },
+        { "name": "Goodyear Wrangler AT SilentTrac 245/65 R17", "note": "DuraWall Kevlar sidewall with a quiet highway-biased tread that still works off the tarmac." }
+      ],
+      "fitment": "245/65 R17 is a heavy-duty 4x4 and midsize SUV size, used on the Mahindra Scorpio-N, Jeep Compass and select Hyundai Tucson and Tata Hexa variants. The 111H load index gives 1,090 kg per tyre, which is what lets a full seven-seater SUV carry real weight without the sidewall over-flexing. The 65% profile also gives a 9 mm taller sidewall than a 55 profile on the same rim, protecting the alloy on broken roads. Always check the rim width - a 245 section generally wants a 7.5-inch wide rim.",
+      "faq": [
+        {
+          "q": "What rim width do I need for 245/65 R17?",
+          "a": "A 7.5-inch wide 17-inch rim is the standard match for a 245 section, and 8-inch is acceptable for a wider stance. Anything narrower than 7 inches will pinch the shoulders, wear the centre of the tread faster and reduce grip in the wet. We check the rim width and offset before mounting."
+        },
+        {
+          "q": "Can a 245/65 R17 be fitted on a 17-inch rim with a lower-profile tyre already?",
+          "a": "The rim diameter matches, but the width has to be right and the arch clearance has to allow the wider 245 section. On a vehicle that came with 235/65 R17, the change is a 7% increase in section width and the rolling diameter shifts by under 1%, so it is a plus-size fitment - but the wheel offset and arch clearance must be verified first."
+        },
+        {
+          "q": "How do I keep a 4x4 tyre from wearing out early?",
+          "a": "Rotate the tyres every 8,000 to 10,000 km, check the cold pressure every month including the spare, and have the alignment checked after any off-road excursion because a single impact can shift the toe. Dual-purpose A/T patterns in this size are designed for mixed use, which is the reality for most Scorpio-N and Compass owners in Vapi."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "225-45-r18",
+      "size": "225/45 R18",
+      "generate": true,
+      "badge": "18 Inch Performance",
+      "priceFrom": 8200,
+      "priceTo": 15500,
+      "cardTitle": "225/45 R18",
+      "cardDesc": "Low-profile 18-inch radial for Skoda Slavia, VW Virtus and select City and Verna trims, with a W-rated high-speed construction.",
+      "cardMeta": "Continental UltraContact UC6 / Michelin Pilot Sport 4",
+      "itemListName": "225/45 R18",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "225/45 R18 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 225/45 R18 premium car tyres in Vapi from ₹8,200. Continental, Michelin, Bridgestone and Goodyear with fitting and alignment. Call +91-9377158216.",
+        "keywords": "225/45 r18 tyres vapi, 225 45 r18 tyre price vapi, 225/45 r18 tyre near me vapi, 18 inch car tyre vapi, 225/45 R18 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Premium Sedan Radial · 18 Inch",
+        "headline": "225/45 R18 Tyres in Vapi GIDC",
+        "lede": "An 18-inch size with a short 45% sidewall and a W speed rating, where grip and steering precision are the priority and every broken road is a test of the casing."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "225 mm" },
+        { "label": "Aspect Ratio", "value": "45%" },
+        { "label": "Rim Diameter", "value": "18 inch (457 mm)" },
+        { "label": "Overall Diameter", "value": "695 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "95W XL (690 kg) / 270 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "32 PSI front / 34 PSI rear" },
+        { "label": "Best Suited For", "value": "Skoda Slavia, VW Virtus, Honda City (select), Hyundai Verna (select)" }
+      ],
+      "vehicles": [
+        "Skoda Slavia (select variants)",
+        "Volkswagen Virtus (select variants)",
+        "Honda City (select variants)",
+        "Hyundai Verna (select variants)",
+        "Premium sedans on 18-inch alloys"
+      ],
+      "patterns": [
+        { "name": "Continental UltraContact UC6 225/45 R18", "note": "Aqua Channel siphoning conduits and a diamond-blend compound for the shortest wet braking in this class." },
+        { "name": "Michelin Pilot Sport 4 225/45 R18", "note": "Performance radial with immediate steering response and a stiff sidewall built for high-speed stability." },
+        { "name": "Bridgestone Turanza 6i 225/45 R18", "note": "Comfort-focused compound that keeps a low-profile tyre quiet over Vapi's patched roads." },
+        { "name": "Goodyear Assurance TripleMax 2 225/45 R18", "note": "HydroTred wet compound with DuraWall protection for the short sidewall this size demands." }
+      ],
+      "fitment": "225/45 R18 is an 18-inch size fitted to the Skoda Slavia, Volkswagen Virtus and select Honda City and Hyundai Verna trims. At a 45% profile the sidewall is only about 101 mm tall, so the tyre transmits every pothole strike straight into the rim and the shock absorbers - which is why a reinforced casing and the correct cold pressure matter so much here. The W speed rating indicates the casing is designed to sustain 270 km/h, but the practical limit on the broken roads around GIDC is far lower. Fit the size listed on your door placard and re-align after mounting.",
+      "faq": [
+        {
+          "q": "Are 225/45 R18 tyres difficult on Indian roads?",
+          "a": "They are more sensitive to road damage than a 60 or 65 profile tyre, because the sidewall has less rubber to absorb the impact. That is a real trade-off for a sharper steering response and lower profile look. If your driving is mostly on broken GIDC roads, a 225/50 R18 or a 235/55 R18 on the same rim would be more forgiving. We will tell you honestly which fits your route."
+        },
+        {
+          "q": "What pressure should a 225/45 R18 run at?",
+          "a": "32 PSI front and 34 PSI rear cold is the typical setting, but always follow the door placard because the wide 225 section on an 18-inch rim may be rated higher. Under-inflating a short-sidewall tyre is the fastest route to sidewall damage, and the consequences of a bulge on an 18-inch wheel are severe."
+        },
+        {
+          "q": "Does 18-inch fitment cost more to maintain in Vapi?",
+          "a": "Yes - 18-inch tyres cost more to replace, 18-inch alloys are more expensive to true, and the low profile makes pothole damage more likely. That is the trade for the sharper handling and the visual appeal. We stock the full range and we always inspect the rim for cracks and runout before mounting."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "235-60-r18",
+      "size": "235/60 R18",
+      "generate": true,
+      "badge": "18 Inch SUV",
+      "priceFrom": 6900,
+      "priceTo": 11500,
+      "cardTitle": "235/60 R18",
+      "cardDesc": "Full-size 18-inch SUV radial for Tata Safari, Honda CR-V, Hyundai Tucson and select Kia models, with a 60% sidewall and high load rating.",
+      "cardMeta": "Michelin Primacy SUV / Continental CrossContact AX6",
+      "itemListName": "235/60 R18",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "235/60 R18 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 235/60 R18 SUV tyres in Vapi from ₹6,900. Michelin, Continental, Bridgestone and Goodyear with fitting and alignment. Call +91-9377158216.",
+        "keywords": "235/60 r18 tyres vapi, 235 60 r18 tyre price vapi, 235/60 r18 tyre near me vapi, safari tyre vapi, tucson tyre vapi, 235/60 R18 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Full-Size SUV Radial · 18 Inch",
+        "headline": "235/60 R18 Tyres in Vapi GIDC",
+        "lede": "A full-size 18-inch SUV size with a 60% sidewall and an 875 kg load index - the balanced choice for family SUVs running loaded on NH 48."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "235 mm" },
+        { "label": "Aspect Ratio", "value": "60%" },
+        { "label": "Rim Diameter", "value": "18 inch (457 mm)" },
+        { "label": "Overall Diameter", "value": "697 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "103V (875 kg) / 240 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.5 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 35 PSI rear" },
+        { "label": "Best Suited For", "value": "Tata Safari, Honda CR-V, Hyundai Tucson (select), Kia Telluride (select)" }
+      ],
+      "vehicles": [
+        "Tata Safari",
+        "Honda CR-V (select variants)",
+        "Hyundai Tucson (select variants)",
+        "Kia Telluride (select variants)",
+        "Full-size SUV platforms on 18-inch rims"
+      ],
+      "patterns": [
+        { "name": "Michelin Primacy SUV 235/60 R18", "note": "SUV-tuned compound with a reinforced bead that holds its shape under a full seven-seat load." },
+        { "name": "Continental CrossContact AX6 235/60 R18", "note": "Open-shoulder all-terrain tread with a puncture guard casing and quiet highway manners." },
+        { "name": "Bridgestone Dueler AT 235/60 R18", "note": "All-terrain pattern with reinforced sidewalls and stone ejectors for mixed factory-road and trail use." },
+        { "name": "Apollo Apterra AT2 235/60 R18", "note": "Triple-polymer compound that stays supple in heat and tough against cut and chip damage." }
+      ],
+      "fitment": "235/60 R18 is the full-size SUV size used on the Tata Safari, the Honda CR-V in higher trims and select Hyundai Tucson and Kia Telluride variants. A 60% sidewall on an 18-inch rim is the ideal balance for this class of vehicle - enough rubber to protect the alloy on broken roads, enough width for confident highway braking, and a 103V load index that carries 875 kg per tyre without over-flexing. The 235 mm section generally wants a rim at least 7.5 inches wide, and we verify the offset before fitting.",
+      "faq": [
+        {
+          "q": "What rim width suits a 235/60 R18?",
+          "a": "7.5 inches is the standard recommendation and 8 inches is the widest that works well. A narrower rim will square off the shoulders and wear the tread unevenly, while a wider one can stretch the sidewall. We measure the rim width and the offset before mounting, and we check for any rubbing on full lock."
+        },
+        {
+          "q": "Can I fit 235/60 R18 in place of 245/65 R17?",
+          "a": "It is a valid change because the overall diameter is almost identical - 697 mm against 680 mm, a 2.5% increase that sits just outside the strict two percent guidance. The rim diameter also changes, so this means new rims. We will measure exactly and tell you if it is worth the cost versus staying in 17 inches."
+        },
+        {
+          "q": "How much tyre pressure does a full-size SUV need?",
+          "a": "33 PSI front and 35 PSI rear cold, going to 36 to 38 PSI at the rear when the vehicle is fully loaded with passengers and luggage. A full-size SUV is the worst-case load on the rear axle in this vehicle class, so the rear figure is the one to get right."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "235-40-r19",
+      "size": "235/40 R19",
+      "generate": true,
+      "badge": "19 Inch Performance",
+      "priceFrom": 9400,
+      "priceTo": 15500,
+      "cardTitle": "235/40 R19",
+      "cardDesc": "Extreme low-profile 19-inch radial for Honda Civic, Hyundai i20 N and performance trims, with a W-rated XL casing for high-speed stability.",
+      "cardMeta": "Michelin Pilot Sport 4 / Continental UltraContact UC6",
+      "itemListName": "235/40 R19",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "235/40 R19 Tyres in Vapi GIDC | Price, Brands & Fitment",
+        "description": "Buy 235/40 R19 performance car tyres in Vapi from ₹9,400. Michelin, Continental and Goodyear with fitting and 3D alignment. Call +91-9377158216.",
+        "keywords": "235/40 r19 tyres vapi, 235 40 r19 tyre price vapi, 235/40 r19 tyre near me vapi, civic tyre vapi, 19 inch tyre vapi, 235/40 R19 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Performance Radial · 19 Inch",
+        "headline": "235/40 R19 Tyres in Vapi GIDC",
+        "lede": "The most extreme low-profile size we stock - a 94 mm sidewall on a 19-inch rim, built for performance cars and the drivers who expect precision over comfort."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "235 mm" },
+        { "label": "Aspect Ratio", "value": "40%" },
+        { "label": "Rim Diameter", "value": "19 inch (483 mm)" },
+        { "label": "Overall Diameter", "value": "727 mm" },
+        { "label": "Construction", "value": "Radial, tubeless, XL" },
+        { "label": "Load Index / Speed Rating", "value": "99W XL (750 kg) / 270 km/h" },
+        { "label": "Tread Depth (New)", "value": "8.0 mm" },
+        { "label": "Cold Pressure", "value": "33 PSI front / 35 PSI rear" },
+        { "label": "Best Suited For", "value": "Honda Civic, Hyundai i20 N, VW Golf GTI (select), Skoda Octavia RS (select)" }
+      ],
+      "vehicles": [
+        "Honda Civic",
+        "Hyundai i20 N",
+        "Volkswagen Golf GTI (select variants)",
+        "Skoda Octavia RS (select variants)",
+        "Performance sedans and hatchbacks on 19-inch alloys"
+      ],
+      "patterns": [
+        { "name": "Michelin Pilot Sport 4 235/40 R19", "note": "Track-capable radial with immediate turn-in and a stiff sidewall that keeps the steering precise at speed." },
+        { "name": "Continental UltraContact UC6 235/40 R19", "note": "Diamond-blend compound with Aqua Channel drainage for the best all-round wet braking in this size." },
+        { "name": "Goodyear Assurance TripleMax 2 235/40 R19", "note": "HydroTred silica matrix with DuraWall reinforcement that protects the short sidewall on rough roads." }
+      ],
+      "fitment": "235/40 R19 is an extreme low-profile size used on performance sedans and hot hatches such as the Honda Civic, the Hyundai i20 N and select Volkswagen Golf GTI and Skoda Octavia RS variants. At a 40% profile the sidewall is only 94 mm tall, so this size demands a high-quality 19-inch alloy - we inspect the rim for cracks, runout and any evidence of a previous impact before fitting. The XL construction is important at this profile because the casing has less flex available. Expect a firmer ride than any smaller size, and be careful on the sharp-edged potholes around GIDC.",
+      "faq": [
+        {
+          "q": "Is 235/40 R19 too low profile for Indian roads?",
+          "a": "It is the lowest profile we fit. On smooth city roads and the NH 48 highway it is excellent, but on broken roads with sharp edges the risk of sidewall damage rises sharply because there is very little rubber to absorb the strike. If your route includes a lot of unpaved or badly broken sections, a 235/45 R19 or a 225/45 R18 is a safer choice."
+        },
+        {
+          "q": "What rim size and width do I need for 235/40 R19?",
+          "a": "A 19-inch rim, generally 8 inches wide, and the correct offset for the vehicle. Because of the low profile, the sidewall needs to stretch correctly to seat the bead, so rim condition matters more than usual. We verify the rim diameter, width, offset and any runout before mounting."
+        },
+        {
+          "q": "Do 235/40 R19 tyres need nitrogen?",
+          "a": "Strongly recommended, and it is effectively essential for this profile. A short sidewall generates more heat at speed, and dry nitrogen holds pressure more consistently and keeps moisture out of the rim, which protects the alloy from internal corrosion. We fit 99.5% pure dry nitrogen with every new tyre installation at no extra cost."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "245-75-r16",
+      "size": "245/75 R16",
+      "generate": true,
+      "badge": "16 Inch 4x4",
+      "priceFrom": 5800,
+      "priceTo": 11900,
+      "cardTitle": "245/75 R16",
+      "cardDesc": "Tall-profile 4x4 radial for Mahindra Thar 3-Door, Tata Sumo and Force Traveller, with a 1,090 kg load index and deep all-terrain blocks.",
+      "cardMeta": "MRF Wanderer AT / Apollo Apterra AT2",
+      "itemListName": "245/75 R16",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "245/75 R16 Tyres in Vapi GIDC | 4x4 Off-Road Tyre Price",
+        "description": "Buy 245/75 R16 4x4 and off-road tyres in Vapi from ₹5,800. MRF Wanderer, Apollo and CEAT with fitting and alignment. Call +91-9377158216.",
+        "keywords": "245/75 r16 tyres vapi, 245 75 r16 tyre price vapi, 245/75 r16 tyre near me vapi, thar tyre vapi, 4x4 off road tyre vapi, 245/75 R16 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "4x4 Off-Road Radial · 16 Inch",
+        "headline": "245/75 R16 Tyres in Vapi GIDC",
+        "lede": "A 184 mm sidewall on a 16-inch rim - the tallest 4x4 profile we stock, engineered for the Thar, the Traveller and the broken tracks around Vapi's industrial estates."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "245 mm" },
+        { "label": "Aspect Ratio", "value": "75%" },
+        { "label": "Rim Diameter", "value": "16 inch (406 mm)" },
+        { "label": "Overall Diameter", "value": "711 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "111S (1,090 kg) / 180 km/h" },
+        { "label": "Tread Depth (New)", "value": "10.0 mm" },
+        { "label": "Cold Pressure", "value": "30 PSI front / 32 PSI rear" },
+        { "label": "Best Suited For", "value": "Mahindra Thar 3-Door, Tata Sumo, Force Traveller" }
+      ],
+      "vehicles": [
+        "Mahindra Thar 3-Door",
+        "Mahindra Thar Roxx (select variants)",
+        "Tata Sumo",
+        "Force Traveller",
+        "4x4 and utility platforms on 16-inch rims"
+      ],
+      "patterns": [
+        { "name": "MRF Wanderer AT 245/75 R16", "note": "Aggressive all-terrain block pattern with a cut and chip resistant compound for rock and mud." },
+        { "name": "Apollo Apterra AT2 245/75 R16", "note": "Triple-polymer compound with sawtooth shoulder blocks and a reinforced sidewall for off-road impact." },
+        { "name": "CEAT Czar AT 245/75 R16", "note": "Heavy-duty SUV casing with stone ejectors and a tough compound built for rough industrial terrain." }
+      ],
+      "fitment": "245/75 R16 is the tall-profile 4x4 size used on the Mahindra Thar 3-Door, the Tata Sumo and the Force Traveller. At a 75% aspect ratio the sidewall is 184 mm tall, which gives the suspension real travel over the broken tracks and the sharp-edged potholes around GIDC Phase 1 and on the roads out towards Bhilad. The 111S load index carries 1,090 kg per tyre, which matters when the vehicle is fully loaded with passengers or cargo on a trail. The rolling resistance of a tyre this tall is higher, so a careful driver will notice a small fuel economy difference - that is the price of the off-road capability.",
+      "faq": [
+        {
+          "q": "Do I need a 4x4 pattern for 245/75 R16?",
+          "a": "Not necessarily. A highway-terrain pattern in this size is quieter, more economical and grips better on tarmac, while an all-terrain pattern is the right choice if you drive on mud, rock or sand regularly. Most Thar owners in Vapi run mixed roads, so a dual-purpose A/T pattern is the sensible default."
+        },
+        {
+          "q": "What pressure should a Thar run on 245/75 R16?",
+          "a": "30 PSI at the front and 32 PSI at the rear on the road, measured cold. For serious off-road work you can drop to around 20 to 22 PSI to gain sidewall traction, but the tyre must be re-inflated to road pressure as soon as you return to tarmac, because low pressure at highway speed is the classic cause of a blowout."
+        },
+        {
+          "q": "Is 245/75 R16 the same size as 265/65 R17?",
+          "a": "No. They are close in overall diameter - 711 mm against 682 mm - but they sit on different rims, 16 inch against 17 inch, and have very different profiles and widths. The 245/75 R16 is the taller, softer and more off-road capable of the two, while the 265/65 R17 is wider and more highway oriented."
+        }
+      ]
+    },
+    {
+      "category": "car",
+      "slug": "265-65-r17",
+      "size": "265/65 R17",
+      "generate": true,
+      "badge": "17 Inch Full-Size 4x4",
+      "priceFrom": 6900,
+      "priceTo": 11900,
+      "cardTitle": "265/65 R17",
+      "cardDesc": "Full-size 4x4 radial for Toyota Fortuner, Ford Endeavour and Isuzu D-Max, with a 1,250 kg load index and reinforced casing.",
+      "cardMeta": "Bridgestone Dueler A/T / Michelin LTX Trail",
+      "itemListName": "265/65 R17",
+      "lastmod": "2026-10-21",
+      "seo": {
+        "title": "265/65 R17 Tyres in Vapi GIDC | Full-Size 4x4 Tyre Price",
+        "description": "Buy 265/65 R17 4x4 tyres in Vapi from ₹6,900. Bridgestone, Michelin, Apollo and Yokohama with fitting and alignment. Call +91-9377158216.",
+        "keywords": "265/65 r17 tyres vapi, 265 65 r17 tyre price vapi, 265/65 r17 tyre near me vapi, fortuner tyre vapi, 4x4 tyre vapi, 265/65 R17 radial vapi"
+      },
+      "hero": {
+        "eyebrow": "Full-Size 4x4 Radial · 17 Inch",
+        "headline": "265/65 R17 Tyres in Vapi GIDC",
+        "lede": "The standard fitment on the Fortuner, Endeavour and D-Max - a 265 mm section carrying 1,250 kg per tyre, ready for seven seats and full loads on NH 48."
+      },
+      "specs": [
+        { "label": "Section Width", "value": "265 mm" },
+        { "label": "Aspect Ratio", "value": "65%" },
+        { "label": "Rim Diameter", "value": "17 inch (432 mm)" },
+        { "label": "Overall Diameter", "value": "682 mm" },
+        { "label": "Construction", "value": "Radial, tubeless" },
+        { "label": "Load Index / Speed Rating", "value": "112T (1,250 kg) / 180 km/h" },
+        { "label": "Tread Depth (New)", "value": "10.0 mm" },
+        { "label": "Cold Pressure", "value": "30 PSI front / 32 PSI rear" },
+        { "label": "Best Suited For", "value": "Toyota Fortuner, Ford Endeavour, Isuzu D-Max" }
+      ],
+      "vehicles": [
+        "Toyota Fortuner",
+        "Ford Endeavour",
+        "Isuzu D-Max",
+        "Mitsubishi Pajero (select variants)",
+        "Full-size 4x4 platforms on 17-inch rims"
+      ],
+      "patterns": [
+        { "name": "Bridgestone Dueler A/T 265/65 R17", "note": "Rugged all-terrain construction with reinforced sidewalls for full-load 4x4 use and trail work." },
+        { "name": "Michelin LTX Trail 265/65 R17", "note": "RallyForce sidewall with a durable casing and a tread that stays quiet on the highway." },
+        { "name": "Apollo Apterra AT2 265/65 R17", "note": "Triple-polymer off-road compound with sawtooth shoulders and a cut-resistant base." },
+        { "name": "Yokohama Geolandar A/T G015 265/65 R17", "note": "Multi-polymer all-terrain compound with an aggressive shoulder block for mixed on and off-road use." }
+      ],
+      "fitment": "265/65 R17 is the standard fitment on the Toyota Fortuner, the Ford Endeavour and the Isuzu D-Max, and it is one of the most common 4x4 sizes in Vapi GIDC where these vehicles are used for plant visits and site supervision. The 112T load index carries 1,250 kg per tyre, which is what allows a full seven-seat vehicle with a roof load to travel without over-flexing the casing. A 265 mm section needs a 7.5-inch wide rim as a minimum, and the tyre should be rotated every 8,000 to 10,000 km because of the heavy load duty cycle.",
+      "faq": [
+        {
+          "q": "What pressure should a Fortuner run on 265/65 R17?",
+          "a": "30 PSI at the front and 32 PSI at the rear, measured cold. Increase the rear to 35 PSI or more when the vehicle is fully loaded with seven passengers and luggage. A full-size 4x4 is heavy and the rear axle carries most of that load, so under-inflation there is the fastest route to casing failure."
+        },
+        {
+          "q": "Can I use 245/75 R16 instead of 265/65 R17 on my Fortuner?",
+          "a": "The overall diameters are close - 711 mm against 682 mm - but the Fortuner uses 17-inch rims and a 6-stud pattern, so the 245/75 R16 would require 16-inch rims and a different bolt pattern. It is not a straight swap. Within the 17-inch family, a 255/65 R17 is the common alternative if you want a slightly narrower tyre."
+        },
+        {
+          "q": "How long do 4x4 tyres last in Vapi?",
+          "a": "On mixed tarmac and broken road running, a good all-terrain pattern in this size gives roughly 50,000 to 70,000 km, and less if the vehicle spends a lot of time off the tarmac. Rotating every 8,000 to 10,000 km and keeping the pressure correct is what makes the difference, because the rear axle does most of the work on a 4x4."
+        }
+      ]
+    }
+  ]
+}

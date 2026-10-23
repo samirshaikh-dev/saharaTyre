@@ -80,7 +80,7 @@ The website is organized into dedicated pages and modular topical hubs to avoid 
 9. **[/locations](https://sahara-tyre.vercel.app/locations)** — Local coverage & driving directions:
    - `/locations/tyre-shop-gunjan` | `/locations/tyre-shop-chala` | `/locations/tyre-shop-daman`
 10. **[/tyres](https://sahara-tyre.vercel.app/tyres/car)** — Dedicated sizing matrix pages for cars, trucks, and bikes.
-11. **[/blog](https://sahara-tyre.vercel.app/blog)** — 18 technical maintenance, cost, diagnostics, seasonal and buyer advisory articles.
+11. **[/blog](https://sahara-tyre.vercel.app/blog)** — 22 technical maintenance, cost, diagnostics, seasonal, branch-visit and buyer advisory articles.
 12. **[location.htm](https://sahara-tyre.vercel.app/location)** — Master navigation & landmark turn-by-turn directions.
 13. **[about.htm](https://sahara-tyre.vercel.app/about)** — Heritage & trust: 18+ years history, technician credentials.
 14. **[privacy.htm](https://sahara-tyre.vercel.app/privacy)** — Privacy Policy: Customer data protection & cookie disclosures.
@@ -96,6 +96,7 @@ To dominate AI Overviews and LLM citations, the site implements:
 - `llms.txt` — Authoritative markdown knowledge graph (1,013 lines) covering 28 structured sections: NAP data, 27 service zones, workshop SOPs, Indian vehicle fitment matrix, EV engineering specs, CPKM formulas, cold PSI charts, lug nut torque specs, 45+ categorized Q&As, and a 75-term engineering glossary.
 - `llms-full.txt` — Comprehensive full knowledge base (1,050 lines) with extended technical specifications, tyre wear diagnostic reference tables, circular casing recycling protocols, and developer attribution.
 - `ai.txt` — Explicit crawler permissions and grounding facts for Google-Extended, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Applebot, and DeepSeekBot.
+- 12 root-level Markdown hub endpoints (`services.md`, `about.md`, `products.md`, `vehicles.md`, `brands.md`, `condition.md`, `guides.md`, `blog.md`, `branches.md`, `locations.md`, `location.md`, `faq.md`) — token-efficient, CORS-enabled counterparts served as `text/markdown` for AI agents, registered in `vercel.json`, `llms.txt`, `ai.txt` and `openapi.json`.
 - `.well-known/ai-plugin.json` — OpenAI-compatible plugin definition with deep model descriptions.
 - `openapi.json` — OpenAPI 3.1.0 specification defining all machine-readable static discovery routes, knowledge graphs, services, and FAQ endpoints.
 - `sitemap.xml` — Complete URL index with image metadata for multimodal search.

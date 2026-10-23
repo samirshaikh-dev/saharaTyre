@@ -1461,6 +1461,7 @@
             <div class="hidden md:flex gap-6 text-sm font-medium">
                 <a class="hover:text-primary transition-colors" href="/branches">Branches</a>
                 <a class="hover:text-primary transition-colors" href="/services">Services</a>
+                <a class="hover:text-primary transition-colors" href="/tyres">Tyres</a>
                 <a class="hover:text-primary transition-colors" href="/products">Products</a>
                 <a class="hover:text-primary transition-colors" href="/vehicles">Vehicles</a>
                 <a class="hover:text-primary transition-colors" href="/condition">Condition</a>
@@ -1484,6 +1485,7 @@
             class="hidden md:hidden mt-3 pb-3 border-t border-slate-700 pt-3 space-y-2 text-sm font-medium">
             <a href="/branches" class="block py-1 hover:text-primary transition-colors">Workshop Branches</a>
             <a href="/services" class="block py-1 hover:text-primary transition-colors">Services</a>
+            <a href="/tyres" class="block py-1 hover:text-primary transition-colors">Tyres Directory (57 Sizes)</a>
             <a href="/products" class="block py-1 hover:text-primary transition-colors">Products</a>
             <a href="/vehicles" class="block py-1 hover:text-primary transition-colors">Vehicles</a>
             <a href="/condition" class="block py-1 hover:text-primary transition-colors">Condition Hub</a>
@@ -1562,9 +1564,26 @@
                 <div class="text-center max-w-3xl mx-auto mb-12">
                     <span class="text-primary font-bold text-xs uppercase tracking-widest">Explore Dedicated Hubs</span>
                     <h2 class="text-2xl sm:text-4xl font-extrabold text-navy mt-2">Find Exactly What You Need</h2>
-                    <p class="text-slate-600 text-sm sm:text-base mt-2">Browse dedicated catalog hubs by vehicle category, condition grade, or buyer decision guides.</p>
+                    <p class="text-slate-600 text-sm sm:text-base mt-2">Browse dedicated catalog hubs by tyre size, vehicle category, condition grade, or buyer decision guides.</p>
                 </div>
-                <div class="grid md:grid-cols-3 gap-6 sm:gap-8">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-10">
+                    <!-- Master Tyre Sizes Portal -->
+                    <a href="/tyres"
+                        class="bg-white p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
+                        <div>
+                            <div
+                                class="w-12 h-12 rounded-xl bg-orange-50 border border-orange-100 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-2xl" aria-hidden="true">tire_repair</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy mb-2 group-hover:text-primary transition-colors">
+                                57 Tyre Sizes Directory</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                                Complete catalogue of 57 verified tyre sizes across Cars, Bikes, Scooters, Auto Rickshaws, and Commercial Trucks in Vapi.
+                            </p>
+                        </div>
+                        <span class="text-primary font-bold text-sm flex items-center gap-1">Browse 57 Sizes →</span>
+                    </a>
+
                     <!-- Vehicles Portal -->
                     <a href="/vehicles"
                         class="bg-white p-8 rounded-2xl border border-slate-200 hover:border-primary hover:shadow-md transition-all group flex flex-col justify-between shadow-sm">
@@ -1618,6 +1637,32 @@
                         </div>
                         <span class="text-primary font-bold text-sm flex items-center gap-1">Read Comparison Guides →</span>
                     </a>
+                </div>
+
+                <!-- Popular Tyre Sizes Quick Grid -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+                        <div>
+                            <h3 class="text-lg sm:text-xl font-bold text-navy">Popular Tyre Sizes in Vapi GIDC</h3>
+                            <p class="text-xs sm:text-sm text-slate-500">Quick links to standard fitments with current prices, warranty, and professional fitting</p>
+                        </div>
+                        <a href="/tyres" class="text-xs sm:text-sm font-bold text-primary hover:underline flex items-center gap-1 shrink-0">
+                            View All 57 Sizes <span class="material-symbols-outlined text-sm" aria-hidden="true">arrow_forward</span>
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="/tyres/scooter/90-100-10" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">90/100-10 (Activa / Jupiter)</a>
+                        <a href="/tyres/bike/2-75-18" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">2.75-18 (Splendor / Passion)</a>
+                        <a href="/tyres/car/145-80-r12" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">145/80 R12 (Alto / Omni)</a>
+                        <a href="/tyres/car/175-65-r14" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">175/65 R14 (i10 / Tiago)</a>
+                        <a href="/tyres/car/185-65-r15" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">185/65 R15 (Swift / Dzire / Baleno)</a>
+                        <a href="/tyres/car/205-65-r16" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">205/65 R16 (Creta / Seltos)</a>
+                        <a href="/tyres/car/215-75-r15" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">215/75 R15 (Bolero / Thar)</a>
+                        <a href="/tyres/car/265-65-r17" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">265/65 R17 (Fortuner / Endeavour)</a>
+                        <a href="/tyres/rickshaw/4-00-8" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">4.00-8 (Bajaj Auto Rickshaw)</a>
+                        <a href="/tyres/truck/1000-20" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">10.00-20 (Heavy Commercial)</a>
+                        <a href="/tyres/truck/295-90-r20" class="px-3.5 py-2 bg-slate-50 hover:bg-primary hover:text-white rounded-xl border border-slate-200 text-xs font-bold text-navy transition-all">295/90 R20 (Multi-Axle Truck)</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -2167,6 +2212,7 @@
             <div>
                 <h3 class="text-white font-bold mb-3">Tyre Hubs</h3>
                 <ul class="space-y-1.5 text-xs list-none pl-0">
+                    <li><a href="/tyres" class="hover:text-primary block py-1 font-semibold text-white">All 57 Tyre Sizes Hub</a></li>
                     <li><a href="/vehicles" class="hover:text-primary block py-1">All Vehicles Hub</a></li>
                     <li><a href="/condition" class="hover:text-primary block py-1">Tyre Condition Hub</a></li>
                     <li><a href="/guides" class="hover:text-primary block py-1">Buying Guides</a></li>
@@ -2176,14 +2222,12 @@
             <div>
                 <h3 class="text-white font-bold mb-3">Popular Sizes</h3>
                 <ul class="space-y-1.5 text-xs list-none pl-0">
-                    <li><a href="/tyres/bike/300-18" class="hover:text-primary block py-1">3.00-18 Bike Tyres</a></li>
-                    <li><a href="/tyres/car/185-65-r15" class="hover:text-primary block py-1">185/65 R15 Car Tyres</a>
-                    </li>
-                    <li><a href="/tyres/truck" class="hover:text-primary block py-1">All 14 Truck Tyre Sizes</a>
-                    </li>
-                    <li><a href="/tyres/truck/1000-20" class="hover:text-primary block py-1">10.00-20 Truck Tyres</a>
-                    </li>
-                    <li><a href="/services" class="hover:text-primary block py-1">3D Wheel Alignment</a></li>
+                    <li><a href="/tyres/scooter/90-100-10" class="hover:text-primary block py-1">90/100-10 Scooter</a></li>
+                    <li><a href="/tyres/car/185-65-r15" class="hover:text-primary block py-1">185/65 R15 Car</a></li>
+                    <li><a href="/tyres/car/205-65-r16" class="hover:text-primary block py-1">205/65 R16 SUV</a></li>
+                    <li><a href="/tyres/rickshaw/4-00-8" class="hover:text-primary block py-1">4.00-8 Auto Rickshaw</a></li>
+                    <li><a href="/tyres/truck/1000-20" class="hover:text-primary block py-1">10.00-20 Truck</a></li>
+                    <li><a href="/tyres" class="text-primary hover:underline block py-1 font-bold">Browse All 57 Sizes →</a></li>
                 </ul>
             </div>
             <div>

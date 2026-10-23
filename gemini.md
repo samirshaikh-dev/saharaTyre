@@ -60,7 +60,7 @@ Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gu
 | `/tyres/car` | Passenger Car Sizing Matrix (10 dedicated size pages) |
 | `/tyres/truck` | Commercial Truck Sizing Matrix (14 dedicated size pages) |
 | `/tyres/bike` | Motorcycle Sizing Matrix (6 dedicated size pages) |
-| `/blog` | Automotive Care & Tyre Knowledge Hub (18 technical articles: costs, diagnostics, pressure, rotation, seasonal care, fleets, EVs) |
+| `/blog` | Automotive Care & Tyre Knowledge Hub (22 technical articles: costs, diagnostics, pressure, rotation, seasonal care, fleets, EVs, branch guides) |
 | `/location` | Landmark Navigation (directions from Vapi Station, Daman, Silvassa, parking info) |
 | `/about` | Heritage & Trust (18+ years heritage, certified mechanics, satisfaction guarantees) |
 | `/privacy` | Privacy Policy (Data protection, Google Analytics & AdSense cookie disclosures) |
@@ -74,6 +74,7 @@ Shop No 07, Amidhara Complex, Char Rasta, near CNG Pump, Phase 1, GIDC, Vapi, Gu
 | `sitemap.xml` | Search engine URL index with rich image metadata |
 | `.well-known/ai-plugin.json` | AI model integration manifest |
 | `openapi.json` | OpenAPI 3.1.0 machine-readable static discovery and knowledge specification |
+| `*.md` (12 files) | Root Markdown hub endpoints served as `text/markdown`: `services.md`, `about.md`, `products.md`, `vehicles.md`, `brands.md`, `condition.md`, `guides.md`, `blog.md`, `branches.md`, `locations.md`, `location.md`, `faq.md` |
 
 
 ## Geographic Service Area Hierarchy (27 Core Coverage Locations)
